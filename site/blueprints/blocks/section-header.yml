@@ -1,0 +1,25 @@
+name: Section Header
+icon: title
+preview: fields
+fields:
+  title:
+    label: Section Title
+    type: text
+    required: true
+    placeholder: "本週聚會時間"
+  
+  subtitle:
+    label: Subtitle
+    type: text
+    placeholder: "JOIN US FOR WORSHIP THIS SUNDAY"
+  
+  link_text:
+    label: Link Text
+    type: text
+    width: 1/2
+    placeholder: "查看完整時間表"
+  
+  link_url:
+    label: Link URL
+    type: url
+    width: 1/2

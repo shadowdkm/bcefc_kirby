@@ -1,0 +1,79 @@
+name: Upcoming Events
+icon: calendar
+preview: fields
+fields:
+  mode:
+    label: Content Mode
+    type: select
+    default: manual
+    options:
+      manual: Manual Items
+      query: Query from Page
+  
+  heading:
+    label: Section Heading
+    type: text
+    default: "活動預告"
+    width: 1/2
+  
+  view_all_url:
+    label: View All URL
+    type: url
+    width: 1/2
+  
+  limit:
+    label: Number of Events
+    type: number
+    default: 3
+    min: 1
+    max: 6
+    width: 1/3
+    when:
+      mode: query
+  
+  query_parent:
+    label: Events Page ID
+    type: text
+    placeholder: "events"
+    width: 2/3
+    when:
+      mode: query
+  
+  items:
+    label: Events
+    type: structure
+    when:
+      mode: manual
+    fields:
+      title:
+        label: Event Title
+        type: text
+        required: true
+      
+      date:
+        label: Date
+        type: date
+        required: true
+        width: 1/2
+      
+      time:
+        label: Time
+        type: text
+        width: 1/2
+        placeholder: "7:00 PM"
+      
+      location:
+        label: Location
+        type: text
+        placeholder: "教會大堂"
+      
+      image:
+        label: Event Image
+        type: files
+        multiple: false
+        uploads:
+          template: image
+      
+      url:
+        label: Event Page URL
+        type: url

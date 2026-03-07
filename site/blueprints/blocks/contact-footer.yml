@@ -1,0 +1,74 @@
+name: Contact & Footer
+icon: map
+preview: fields
+fields:
+  address:
+    label: Address
+    type: textarea
+    buttons: false
+    placeholder: "5250 Joyce St, Vancouver, BC V5R 4H1"
+  
+  phone:
+    label: Phone
+    type: tel
+    width: 1/2
+    placeholder: "(604) 438-6622"
+  
+  email:
+    label: Email
+    type: email
+    width: 1/2
+    placeholder: "office@bcefc.org"
+  
+  hours:
+    label: Office Hours
+    type: text
+    placeholder: "Tue - Fri (9 AM - 5 PM)"
+  
+  map_embed:
+    label: Map Embed Code
+    type: textarea
+    help: Paste Google Maps iframe embed code
+  
+  quick_links:
+    label: Quick Links
+    type: structure
+    fields:
+      label:
+        label: Link Text
+        type: text
+        required: true
+        width: 1/2
+      
+      url:
+        label: URL
+        type: url
+        required: true
+        width: 1/2
+  
+  socials:
+    label: Social Media
+    type: structure
+    fields:
+      platform:
+        label: Platform
+        type: select
+        required: true
+        width: 1/2
+        options:
+          facebook: Facebook
+          instagram: Instagram
+          youtube: YouTube
+          x: X (Twitter)
+          whatsapp: WhatsApp
+      
+      url:
+        label: Profile URL
+        type: url
+        required: true
+        width: 1/2
+  
+  copyright_text:
+    label: Copyright Text
+    type: text
+    placeholder: "© 2026 Church Name. All Rights Reserved."

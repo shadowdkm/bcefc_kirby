@@ -1,0 +1,59 @@
+name: People / Team List
+icon: users
+preview: fields
+fields:
+  heading:
+    label: Section Heading
+    type: text
+    placeholder: "牧者與同工"
+  
+  layout:
+    label: Layout Style
+    type: select
+    default: grid
+    options:
+      grid: Grid (cards)
+      list: List (horizontal)
+  
+  people:
+    label: People
+    type: structure
+    fields:
+      photo:
+        label: Photo
+        type: files
+        multiple: false
+        uploads:
+          template: image
+      
+      name:
+        label: Name
+        type: text
+        required: true
+        width: 1/2
+      
+      name_en:
+        label: English Name
+        type: text
+        width: 1/2
+      
+      role:
+        label: Role / Title
+        type: text
+        placeholder: "主任牧師"
+      
+      bio:
+        label: Bio
+        type: textarea
+        maxlength: 400
+        buttons: false
+      
+      email:
+        label: Email
+        type: email
+        width: 1/2
+      
+      phone:
+        label: Phone
+        type: tel
+        width: 1/2

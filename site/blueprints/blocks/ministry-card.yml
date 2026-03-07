@@ -1,0 +1,48 @@
+name: Ministry Card
+icon: users
+preview: fields
+fields:
+  image:
+    label: Ministry Photo
+    type: files
+    multiple: false
+    uploads:
+      template: image
+  
+  title:
+    label: Ministry Name
+    type: text
+    required: true
+    placeholder: "兒童事工"
+  
+  description:
+    label: Description
+    type: textarea
+    maxlength: 300
+    buttons: false
+  
+  age_group:
+    label: Age Group
+    type: text
+    width: 1/2
+    placeholder: "Grade 1-5"
+  
+  meeting_time:
+    label: Meeting Time
+    type: text
+    width: 1/2
+    placeholder: "每週日 9:15 AM"
+  
+  contact_name:
+    label: Contact Person
+    type: text
+    width: 1/2
+  
+  contact_email:
+    label: Contact Email
+    type: email
+    width: 1/2
+  
+  url:
+    label: Learn More URL
+    type: url

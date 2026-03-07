@@ -1,0 +1,36 @@
+name: FAQ / Accordion
+icon: question
+preview: fields
+fields:
+  heading:
+    label: Section Heading
+    type: text
+    placeholder: "常見問題"
+  
+  items:
+    label: Questions & Answers
+    type: structure
+    fields:
+      question:
+        label: Question
+        type: text
+        required: true
+        placeholder: "聚會時間是什麼時候？"
+      
+      answer:
+        label: Answer
+        type: textarea
+        required: true
+        buttons:
+          - bold
+          - italic
+          - link
+  
+  initially_open:
+    label: Initially Open
+    type: select
+    default: "0"
+    options:
+      "0": None
+      "1": First item
+      "all": All items

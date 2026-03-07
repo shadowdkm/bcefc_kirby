@@ -1,0 +1,77 @@
+name: Card Grid
+icon: dashboard
+preview: fields
+fields:
+  columns:
+    label: Columns
+    type: select
+    default: "3"
+    width: 1/3
+    options:
+      "2": "2 Columns"
+      "3": "3 Columns"
+      "4": "4 Columns"
+  
+  card_style:
+    label: Card Style
+    type: select
+    default: default
+    width: 1/3
+    options:
+      default: Default
+      minimal: Minimal
+      bordered: Bordered
+  
+  image_ratio:
+    label: Image Ratio
+    type: select
+    default: "3/2"
+    width: 1/3
+    options:
+      "16/9": "16:9 Landscape"
+      "3/2": "3:2 Standard"
+      "4/3": "4:3 Photo"
+      "1/1": "1:1 Square"
+  
+  items:
+    label: Cards
+    type: structure
+    fields:
+      image:
+        label: Image
+        type: files
+        multiple: false
+        uploads:
+          template: image
+      
+      title:
+        label: Title
+        type: text
+        required: true
+      
+      text:
+        label: Description
+        type: textarea
+        maxlength: 200
+        buttons: false
+      
+      url:
+        label: Link URL
+        type: url
+      
+      badge:
+        label: Badge Text
+        type: text
+        width: 1/2
+        placeholder: "NEW"
+        help: Optional badge displayed on the card
+      
+      badge_color:
+        label: Badge Color
+        type: select
+        width: 1/2
+        default: primary
+        options:
+          primary: Primary
+          secondary: Secondary
+          accent: Accent

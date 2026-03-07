@@ -1,0 +1,53 @@
+name: Sermon Card
+icon: video
+preview: fields
+fields:
+  title:
+    label: Sermon Title
+    type: text
+    required: true
+    placeholder: "講道題目"
+  
+  speaker:
+    label: Speaker
+    type: text
+    width: 1/2
+    placeholder: "張牧師"
+  
+  date:
+    label: Date
+    type: date
+    width: 1/2
+  
+  scripture:
+    label: Scripture Reference
+    type: text
+    placeholder: "約翰福音 3:16"
+  
+  description:
+    label: Description
+    type: textarea
+    maxlength: 300
+    buttons: false
+  
+  thumbnail:
+    label: Thumbnail Image
+    type: files
+    multiple: false
+    uploads:
+      template: image
+  
+  video_url:
+    label: Video URL (YouTube)
+    type: url
+    width: 1/2
+    placeholder: "https://youtube.com/watch?v=..."
+  
+  audio_url:
+    label: Audio URL
+    type: url
+    width: 1/2
+  
+  notes_url:
+    label: Sermon Notes Download
+    type: url

@@ -1,0 +1,45 @@
+name: Media Embed
+icon: video
+preview: fields
+fields:
+  title:
+    label: Section Title
+    type: text
+    placeholder: "主日崇拜直播"
+  
+  provider:
+    label: Provider
+    type: select
+    default: youtube
+    options:
+      youtube: YouTube
+      vimeo: Vimeo
+      map: Google Map
+      iframe: Custom Iframe
+  
+  url_or_embed:
+    label: URL or Embed Code
+    type: textarea
+    required: true
+    help: For YouTube/Vimeo enter the video URL. For Map/Iframe paste the embed code.
+  
+  aspect:
+    label: Aspect Ratio
+    type: select
+    default: "16/9"
+    width: 1/2
+    options:
+      "16/9": "16:9 (Video)"
+      "4/3": "4:3"
+      "1/1": "1:1 (Square)"
+      "21/9": "21:9 (Cinematic)"
+  
+  max_width:
+    label: Max Width
+    type: select
+    default: full
+    width: 1/2
+    options:
+      full: Full Width
+      large: Large (1000px)
+      medium: Medium (800px)

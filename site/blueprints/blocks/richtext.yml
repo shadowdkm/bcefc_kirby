@@ -1,0 +1,17 @@
+name: Rich Text
+icon: text
+preview: fields
+fields:
+  content:
+    label: Content
+    type: blocks
+    fieldsets:
+      - heading
+      - text
+      - list
+      - quote
+      - line
+      - table
+      - markdown
+      - image
+      - video

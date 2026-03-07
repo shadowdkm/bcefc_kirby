@@ -1,0 +1,79 @@
+title: Church Home Page
+icon: 🏠
+
+options:
+  changeStatus: false
+  changeSlug: false
+  delete: false
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      blocks:
+        type: fields
+        fields:
+          builder:
+            label: Page Content
+            type: blocks
+            fieldsets:
+              # Hero & Header
+              - hero
+              - quick-links
+              
+              # Section Structure
+              - section-header
+              - card-grid
+              - richtext
+              
+              # Worship & Ministry
+              - worship-times
+              - ministry-card
+              - fellowship-gallery
+              
+              # News & Events
+              - announcements
+              - events-preview
+              - sermon-card
+              
+              # People & Testimonials
+              - people-list
+              - testimonial
+              
+              # Media & Forms
+              - media-embed
+              - gallery
+              - form-signup
+              
+              # CTA & Footer
+              - cta
+              - faq
+              - contact-footer
+  
+  sidebar:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          seo_title:
+            label: SEO Title
+            type: text
+            help: Leave empty to use page title
+          
+          seo_description:
+            label: SEO Description
+            type: textarea
+            maxlength: 160
+            buttons: false
+          
+          seo_image:
+            label: Social Share Image
+            type: files
+            multiple: false
+            uploads:
+              template: image
+      
+      files:
+        type: files
+        headline: Media Files

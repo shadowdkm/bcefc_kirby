@@ -1,0 +1,83 @@
+name: Worship Times
+icon: clock
+preview: fields
+fields:
+  heading:
+    label: Section Heading
+    type: text
+    default: "本週聚會時間"
+    width: 1/2
+  
+  subheading:
+    label: Subheading
+    type: text
+    width: 1/2
+    placeholder: "JOIN US FOR WORSHIP THIS SUNDAY"
+  
+  view_all_text:
+    label: View All Link Text
+    type: text
+    width: 1/2
+    placeholder: "查看完整時間表"
+  
+  view_all_url:
+    label: View All URL
+    type: url
+    width: 1/2
+  
+  services:
+    label: Services
+    type: structure
+    min: 1
+    max: 4
+    fields:
+      name:
+        label: Service Name
+        type: text
+        required: true
+        placeholder: "粵語崇拜"
+      
+      time:
+        label: Time
+        type: text
+        required: true
+        width: 1/2
+        placeholder: "每週日 11:00 AM"
+      
+      location:
+        label: Location / Format
+        type: text
+        width: 1/2
+        placeholder: "教會禮堂 / 實體"
+      
+      extra_info:
+        label: Additional Info
+        type: text
+        placeholder: "實體 & YouTube 直播"
+        help: e.g., livestream info, age group
+      
+      description:
+        label: Description
+        type: textarea
+        maxlength: 200
+        buttons: false
+      
+      cta_text:
+        label: Button Text
+        type: text
+        width: 1/2
+        placeholder: "查看詳情"
+      
+      cta_url:
+        label: Button URL
+        type: url
+        width: 1/2
+      
+      featured:
+        label: Featured Card
+        type: toggle
+        default: false
+        text:
+          - Standard
+          - Featured
+        help: Featured cards have colored background

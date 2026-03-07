@@ -1,0 +1,80 @@
+name: Hero Banner
+icon: image
+preview: fields
+fields:
+  bg_image:
+    label: Background Image
+    type: files
+    multiple: false
+    uploads:
+      template: image
+    help: High-quality image (recommended 1920x1080 or larger)
+  
+  overlay_strength:
+    label: Overlay Darkness
+    type: range
+    min: 0
+    max: 80
+    default: 45
+    step: 5
+    help: Percentage of dark overlay on the image
+  
+  eyebrow:
+    label: Eyebrow Text
+    type: text
+    maxlength: 60
+    placeholder: "A TRANSFORMING COMMUNITY"
+    help: Small uppercase text above the title
+  
+  title:
+    label: Main Title
+    type: text
+    maxlength: 120
+    required: true
+    placeholder: "同行深化靈命・生活延展真光"
+  
+  subtitle:
+    label: Subtitle
+    type: textarea
+    maxlength: 280
+    buttons: false
+    placeholder: Optional description text
+  
+  cta_primary_text:
+    label: Primary Button Text
+    type: text
+    width: 1/2
+    placeholder: "新朋友指南"
+  
+  cta_primary_url:
+    label: Primary Button URL
+    type: url
+    width: 1/2
+  
+  cta_secondary_text:
+    label: Secondary Button Text
+    type: text
+    width: 1/2
+    placeholder: "認識我們"
+  
+  cta_secondary_url:
+    label: Secondary Button URL
+    type: url
+    width: 1/2
+  
+  align:
+    label: Text Alignment
+    type: select
+    default: center
+    options:
+      center: Center
+      left: Left
+  
+  height:
+    label: Hero Height
+    type: select
+    default: large
+    options:
+      large: Large (640px)
+      medium: Medium (480px)
+      small: Small (320px)

@@ -9,5 +9,9 @@
  */
 return [
     'debug' => true,
-    'yaml.handler' => 'symfony', // already makes use of the more modern Symfony YAML parser: https://getkirby.com/docs/reference/system/options/yaml (will become the default in a future Kirby version)
+    'yaml.handler' => 'symfony',
+    
+    // Enable multilingual support
+    'languages' => true,
+    'languages.detect' => true,
 ];

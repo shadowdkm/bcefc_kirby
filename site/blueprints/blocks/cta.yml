@@ -1,0 +1,45 @@
+name: CTA Banner
+icon: bolt
+preview: fields
+fields:
+  title:
+    label: Title
+    type: text
+    required: true
+    placeholder: "歡迎參加我們的聚會"
+  
+  text:
+    label: Description
+    type: textarea
+    maxlength: 200
+    buttons: false
+  
+  button_text:
+    label: Button Text
+    type: text
+    width: 1/2
+    placeholder: "了解更多"
+  
+  button_url:
+    label: Button URL
+    type: url
+    width: 1/2
+  
+  variant:
+    label: Style Variant
+    type: select
+    default: primary
+    width: 1/2
+    options:
+      primary: Primary (Colored Background)
+      neutral: Neutral (Light Background)
+      dark: Dark Background
+  
+  alignment:
+    label: Alignment
+    type: select
+    default: center
+    width: 1/2
+    options:
+      center: Center
+      left: Left (text left, button right)

@@ -1,0 +1,304 @@
+spec_version: 1.0
+target_cms: kirby
+editing_model:
+  field: blocks
+  note: >
+    Use Kirby Blocks field for single-column page building; add custom blocks via
+    blueprints + snippets (preview optional). :contentReference[oaicite:1]{index=1}
+
+design_tokens:
+  layout:
+    container_max_width: 1200
+    section_padding_y: 72
+    section_padding_y_mobile: 40
+    radius_card: 18
+    shadow_card: "0 12px 30px rgba(0,0,0,.08)"
+  typography:
+    h1: { size: 52, weight: 800, line_height: 1.1 }
+    h2: { size: 36, weight: 800, line_height: 1.2 }
+    body: { size: 16, weight: 400, line_height: 1.7 }
+    eyebrow: { size: 12, weight: 700, letter_spacing: 0.16em, uppercase: true }
+  components:
+    button:
+      radius: 999
+      height: 44
+      padding_x: 22
+      variants: [primary, secondary, outline]
+    card:
+      radius: 18
+      padding: 24
+
+blocks:
+  - id: hero
+    name: Hero Banner
+    function: Full-width background image with overlay text + up to 2 CTAs.
+    why: "Matches the 'text on top of image' section you want."
+    fields:
+      bg_image: { type: files, multiple: false, accept: [jpg, png, webp] }
+      overlay_strength: { type: range, min: 0, max: 80, default: 45 }
+      eyebrow: { type: text, max: 60 }
+      title: { type: text, max: 90 }
+      subtitle: { type: textarea, max: 220 }
+      cta_primary_text: { type: text }
+      cta_primary_url: { type: url }
+      cta_secondary_text: { type: text, optional: true }
+      cta_secondary_url: { type: url, optional: true }
+      align: { type: select, options: [center, left], default: center }
+    style:
+      height_desktop: 640
+      height_mobile: 520
+      overlay: "linear-gradient + blur optional"
+      text_color: "#fff"
+      buttons: "pill buttons; primary filled; secondary ghost/outline"
+    implementation:
+      blueprint: site/blueprints/blocks/hero.yml
+      snippet: site/snippets/blocks/hero.php
+    refs: ["Kirby custom blocks structure"] # blueprint+snippet
+    citations: ["turn0search0","turn0search2"]
+
+  - id: section_header
+    name: Section Header
+    function: Section title + small subtitle + optional right-side link.
+    fields:
+      title: { type: text }
+      subtitle: { type: text, optional: true }
+      link_text: { type: text, optional: true }
+      link_url: { type: url, optional: true }
+    style:
+      layout: "left-aligned title; link aligned right on desktop, below on mobile"
+      spacing_bottom: 28
+    implementation: { blueprint: site/blueprints/blocks/section-header.yml, snippet: site/snippets/blocks/section-header.php }
+    citations: ["turn0search2"]
+
+  - id: quick_links
+    name: Quick Links Row
+    function: 3–6 icon cards under hero (e.g., New Here / This Week / Giving).
+    fields:
+      items:
+        type: structure
+        fields:
+          icon: { type: text, help: "icon name (or file)" }
+          title: { type: text }
+          subtitle: { type: text, optional: true }
+          url: { type: url }
+          emphasis: { type: toggle, default: false }
+    style:
+      layout: "grid; 4-up desktop; 2-up tablet; 1-up mobile"
+      card: "rounded, soft shadow; one 'emphasis' card uses primary bg"
+    implementation: { blueprint: site/blueprints/blocks/quick-links.yml, snippet: site/snippets/blocks/quick-links.php }
+    citations: ["turn0search2","turn0search0"]
+
+  - id: card_grid
+    name: Card Grid
+    function: Generic grid of content cards (ministries, resources, highlights).
+    fields:
+      columns: { type: select, options: [2,3,4], default: 4 }
+      items:
+        type: structure
+        fields:
+          image: { type: files, multiple: false, optional: true }
+          title: { type: text }
+          text: { type: textarea, optional: true }
+          url: { type: url, optional: true }
+          badge: { type: text, optional: true }
+    style:
+      cards: "image top optional, then title/text; hover lift"
+    implementation: { blueprint: site/blueprints/blocks/card-grid.yml, snippet: site/snippets/blocks/card-grid.php }
+    citations: ["turn0search2"]
+
+  - id: worship_times
+    name: Worship Times Cards
+    function: 3 featured service cards (Cantonese/Mandarin/English).
+    fields:
+      heading: { type: text, default: "本週聚會時間" }
+      view_all_text: { type: text, optional: true }
+      view_all_url: { type: url, optional: true }
+      services:
+        type: structure
+        fields:
+          name: { type: text }
+          time: { type: text }
+          location: { type: text }
+          note: { type: textarea, optional: true }
+          cta_text: { type: text }
+          cta_url: { type: url }
+          featured: { type: toggle, default: false }
+    style:
+      layout: "3-up desktop; stack on mobile"
+      featured_card: "primary bg, subtle watermark, CTA filled"
+    implementation: { blueprint: site/blueprints/blocks/worship-times.yml, snippet: site/snippets/blocks/worship-times.php }
+    citations: ["turn0search2","turn0search1"]
+
+  - id: cta
+    name: CTA Banner
+    function: Strong call-to-action strip (signup, giving, newcomer guide).
+    fields:
+      title: { type: text }
+      text: { type: textarea, optional: true }
+      button_text: { type: text }
+      button_url: { type: url }
+      variant: { type: select, options: [primary, neutral], default: primary }
+    style:
+      layout: "title + text left, button right; stacks on mobile"
+      bg: "primary/neutral with rounded container"
+    implementation: { blueprint: site/blueprints/blocks/cta.yml, snippet: site/snippets/blocks/cta.php }
+    citations: ["turn0search0","turn0search2"]
+
+  - id: richtext
+    name: Rich Text
+    function: Long-form content (about, beliefs, policies).
+    fields:
+      content: { type: blocks, fieldsets: [text, heading, list, quote, line, table, markdown] }
+    style:
+      typography: "comfortable reading width; good spacing"
+    implementation: { blueprint: site/blueprints/blocks/richtext.yml, snippet: site/snippets/blocks/richtext.php }
+    citations: ["turn0search5","turn0search2"]
+
+  - id: media_embed
+    name: Media Embed
+    function: YouTube livestream/playlist, Google Map, audio player iframe.
+    fields:
+      title: { type: text, optional: true }
+      provider: { type: select, options: [youtube, vimeo, map, iframe], default: youtube }
+      url_or_iframe: { type: textarea }
+      aspect: { type: select, options: ["16:9","4:3","1:1"], default: "16:9" }
+    style:
+      frame: "rounded; responsive aspect-ratio"
+    implementation: { blueprint: site/blueprints/blocks/media-embed.yml, snippet: site/snippets/blocks/media-embed.php }
+    citations: ["turn0search2"]
+
+  - id: form_signup
+    name: Signup Form (Google Form)
+    function: Button link OR embedded iframe for registrations/guest card.
+    fields:
+      mode: { type: select, options: [button, embed], default: button }
+      button_text: { type: text, default: "立即報名" }
+      form_url: { type: url, optional: true }
+      iframe_html: { type: textarea, optional: true }
+      privacy_note: { type: text, optional: true }
+    style:
+      button: "pill primary"
+      embed: "full width, min-height 800, responsive"
+    implementation: { blueprint: site/blueprints/blocks/form-signup.yml, snippet: site/snippets/blocks/form-signup.php }
+    citations: ["turn0search2","turn0search0"]
+
+  - id: announcements
+    name: Announcements List
+    function: Latest notices (manual items or pull from child pages).
+    fields:
+      mode: { type: select, options: [manual, query], default: manual }
+      manual_items:
+        type: structure
+        fields:
+          title: { type: text }
+          date: { type: date, optional: true }
+          url: { type: url, optional: true }
+          tag: { type: text, optional: true }
+      query_parent: { type: text, optional: true, help: "page id/uid for query mode" }
+      limit: { type: number, default: 5 }
+    style:
+      layout: "clean list with date/tag chips"
+    implementation: { blueprint: site/blueprints/blocks/announcements.yml, snippet: site/snippets/blocks/announcements.php }
+    citations: ["turn0search2"]
+
+  - id: events_preview
+    name: Upcoming Events Preview
+    function: Upcoming events cards (manual or from an Events parent page).
+    fields:
+      mode: { type: select, options: [manual, query], default: query }
+      query_parent: { type: text, default: "events" }
+      limit: { type: number, default: 3 }
+      manual_items:
+        type: structure
+        fields:
+          title: { type: text }
+          date: { type: date }
+          location: { type: text, optional: true }
+          url: { type: url, optional: true }
+          image: { type: files, multiple: false, optional: true }
+    style:
+      cards: "image optional, date badge, CTA link"
+    implementation: { blueprint: site/blueprints/blocks/events-preview.yml, snippet: site/snippets/blocks/events-preview.php }
+    citations: ["turn0search2"]
+
+  - id: gallery
+    name: Photo Gallery
+    function: Fellowship/event recap photos (grid + lightbox).
+    fields:
+      images: { type: files, multiple: true, accept: [jpg, png, webp] }
+      columns: { type: select, options: [2,3,4], default: 3 }
+      captions: { type: toggle, default: false }
+    style:
+      grid: "masonry-ish; hover zoom; optional captions"
+    implementation: { blueprint: site/blueprints/blocks/gallery.yml, snippet: site/snippets/blocks/gallery.php }
+    citations: ["turn0search5","turn0search2"]
+
+  - id: people_list
+    name: People / Team List
+    function: Pastors/staff/deacons list with photo + role + bio.
+    fields:
+      people:
+        type: structure
+        fields:
+          photo: { type: files, multiple: false, optional: true }
+          name: { type: text }
+          role: { type: text, optional: true }
+          bio: { type: textarea, optional: true }
+          email: { type: email, optional: true }
+    style:
+      layout: "stacked cards; image left on desktop, top on mobile"
+    implementation: { blueprint: site/blueprints/blocks/people-list.yml, snippet: site/snippets/blocks/people-list.php }
+    citations: ["turn0search2"]
+
+  - id: faq
+    name: FAQ / Accordion
+    function: Collapsible Q&A (New Here, beliefs, school FAQ).
+    fields:
+      items:
+        type: structure
+        fields:
+          q: { type: text }
+          a: { type: textarea }
+      initially_open: { type: number, default: 0, help: "index; 0 = none" }
+    style:
+      accordion: "clean borders; plus/minus icon; smooth animation"
+    implementation: { blueprint: site/blueprints/blocks/faq.yml, snippet: site/snippets/blocks/faq.php }
+    citations: ["turn0search7","turn0search0"]
+
+  - id: contact_footer
+    name: Contact + Map + Footer Links
+    function: Contact section (address/phone/email/hours) + map embed + quick links.
+    fields:
+      address: { type: textarea }
+      phone: { type: text, optional: true }
+      email: { type: email, optional: true }
+      hours: { type: text, optional: true }
+      map_embed: { type: textarea, optional: true }
+      quick_links:
+        type: structure
+        fields:
+          label: { type: text }
+          url: { type: url }
+      socials:
+        type: structure
+        fields:
+          platform: { type: select, options: [facebook, instagram, youtube, x] }
+          url: { type: url }
+    style:
+      bg: "deep primary"
+      columns: "3 columns desktop; stacked mobile"
+      text: "high contrast"
+    implementation: { blueprint: site/blueprints/blocks/contact-footer.yml, snippet: site/snippets/blocks/contact-footer.php }
+    citations: ["turn0search2","turn0search1"]
+
+opencode_tasks:
+  - create_blueprints: "site/blueprints/blocks/*.yml"
+  - create_snippets: "site/snippets/blocks/*.php"
+  - update_page_blueprints:
+      add_blocks_field: true
+      recommended:
+        fields:
+          builder: { type: blocks, fieldsets: [hero, section_header, quick_links, card_grid, worship_times, cta, richtext, media_embed, form_signup, announcements, events_preview, gallery, people_list, faq, contact_footer] }
+  - css:
+      file: assets/css/site.css
+      note: "Implement tokens + responsive grid + hero overlay + card styling."

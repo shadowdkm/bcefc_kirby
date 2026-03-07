@@ -1,0 +1,68 @@
+name: Announcements
+icon: megaphone
+preview: fields
+fields:
+  mode:
+    label: Content Mode
+    type: select
+    default: manual
+    options:
+      manual: Manual Items
+      query: Query from Page
+    help: Query mode pulls announcements from child pages
+  
+  heading:
+    label: Section Heading
+    type: text
+    default: "最新消息"
+    width: 1/2
+  
+  view_all_url:
+    label: View All URL
+    type: url
+    width: 1/2
+  
+  limit:
+    label: Number of Items
+    type: number
+    default: 5
+    min: 1
+    max: 10
+    width: 1/3
+    when:
+      mode: query
+  
+  query_parent:
+    label: Parent Page ID
+    type: text
+    placeholder: "news"
+    width: 2/3
+    when:
+      mode: query
+    help: Page ID to query announcements from
+  
+  items:
+    label: Announcements
+    type: structure
+    when:
+      mode: manual
+    fields:
+      title:
+        label: Title
+        type: text
+        required: true
+      
+      date:
+        label: Date
+        type: date
+        width: 1/2
+      
+      tag:
+        label: Tag
+        type: text
+        width: 1/2
+        placeholder: "重要"
+      
+      url:
+        label: Link URL
+        type: url

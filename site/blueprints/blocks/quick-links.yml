@@ -1,0 +1,42 @@
+name: Quick Links Row
+icon: grid
+preview: fields
+fields:
+  items:
+    label: Link Cards
+    type: structure
+    min: 3
+    max: 6
+    fields:
+      icon:
+        label: Icon
+        type: text
+        width: 1/2
+        placeholder: "church, book, clock, heart"
+        help: Icon name (using icon font or SVG)
+      
+      title:
+        label: Title
+        type: text
+        width: 1/2
+        required: true
+        placeholder: "我是新朋友"
+      
+      subtitle:
+        label: Subtitle
+        type: text
+        placeholder: "第一次來訪我們"
+      
+      url:
+        label: Link URL
+        type: url
+        required: true
+      
+      emphasis:
+        label: Highlight Card
+        type: toggle
+        default: false
+        text:
+          - Standard
+          - Highlighted
+        help: Highlighted cards use primary color background

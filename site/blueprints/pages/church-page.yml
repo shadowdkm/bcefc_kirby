@@ -1,0 +1,80 @@
+title: Church Page
+icon: 📄
+
+status:
+  draft: true
+  unlisted:
+    label: Hidden Page
+    text: The page is not listed in the main menu
+  listed:
+    label: Menu Page
+    text: The page is listed in the main menu
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          builder:
+            label: Page Content
+            type: blocks
+            fieldsets:
+              # Hero & Header
+              - hero
+              - quick-links
+              
+              # Section Structure
+              - section-header
+              - card-grid
+              - richtext
+              
+              # Worship & Ministry
+              - worship-times
+              - ministry-card
+              - fellowship-gallery
+              
+              # News & Events
+              - announcements
+              - events-preview
+              - sermon-card
+              
+              # People & Testimonials
+              - people-list
+              - testimonial
+              
+              # Media & Forms
+              - media-embed
+              - gallery
+              - form-signup
+              
+              # CTA & Footer
+              - cta
+              - faq
+              - contact-footer
+  
+  sidebar:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          seo_title:
+            label: SEO Title
+            type: text
+          
+          seo_description:
+            label: SEO Description
+            type: textarea
+            maxlength: 160
+            buttons: false
+      
+      pages:
+        type: pages
+        headline: Subpages
+        template: church-page
+      
+      files:
+        type: files
+        headline: Media Files

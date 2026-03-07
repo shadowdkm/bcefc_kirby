@@ -1,0 +1,39 @@
+name: Fellowship Gallery
+icon: users
+preview: fields
+fields:
+  heading:
+    label: Section Heading
+    type: text
+    placeholder: "團契生活"
+  
+  subheading:
+    label: Subheading
+    type: text
+    placeholder: "找到屬於你的群體"
+  
+  fellowships:
+    label: Fellowships
+    type: structure
+    fields:
+      photo:
+        label: Fellowship Photo
+        type: files
+        multiple: false
+        uploads:
+          template: image
+      
+      name:
+        label: Fellowship Name
+        type: text
+        required: true
+        placeholder: "約瑟團契（職青）"
+      
+      tagline:
+        label: Tagline
+        type: text
+        placeholder: "一句簡短的介紹"
+      
+      url:
+        label: Fellowship Page URL
+        type: url

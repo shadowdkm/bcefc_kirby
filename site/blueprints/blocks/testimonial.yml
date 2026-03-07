@@ -1,0 +1,38 @@
+name: Testimonial
+icon: quote
+preview: fields
+fields:
+  quote:
+    label: Quote / Testimony
+    type: textarea
+    required: true
+    buttons: false
+    maxlength: 500
+  
+  author_name:
+    label: Author Name
+    type: text
+    width: 1/2
+    placeholder: "陳小明"
+  
+  author_role:
+    label: Author Role / Context
+    type: text
+    width: 1/2
+    placeholder: "會友"
+  
+  author_photo:
+    label: Author Photo
+    type: files
+    multiple: false
+    uploads:
+      template: image
+  
+  style:
+    label: Style
+    type: select
+    default: standard
+    options:
+      standard: Standard
+      featured: Featured (larger)
+      card: Card Style

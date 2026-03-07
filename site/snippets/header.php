@@ -1,87 +1,93 @@
 <?php
 /*
-  Snippets are a great way to store code snippets for reuse
-  or to keep your templates clean.
-
-  This header snippet is reused in all templates.
-  It fetches information from the `site.txt` content file
-  and contains the site navigation.
-
-  More about snippets:
-  https://getkirby.com/docs/guide/templates/snippets
+  Header snippet for BCEFC Church Website
+  Matches the design from screenshots with:
+  - Logo (BCEFC branding)
+  - Main navigation with dropdowns
+  - Language switcher
+  - Giving CTA button
 */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $kirby->language() ? $kirby->language()->code() : 'en' ?>">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-  <?php
-  /*
-    In the title tag we show the title of our
-    site and the title of the current page
-  */
-  ?>
+  
   <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
-
-  <?php
-  /*
-    Stylesheets can be included using the `css()` helper.
-    Kirby also provides the `js()` helper to include script file.
-    More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers
-  */
-  ?>
+  
   <?= css([
     'assets/css/prism.css',
     'assets/css/lightbox.css',
     'assets/css/index.css',
+    'assets/css/blocks.css',
     '@auto'
   ]) ?>
-
-  <?php
-  /*
-    The `url()` helper is a great way to create reliable
-    absolute URLs in Kirby that always start with the
-    base URL of your site.
-  */
-  ?>
+  
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 </head>
 <body>
 
-  <header class="header">
-    <?php
-    /*
-      We use `$site->url()` to create a link back to the homepage
-      for the logo and `$site->title()` as a temporary logo. You
-      probably want to replace this with an SVG.
-    */
-    ?>
-    <a class="logo" href="<?= $site->url() ?>">
-      <?= $site->title()->esc() ?>
-    </a>
+  <?php /* SVG Icon Sprite */ ?>
+  <?php include kirby()->root('assets') . '/icons/icons.svg'; ?>
 
-    <nav class="menu">
-      <?php
-      /*
-        In the menu, we only fetch listed pages,
-        i.e. the pages that have a prepended number
-        in their foldername.
-
-        We do not want to display links to unlisted
-        `error`, `home`, or `sandbox` pages.
-
-        More about page status:
-        https://getkirby.com/docs/reference/panel/blueprints/page#statuses
-      */
-      ?>
-      <?php foreach ($site->children()->listed() as $item): ?>
-      <a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a>
-      <?php endforeach ?>
-      <?php snippet('social') ?>
-    </nav>
+  <header class="site-header">
+    <div class="site-header__container container">
+      
+      <!-- Logo -->
+      <a class="site-header__logo" href="<?= $site->url() ?>">
+        <span class="site-header__logo-main">BCEFC</span>
+        <span class="site-header__logo-sub"><?= t('site.subtitle', 'BURNABY CHINESE EVANGELICAL FREE CHURCH') ?></span>
+      </a>
+      
+      <!-- Mobile menu toggle -->
+      <button class="site-header__toggle" aria-label="<?= t('menu.toggle', 'Toggle menu') ?>" aria-expanded="false">
+        <svg class="icon icon--menu"><use href="#icon-menu"></use></svg>
+        <svg class="icon icon--close"><use href="#icon-close"></use></svg>
+      </button>
+      
+      <!-- Navigation -->
+      <nav class="site-header__nav" id="main-nav">
+        <ul class="site-header__menu">
+          <?php foreach ($site->children()->listed() as $item): ?>
+          <li class="site-header__item<?php e($item->hasListedChildren(), ' has-dropdown') ?>">
+            <a 
+              href="<?= $item->url() ?>" 
+              <?php e($item->isOpen(), 'aria-current="page"') ?>
+              class="site-header__link"
+            >
+              <?= $item->title()->esc() ?>
+              <?php if ($item->hasListedChildren()): ?>
+              <svg class="icon icon--dropdown"><use href="#icon-chevron-down"></use></svg>
+              <?php endif ?>
+            </a>
+            
+            <?php if ($item->hasListedChildren()): ?>
+            <ul class="site-header__dropdown">
+              <?php foreach ($item->children()->listed() as $child): ?>
+              <li>
+                <a href="<?= $child->url() ?>" <?php e($child->isOpen(), 'aria-current="page"') ?>>
+                  <?= $child->title()->esc() ?>
+                </a>
+              </li>
+              <?php endforeach ?>
+            </ul>
+            <?php endif ?>
+          </li>
+          <?php endforeach ?>
+        </ul>
+        
+        <!-- Right side: Language + Giving -->
+        <div class="site-header__actions">
+          <?php snippet('language-switcher') ?>
+          
+          <a href="<?= url('giving') ?>" class="site-header__giving btn btn--accent">
+            <?= t('nav.giving', 'Giving') ?>
+          </a>
+        </div>
+      </nav>
+      
+    </div>
   </header>
 
   <main class="main">

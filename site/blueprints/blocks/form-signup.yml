@@ -1,0 +1,57 @@
+name: Signup Form
+icon: form
+preview: fields
+fields:
+  heading:
+    label: Heading
+    type: text
+    placeholder: "立即報名"
+  
+  description:
+    label: Description
+    type: textarea
+    maxlength: 200
+    buttons: false
+  
+  mode:
+    label: Display Mode
+    type: select
+    default: button
+    options:
+      button: Button Link
+      embed: Embedded Form
+  
+  button_text:
+    label: Button Text
+    type: text
+    width: 1/2
+    default: "立即報名"
+    when:
+      mode: button
+  
+  form_url:
+    label: Form URL
+    type: url
+    width: 1/2
+    help: Link to Google Form or registration page
+    when:
+      mode: button
+  
+  iframe_html:
+    label: Embed Code
+    type: textarea
+    help: Paste the iframe embed code from Google Forms
+    when:
+      mode: embed
+  
+  iframe_height:
+    label: Embed Height (px)
+    type: number
+    default: 800
+    when:
+      mode: embed
+  
+  privacy_note:
+    label: Privacy Note
+    type: text
+    placeholder: "我們重視您的私隱"
