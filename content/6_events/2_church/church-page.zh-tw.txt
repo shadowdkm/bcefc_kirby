@@ -1,0 +1,11 @@
+Title: 教會活動
+
+----
+
+Builder:
+
+[{"content":{"title":"教會活動","subtitle":"一起慶祝"},"id":"church-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>特別聚會、季節慶典和教會家庭聚會，讓我們聚在一起敬拜、團契和成長。</p><h3>年度活動</h3>"},"id":"church-intro","isHidden":false,"type":"richtext"},{"content":{"title":"教會行事曆重點","columns":[{"icon":"calendar","title":"復活節慶祝","description":"受難節和復活節主日特別聚會"},{"icon":"heart","title":"教會週年紀念","description":"年度慶祝神對我們教會的信實"},{"icon":"users","title":"家庭營","description":"各年齡層的夏季退修會"},{"icon":"gift","title":"聖誕慶祝","description":"聖誕清唱劇、兒童節目和平安夜聚會"}]},"id":"church-events","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>其他定期活動</h3><ul><li><strong>洗禮主日：</strong>每季洗禮聚會</li><li><strong>新會員班：</strong>為有興趣加入會員的人士</li><li><strong>全教會禱告會：</strong>特別聯合禱告聚會</li><li><strong>感恩節晚餐：</strong>年度百樂餐慶祝</li><li><strong>教會野餐：</strong>夏季戶外團契</li></ul>"},"id":"church-list","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: churchevt1

@@ -1,0 +1,11 @@
+Title: 三人行
+
+----
+
+Builder:
+
+[{"content":{"title":"三人行","subtitle":"THREE-PERSON WALK - 门徒训练小组"},"id":"tpw-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>三人行是我们独特的门徒训练模式，三位信徒一起在信仰、问责和成长中同行。根据传道书4:12：「三股合成的绳子不容易折断。」</p><h3>如何运作</h3><p>三位同性别的信徒每周聚会约一小时，分享生活、研读圣经、一起祷告，并在灵命成长中彼此督责。</p><h3>为何是三人？</h3><p>三人是理想的数目——小到足以深入分享和问责，同时又能提供多元视角，并在有人软弱时给予支持。</p><h3>课程内容</h3><p>我们提供涵盖重要主题的教材：灵修、祷告、背诵经文、传福音和属灵操练。</p>"},"id":"tpw-content","isHidden":false,"type":"richtext"},{"content":{"title":"核心元素","columns":[{"icon":"book","title":"研读圣经","description":"每周经文搭配讨论问题"},{"icon":"users","title":"彼此问责","description":"坦诚分享和互相鼓励"},{"icon":"heart","title":"祷告","description":"为彼此和共同关心的事祷告"},{"icon":"compass","title":"生活应用","description":"在日常生活中实践信仰"}]},"id":"tpw-elements","isHidden":false,"type":"icon-feature-grid"},{"content":{"title":"加入三人行","text":"<p>无论您是想要成长的初信者，还是想要门训他人的成熟基督徒，三人行都适合您。请联系我们配对小组。</p>","button_text":"报名三人行","button_url":"/about/contact"},"id":"tpw-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: tpwalk0001

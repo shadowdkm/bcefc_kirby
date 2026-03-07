@@ -1,0 +1,11 @@
+Title: Family Camp Registration Now Open
+
+----
+
+Builder:
+
+[{"content":{"title":"Family Camp Registration Now Open","subtitle":"JULY 4-7, 2025"},"id":"camp-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>Published:</strong> February 15, 2025</p><p>Mark your calendars! Our annual Family Camp at Camp Qwanoes is back, and registration is now open.</p><h3>Camp Details</h3><ul><li><strong>Dates:</strong> Friday, July 4 - Monday, July 7, 2025</li><li><strong>Location:</strong> Camp Qwanoes, Crofton, BC</li><li><strong>Theme:</strong> \"Rooted in Christ\" (Colossians 2:6-7)</li><li><strong>Speaker:</strong> Pastor Michael Wong</li></ul><h3>What to Expect</h3><p>Family Camp is a highlight of our church year! Enjoy:</p><ul><li>Inspiring messages and worship sessions</li><li>Age-appropriate programs for children and youth</li><li>Family activities and bonding time</li><li>Outdoor adventures: swimming, hiking, canoeing</li><li>Campfire fellowship and s'mores</li><li>Delicious meals and snacks</li></ul><h3>Pricing</h3><p>Adults: $180 | Youth (12-17): $140 | Children (4-11): $100 | Under 4: Free<br>Family maximum: $550</p><p>Early bird discount: Register by May 1 and save 10%!</p>"},"id":"camp-content","isHidden":false,"type":"richtext"},{"content":{"title":"Register Your Family","text":"<p>Space is limited! Register early to secure your spot.</p>","button_text":"Register Now","button_url":"/about/contact"},"id":"camp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news_fc001

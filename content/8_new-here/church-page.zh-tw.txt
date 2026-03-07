@@ -1,0 +1,11 @@
+Title: 新朋友
+
+----
+
+Builder:
+
+[{"content":{"heading":"新朋友？","subheading":"很高興您找到我們！","image":"","overlay":true},"id":"new-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>歡迎來到本那比華人播道會！無論您是第一次探索信仰、尋找教會家園，還是只是路過，我們都很高興您來到這裡。</p><p>我們知道第一次到訪新教會可能會感到不知所措。我們想讓您的第一次到訪盡可能舒適。</p>"},"id":"new-intro","isHidden":false,"type":"richtext"},{"content":{"title":"開始了解","columns":[{"image":"","title":"歡迎","text":"了解您第一次到訪時可以期待什麼","link":"/new-here/welcome"},{"image":"","title":"如何加入","text":"準備好讓本那比華人播道會成為您的教會家園？","link":"/new-here/how-to-join"},{"image":"","title":"常見問題","text":"常見問題解答","link":"/new-here/faq"},{"image":"","title":"聯繫我們","text":"與我們的團隊聯繫","link":"/new-here/contact"},{"image":"","title":"訪客卡","text":"讓我們知道您要來！","link":"/new-here/visitor-card"}]},"id":"new-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: newhere001

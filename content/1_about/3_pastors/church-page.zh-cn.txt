@@ -1,0 +1,11 @@
+Title: 牧者与同工
+
+----
+
+Builder:
+
+[{"content":{"title":"牧者与同工","subtitle":"我们的事工团队"},"id":"pastors-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的牧师团队和事工同工致力于服事会众，装备信徒参与事工。</p>"},"id":"pastors-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"黄大卫牧师","role":"主任牧师","bio":"黄牧师自2010年起在本会服事，负责督导粤语会众，并提供整体属灵领导。","email":"david@bcefc.ca"},{"name":"陈明理牧师","role":"国语牧师","bio":"陈牧师带领国语会众，专注于门徒训练和成人教育。","email":"michael@bcefc.ca"},{"name":"李约翰牧师","role":"英语牧师","bio":"李牧师服事英语会众和青少年事工，热切渴望接触下一代。","email":"jonathan@bcefc.ca"},{"name":"林恩惠传道","role":"儿童事工主任","bio":"林传道督导所有语言群体的儿童事工和主日学课程。","email":"grace@bcefc.ca"}]},"id":"pastors-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: pastors01en001

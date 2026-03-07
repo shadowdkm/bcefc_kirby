@@ -1,0 +1,11 @@
+Title: 家庭營報名現已開放
+
+----
+
+Builder:
+
+[{"content":{"title":"家庭營報名現已開放","subtitle":"2025年7月4-7日"},"id":"camp-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>發佈日期：</strong>2025年2月15日</p><p>記下日期！我們在Camp Qwanoes舉行的年度家庭營回來了，報名現已開放。</p><h3>營會詳情</h3><ul><li><strong>日期：</strong>2025年7月4日（週五）- 7月7日（週一）</li><li><strong>地點：</strong>Camp Qwanoes, Crofton, BC</li><li><strong>主題：</strong>「在基督裡扎根」（歌羅西書2:6-7）</li><li><strong>講員：</strong>黃牧師</li></ul><h3>營會內容</h3><p>家庭營是我們教會年度的亮點！享受：</p><ul><li>激勵人心的信息和敬拜聚會</li><li>適合各年齡的兒童和青少年節目</li><li>家庭活動和親子時間</li><li>戶外冒險：游泳、遠足、划船</li><li>營火團契和烤棉花糖</li><li>美味的餐點和小食</li></ul><h3>費用</h3><p>成人：$180 | 青少年（12-17歲）：$140 | 兒童（4-11歲）：$100 | 4歲以下：免費<br>家庭最高：$550</p><p>早鳥優惠：5月1日前報名可享九折！</p>"},"id":"camp-content","isHidden":false,"type":"richtext"},{"content":{"title":"為您的家庭報名","text":"<p>名額有限！盡早報名以確保您的位置。</p>","button_text":"立即報名","button_url":"/about/contact"},"id":"camp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news_fc001

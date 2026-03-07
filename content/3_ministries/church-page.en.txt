@@ -1,0 +1,11 @@
+Title: Ministries
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"Serve & Grow","title":"Ministries","subtitle":"Discover how you can serve and grow through our various ministry opportunities.","cta_primary_text":"Get Involved","cta_primary_url":"/about/contact","align":"center","height":"medium"},"id":"min-hero-001","isHidden":false,"type":"hero"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"Children's Ministry","text":"Nurturing faith in children from nursery through Grade 5 with age-appropriate Bible teaching and activities.","url":"/ministries/children","badge":""},{"title":"Youth Ministry","text":"Helping teens and young adults grow in faith through fellowship, discipleship, and service.","url":"/ministries/youth","badge":""},{"title":"Adult Ministry","text":"Bible studies, fellowship groups, and growth opportunities for adults of all ages.","url":"/ministries/adult","badge":""},{"title":"Family Ministry","text":"Supporting and strengthening families through resources, events, and community.","url":"/ministries/family","badge":""},{"title":"Seniors Ministry","text":"Fellowship, care, and spiritual growth for our senior members.","url":"/ministries/seniors","badge":""},{"title":"Missions","text":"Reaching the world locally and globally with the Gospel of Jesus Christ.","url":"/ministries/missions","badge":""},{"title":"Three-Person Walk","text":"Our unique mentorship ministry for intentional discipleship and accountability.","url":"/ministries/three-person-walk","badge":"NEW"}]},"id":"min-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: ministries001

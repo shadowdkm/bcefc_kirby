@@ -1,0 +1,11 @@
+Title: 消息
+
+----
+
+Builder:
+
+[{"content":{"heading":"最新消息","subheading":"紧贴本那比华人播道会动态","image":"","overlay":true},"id":"news-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>紧贴教会家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"title":"最新消息","columns":[{"image":"","title":"春季培灵会","text":"3月15-17日参加由陈大卫牧师主讲的特别培灵会。","link":"/news/20250301_spring-revival"},{"image":"","title":"家庭营报名开放","text":"立即报名7月4-7日在Camp Qwanoes举行的年度家庭营。","link":"/news/20250215_family-camp"},{"image":"","title":"中文学校报名","text":"2025-2026学年报名于2月1日开放。","link":"/news/20250201_chinese-school-registration"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: news000001

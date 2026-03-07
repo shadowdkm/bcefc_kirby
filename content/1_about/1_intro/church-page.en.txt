@@ -1,0 +1,11 @@
+Title: Church Introduction
+
+----
+
+Builder:
+
+[{"content":{"title":"Who We Are","subtitle":"BURNABY CHINESE EVANGELICAL FREE CHURCH"},"id":"intro-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Burnaby Chinese Evangelical Free Church (BCEFC) is a vibrant, multigenerational community of believers committed to glorifying God and making disciples of Jesus Christ.</p><p>Founded in 1989, we have grown from a small gathering of Chinese Christians to a thriving congregation serving the diverse communities of Burnaby and the Greater Vancouver area.</p><p>Our church offers worship services in three languages—English, Cantonese, and Mandarin—reflecting our commitment to reaching people from all backgrounds with the love of Christ.</p><h3>Our Vision</h3><p>To be a transforming community making disciples for Jesus Christ who will impact the world.</p><h3>Our Mission</h3><p>We exist to glorify God through worship, nurture believers through discipleship, and reach the community with the Gospel of Jesus Christ.</p>"},"id":"intro-content-001","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: intro001en00001

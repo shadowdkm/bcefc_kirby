@@ -1,0 +1,11 @@
+Title: Visitor Card
+
+----
+
+Builder:
+
+[{"content":{"title":"Visitor Card","subtitle":"LET US KNOW YOU'RE COMING"},"id":"visitor-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Planning to visit BCEFC? We'd love to know you're coming so we can prepare to welcome you!</p><p>Filling out this visitor card helps us:</p><ul><li>Have a greeter ready to welcome you personally</li><li>Prepare a welcome packet with information about our church</li><li>Answer any questions you might have before your visit</li><li>Connect you with the right people and programs</li></ul><h3>What We'll Ask</h3><p>The visitor card asks for basic information:</p><ul><li>Your name and contact information</li><li>Which service you plan to attend</li><li>Whether you have children who will need check-in</li><li>Any questions or special needs we should know about</li></ul><h3>Your Privacy</h3><p>We respect your privacy. Your information will only be used to welcome you and help you connect. We won't share your information with anyone outside our church staff.</p>"},"id":"visitor-content","isHidden":false,"type":"richtext"},{"content":{"title":"Fill Out Visitor Card","text":"<p>Ready to let us know you're coming? Fill out our online visitor card or email us directly.</p>","button_text":"Email Us","button_url":"mailto:office@bcefc.ca?subject=Visitor Card"},"id":"visitor-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: visitor001

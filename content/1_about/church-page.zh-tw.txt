@@ -1,0 +1,11 @@
+Title: 關於我們
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"認識我們","title":"關於本立比華人播道會","subtitle":"了解我們的教會、信仰、領袖團隊，以及我們對未來的異象。","cta_primary_text":"我們的信仰","cta_primary_url":"/about/beliefs","cta_secondary_text":"聯絡我們","cta_secondary_url":"/about/contact","align":"center","height":"medium"},"id":"about-hero-001","isHidden":false,"type":"hero"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教會簡介","text":"了解我們是誰，以及我們作為教會群體的使命。","url":"/about/intro","badge":""},{"title":"我們的信仰","text":"探索引導我們信仰的聖經根基和教義聲明。","url":"/about/beliefs","badge":""},{"title":"牧者與同工","text":"認識服事教會的牧師團隊和事工同工。","url":"/about/pastors","badge":""},{"title":"執事團隊","text":"認識服事和帶領教會的執事們。","url":"/about/deacons","badge":""},{"title":"教會歷史","text":"探索我們從起初到今天的歷程。","url":"/about/history","badge":""},{"title":"五年計劃","text":"了解我們未來五年的事工計劃和方向。","url":"/about/vision","badge":"新"}]},"id":"about-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: about001en000001

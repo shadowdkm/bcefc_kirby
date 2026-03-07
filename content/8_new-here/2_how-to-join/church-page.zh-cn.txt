@@ -1,0 +1,11 @@
+Title: 如何加入
+
+----
+
+Builder:
+
+[{"content":{"title":"如何加入本那比华人播道会","subtitle":"成为我们家庭的一员"},"id":"join-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们很高兴您考虑让本那比华人播道会成为您的教会家园！会籍不只是名字在名册上——而是委身于一个信徒群体，也被群体所委身。</p><h3>会籍要求</h3><ol><li><strong>个人对耶稣基督的信心</strong> - 您是否接受耶稣为您的救主？</li><li><strong>洗礼</strong> - 您是否已受洗？（如果还没有，我们提供洗礼班）</li><li><strong>会籍班</strong> - 参加我们的会籍班了解我们的信仰、价值观和群体</li><li><strong>面谈</strong> - 与牧师或长老会面分享您的见证并提问</li></ol><h3>会籍班</h3><p>我们的会籍班涵盖：</p><ul><li>我们的历史和使命</li><li>我们的信仰宣言</li><li>我们的教会架构和领导</li><li>会籍的意义和会员盟约</li><li>如何连结</li></ul><p>课程每季举行。下一次课程会在周报中公布。</p>"},"id":"join-content","isHidden":false,"type":"richtext"},{"content":{"title":"开始申请","text":"<p>准备好踏出下一步？联系教会办公室报名下一期会籍班。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"join-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: howtojoin1

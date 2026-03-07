@@ -1,0 +1,11 @@
+Title: Pastors & Staff
+
+----
+
+Builder:
+
+[{"content":{"title":"Pastors & Staff","subtitle":"OUR MINISTRY TEAM"},"id":"pastors-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our pastoral team and ministry staff are dedicated to serving the congregation and equipping believers for ministry.</p>"},"id":"pastors-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"Pastor David Wong","role":"Senior Pastor","bio":"Pastor David has been serving at BCEFC since 2010. He oversees the Cantonese congregation and provides overall spiritual leadership.","email":"david@bcefc.ca"},{"name":"Pastor Michael Chen","role":"Mandarin Pastor","bio":"Pastor Michael leads the Mandarin congregation and focuses on discipleship and adult education.","email":"michael@bcefc.ca"},{"name":"Pastor Jonathan Lee","role":"English Pastor","bio":"Pastor Jonathan serves the English congregation and youth ministry, bringing a passion for reaching the next generation.","email":"jonathan@bcefc.ca"},{"name":"Pastor Grace Lam","role":"Children's Ministry Director","bio":"Pastor Grace oversees children's ministry and Sunday School programs for all language groups.","email":"grace@bcefc.ca"}]},"id":"pastors-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: pastors01en001

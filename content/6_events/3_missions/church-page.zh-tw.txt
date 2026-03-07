@@ -1,0 +1,11 @@
+Title: 宣教活動
+
+----
+
+Builder:
+
+[{"content":{"title":"宣教活動","subtitle":"得著世界"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>透過短宣、研討會和推廣活動，參與神在本地和全球的使命。</p>"},"id":"missions-intro","isHidden":false,"type":"richtext"},{"content":{"title":"宣教機會","columns":[{"icon":"plane","title":"短期宣教","description":"年度與全球夥伴一同服事的行程"},{"icon":"globe","title":"宣教年會","description":"年度專注全球宣教的週末聚會"},{"icon":"heart","title":"本地外展日","description":"每季在社區的服事日"},{"icon":"book","title":"宣教禱告會","description":"每月為宣教士和各國禱告"}]},"id":"missions-opps","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>即將舉行的短宣</h3><ul><li><strong>2025年夏季 - 亞洲：</strong>英語教學和VBS事工</li><li><strong>2025年春假 - 墨西哥：</strong>建設和兒童事工</li><li><strong>2025年秋季 - 本地：</strong>溫哥華市中心東區外展</li></ul><p>費用因行程而異。提供獎學金。為所有參加者提供培訓。</p>"},"id":"missions-trips","isHidden":false,"type":"richtext"},{"content":{"title":"參加短宣","text":"<p>對宣教有興趣？聯繫我們的宣教委員會了解即將舉行的機會。</p>","button_text":"聯繫宣教團隊","button_url":"/about/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: missevnt01

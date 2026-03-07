@@ -1,0 +1,11 @@
+Title: 报名注册
+
+----
+
+Builder:
+
+[{"content":{"title":"报名注册","subtitle":"立即报名"},"id":"csreg-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>如何报名</h3><p>2024-2025学年报名现已开放！请按以下步骤报名：</p><ol><li><strong>下载</strong>下方的报名表格</li><li><strong>填写</strong>所有必填栏位</li><li><strong>提交</strong>表格和缴费至教会办公室</li><li><strong>参加</strong>分班评估（新生）</li></ol><h3>报名截止日期</h3><ul><li><strong>早鸟报名：</strong>7月1日 - 8月15日（省$20）</li><li><strong>正常报名：</strong>8月16日 - 9月1日</li><li><strong>逾期报名：</strong>9月1日后（视名额而定）</li></ul><h3>需要携带</h3><ul><li>填妥的报名表格</li><li>缴费（支票或现金）</li><li>以前的中文学校成绩（如适用）</li></ul><h3>付款方式</h3><p>我们接受支票（抬头请写BCEFC Chinese School）、现金或电子转账。如有需要可申请分期付款。</p>"},"id":"csreg-content","isHidden":false,"type":"richtext"},{"content":{"title":"准备好报名了吗？","text":"<p>下载报名表格或联系我们了解更多资讯。我们期待欢迎您的家庭加入我们的中文学校！</p>","button_text":"联系中文学校","button_url":"/about/contact"},"id":"csreg-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: csreg00001

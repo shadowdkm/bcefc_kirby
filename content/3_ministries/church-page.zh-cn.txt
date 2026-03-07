@@ -1,0 +1,11 @@
+Title: 事工
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"服事与成长","title":"事工","subtitle":"探索如何透过各样事工机会服事和成长。","cta_primary_text":"参与服事","cta_primary_url":"/about/contact","align":"center","height":"medium"},"id":"min-hero-001","isHidden":false,"type":"hero"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"儿童事工","text":"透过适龄的圣经教导和活动，培育婴幼儿至五年级儿童的信仰。","url":"/ministries/children","badge":""},{"title":"青少年事工","text":"透过团契、门训和服事，帮助青少年和青年在信仰中成长。","url":"/ministries/youth","badge":""},{"title":"成人事工","text":"为各年龄成人提供圣经研读、团契小组和成长机会。","url":"/ministries/adult","badge":""},{"title":"家庭事工","text":"透过资源、活动和群体支持和坚固家庭。","url":"/ministries/family","badge":""},{"title":"长者事工","text":"为长者会友提供团契、关怀和灵命成长。","url":"/ministries/seniors","badge":""},{"title":"宣教与差传","text":"以耶稣基督的福音接触本地和全球。","url":"/ministries/missions","badge":""},{"title":"三人行守望","text":"我们独特的门徒训练事工，提供有意义的门训和守望。","url":"/ministries/three-person-walk","badge":"新"}]},"id":"min-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: ministries001

@@ -1,0 +1,11 @@
+Title: Adult Ministry
+
+----
+
+Builder:
+
+[{"content":{"title":"Adult Ministry","subtitle":"GROWING TOGETHER IN FAITH"},"id":"adult-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Adult Ministry provides opportunities for spiritual growth, fellowship, and service for adults of all ages and life stages. We believe that discipleship is a lifelong journey and offer various programs to support your walk with Christ.</p><h3>Sunday School Classes</h3><p>Join one of our adult Sunday School classes that meet during worship services. Classes are available in English, Cantonese, and Mandarin.</p><h3>Small Groups</h3><p>Connect with others in a small group setting for Bible study, prayer, and mutual encouragement. Groups meet throughout the week at various locations.</p><h3>Equipping Classes</h3><p>Periodic classes on topics such as Bible study methods, theology, spiritual disciplines, and practical Christian living.</p>"},"id":"adult-content","isHidden":false,"type":"richtext"},{"content":{"title":"Current Offerings","columns":[{"icon":"users","title":"Sunday School","description":"Multiple classes in three languages during worship services"},{"icon":"book","title":"Bible Studies","description":"Weekday studies on various books and topics"},{"icon":"heart","title":"Prayer Groups","description":"Weekly prayer meetings for intercession and support"},{"icon":"compass","title":"Discipleship","description":"One-on-one and small group mentoring relationships"}]},"id":"adult-offerings","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: adult000001

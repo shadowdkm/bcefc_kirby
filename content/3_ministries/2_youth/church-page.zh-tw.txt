@@ -1,0 +1,11 @@
+Title: 青少年事工
+
+----
+
+Builder:
+
+[{"content":{"title":"青少年事工","subtitle":"六至十二年級及大專"},"id":"youth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的青少年事工透過團契、門訓和服事機會，幫助青少年和青年在信仰中成長。</p><h3>初中（六至九年級）</h3><p>週五晚上7:00-9:00。遊戲、敬拜、小組和聖經教導。</p><h3>高中及大專（九年級以上）</h3><p>主日11:00崇拜，加上週五青年聚會和每週小組。</p>"},"id":"youth-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: youth0000001

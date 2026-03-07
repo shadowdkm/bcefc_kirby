@@ -1,0 +1,11 @@
+Title: 活动
+
+----
+
+Builder:
+
+[{"content":{"heading":"活动","subheading":"本那比华人播道会近期活动","image":"","overlay":true},"id":"events-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>紧贴本那比华人播道会的最新动态！从社区外展到教会庆典再到宣教机会，总有有意义的活动正在进行。</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"title":"活动类别","columns":[{"image":"","title":"社区活动","text":"向社区开放的外展活动","link":"/events/community"},{"image":"","title":"教会活动","text":"特别聚会、庆典和教会家庭聚会","link":"/events/church"},{"image":"","title":"宣教活动","text":"短宣、研讨会和宣教推广","link":"/events/missions"}]},"id":"events-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: events0001

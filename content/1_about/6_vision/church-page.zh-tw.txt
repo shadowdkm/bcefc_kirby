@@ -1,0 +1,11 @@
+Title: 五年計劃與方向
+
+----
+
+Builder:
+
+[{"content":{"title":"五年計劃與方向","subtitle":"2024-2029 策略計劃"},"id":"vision-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>展望未來，本立比華人播道會訂定以下2024-2029年策略重點：</p><h3>1. 深化門訓</h3><p>我們將透過三人行守望事工、小組和有意義的師徒關係，加強門訓路徑。</p><h3>2. 擴展青年及家庭事工</h3><p>我們將投資下一代，提升青少年事工、家庭事工和跨代連結。</p><h3>3. 社區外展</h3><p>我們將透過中文學校、社區活動和服務項目，增加在本拿比社區的臨在。</p><h3>4. 差傳焦點</h3><p>我們將在本地和海外擴展差傳承擔，差派短宣隊並支持植堂。</p><h3>5. 領袖培育</h3><p>我們將發掘、訓練和授權新一代領袖，在三個會眾的各樣事工中服事。</p>"},"id":"vision-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"與我們同行這異象","text":"我們邀請每位會友禱告、參與和夥拍我們，一同追求神對本立比華人播道會的呼召。","button_text":"聯絡我們","button_url":"/about/contact","variant":"primary","alignment":"center"},"id":"vision-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: vision001en01

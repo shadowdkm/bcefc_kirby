@@ -1,0 +1,11 @@
+Title: 5-Year Vision
+
+----
+
+Builder:
+
+[{"content":{"title":"5-Year Vision & Direction","subtitle":"2024-2029 STRATEGIC PLAN"},"id":"vision-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>As we look to the future, BCEFC is committed to the following strategic priorities for 2024-2029:</p><h3>1. Deepen Discipleship</h3><p>We will strengthen our discipleship pathways through the Three-Person Walk ministry, small groups, and intentional mentoring relationships.</p><h3>2. Expand Youth & Family Ministry</h3><p>We will invest in the next generation by enhancing our youth programs, family ministry, and intergenerational connections.</p><h3>3. Community Outreach</h3><p>We will increase our presence in the Burnaby community through the Chinese School, community events, and service projects.</p><h3>4. Missions Focus</h3><p>We will grow our missions commitment both locally and globally, sending short-term teams and supporting church planting.</p><h3>5. Leadership Development</h3><p>We will identify, train, and empower emerging leaders to serve in various ministries across all three congregations.</p>"},"id":"vision-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"Join Us in This Vision","text":"We invite every member to pray, participate, and partner with us as we pursue God's calling for BCEFC.","button_text":"Contact Us","button_url":"/about/contact","variant":"primary","alignment":"center"},"id":"vision-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: vision001en01

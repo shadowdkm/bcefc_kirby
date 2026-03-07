@@ -1,0 +1,11 @@
+Title: 聯繫我們
+
+----
+
+Builder:
+
+[{"content":{"title":"聯繫我們","subtitle":"我們很樂意聽到您的消息"},"id":"contact-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>教會辦公室</h3><p><strong>地址：</strong><br>本那比華人播道會<br>7135 Walker Avenue<br>Burnaby, BC V5E 3C3</p><p><strong>電話：</strong>(604) 521-1234<br><strong>電郵：</strong>office@bcefc.ca</p><p><strong>辦公時間：</strong><br>週一至週五：上午9:00 - 下午5:00<br>法定假日休息</p><h3>教牧團隊</h3><p>如需教牧關懷、輔導或靈命指導，請聯繫教會辦公室與牧師聯繫。</p><h3>場地租用</h3><p>有興趣租用我們的場地舉辦活動？請聯繫辦公室查詢檔期和費用。</p>"},"id":"contact-info","isHidden":false,"type":"richtext"},{"content":{"title":"發送訊息","text":"<p>填寫以下表格，我們會在2個工作天內回覆您。</p>","button_text":"發送電郵","button_url":"mailto:office@bcefc.ca"},"id":"contact-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: contact001

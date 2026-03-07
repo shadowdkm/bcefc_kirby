@@ -1,0 +1,11 @@
+Title: Seniors Ministry
+
+----
+
+Builder:
+
+[{"content":{"title":"Seniors Ministry","subtitle":"HONORING OUR ELDERS"},"id":"seniors-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Seniors Ministry honors and serves our senior members, providing fellowship, spiritual enrichment, and practical support for those in their golden years.</p><h3>Weekly Fellowship</h3><p>Join us for our weekly seniors' gathering featuring worship, Bible study, guest speakers, and a time of fellowship over lunch.</p><h3>Care & Visitation</h3><p>Our visitation team regularly visits seniors who are homebound or in care facilities, bringing encouragement and communion.</p><h3>Special Programs</h3><p>We organize outings, holiday celebrations, health seminars, and intergenerational events throughout the year.</p>"},"id":"seniors-content","isHidden":false,"type":"richtext"},{"content":{"title":"Seniors Programs","columns":[{"icon":"users","title":"Weekly Fellowship","description":"Bible study, worship, and lunch every Thursday"},{"icon":"heart","title":"Care Visitation","description":"Home and facility visits for encouragement"},{"icon":"calendar","title":"Special Events","description":"Outings, celebrations, and health seminars"},{"icon":"phone","title":"Phone Ministry","description":"Regular calls to check in and pray together"}]},"id":"seniors-programs","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: seniors0001

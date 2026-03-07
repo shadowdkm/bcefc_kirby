@@ -1,0 +1,11 @@
+Title: G9-大專團契
+
+----
+
+Builder:
+
+[{"content":{"title":"G9-大專團契","subtitle":"高中及大專"},"id":"g9c-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>G9-大專團契是為高中生（9-12年級）和大學生設計的。我們在這些關鍵年歲中與年輕人同行，幫助他們在信仰、學業、人際關係和人生決定中導航。</p><h3>我們做什麼</h3><p>我們深入研讀聖經、討論現實生活議題、一起敬拜並建立群體。我們的領袖在高中挑戰、大學申請和成年初期輔導學生。</p><h3>聚會時間</h3><p><strong>週六晚上7:00 - 9:30</strong></p><h3>我們提供</h3><ul><li>深入查經</li><li>敬拜之夜</li><li>信仰與文化討論</li><li>輔導機會</li><li>大學預備支援</li><li>年度退修會</li><li>社交活動和郊遊</li></ul>"},"id":"g9c-content","isHidden":false,"type":"richtext"},{"content":{"title":"與我們連結","text":"<p>高中生或大學生？歡迎加入我們的社群，一起在信仰中成長！</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"g9c-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g9cfell001

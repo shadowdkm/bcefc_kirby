@@ -1,0 +1,11 @@
+Title: 家庭事工
+
+----
+
+Builder:
+
+[{"content":{"title":"家庭事工","subtitle":"為基督建立穩固的家"},"id":"family-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的家庭事工旨在以聖經原則裝備家庭，並在家庭生活的每個階段提供支持，藉此鞏固婚姻和家庭關係。</p><h3>婚姻增進</h3><p>我們提供婚姻工作坊、約會之夜和夫妻退修會，幫助加強夫妻之間的關係。</p><h3>育兒資源</h3><p>為父母提供以聖經價值觀養育孩子的課程和資源，涵蓋幼兒到青少年各階段。</p><h3>家庭活動</h3><p>定期舉辦適合全家參與的活動，讓不同世代在歡樂、團契和信仰建造中連結。</p>"},"id":"family-content","isHidden":false,"type":"richtext"},{"content":{"title":"家庭課程","columns":[{"icon":"heart","title":"婚姻事工","description":"為夫妻提供工作坊、退修會和輔導"},{"icon":"users","title":"育兒課程","description":"各年齡段養育孩子的聖經指導"},{"icon":"calendar","title":"家庭活動","description":"野餐、遊戲之夜和節日慶祝"},{"icon":"home","title":"家庭靈修","description":"居家敬拜和查經資源"}]},"id":"family-programs","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: family00001

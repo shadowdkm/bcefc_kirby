@@ -1,0 +1,11 @@
+Title: Missions
+
+----
+
+Builder:
+
+[{"content":{"title":"Missions","subtitle":"REACHING THE WORLD FOR CHRIST"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>BCEFC is committed to fulfilling the Great Commission both locally and globally. We support missionaries, organize mission trips, and engage in outreach to our community.</p><h3>Global Missions</h3><p>We partner with missionaries serving in Asia, Africa, Europe, and the Americas, providing financial support, prayer, and encouragement.</p><h3>Short-Term Missions</h3><p>Annual mission trips give our members hands-on experience serving in cross-cultural contexts, from building projects to evangelism and teaching.</p><h3>Local Outreach</h3><p>We serve our Burnaby community through food banks, ESL classes, community events, and partnerships with local organizations.</p>"},"id":"missions-content","isHidden":false,"type":"richtext"},{"content":{"title":"Mission Areas","columns":[{"icon":"globe","title":"Global Partners","description":"Supporting missionaries on 4 continents"},{"icon":"plane","title":"Mission Trips","description":"Annual short-term trips for all ages"},{"icon":"map-pin","title":"Local Outreach","description":"Serving Burnaby through practical love"},{"icon":"heart","title":"Prayer Support","description":"Weekly prayer for missionaries and nations"}]},"id":"missions-areas","isHidden":false,"type":"icon-feature-grid"},{"content":{"title":"Get Involved","text":"<p>Whether you feel called to go, give, or pray, there's a place for you in missions. Contact our missions committee to learn more about how you can participate in God's global work.</p>","button_text":"Contact Missions Team","button_url":"/about/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: missions001

@@ -1,0 +1,11 @@
+Title: Events
+
+----
+
+Builder:
+
+[{"content":{"heading":"Events","subheading":"What's Happening at BCEFC","image":"","overlay":true},"id":"events-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>Stay connected with what's happening at BCEFC! From community outreach to church celebrations to missions opportunities, there's always something meaningful happening.</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Event Categories","columns":[{"image":"","title":"Community Events","text":"Outreach events open to the wider community","link":"/events/community"},{"image":"","title":"Church Events","text":"Special services, celebrations, and church family gatherings","link":"/events/church"},{"image":"","title":"Missions Events","text":"Mission trips, conferences, and awareness events","link":"/events/missions"}]},"id":"events-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: events0001

@@ -1,0 +1,11 @@
+Title: G6-9 Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"G6-9 Fellowship","subtitle":"GRADES 6-9"},"id":"g69-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>G6-9 Fellowship is our junior high ministry for students in grades 6-9. This is a pivotal time when young people begin to own their faith, and we're here to guide and support them through these transformative years.</p><h3>What We Do</h3><p>We create an environment where teens can explore faith, ask hard questions, and build genuine friendships. Our leaders invest in students' lives through mentoring, fun activities, and relevant biblical teaching.</p><h3>Meeting Time</h3><p><strong>Fridays, 7:30 PM - 9:30 PM</strong></p><h3>What to Expect</h3><ul><li>Engaging Bible studies</li><li>Worship and prayer</li><li>Games and hangout time</li><li>Small group discussions</li><li>Retreats and camps</li><li>Service projects</li></ul>"},"id":"g69-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join G6-9!","text":"<p>If you're in grades 6-9, come check us out! New students are always welcome.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"g69-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g69fell001

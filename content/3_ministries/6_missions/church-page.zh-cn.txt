@@ -1,0 +1,11 @@
+Title: 宣教事工
+
+----
+
+Builder:
+
+[{"content":{"title":"宣教事工","subtitle":"为基督得着世界"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>本那比华人播道会致力于在本地和全球完成大使命。我们支持宣教士、组织短宣队，并积极参与社区外展。</p><h3>海外宣教</h3><p>我们与在亚洲、非洲、欧洲和美洲服事的宣教士合作，提供经济支持、祷告和鼓励。</p><h3>短期宣教</h3><p>每年的宣教之旅让会友亲身体验跨文化服事，从建设项目到传福音和教学。</p><h3>本地外展</h3><p>我们透过食物银行、英语课程、社区活动和与本地机构的合作来服事本那比社区。</p>"},"id":"missions-content","isHidden":false,"type":"richtext"},{"content":{"title":"宣教领域","columns":[{"icon":"globe","title":"全球伙伴","description":"支持四大洲的宣教士"},{"icon":"plane","title":"短宣队","description":"适合各年龄的年度短宣"},{"icon":"map-pin","title":"本地外展","description":"以实际的爱服事本那比"},{"icon":"heart","title":"祷告支持","description":"每周为宣教士和各国祷告"}]},"id":"missions-areas","isHidden":false,"type":"icon-feature-grid"},{"content":{"title":"参与宣教","text":"<p>无论您感到被呼召去、奉献还是祷告，宣教都有您的位置。请联系我们的宣教委员会，了解如何参与神的全球事工。</p>","button_text":"联系宣教团队","button_url":"/about/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: missions001

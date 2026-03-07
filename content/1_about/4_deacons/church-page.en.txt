@@ -1,0 +1,11 @@
+Title: Board of Deacons
+
+----
+
+Builder:
+
+[{"content":{"title":"Board of Deacons","subtitle":"SERVANT LEADERS"},"id":"deacons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Board of Deacons serves alongside the pastoral team to provide leadership, oversight, and care for our church family. They are elected by the congregation and serve with dedication and humility.</p>"},"id":"deacons-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"John Chu","role":"Chairman","bio":"John has been a member of BCEFC for over 20 years and serves as the chairman of the deacon board.","email":""},{"name":"Sarah Tang","role":"Secretary","bio":"Sarah oversees church administration and communications.","email":""},{"name":"Peter Lau","role":"Treasurer","bio":"Peter manages the church's financial stewardship and reporting.","email":""},{"name":"Mary Ho","role":"Missions Deacon","bio":"Mary coordinates our missions programs and short-term mission trips.","email":""},{"name":"William Ng","role":"Worship Deacon","bio":"William oversees worship ministry and audio-visual services.","email":""},{"name":"Rebecca Yip","role":"Fellowship Deacon","bio":"Rebecca coordinates fellowship activities and member care.","email":""}]},"id":"deacons-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: deacons01en01

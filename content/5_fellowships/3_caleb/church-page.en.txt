@@ -1,0 +1,11 @@
+Title: Caleb Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Caleb Fellowship","subtitle":"迦勒團契"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Caleb Fellowship is named after the biblical Caleb who remained faithful and strong even in his later years. This fellowship is for empty nesters, mature adults, and retirees who want to continue growing in faith and serving God wholeheartedly.</p><h3>What We Do</h3><p>We gather weekly for in-depth Bible study, prayer, and mutual encouragement. Our discussions draw on decades of life experience as we explore Scripture together and support one another through life's transitions.</p><h3>Meeting Time</h3><p><strong>Fridays, 10:00 AM - 12:00 PM</strong><br>Light refreshments served</p><h3>Activities</h3><ul><li>Weekly Bible study and prayer</li><li>Monthly outings and field trips</li><li>Holiday celebrations</li><li>Service projects</li><li>Health and wellness seminars</li></ul>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Caleb Fellowship","text":"<p>If you're in a season of life with more time to invest in deep relationships and ministry, Caleb Fellowship is for you!</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caleb00001

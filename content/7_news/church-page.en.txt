@@ -1,0 +1,11 @@
+Title: News
+
+----
+
+Builder:
+
+[{"content":{"heading":"News & Announcements","subheading":"Stay Updated with BCEFC","image":"","overlay":true},"id":"news-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>Keep up with the latest news, announcements, and stories from our church family.</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Latest News","columns":[{"image":"","title":"Spring Revival Meetings","text":"Join us March 15-17 for special revival meetings with guest speaker Rev. David Chen.","link":"/news/20250301_spring-revival"},{"image":"","title":"Family Camp Registration Open","text":"Register now for our annual Family Camp at Camp Qwanoes, July 4-7.","link":"/news/20250215_family-camp"},{"image":"","title":"Chinese School Registration","text":"Registration for the 2025-2026 school year opens February 1.","link":"/news/20250201_chinese-school-registration"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: news000001

@@ -1,0 +1,11 @@
+Title: 課程資訊
+
+----
+
+Builder:
+
+[{"content":{"title":"課程資訊","subtitle":"2024-2025學年"},"id":"classinfo-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>上課時間</h3><p>課程於每年九月至六月的每週六舉行。</p><ul><li><strong>第一節：</strong>上午9:30 - 11:00</li><li><strong>第二節：</strong>上午11:15 - 下午12:45</li></ul><h3>課程級別</h3><p>我們提供各程度的課程：</p><ul><li><strong>初級（1-2級）：</strong>適合沒有或很少中文基礎的學生</li><li><strong>中級（3-5級）：</strong>適合能進行基本對話的學生</li><li><strong>高級（6-8級）：</strong>適合流利說中文、專注讀寫的學生</li><li><strong>成人班：</strong>為成人提供初級和中級課程</li></ul><h3>語言選擇</h3><ul><li><strong>粵語班：</strong>繁體中文</li><li><strong>普通話班：</strong>簡體中文（也提供繁體選擇）</li></ul><h3>學費</h3><p>年度學費：每位學生$380<br>家庭優惠：第二個孩子九折，第三個孩子八五折<br>教材費：$40（包括課本和練習本）</p>"},"id":"classinfo-content","isHidden":false,"type":"richtext"},{"content":{"title":"有疑問？","text":"<p>如需了解分班測試、課程名額和報名的更多資訊，請聯繫中文學校辦公室。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"classinfo-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: classinfo1

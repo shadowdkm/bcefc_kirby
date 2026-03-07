@@ -1,0 +1,11 @@
+Title: Chinese School Registration Opens February 1
+
+----
+
+Builder:
+
+[{"content":{"title":"Chinese School Registration Opens February 1","subtitle":"2025-2026 SCHOOL YEAR"},"id":"csreg-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>Published:</strong> February 1, 2025</p><p>We are excited to announce that registration for the 2025-2026 Chinese School year is now open!</p><h3>Important Dates</h3><ul><li><strong>Early Bird Registration:</strong> February 1 - March 15 (save $20)</li><li><strong>Regular Registration:</strong> March 16 - August 31</li><li><strong>Classes Begin:</strong> September 6, 2025</li></ul><h3>What's New This Year</h3><p>We're pleased to announce several enhancements for the upcoming school year:</p><ul><li>New advanced Mandarin class for heritage speakers</li><li>Updated curriculum with more interactive materials</li><li>Additional Saturday afternoon session option</li><li>New parent volunteer program</li></ul><h3>How to Register</h3><p>Visit our Chinese School registration page to download forms and learn about tuition and class options. Current students will receive priority registration.</p><p>For questions, contact the Chinese School office at chineseschool@bcefc.ca or call (604) 555-1234.</p>"},"id":"csreg-content","isHidden":false,"type":"richtext"},{"content":{"title":"Register Now","text":"<p>Don't miss the early bird deadline! Register by March 15 to save $20.</p>","button_text":"Go to Registration","button_url":"/chinese-school/registration"},"id":"csreg-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news_cs001

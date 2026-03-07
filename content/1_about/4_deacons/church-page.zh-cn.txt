@@ -1,0 +1,11 @@
+Title: 执事团队
+
+----
+
+Builder:
+
+[{"content":{"title":"执事团队","subtitle":"仆人领袖"},"id":"deacons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的执事团队与牧师团队同工，为教会提供领导、监督和关怀。他们由会众选出，以奉献和谦卑的心服事。</p>"},"id":"deacons-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"朱约翰执事","role":"主席","bio":"朱弟兄在本会超过二十年，现任执事会主席。","email":""},{"name":"邓咏诗执事","role":"文书","bio":"邓姊妹负责教会行政和通讯事务。","email":""},{"name":"刘伯勤执事","role":"司库","bio":"刘弟兄管理教会财务和报告。","email":""},{"name":"何美恩执事","role":"差传执事","bio":"何姊妹统筹差传事工和短宣活动。","email":""},{"name":"吴伟明执事","role":"崇拜执事","bio":"吴弟兄负责崇拜事工和影音服务。","email":""},{"name":"叶咏琪执事","role":"团契执事","bio":"叶姊妹统筹团契活动和会友关怀。","email":""}]},"id":"deacons-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: deacons01en01

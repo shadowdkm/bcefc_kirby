@@ -1,0 +1,11 @@
+Title: 祈禱會
+
+----
+
+Builder:
+
+[{"content":{"title":"祈禱會","subtitle":"一同禱告"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>禱告是教會的心跳。我們定期聚集，為會眾、社區、國家和世界禱告。</p><h3>每週祈禱會</h3><p><strong>英語祈禱會</strong><br>週三 晚上7:30 - 團契廳</p><p><strong>粵語祈禱會</strong><br>週三 晚上7:30 - 201室</p><p><strong>國語祈禱會</strong><br>週五 晚上7:30 - 202室</p><h3>代禱事項</h3><p>如有代禱事項，請電郵至 prayer@bcefc.ca 或在崇拜時填寫代禱卡。</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: prayermeet001

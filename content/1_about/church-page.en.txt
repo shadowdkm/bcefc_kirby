@@ -1,0 +1,11 @@
+Title: About Us
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"Get to Know Us","title":"About BCEFC","subtitle":"Learn about our church, our beliefs, our leadership, and our vision for the future.","cta_primary_text":"Our Beliefs","cta_primary_url":"/about/beliefs","cta_secondary_text":"Contact Us","cta_secondary_url":"/about/contact","align":"center","height":"medium"},"id":"about-hero-001","isHidden":false,"type":"hero"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"Church Introduction","text":"Learn about who we are and what we do as a church community.","url":"/about/intro","badge":""},{"title":"Our Beliefs","text":"Discover the biblical foundations and doctrinal statements that guide our faith.","url":"/about/beliefs","badge":""},{"title":"Pastors & Staff","text":"Meet our pastoral team and ministry staff serving the congregation.","url":"/about/pastors","badge":""},{"title":"Board of Deacons","text":"Meet the dedicated deacons who serve and lead our church.","url":"/about/deacons","badge":""},{"title":"Church History","text":"Explore our journey from humble beginnings to where we are today.","url":"/about/history","badge":""},{"title":"5-Year Vision","text":"See our plans and direction for the next five years of ministry.","url":"/about/vision","badge":"NEW"}]},"id":"about-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: about001en000001

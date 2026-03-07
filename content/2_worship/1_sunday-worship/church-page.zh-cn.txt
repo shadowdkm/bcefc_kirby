@@ -1,0 +1,11 @@
+Title: 主日崇拜
+
+----
+
+Builder:
+
+[{"content":{"title":"主日崇拜","subtitle":"每个主日与我们一起"},"id":"sunday-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们提供三种语言的崇拜，服事多元的会众。每场崇拜包括敬拜、祷告、读经和圣经教导。</p>"},"id":"sunday-intro-001","isHidden":false,"type":"richtext"},{"content":{"heading":"","subheading":"","view_all_text":"","view_all_url":"","services":[{"name":"国语崇拜","time":"每周日 09:15 AM","location":"主堂","extra_info":"设有同步儿童节目","description":"国语崇拜融合现代诗歌与传统圣诗，提供释经讲道，欢迎国语群体。","cta_text":"","cta_url":"","featured":"false"},{"name":"粤语崇拜","time":"每周日 11:00 AM","location":"主堂 & YouTube 直播","extra_info":"设有线上直播供远程参与","description":"粤语崇拜融合传统圣诗与现代敬拜，提供圣经讲道和祷告服事。","cta_text":"线上观看","cta_url":"https://youtube.com/@bcefc","featured":"true"},{"name":"English Worship 英语崇拜","time":"每周日 11:00 AM","location":"团契厅","extra_info":"适合九年级至大学以上","description":"英语崇拜以现代敬拜、贴切的圣经教导和活泼的青年群体为特色。","cta_text":"","cta_url":"","featured":"false"}]},"id":"sunday-times-001","isHidden":false,"type":"worship-times"},{"content":{"title":"崇拜须知","text":"请提早10-15分钟到达。招待员会欢迎你并协助入座。所有崇拜时段均设有儿童节目。","button_text":"我是新朋友","button_url":"/new-here","variant":"neutral","alignment":"center"},"id":"sunday-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: sundayworship01

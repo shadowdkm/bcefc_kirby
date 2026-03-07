@@ -1,0 +1,11 @@
+Title: 迦勒團契
+
+----
+
+Builder:
+
+[{"content":{"title":"迦勒團契","subtitle":"CALEB FELLOWSHIP"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>迦勒團契以聖經中的迦勒命名，他在晚年仍然忠心且剛強。這個團契是為空巢期、成熟成年人和退休人士設計，他們想要繼續在信仰中成長並全心服事神。</p><h3>我們做什麼</h3><p>我們每週聚會進行深入查經、禱告和彼此鼓勵。我們的討論結合數十年的人生經驗，一起探索聖經，並在人生轉變中彼此支持。</p><h3>聚會時間</h3><p><strong>週五上午10:00 - 中午12:00</strong><br>提供茶點</p><h3>活動</h3><ul><li>每週查經和禱告</li><li>每月郊遊和參觀</li><li>節日慶祝</li><li>服務項目</li><li>健康講座</li></ul>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入迦勒團契","text":"<p>如果您處於人生中有更多時間投資深度關係和事工的階段，迦勒團契適合您！</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caleb00001

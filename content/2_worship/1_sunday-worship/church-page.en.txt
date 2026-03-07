@@ -1,0 +1,11 @@
+Title: Sunday Worship
+
+----
+
+Builder:
+
+[{"content":{"title":"Sunday Worship Services","subtitle":"JOIN US EVERY SUNDAY"},"id":"sunday-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>We offer worship services in three languages to serve our diverse congregation. Each service includes worship, prayer, Scripture reading, and biblical teaching.</p>"},"id":"sunday-intro-001","isHidden":false,"type":"richtext"},{"content":{"heading":"","subheading":"","view_all_text":"","view_all_url":"","services":[{"name":"Mandarin Worship 國語崇拜","time":"Every Sunday 9:15 AM","location":"Main Sanctuary","extra_info":"Simultaneous children's program available","description":"Our Mandarin service features contemporary and traditional hymns, expository preaching, and a welcoming community for Mandarin speakers.","cta_text":"","cta_url":"","featured":"false"},{"name":"Cantonese Worship 粵語崇拜","time":"Every Sunday 11:00 AM","location":"Main Sanctuary & YouTube Live","extra_info":"Livestream available for remote participation","description":"Our Cantonese service blends traditional hymns with contemporary worship, offering biblical preaching and prayer ministry.","cta_text":"Watch Live","cta_url":"https://youtube.com/@bcefc","featured":"true"},{"name":"English Worship","time":"Every Sunday 11:00 AM","location":"Fellowship Hall","extra_info":"For Grade 9 through College+","description":"Our English service features contemporary worship, relevant biblical teaching, and a vibrant community for young adults and English speakers.","cta_text":"","cta_url":"","featured":"false"}]},"id":"sunday-times-001","isHidden":false,"type":"worship-times"},{"content":{"title":"What to Expect","text":"Arrive 10-15 minutes early. Greeters will welcome you and help you find seating. Children's programs are available during all services.","button_text":"I'm New Here","button_url":"/new-here","variant":"neutral","alignment":"center"},"id":"sunday-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: sundayworship01

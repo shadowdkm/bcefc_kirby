@@ -1,0 +1,11 @@
+Title: Sermons
+
+----
+
+Builder:
+
+[{"content":{"title":"Sermons","subtitle":"LISTEN TO GOD'S WORD"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Missed a Sunday or want to revisit a message? Listen to our sermons online.</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"},{"content":{"title":"Latest Sermon","speaker":"Pastor David Wong","date":"March 2, 2025","series":"Walking with God","scripture":"Psalm 23:1-6","video_url":"https://youtube.com/watch?v=example1","audio_url":"","description":"In this message, Pastor David explores the beautiful imagery of Psalm 23 and what it means to have the Lord as our shepherd."},"id":"sermon-featured-001","isHidden":false,"type":"sermon-card"},{"content":{"title":"Recent Sermons","speaker":"Pastor Michael Chen","date":"February 23, 2025","series":"Walking with God","scripture":"Psalm 27:1-14","video_url":"https://youtube.com/watch?v=example2","audio_url":"","description":"Seeking God's face in times of trouble and trusting in His salvation."},"id":"sermon-recent-001","isHidden":false,"type":"sermon-card"},{"content":{"embed_type":"video","embed_url":"https://www.youtube.com/embed/playlist?list=PLexample","title":"Sermon Playlist","caption":"Watch our full sermon archive on YouTube"},"id":"sermons-playlist-001","isHidden":false,"type":"media-embed"}]
+
+----
+
+Uuid: sermons00001

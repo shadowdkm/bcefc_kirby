@@ -1,0 +1,11 @@
+Title: Chinese School
+
+----
+
+Builder:
+
+[{"content":{"heading":"BCEFC Chinese School","subheading":"Building Language Skills and Cultural Heritage","image":"","overlay":true},"id":"cs-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>The BCEFC Chinese School has been serving the Burnaby community since 1985, providing quality Chinese language education for children and adults. Our school offers both Cantonese and Mandarin classes, teaching traditional and simplified Chinese characters.</p>"},"id":"cs-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Why Choose Our Chinese School?","columns":[{"icon":"book","title":"Experienced Teachers","description":"Certified instructors with years of teaching experience"},{"icon":"users","title":"Small Class Sizes","description":"Personalized attention with 10-15 students per class"},{"icon":"globe","title":"Cultural Integration","description":"Learn language alongside Chinese culture and traditions"},{"icon":"award","title":"Recognized Curriculum","description":"Following BC Ministry of Education guidelines"}]},"id":"cs-features","isHidden":false,"type":"icon-feature-grid"},{"content":{"title":"Quick Links","columns":[{"image":"","title":"About Us","text":"Learn about our history, mission, and teaching philosophy","link":"/chinese-school/about"},{"image":"","title":"Class Information","text":"View our class schedules, levels, and curriculum details","link":"/chinese-school/class-info"},{"image":"","title":"Registration","text":"Register your child or yourself for upcoming classes","link":"/chinese-school/registration"}]},"id":"cs-links","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: cnschool01

@@ -1,0 +1,11 @@
+Title: Prayer Meeting
+
+----
+
+Builder:
+
+[{"content":{"title":"Prayer Meeting","subtitle":"COME TOGETHER IN PRAYER"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Prayer is the heartbeat of our church. We gather regularly to pray for our congregation, community, nation, and world.</p><h3>Weekly Prayer Meetings</h3><p><strong>English Prayer Meeting</strong><br>Wednesday 7:30 PM - Fellowship Hall</p><p><strong>Cantonese Prayer Meeting</strong><br>Wednesday 7:30 PM - Room 201</p><p><strong>Mandarin Prayer Meeting</strong><br>Friday 7:30 PM - Room 202</p><h3>Prayer Requests</h3><p>If you have a prayer request, please contact us at prayer@bcefc.ca or fill out a prayer card during any service.</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: prayermeet001

@@ -1,0 +1,11 @@
+Title: 中文学校
+
+----
+
+Builder:
+
+[{"content":{"heading":"本那比华人播道会中文学校","subheading":"建立语言技能与文化传承","image":"","overlay":true},"id":"cs-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>本那比华人播道会中文学校自1985年起服务本那比社区，为儿童和成人提供优质的中文教育。我们的学校提供粤语和普通话课程，教授繁体和简体中文。</p>"},"id":"cs-intro","isHidden":false,"type":"richtext"},{"content":{"title":"为何选择我们的中文学校？","columns":[{"icon":"book","title":"经验丰富的教师","description":"拥有多年教学经验的认证教师"},{"icon":"users","title":"小班教学","description":"每班10-15名学生，提供个人化关注"},{"icon":"globe","title":"文化融合","description":"语言学习结合中华文化与传统"},{"icon":"award","title":"认可课程","description":"遵循卑诗省教育厅指引"}]},"id":"cs-features","isHidden":false,"type":"icon-feature-grid"},{"content":{"title":"快速连结","columns":[{"image":"","title":"关于我们","text":"了解我们的历史、使命和教学理念","link":"/chinese-school/about"},{"image":"","title":"课程资讯","text":"查看课程时间表、级别和课程详情","link":"/chinese-school/class-info"},{"image":"","title":"报名注册","text":"为您的孩子或自己报名即将开始的课程","link":"/chinese-school/registration"}]},"id":"cs-links","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: cnschool01

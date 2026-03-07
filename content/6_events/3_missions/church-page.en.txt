@@ -1,0 +1,11 @@
+Title: Missions Events
+
+----
+
+Builder:
+
+[{"content":{"title":"Missions Events","subtitle":"REACHING THE WORLD"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Opportunities to engage in God's mission locally and globally through mission trips, conferences, and awareness events.</p>"},"id":"missions-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Missions Opportunities","columns":[{"icon":"plane","title":"Short-Term Mission Trips","description":"Annual trips to serve alongside our global partners"},{"icon":"globe","title":"Missions Conference","description":"Annual weekend focused on global missions"},{"icon":"heart","title":"Local Outreach Days","description":"Quarterly service days in our community"},{"icon":"book","title":"Missions Prayer Nights","description":"Monthly prayer for missionaries and nations"}]},"id":"missions-opps","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>Upcoming Mission Trips</h3><ul><li><strong>Summer 2025 - Asia:</strong> Teaching English and VBS ministry</li><li><strong>Spring Break 2025 - Mexico:</strong> Construction and children's ministry</li><li><strong>Fall 2025 - Local:</strong> Downtown Eastside outreach</li></ul><p>Trip costs vary. Scholarships available. Training provided for all participants.</p>"},"id":"missions-trips","isHidden":false,"type":"richtext"},{"content":{"title":"Join a Mission Trip","text":"<p>Interested in missions? Contact our missions committee to learn about upcoming opportunities.</p>","button_text":"Contact Missions Team","button_url":"/about/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: missevnt01

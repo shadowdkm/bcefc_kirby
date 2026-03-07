@@ -1,0 +1,11 @@
+Title: 弟兄團契
+
+----
+
+Builder:
+
+[{"content":{"title":"弟兄團契","subtitle":"MEN'S FELLOWSHIP"},"id":"mens-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>弟兄團契聚集各年齡層的弟兄，彼此鼓勵、問責，並一同作為基督的跟隨者成長。我們相信弟兄需要其他弟兄在信仰中同行。</p><h3>我們做什麼</h3><p>我們聚會進行查經、禱告，並坦誠討論弟兄作為丈夫、父親、員工和耶穌門徒所面臨的挑戰。我們的團契強調真實和聖經的實際應用。</p><h3>聚會時間</h3><p><strong>週六上午8:00 - 10:00</strong><br>提供早餐</p><h3>活動</h3><ul><li>每週查經</li><li>問責小組</li><li>弟兄退修會</li><li>父子活動</li><li>服務項目</li><li>運動和康樂</li></ul>"},"id":"mens-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入弟兄團契","text":"<p>尋找弟兄情誼和問責？加入我們一起追求基督，成為神呼召我們成為的弟兄。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"mens-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mensfel001

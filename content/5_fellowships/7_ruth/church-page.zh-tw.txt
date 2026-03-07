@@ -1,0 +1,11 @@
+Title: 路得團契
+
+----
+
+Builder:
+
+[{"content":{"title":"路得團契","subtitle":"RUTH FELLOWSHIP - 婦女事工"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>路得團契是我們的婦女事工，以聖經中展現忠誠、信心和奉獻的路得命名。各年齡層和人生階段的婦女聚集一起在信仰中成長、彼此支持並一同服事。</p><h3>我們做什麼</h3><p>我們聚會進行查經、禱告和團契。我們的討論針對婦女面臨的獨特挑戰和喜樂，從事業和家庭到靈命成長和服事。</p><h3>聚會時間</h3><p><strong>週四上午10:00 - 中午12:00</strong><br>晚間聚會：每月第一個週四，晚上7:30</p><h3>活動</h3><ul><li>每週查經</li><li>禱告夥伴</li><li>婦女退修會</li><li>母親節慶祝</li><li>服務項目</li><li>輔導計劃</li></ul>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入路得團契","text":"<p>歡迎所有姊妹！無論您是尋找深厚的友誼、靈命成長還是服事機會，路得團契適合您。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: ruthfel001

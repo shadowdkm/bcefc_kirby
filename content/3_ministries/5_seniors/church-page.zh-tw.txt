@@ -1,0 +1,11 @@
+Title: 長者事工
+
+----
+
+Builder:
+
+[{"content":{"title":"長者事工","subtitle":"尊榮我們的長輩"},"id":"seniors-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的長者事工尊榮並服事教會的年長會友，為處於黃金歲月的長者提供團契、靈命增進和實際支援。</p><h3>每週團契</h3><p>歡迎參加我們每週的長者聚會，內容包括敬拜、查經、講員分享，以及午餐團契時間。</p><h3>關懷探訪</h3><p>我們的探訪團隊定期探訪行動不便或住在護理機構的長者，帶去鼓勵和聖餐。</p><h3>特別活動</h3><p>全年舉辦郊遊、節日慶祝、健康講座和跨代活動。</p>"},"id":"seniors-content","isHidden":false,"type":"richtext"},{"content":{"title":"長者事工項目","columns":[{"icon":"users","title":"每週團契","description":"每週四查經、敬拜和午餐"},{"icon":"heart","title":"關懷探訪","description":"到府和機構探訪送上鼓勵"},{"icon":"calendar","title":"特別活動","description":"郊遊、慶祝活動和健康講座"},{"icon":"phone","title":"電話關懷","description":"定期致電問候和一起禱告"}]},"id":"seniors-programs","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: seniors0001

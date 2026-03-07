@@ -1,0 +1,11 @@
+Title: 執事團隊
+
+----
+
+Builder:
+
+[{"content":{"title":"執事團隊","subtitle":"僕人領袖"},"id":"deacons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的執事團隊與牧師團隊同工，為教會提供領導、監督和關懷。他們由會眾選出，以奉獻和謙卑的心服事。</p>"},"id":"deacons-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"朱約翰執事","role":"主席","bio":"朱弟兄在本會超過二十年，現任執事會主席。","email":""},{"name":"鄧詠詩執事","role":"文書","bio":"鄧姊妹負責教會行政和通訊事務。","email":""},{"name":"劉伯勤執事","role":"司庫","bio":"劉弟兄管理教會財務和報告。","email":""},{"name":"何美恩執事","role":"差傳執事","bio":"何姊妹統籌差傳事工和短宣活動。","email":""},{"name":"吳偉明執事","role":"崇拜執事","bio":"吳弟兄負責崇拜事工和影音服務。","email":""},{"name":"葉詠琪執事","role":"團契執事","bio":"葉姊妹統籌團契活動和會友關懷。","email":""}]},"id":"deacons-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: deacons01en01

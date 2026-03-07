@@ -1,0 +1,11 @@
+Title: 五年计划与方向
+
+----
+
+Builder:
+
+[{"content":{"title":"五年计划与方向","subtitle":"2024-2029 策略计划"},"id":"vision-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>展望未来，本立比华人播道会订定以下2024-2029年策略重点：</p><h3>1. 深化门训</h3><p>我们将透过三人行守望事工、小组和有意义的师徒关系，加强门训路径。</p><h3>2. 扩展青年及家庭事工</h3><p>我们将投资下一代，提升青少年事工、家庭事工和跨代连结。</p><h3>3. 社区外展</h3><p>我们将透过中文学校、社区活动和服务项目，增加在本拿比社区的临在。</p><h3>4. 差传焦点</h3><p>我们将在本地和海外扩展差传承担，差派短宣队并支持植堂。</p><h3>5. 领袖培育</h3><p>我们将发掘、训练和授权新一代领袖，在三个会众的各样事工中服事。</p>"},"id":"vision-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"与我们同行这异象","text":"我们邀请每位会友祷告、参与和伙拍我们，一同追求神对本立比华人播道会的呼召。","button_text":"联络我们","button_url":"/about/contact","variant":"primary","alignment":"center"},"id":"vision-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: vision001en01

@@ -1,0 +1,11 @@
+Title: 关于我们
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"认识我们","title":"关于本立比华人播道会","subtitle":"了解我们的教会、信仰、领袖团队，以及我们对未来的异象。","cta_primary_text":"我们的信仰","cta_primary_url":"/about/beliefs","cta_secondary_text":"联络我们","cta_secondary_url":"/about/contact","align":"center","height":"medium"},"id":"about-hero-001","isHidden":false,"type":"hero"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教会简介","text":"了解我们是谁，以及我们作为教会群体的使命。","url":"/about/intro","badge":""},{"title":"我们的信仰","text":"探索引导我们信仰的圣经根基和教义声明。","url":"/about/beliefs","badge":""},{"title":"牧者与同工","text":"认识服事教会的牧师团队和事工同工。","url":"/about/pastors","badge":""},{"title":"执事团队","text":"认识服事和带领教会的执事们。","url":"/about/deacons","badge":""},{"title":"教会历史","text":"探索我们从起初到今天的历程。","url":"/about/history","badge":""},{"title":"五年计划","text":"了解我们未来五年的事工计划和方向。","url":"/about/vision","badge":"新"}]},"id":"about-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: about001en000001

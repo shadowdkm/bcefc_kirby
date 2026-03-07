@@ -1,0 +1,11 @@
+Title: 团契
+
+----
+
+Builder:
+
+[{"content":{"heading":"团契","subheading":"在群体中一起成长","image":"","overlay":true},"id":"fel-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>在本那比华人播道会，我们相信灵命成长在群体中最能发生。我们的团契为各年龄层和人生阶段的人提供连结、研读神话语、一起祷告和建立持久友谊的空间。</p><p>无论您是年轻专业人士、正在养育家庭，还是享受退休生活，都有适合您的团契。每个小组定期聚会进行查经、祷告和社交活动。</p>"},"id":"fel-intro","isHidden":false,"type":"richtext"},{"content":{"title":"找到您的团契","columns":[{"image":"","title":"约瑟团契","text":"年轻已婚夫妇和有幼儿的家庭","link":"/fellowships/joseph"},{"image":"","title":"信心团契","text":"有学龄儿童的家庭","link":"/fellowships/faith"},{"image":"","title":"迦勒团契","text":"空巢期和成熟成年人","link":"/fellowships/caleb"},{"image":"","title":"G1-5团契","text":"1-5年级儿童","link":"/fellowships/g1-5"},{"image":"","title":"G6-9团契","text":"6-9年级青少年","link":"/fellowships/g6-9"},{"image":"","title":"G9-大专团契","text":"高中和大专学生","link":"/fellowships/g9-college"},{"image":"","title":"路得团契","text":"各年龄妇女团契","link":"/fellowships/ruth"},{"image":"","title":"弟兄团契","text":"各年龄弟兄团契","link":"/fellowships/mens"}]},"id":"fel-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: fellows001

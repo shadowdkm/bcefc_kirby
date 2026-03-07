@@ -1,0 +1,11 @@
+Title: Joseph Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Joseph Fellowship","subtitle":"約瑟團契"},"id":"joseph-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Joseph Fellowship is designed for young married couples and families with young children (ages 0-5). We understand the joys and challenges of this life stage and seek to support one another through community, biblical teaching, and practical encouragement.</p><h3>What We Do</h3><p>We gather weekly for Bible study, prayer, and fellowship. Our discussions often focus on topics relevant to young families: marriage enrichment, parenting, work-life balance, and growing together spiritually as a couple.</p><h3>Meeting Time</h3><p><strong>Fridays, 7:30 PM - 9:30 PM</strong><br>Childcare provided during meetings</p><h3>Activities</h3><ul><li>Weekly Bible study and prayer</li><li>Monthly family outings</li><li>Couples' date nights</li><li>Annual retreat</li><li>Parenting workshops</li></ul>"},"id":"joseph-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Joseph Fellowship","text":"<p>If you're a young couple or have young children, we'd love to have you join us! Contact our fellowship leaders to learn more.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"joseph-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: joseph0001

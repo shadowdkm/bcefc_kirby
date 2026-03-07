@@ -1,0 +1,11 @@
+Title: Ruth Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Ruth Fellowship","subtitle":"路得團契 - WOMEN'S MINISTRY"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Ruth Fellowship is our women's ministry, named after the biblical Ruth who exemplified loyalty, faith, and devotion. Women of all ages and life stages gather to grow in faith, support one another, and serve together.</p><h3>What We Do</h3><p>We meet for Bible study, prayer, and fellowship. Our discussions address the unique challenges and joys women face, from career and family to spiritual growth and service.</p><h3>Meeting Time</h3><p><strong>Thursdays, 10:00 AM - 12:00 PM</strong><br>Evening session: First Thursday of each month, 7:30 PM</p><h3>Activities</h3><ul><li>Weekly Bible study</li><li>Prayer partners</li><li>Women's retreat</li><li>Mother's Day celebration</li><li>Service projects</li><li>Mentorship program</li></ul>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Ruth Fellowship","text":"<p>All women are welcome! Whether you're looking for deep friendships, spiritual growth, or opportunities to serve, Ruth Fellowship is for you.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: ruthfel001

@@ -1,0 +1,11 @@
+Title: 儿童事工
+
+----
+
+Builder:
+
+[{"content":{"title":"儿童事工","subtitle":"一至五年级"},"id":"children-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的儿童事工致力于培育婴幼儿至五年级儿童的信仰。我们提供适龄的圣经教导、敬拜和活动，帮助儿童认识和爱耶稣。</p><h3>主日节目</h3><p>儿童主日学在所有崇拜时段进行，由受过训练和审核的义工带领。</p><h3>特别活动</h3><p>我们全年举办VBS（暑期圣经学校）、圣诞节目和家庭活动。</p>"},"id":"children-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: children00001

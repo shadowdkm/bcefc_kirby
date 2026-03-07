@@ -1,0 +1,11 @@
+Title: Sunday School
+
+----
+
+Builder:
+
+[{"content":{"title":"Sunday School","subtitle":"GROW IN GOD'S WORD"},"id":"ss-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Sunday School program offers Bible study classes for all ages, helping believers grow in their knowledge of Scripture and faith.</p>"},"id":"ss-intro-001","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"English Sunday School","text":"Classes for youth and adults covering books of the Bible, theology, and practical Christian living. Sundays at 9:30 AM.","url":"","badge":""},{"title":"Cantonese Sunday School","text":"Adult classes exploring Scripture, doctrine, and spiritual growth. Sundays at 9:30 AM.","url":"","badge":""},{"title":"Mandarin Sunday School","text":"Adult Bible study following the Mandarin worship service. Studies in Old and New Testament books.","url":"","badge":""},{"title":"Children's Sunday School","text":"Age-appropriate Bible teaching for children during all worship services. Nursery through Grade 5.","url":"","badge":""}]},"id":"ss-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: sundayschool01

@@ -1,0 +1,11 @@
+Title: Faith Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Faith Fellowship","subtitle":"信心團契"},"id":"faith-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Faith Fellowship brings together families with school-age children (grades K-6). We support one another through the adventures of parenting, school years, and raising children to know and love God.</p><h3>What We Do</h3><p>We meet regularly for Bible study, prayer, and fellowship. Topics often focus on faith formation in children, family discipleship, and navigating the challenges of raising kids in today's world.</p><h3>Meeting Time</h3><p><strong>Saturdays, 4:00 PM - 6:00 PM</strong><br>Children's program runs concurrently</p><h3>Activities</h3><ul><li>Weekly Bible study and prayer</li><li>Family game nights</li><li>Summer BBQs and picnics</li><li>Christmas party</li><li>Parent support groups</li></ul>"},"id":"faith-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Faith Fellowship","text":"<p>Have school-age kids? We'd love to connect with your family! Reach out to learn more about Faith Fellowship.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"faith-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faith00001

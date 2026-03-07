@@ -1,0 +1,11 @@
+Title: Church History
+
+----
+
+Builder:
+
+[{"content":{"title":"Church History","subtitle":"OUR JOURNEY OF FAITH"},"id":"history-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>1989 - The Beginning</h3><p>BCEFC was founded by a small group of Chinese Christians who gathered in a living room with a vision to reach the Chinese community in Burnaby with the Gospel.</p><h3>1992 - First Building</h3><p>The church moved into its first dedicated building on Kingsway, marking a significant milestone in our growth.</p><h3>2000 - Expansion</h3><p>As the congregation grew, we added an English service to reach the second generation and expanded our children's ministry.</p><h3>2010 - New Facilities</h3><p>We moved to our current location at 5250 Joyce Street, providing more space for worship, fellowship, and community outreach.</p><h3>2015 - Mandarin Ministry Launch</h3><p>Recognizing the growing Mandarin-speaking population, we launched a dedicated Mandarin worship service.</p><h3>2020 - Adapting Through Challenges</h3><p>During the pandemic, we embraced online ministry, reaching more people than ever through livestream and digital discipleship.</p><h3>Today</h3><p>BCEFC continues to grow as a multigenerational, trilingual community committed to making disciples and serving our neighbors.</p>"},"id":"history-content-001","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: history01en01

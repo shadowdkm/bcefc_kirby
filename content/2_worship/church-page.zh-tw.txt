@@ -1,0 +1,11 @@
+Title: 崇拜與聚會
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"與我們一起","title":"崇拜與聚會","subtitle":"透過敬拜、禱告和聖經教導，一同經歷神的同在。","cta_primary_text":"主日崇拜","cta_primary_url":"/worship/sunday-worship","cta_secondary_text":"講道重溫","cta_secondary_url":"/worship/sermons","align":"center","height":"medium"},"id":"worship-hero-001","isHidden":false,"type":"hero"},{"content":{"heading":"本週聚會時間","subheading":"JOIN US FOR WORSHIP THIS SUNDAY","view_all_text":"","view_all_url":"","services":[{"name":"國語崇拜","time":"每週日 09:15 AM","location":"教會禮堂","extra_info":"實體及網上同步","description":"提供實體崇拜及同步兒童主日學 (G1-5)。","cta_text":"詳情","cta_url":"/worship/sunday-worship","featured":"false"},{"name":"粵語崇拜","time":"每週日 11:00 AM","location":"實體 & YouTube 直播","extra_info":"設有線上直播","description":"粵語崇拜設有線上直播，讓遠途的朋友也能同步敬拜。","cta_text":"線上敬拜","cta_url":"https://youtube.com/@bcefc","featured":"true"},{"name":"English Worship","time":"Sunday 11:00 AM","location":"團契廳","extra_info":"Grade 9-College+","description":"英語崇拜專為年輕一代設計，融合現代敬拜。","cta_text":"詳情","cta_url":"/worship/sunday-worship","featured":"false"}]},"id":"worship-times-001","isHidden":false,"type":"worship-times"},{"content":{"columns":"2","card_style":"default","image_ratio":"3/2","items":[{"title":"祈禱會","text":"參加團體禱告，一同為教會、社區和世界代求。","url":"/worship/prayer-meeting","badge":""},{"title":"主日學","text":"為各年齡層設有英語、粵語和國語的聖經研讀班。","url":"/worship/sunday-school","badge":""},{"title":"講道重溫","text":"聆聽過往信息，讓神的話語激勵你。","url":"/worship/sermons","badge":""}]},"id":"worship-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: worship01en01

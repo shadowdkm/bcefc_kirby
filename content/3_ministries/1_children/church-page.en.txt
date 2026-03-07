@@ -1,0 +1,11 @@
+Title: Children's Ministry
+
+----
+
+Builder:
+
+[{"content":{"title":"Children's Ministry","subtitle":"GRADE 1-5"},"id":"children-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Children's Ministry is dedicated to nurturing faith in children from nursery through Grade 5. We provide age-appropriate Bible teaching, worship, and activities that help children know and love Jesus.</p><h3>Sunday Programs</h3><p>Children's Sunday School runs during all worship services with trained, screened volunteers.</p><h3>Special Events</h3><p>We host VBS (Vacation Bible School), Christmas programs, and family events throughout the year.</p>"},"id":"children-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: children00001

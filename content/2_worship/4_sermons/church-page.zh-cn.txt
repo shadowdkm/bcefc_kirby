@@ -1,0 +1,11 @@
+Title: 讲道重温
+
+----
+
+Builder:
+
+[{"content":{"title":"讲道重温","subtitle":"聆听神的话语"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>错过了主日或想重温信息？欢迎在线收听我们的讲道。</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"},{"content":{"title":"最新讲道","speaker":"黄大卫牧师","date":"2025年3月2日","series":"与神同行","scripture":"诗篇 23:1-6","video_url":"https://youtube.com/watch?v=example1","audio_url":"","description":"在这篇信息中，黄牧师探索诗篇23篇的美丽意象，以及以耶和华为牧者的意义。"},"id":"sermon-featured-001","isHidden":false,"type":"sermon-card"},{"content":{"title":"近期讲道","speaker":"陈明理牧师","date":"2025年2月23日","series":"与神同行","scripture":"诗篇 27:1-14","video_url":"https://youtube.com/watch?v=example2","audio_url":"","description":"在患难中寻求神的面，信靠祂的救恩。"},"id":"sermon-recent-001","isHidden":false,"type":"sermon-card"},{"content":{"embed_type":"video","embed_url":"https://www.youtube.com/embed/playlist?list=PLexample","title":"讲道播放清单","caption":"在YouTube观看完整讲道存档"},"id":"sermons-playlist-001","isHidden":false,"type":"media-embed"}]
+
+----
+
+Uuid: sermons00001

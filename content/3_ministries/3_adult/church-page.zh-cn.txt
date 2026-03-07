@@ -1,0 +1,11 @@
+Title: 成人事工
+
+----
+
+Builder:
+
+[{"content":{"title":"成人事工","subtitle":"在信仰中一同成长"},"id":"adult-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的成人事工为各年龄层和人生阶段的成年人提供灵命成长、团契和服事的机会。我们相信门徒训练是一生的旅程，并提供各种课程来支持您与基督同行。</p><h3>主日学课程</h3><p>欢迎参加我们在崇拜期间举行的成人主日学课程。课程提供英语、粤语和普通话选择。</p><h3>小组团契</h3><p>在小组环境中与他人连结，一起查经、祷告和彼此鼓励。小组在一周内于不同地点聚会。</p><h3>装备课程</h3><p>定期开设的课程涵盖圣经研读方法、神学、属灵操练和实用基督徒生活等主题。</p>"},"id":"adult-content","isHidden":false,"type":"richtext"},{"content":{"title":"目前提供的事工","columns":[{"icon":"users","title":"主日学","description":"崇拜期间提供三种语言的多个课程"},{"icon":"book","title":"查经班","description":"周间针对不同书卷和主题的研读"},{"icon":"heart","title":"祷告小组","description":"每周代祷和支持的祷告聚会"},{"icon":"compass","title":"门徒训练","description":"一对一和小组的辅导关系"}]},"id":"adult-offerings","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: adult000001

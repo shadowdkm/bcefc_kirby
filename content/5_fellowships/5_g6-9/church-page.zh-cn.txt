@@ -1,0 +1,11 @@
+Title: G6-9团契
+
+----
+
+Builder:
+
+[{"content":{"title":"G6-9团契","subtitle":"6-9年级"},"id":"g69-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>G6-9团契是我们为6-9年级学生设计的初中事工。这是年轻人开始拥有自己信仰的关键时期，我们在这里引导和支持他们度过这些转变的岁月。</p><h3>我们做什么</h3><p>我们创造一个环境，让青少年可以探索信仰、提出困难的问题，并建立真诚的友谊。我们的领袖透过辅导、有趣的活动和相关的圣经教导投资在学生的生命中。</p><h3>聚会时间</h3><p><strong>周五晚上7:30 - 9:30</strong></p><h3>活动内容</h3><ul><li>生动的查经</li><li>敬拜和祷告</li><li>游戏和交谊时间</li><li>小组讨论</li><li>退修会和营会</li><li>服务项目</li></ul>"},"id":"g69-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入G6-9！","text":"<p>如果你是6-9年级的学生，欢迎来看看！我们随时欢迎新朋友。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"g69-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g69fell001

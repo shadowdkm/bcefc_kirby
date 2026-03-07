@@ -1,0 +1,11 @@
+Title: Family Ministry
+
+----
+
+Builder:
+
+[{"content":{"title":"Family Ministry","subtitle":"STRENGTHENING HOMES FOR CHRIST"},"id":"family-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Family Ministry exists to strengthen marriages and families by equipping them with biblical principles and providing support through every stage of family life.</p><h3>Marriage Enrichment</h3><p>We offer marriage workshops, date nights, and couples' retreats to help strengthen the bond between husbands and wives.</p><h3>Parenting Resources</h3><p>Classes and resources for parents on raising children with biblical values, from toddlers through teenagers.</p><h3>Family Events</h3><p>Regular family-friendly events that bring generations together for fun, fellowship, and faith-building activities.</p>"},"id":"family-content","isHidden":false,"type":"richtext"},{"content":{"title":"Family Programs","columns":[{"icon":"heart","title":"Marriage Ministry","description":"Workshops, retreats, and counseling for couples"},{"icon":"users","title":"Parenting Classes","description":"Biblical guidance for raising children at every age"},{"icon":"calendar","title":"Family Events","description":"Picnics, game nights, and holiday celebrations"},{"icon":"home","title":"Family Devotions","description":"Resources for worship and Bible study at home"}]},"id":"family-programs","isHidden":false,"type":"icon-feature-grid"}]
+
+----
+
+Uuid: family00001

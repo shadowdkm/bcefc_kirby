@@ -1,0 +1,11 @@
+Title: 牧者與同工
+
+----
+
+Builder:
+
+[{"content":{"title":"牧者與同工","subtitle":"我們的事工團隊"},"id":"pastors-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的牧師團隊和事工同工致力於服事會眾，裝備信徒參與事工。</p>"},"id":"pastors-intro-001","isHidden":false,"type":"richtext"},{"content":{"layout":"grid","people":[{"name":"黃大衛牧師","role":"主任牧師","bio":"黃牧師自2010年起在本會服事，負責督導粵語會眾，並提供整體屬靈領導。","email":"david@bcefc.ca"},{"name":"陳明理牧師","role":"國語牧師","bio":"陳牧師帶領國語會眾，專注於門徒訓練和成人教育。","email":"michael@bcefc.ca"},{"name":"李約翰牧師","role":"英語牧師","bio":"李牧師服事英語會眾和青少年事工，熱切渴望接觸下一代。","email":"jonathan@bcefc.ca"},{"name":"林恩惠傳道","role":"兒童事工主任","bio":"林傳道督導所有語言群體的兒童事工和主日學課程。","email":"grace@bcefc.ca"}]},"id":"pastors-list-001","isHidden":false,"type":"people-list"}]
+
+----
+
+Uuid: pastors01en001

@@ -1,0 +1,11 @@
+Title: 主日学
+
+----
+
+Builder:
+
+[{"content":{"title":"主日学","subtitle":"在神的话语中成长"},"id":"ss-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的主日学为各年龄层设有圣经研读班，帮助信徒在圣经知识和信仰上成长。</p>"},"id":"ss-intro-001","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"英语主日学","text":"为青年和成人设有圣经书卷、神学和基督徒生活的课程。主日上午9:30。","url":"","badge":""},{"title":"粤语主日学","text":"成人班探索圣经、教义和灵命成长。主日上午9:30。","url":"","badge":""},{"title":"国语主日学","text":"国语崇拜后设有成人圣经研读，涵盖新旧约书卷。","url":"","badge":""},{"title":"儿童主日学","text":"在所有崇拜时段为儿童提供适龄的圣经教导。婴幼儿至五年级。","url":"","badge":""}]},"id":"ss-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: sundayschool01

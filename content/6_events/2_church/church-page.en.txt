@@ -1,0 +1,11 @@
+Title: Church Events
+
+----
+
+Builder:
+
+[{"content":{"title":"Church Events","subtitle":"CELEBRATING TOGETHER"},"id":"church-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Special services, seasonal celebrations, and church family gatherings that bring us together to worship, fellowship, and grow.</p><h3>Annual Events</h3>"},"id":"church-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Church Calendar Highlights","columns":[{"icon":"calendar","title":"Easter Celebration","description":"Special Good Friday and Easter Sunday services"},{"icon":"heart","title":"Church Anniversary","description":"Annual celebration of God's faithfulness to our church"},{"icon":"users","title":"Family Camp","description":"Summer retreat for all ages at Camp Qwanoes"},{"icon":"gift","title":"Christmas Celebration","description":"Cantata, children's program, and Christmas Eve service"}]},"id":"church-events","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>Other Regular Events</h3><ul><li><strong>Baptism Sundays:</strong> Quarterly baptism services</li><li><strong>New Members Class:</strong> For those interested in membership</li><li><strong>Church-wide Prayer Meetings:</strong> Special united prayer gatherings</li><li><strong>Thanksgiving Dinner:</strong> Annual potluck celebration</li><li><strong>Church Picnic:</strong> Summer outdoor fellowship</li></ul>"},"id":"church-list","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: churchevt1

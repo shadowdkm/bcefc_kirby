@@ -1,0 +1,11 @@
+Title: 常见问题
+
+----
+
+Builder:
+
+[{"content":{"title":"常见问题","subtitle":"解答您的疑问"},"id":"faq-header","isHidden":false,"type":"section-header"},{"content":{"items":[{"question":"聚会时间是什么时候？","answer":"我们主日有三堂崇拜：英语和粤语崇拜在上午9:15，国语崇拜在上午11:00。"},{"question":"应该穿什么？","answer":"随意穿着！您会看到穿休闲服到正装的人都有。我们更在意您的到来，而不是您的穿着。"},{"question":"有停车位吗？","answer":"有！我们有免费停车场，附近街道也有停车位。"},{"question":"有儿童节目吗？","answer":"有！我们在所有聚会期间为从婴幼儿到12年级的儿童提供适龄节目。报到处在大堂。"},{"question":"聚会用什么语言？","answer":"我们提供英语、粤语和国语聚会。中文聚会期间可使用耳机收听英语翻译。"},{"question":"聚会多长时间？","answer":"我们的聚会通常约75-90分钟，包括敬拜、报告和讲道。"},{"question":"我需要奉献吗？","answer":"完全没有义务！奉献是我们会友的敬拜行为，但从不期望访客奉献。"},{"question":"如何连结？","answer":"连结的最佳方式是填写访客卡、参加每月的新朋友午餐，或加入团契。我们的同工很乐意帮助您找到您的位置！"}]},"id":"faq-accordion","isHidden":false,"type":"accordion"},{"content":{"title":"还有问题？","text":"<p>我们很乐意听到您的消息！联系教会办公室，我们很乐意帮助。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"faq-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faq0000001

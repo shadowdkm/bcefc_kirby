@@ -1,0 +1,11 @@
+Title: FAQ
+
+----
+
+Builder:
+
+[{"content":{"title":"Frequently Asked Questions","subtitle":"YOUR QUESTIONS ANSWERED"},"id":"faq-header","isHidden":false,"type":"section-header"},{"content":{"items":[{"question":"What time are the services?","answer":"We have three services on Sunday: English and Cantonese at 9:15 AM, and Mandarin at 11:00 AM."},{"question":"What should I wear?","answer":"Come as you are! You'll find people in casual clothes to business attire. We care more about your presence than what you wear."},{"question":"Is there parking available?","answer":"Yes! We have a free parking lot on site, with additional street parking available nearby."},{"question":"Do you have programs for children?","answer":"Yes! We offer age-appropriate programs for children from nursery through Grade 12 during all our services. Check-in is in the main lobby."},{"question":"What language are the services in?","answer":"We offer services in English, Cantonese, and Mandarin. English translation is available during our Chinese services via headsets."},{"question":"How long is the service?","answer":"Our services typically last about 75-90 minutes, including worship, announcements, and the sermon."},{"question":"Do I need to give money?","answer":"No obligation at all! Giving is an act of worship for our members, but visitors are never expected to give."},{"question":"How can I get connected?","answer":"The best way to get connected is to fill out a visitor card, attend our newcomers lunch (monthly), or join a fellowship group. Our staff would love to help you find your place!"}]},"id":"faq-accordion","isHidden":false,"type":"accordion"},{"content":{"title":"Still Have Questions?","text":"<p>We'd love to hear from you! Contact our church office and we'll be happy to help.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"faq-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faq0000001

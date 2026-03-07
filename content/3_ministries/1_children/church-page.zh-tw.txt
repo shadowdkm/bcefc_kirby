@@ -1,0 +1,11 @@
+Title: 兒童事工
+
+----
+
+Builder:
+
+[{"content":{"title":"兒童事工","subtitle":"一至五年級"},"id":"children-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的兒童事工致力於培育嬰幼兒至五年級兒童的信仰。我們提供適齡的聖經教導、敬拜和活動，幫助兒童認識和愛耶穌。</p><h3>主日節目</h3><p>兒童主日學在所有崇拜時段進行，由受過訓練和審核的義工帶領。</p><h3>特別活動</h3><p>我們全年舉辦VBS（暑期聖經學校）、聖誕節目和家庭活動。</p>"},"id":"children-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: children00001

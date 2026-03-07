@@ -1,0 +1,11 @@
+Title: 聯絡我們
+
+----
+
+Builder:
+
+[{"content":{"title":"聯絡我們","subtitle":"我們樂意聽到你的聲音"},"id":"contact-header-001","isHidden":false,"type":"section-header"},{"content":{"church_name":"本立比華人播道會","address":"5250 Joyce Street, Vancouver, BC V5R 4H1","phone":"(604) 438-6622","email":"info@bcefc.ca","office_hours":"週一至週五：上午9時至下午5時","map_embed_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.5!2d-123.0!3d49.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEzJzEyLjAiTiAxMjPCsDAyJzI0LjAiVw!5e0!3m2!1sen!2sca!4v1234567890","social_links":[{"platform":"facebook","url":"https://facebook.com/bcefc"},{"platform":"youtube","url":"https://youtube.com/@bcefc"},{"platform":"instagram","url":"https://instagram.com/bcefc"}]},"id":"contact-info-001","isHidden":false,"type":"contact-footer"},{"content":{"title":"發送訊息給我們","text":"有問題嗎？填寫以下表格，我們會盡快回覆你。","button_text":"聯絡表格","button_url":"https://forms.google.com/bcefc-contact","button_style":"embed"},"id":"contact-form-001","isHidden":false,"type":"form-signup"}]
+
+----
+
+Uuid: contact01en01

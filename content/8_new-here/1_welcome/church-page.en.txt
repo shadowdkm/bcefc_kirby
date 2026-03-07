@@ -1,0 +1,11 @@
+Title: Welcome
+
+----
+
+Builder:
+
+[{"content":{"title":"Welcome to BCEFC","subtitle":"YOUR FIRST VISIT"},"id":"welcome-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>We're so glad you're considering visiting us! Here's everything you need to know to make your first visit comfortable and meaningful.</p><h3>What to Expect</h3><p>When you arrive, greeters will welcome you at the door and help you find your way. Feel free to grab a coffee or tea before the service!</p><h3>Service Times</h3><ul><li><strong>English Service:</strong> Sundays at 9:15 AM</li><li><strong>Cantonese Service:</strong> Sundays at 9:15 AM</li><li><strong>Mandarin Service:</strong> Sundays at 11:00 AM</li></ul><h3>What to Wear</h3><p>Come as you are! You'll find people in everything from casual clothes to business attire. We care more about your presence than your outfit.</p><h3>Children & Youth</h3><p>We have programs for all ages during each service. Children's check-in is in the main lobby. Our trained volunteers provide a safe, fun environment for your kids.</p><h3>Location & Parking</h3><p>We're located at 7135 Walker Avenue, Burnaby BC. Free parking is available in our lot, with overflow parking on the street.</p>"},"id":"welcome-content","isHidden":false,"type":"richtext"},{"content":{"title":"Plan Your Visit","text":"<p>Have questions? We'd love to hear from you before your visit!</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"welcome-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: welcome001

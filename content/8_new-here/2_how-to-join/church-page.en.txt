@@ -1,0 +1,11 @@
+Title: How to Join
+
+----
+
+Builder:
+
+[{"content":{"title":"How to Join BCEFC","subtitle":"BECOME PART OF OUR FAMILY"},"id":"join-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>We're so glad you're considering making BCEFC your church home! Membership is more than having your name on a list—it's committing to a community of believers and being committed to in return.</p><h3>Membership Requirements</h3><ol><li><strong>Personal faith in Jesus Christ</strong> - Have you accepted Jesus as your Lord and Savior?</li><li><strong>Baptism</strong> - Have you been baptized as a believer? (We offer baptism classes if not)</li><li><strong>Membership Class</strong> - Attend our membership class to learn about our beliefs, values, and community</li><li><strong>Interview</strong> - Meet with a pastor or elder to share your testimony and ask questions</li></ol><h3>Membership Class</h3><p>Our membership class covers:</p><ul><li>Our history and mission</li><li>Our statement of faith</li><li>Our church structure and leadership</li><li>The meaning of membership and the member covenant</li><li>How to get connected</li></ul><p>Classes are held quarterly. The next class is announced in our bulletin.</p>"},"id":"join-content","isHidden":false,"type":"richtext"},{"content":{"title":"Start the Process","text":"<p>Ready to take the next step? Contact our church office to sign up for the next membership class.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"join-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: howtojoin1

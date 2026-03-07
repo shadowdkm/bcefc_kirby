@@ -1,0 +1,11 @@
+Title: 约瑟团契
+
+----
+
+Builder:
+
+[{"content":{"title":"约瑟团契","subtitle":"JOSEPH FELLOWSHIP"},"id":"joseph-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>约瑟团契是为年轻已婚夫妇和有幼儿（0-5岁）的家庭设计的。我们理解这个人生阶段的喜乐和挑战，并透过群体、圣经教导和实际鼓励彼此支持。</p><h3>我们做什么</h3><p>我们每周聚会进行查经、祷告和团契。我们的讨论通常围绕与年轻家庭相关的主题：婚姻增进、育儿、工作与生活平衡，以及夫妻一起灵命成长。</p><h3>聚会时间</h3><p><strong>周五晚上7:30 - 9:30</strong><br>聚会期间提供儿童照顾</p><h3>活动</h3><ul><li>每周查经和祷告</li><li>每月家庭郊游</li><li>夫妻约会之夜</li><li>年度退修会</li><li>育儿工作坊</li></ul>"},"id":"joseph-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入约瑟团契","text":"<p>如果您是年轻夫妇或有幼儿，我们很欢迎您加入！请联系我们的团契负责人了解更多。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"joseph-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: joseph0001

@@ -1,0 +1,11 @@
+Title: 崇拜与聚会
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"与我们一起","title":"崇拜与聚会","subtitle":"透过敬拜、祷告和圣经教导，一同经历神的同在。","cta_primary_text":"主日崇拜","cta_primary_url":"/worship/sunday-worship","cta_secondary_text":"讲道重温","cta_secondary_url":"/worship/sermons","align":"center","height":"medium"},"id":"worship-hero-001","isHidden":false,"type":"hero"},{"content":{"heading":"本周聚会时间","subheading":"JOIN US FOR WORSHIP THIS SUNDAY","view_all_text":"","view_all_url":"","services":[{"name":"国语崇拜","time":"每周日 09:15 AM","location":"教会礼堂","extra_info":"实体及网上同步","description":"提供实体崇拜及同步儿童主日学 (G1-5)。","cta_text":"详情","cta_url":"/worship/sunday-worship","featured":"false"},{"name":"粤语崇拜","time":"每周日 11:00 AM","location":"实体 & YouTube 直播","extra_info":"设有线上直播","description":"粤语崇拜设有线上直播，让远途的朋友也能同步敬拜。","cta_text":"线上敬拜","cta_url":"https://youtube.com/@bcefc","featured":"true"},{"name":"English Worship","time":"Sunday 11:00 AM","location":"团契厅","extra_info":"Grade 9-College+","description":"英语崇拜专为年轻一代设计，融合现代敬拜。","cta_text":"详情","cta_url":"/worship/sunday-worship","featured":"false"}]},"id":"worship-times-001","isHidden":false,"type":"worship-times"},{"content":{"columns":"2","card_style":"default","image_ratio":"3/2","items":[{"title":"祈祷会","text":"参加团体祷告，一同为教会、社区和世界代求。","url":"/worship/prayer-meeting","badge":""},{"title":"主日学","text":"为各年龄层设有英语、粤语和国语的圣经研读班。","url":"/worship/sunday-school","badge":""},{"title":"讲道重温","text":"聆听过往信息，让神的话语激励你。","url":"/worship/sermons","badge":""}]},"id":"worship-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: worship01en01

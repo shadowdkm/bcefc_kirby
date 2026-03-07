@@ -1,0 +1,11 @@
+Title: Our Beliefs
+
+----
+
+Builder:
+
+[{"content":{"title":"Our Beliefs","subtitle":"STATEMENT OF FAITH"},"id":"beliefs-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>As members of the Evangelical Free Church of Canada (EFCC), we hold to the following core beliefs:</p><h3>The Bible</h3><p>We believe the Scriptures, both Old and New Testaments, to be the inspired Word of God, without error in the original writings, the complete revelation of His will for the salvation of men, and the Divine and final authority for Christian faith and life.</p><h3>God</h3><p>We believe in one God, Creator of all things, holy, sovereign, eternal, existing in three equal Persons: Father, Son, and Holy Spirit.</p><h3>Jesus Christ</h3><p>We believe that Jesus Christ is true God and true man, having been conceived of the Holy Spirit and born of the Virgin Mary. He died on the cross as a sacrifice for our sins according to the Scriptures. He arose bodily from the dead and ascended into heaven where He sits at the right hand of the Father.</p><h3>Salvation</h3><p>We believe that salvation is by grace through faith in Jesus Christ alone. Good works are the evidence of salvation but not its basis.</p><h3>The Church</h3><p>We believe in the universal Church, a living spiritual body of which Christ is the head and all regenerated persons are members.</p>"},"id":"beliefs-content-001","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: beliefs01en0001

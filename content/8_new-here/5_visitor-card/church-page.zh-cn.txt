@@ -1,0 +1,11 @@
+Title: 访客卡
+
+----
+
+Builder:
+
+[{"content":{"title":"访客卡","subtitle":"让我们知道您要来"},"id":"visitor-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>计划到访本那比华人播道会？我们很想知道您要来，好准备欢迎您！</p><p>填写访客卡帮助我们：</p><ul><li>安排招待员亲自欢迎您</li><li>准备一份欢迎资料袋，内有教会资讯</li><li>在您到访前回答您的任何问题</li><li>将您与合适的人和事工连结</li></ul><h3>我们会问什么</h3><p>访客卡会询问基本资讯：</p><ul><li>您的姓名和联系方式</li><li>您计划参加哪堂聚会</li><li>是否有孩子需要报到</li><li>任何问题或特别需要</li></ul><h3>您的隐私</h3><p>我们尊重您的隐私。您的资讯只会用于欢迎您和帮助您连结。我们不会与教会同工以外的任何人分享您的资讯。</p>"},"id":"visitor-content","isHidden":false,"type":"richtext"},{"content":{"title":"填写访客卡","text":"<p>准备好让我们知道您要来？填写我们的网上访客卡或直接发电邮给我们。</p>","button_text":"发送电邮","button_url":"mailto:office@bcefc.ca?subject=Visitor Card"},"id":"visitor-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: visitor001

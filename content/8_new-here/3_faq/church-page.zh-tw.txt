@@ -1,0 +1,11 @@
+Title: 常見問題
+
+----
+
+Builder:
+
+[{"content":{"title":"常見問題","subtitle":"解答您的疑問"},"id":"faq-header","isHidden":false,"type":"section-header"},{"content":{"items":[{"question":"聚會時間是什麼時候？","answer":"我們主日有三堂崇拜：英語和粵語崇拜在上午9:15，國語崇拜在上午11:00。"},{"question":"應該穿什麼？","answer":"隨意穿著！您會看到穿休閒服到正裝的人都有。我們更在意您的到來，而不是您的穿著。"},{"question":"有停車位嗎？","answer":"有！我們有免費停車場，附近街道也有停車位。"},{"question":"有兒童節目嗎？","answer":"有！我們在所有聚會期間為從嬰幼兒到12年級的兒童提供適齡節目。報到處在大堂。"},{"question":"聚會用什麼語言？","answer":"我們提供英語、粵語和國語聚會。中文聚會期間可使用耳機收聽英語翻譯。"},{"question":"聚會多長時間？","answer":"我們的聚會通常約75-90分鐘，包括敬拜、報告和講道。"},{"question":"我需要奉獻嗎？","answer":"完全沒有義務！奉獻是我們會友的敬拜行為，但從不期望訪客奉獻。"},{"question":"如何連結？","answer":"連結的最佳方式是填寫訪客卡、參加每月的新朋友午餐，或加入團契。我們的同工很樂意幫助您找到您的位置！"}]},"id":"faq-accordion","isHidden":false,"type":"accordion"},{"content":{"title":"還有問題？","text":"<p>我們很樂意聽到您的消息！聯繫教會辦公室，我們很樂意幫助。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"faq-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faq0000001

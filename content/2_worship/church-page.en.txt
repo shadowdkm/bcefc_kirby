@@ -1,0 +1,11 @@
+Title: Worship & Gatherings
+
+----
+
+Builder:
+
+[{"content":{"eyebrow":"Join Us","title":"Worship & Gatherings","subtitle":"Experience God's presence with us through worship, prayer, and biblical teaching.","cta_primary_text":"Sunday Worship","cta_primary_url":"/worship/sunday-worship","cta_secondary_text":"Sermons","cta_secondary_url":"/worship/sermons","align":"center","height":"medium"},"id":"worship-hero-001","isHidden":false,"type":"hero"},{"content":{"heading":"This Week's Service Times","subheading":"JOIN US FOR WORSHIP THIS SUNDAY","view_all_text":"","view_all_url":"","services":[{"name":"Mandarin Worship","time":"Every Sunday 9:15 AM","location":"Church Sanctuary","extra_info":"Physical & Online","description":"Mandarin worship service with simultaneous children's Sunday School (G1-5).","cta_text":"Details","cta_url":"/worship/sunday-worship","featured":"false"},{"name":"Cantonese Worship","time":"Every Sunday 11:00 AM","location":"Physical & YouTube Live","extra_info":"Livestream available","description":"Cantonese worship service with online livestream for those unable to attend in person.","cta_text":"Watch Online","cta_url":"https://youtube.com/@bcefc","featured":"true"},{"name":"English Worship","time":"Sunday 11:00 AM","location":"Fellowship Hall","extra_info":"Grade 9-College+","description":"Contemporary service focusing on the young generation with modern worship.","cta_text":"Details","cta_url":"/worship/sunday-worship","featured":"false"}]},"id":"worship-times-001","isHidden":false,"type":"worship-times"},{"content":{"columns":"2","card_style":"default","image_ratio":"3/2","items":[{"title":"Prayer Meeting","text":"Join us for corporate prayer as we lift up our church, community, and world.","url":"/worship/prayer-meeting","badge":""},{"title":"Sunday School","text":"Bible study classes for all ages in English, Cantonese, and Mandarin.","url":"/worship/sunday-school","badge":""},{"title":"Sermons","text":"Listen to past messages and be encouraged by God's Word.","url":"/worship/sermons","badge":""}]},"id":"worship-cards-001","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: worship01en01

@@ -1,0 +1,11 @@
+Title: Youth Ministry
+
+----
+
+Builder:
+
+[{"content":{"title":"Youth Ministry","subtitle":"GRADES 6-12 & COLLEGE"},"id":"youth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our Youth Ministry helps teens and young adults grow in their faith through fellowship, discipleship, and service opportunities.</p><h3>Junior High (Grades 6-9)</h3><p>Friday nights 7:00-9:00 PM. Games, worship, small groups, and biblical teaching.</p><h3>Senior High & College (Grade 9+)</h3><p>Sunday worship at 11:00 AM, plus Friday night youth group and small groups throughout the week.</p>"},"id":"youth-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: youth0000001

@@ -1,0 +1,11 @@
+Title: 消息
+
+----
+
+Builder:
+
+[{"content":{"heading":"最新消息","subheading":"緊貼本那比華人播道會動態","image":"","overlay":true},"id":"news-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>緊貼教會家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"title":"最新消息","columns":[{"image":"","title":"春季培靈會","text":"3月15-17日參加由陳大衛牧師主講的特別培靈會。","link":"/news/20250301_spring-revival"},{"image":"","title":"家庭營報名開放","text":"立即報名7月4-7日在Camp Qwanoes舉行的年度家庭營。","link":"/news/20250215_family-camp"},{"image":"","title":"中文學校報名","text":"2025-2026學年報名於2月1日開放。","link":"/news/20250201_chinese-school-registration"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: news000001

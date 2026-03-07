@@ -1,0 +1,11 @@
+Title: 歡迎
+
+----
+
+Builder:
+
+[{"content":{"title":"歡迎來到本那比華人播道會","subtitle":"您的第一次到訪"},"id":"welcome-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們很高興您考慮來訪！以下是讓您第一次到訪舒適又有意義所需知道的一切。</p><h3>可以期待什麼</h3><p>當您到達時，招待員會在門口歡迎您並幫助您找到方向。聚會前歡迎先取杯咖啡或茶！</p><h3>聚會時間</h3><ul><li><strong>英語崇拜：</strong>主日上午9:15</li><li><strong>粵語崇拜：</strong>主日上午9:15</li><li><strong>國語崇拜：</strong>主日上午11:00</li></ul><h3>穿著</h3><p>隨意穿著！您會看到穿休閒服到正裝的人都有。我們更在意您的到來，而不是您的穿著。</p><h3>兒童與青少年</h3><p>每堂聚會我們都有適合各年齡的節目。兒童報到處在大堂。我們受過訓練的義工為您的孩子提供安全、有趣的環境。</p><h3>地點與停車</h3><p>我們位於Burnaby BC的7135 Walker Avenue。停車場提供免費停車，街道上也有溢出停車位。</p>"},"id":"welcome-content","isHidden":false,"type":"richtext"},{"content":{"title":"計劃您的到訪","text":"<p>有問題嗎？我們很樂意在您到訪前聽到您的消息！</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"welcome-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: welcome001

@@ -1,0 +1,11 @@
+Title: 家庭营报名现已开放
+
+----
+
+Builder:
+
+[{"content":{"title":"家庭营报名现已开放","subtitle":"2025年7月4-7日"},"id":"camp-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>发布日期：</strong>2025年2月15日</p><p>记下日期！我们在Camp Qwanoes举行的年度家庭营回来了，报名现已开放。</p><h3>营会详情</h3><ul><li><strong>日期：</strong>2025年7月4日（周五）- 7月7日（周一）</li><li><strong>地点：</strong>Camp Qwanoes, Crofton, BC</li><li><strong>主题：</strong>「在基督里扎根」（歌罗西书2:6-7）</li><li><strong>讲员：</strong>黄牧师</li></ul><h3>营会内容</h3><p>家庭营是我们教会年度的亮点！享受：</p><ul><li>激励人心的信息和敬拜聚会</li><li>适合各年龄的儿童和青少年节目</li><li>家庭活动和亲子时间</li><li>户外冒险：游泳、远足、划船</li><li>营火团契和烤棉花糖</li><li>美味的餐点和小食</li></ul><h3>费用</h3><p>成人：$180 | 青少年（12-17岁）：$140 | 儿童（4-11岁）：$100 | 4岁以下：免费<br>家庭最高：$550</p><p>早鸟优惠：5月1日前报名可享九折！</p>"},"id":"camp-content","isHidden":false,"type":"richtext"},{"content":{"title":"为您的家庭报名","text":"<p>名额有限！尽早报名以确保您的位置。</p>","button_text":"立即报名","button_url":"/about/contact"},"id":"camp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news_fc001

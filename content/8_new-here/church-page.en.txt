@@ -1,0 +1,11 @@
+Title: New Here
+
+----
+
+Builder:
+
+[{"content":{"heading":"New Here?","subheading":"We're So Glad You Found Us!","image":"","overlay":true},"id":"new-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>Welcome to Burnaby Chinese Evangelical Free Church! Whether you're exploring faith for the first time, looking for a church home, or just visiting the area, we're glad you're here.</p><p>We know visiting a new church can feel overwhelming. We want to make your first visit as comfortable as possible.</p>"},"id":"new-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Getting Started","columns":[{"image":"","title":"Welcome","text":"Learn what to expect on your first visit","link":"/new-here/welcome"},{"image":"","title":"How to Join","text":"Ready to make BCEFC your church home?","link":"/new-here/how-to-join"},{"image":"","title":"FAQ","text":"Common questions answered","link":"/new-here/faq"},{"image":"","title":"Contact Us","text":"Get in touch with our team","link":"/new-here/contact"},{"image":"","title":"Visitor Card","text":"Let us know you're coming!","link":"/new-here/visitor-card"}]},"id":"new-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: newhere001

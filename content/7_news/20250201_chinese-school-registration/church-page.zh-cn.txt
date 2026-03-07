@@ -1,0 +1,11 @@
+Title: 中文学校2月1日开放报名
+
+----
+
+Builder:
+
+[{"content":{"title":"中文学校2月1日开放报名","subtitle":"2025-2026学年"},"id":"csreg-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>发布日期：</strong>2025年2月1日</p><p>我们很高兴宣布2025-2026学年中文学校报名现已开放！</p><h3>重要日期</h3><ul><li><strong>早鸟报名：</strong>2月1日 - 3月15日（省$20）</li><li><strong>正常报名：</strong>3月16日 - 8月31日</li><li><strong>开学日期：</strong>2025年9月6日</li></ul><h3>本年度新内容</h3><p>我们很高兴宣布来年的几项改进：</p><ul><li>为母语学生新设高级普通话班</li><li>更新课程，增加更多互动教材</li><li>新增周六下午时段选择</li><li>新家长义工计划</li></ul><h3>如何报名</h3><p>请访问我们的中文学校报名页面下载表格，了解学费和课程选择。在校学生享有优先报名权。</p><p>如有疑问，请联系中文学校办公室：chineseschool@bcefc.ca 或致电 (604) 555-1234。</p>"},"id":"csreg-content","isHidden":false,"type":"richtext"},{"content":{"title":"立即报名","text":"<p>不要错过早鸟截止日期！3月15日前报名可省$20。</p>","button_text":"前往报名","button_url":"/chinese-school/registration"},"id":"csreg-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news_cs001

@@ -1,0 +1,11 @@
+Title: Contact Us
+
+----
+
+Builder:
+
+[{"content":{"title":"Contact Us","subtitle":"WE'D LOVE TO HEAR FROM YOU"},"id":"contact-header-001","isHidden":false,"type":"section-header"},{"content":{"church_name":"Burnaby Chinese Evangelical Free Church","address":"5250 Joyce Street, Vancouver, BC V5R 4H1","phone":"(604) 438-6622","email":"info@bcefc.ca","office_hours":"Monday - Friday: 9:00 AM - 5:00 PM","map_embed_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.5!2d-123.0!3d49.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEzJzEyLjAiTiAxMjPCsDAyJzI0LjAiVw!5e0!3m2!1sen!2sca!4v1234567890","social_links":[{"platform":"facebook","url":"https://facebook.com/bcefc"},{"platform":"youtube","url":"https://youtube.com/@bcefc"},{"platform":"instagram","url":"https://instagram.com/bcefc"}]},"id":"contact-info-001","isHidden":false,"type":"contact-footer"},{"content":{"title":"Send Us a Message","text":"Have questions? Fill out the form below and we'll get back to you as soon as possible.","button_text":"Contact Form","button_url":"https://forms.google.com/bcefc-contact","button_style":"embed"},"id":"contact-form-001","isHidden":false,"type":"form-signup"}]
+
+----
+
+Uuid: contact01en01

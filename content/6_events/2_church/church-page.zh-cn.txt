@@ -1,0 +1,11 @@
+Title: 教会活动
+
+----
+
+Builder:
+
+[{"content":{"title":"教会活动","subtitle":"一起庆祝"},"id":"church-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>特别聚会、季节庆典和教会家庭聚会，让我们聚在一起敬拜、团契和成长。</p><h3>年度活动</h3>"},"id":"church-intro","isHidden":false,"type":"richtext"},{"content":{"title":"教会行事历重点","columns":[{"icon":"calendar","title":"复活节庆祝","description":"受难节和复活节主日特别聚会"},{"icon":"heart","title":"教会周年纪念","description":"年度庆祝神对我们教会的信实"},{"icon":"users","title":"家庭营","description":"各年龄层的夏季退修会"},{"icon":"gift","title":"圣诞庆祝","description":"圣诞清唱剧、儿童节目和平安夜聚会"}]},"id":"church-events","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>其他定期活动</h3><ul><li><strong>洗礼主日：</strong>每季洗礼聚会</li><li><strong>新会员班：</strong>为有兴趣加入会员的人士</li><li><strong>全教会祷告会：</strong>特别联合祷告聚会</li><li><strong>感恩节晚餐：</strong>年度百乐餐庆祝</li><li><strong>教会野餐：</strong>夏季户外团契</li></ul>"},"id":"church-list","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: churchevt1

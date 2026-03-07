@@ -1,0 +1,11 @@
+Title: Contact Us
+
+----
+
+Builder:
+
+[{"content":{"title":"Contact Us","subtitle":"WE'D LOVE TO HEAR FROM YOU"},"id":"contact-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Church Office</h3><p><strong>Address:</strong><br>Burnaby Chinese Evangelical Free Church<br>7135 Walker Avenue<br>Burnaby, BC V5E 3C3</p><p><strong>Phone:</strong> (604) 521-1234<br><strong>Email:</strong> office@bcefc.ca</p><p><strong>Office Hours:</strong><br>Monday - Friday: 9:00 AM - 5:00 PM<br>Closed on statutory holidays</p><h3>Pastoral Team</h3><p>For pastoral care, counseling, or spiritual guidance, please contact the church office to be connected with a pastor.</p><h3>Facility Rentals</h3><p>Interested in renting our facility for an event? Contact our office for availability and rates.</p>"},"id":"contact-info","isHidden":false,"type":"richtext"},{"content":{"title":"Send Us a Message","text":"<p>Fill out the form below and we'll get back to you within 2 business days.</p>","button_text":"Email Us","button_url":"mailto:office@bcefc.ca"},"id":"contact-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: contact001

@@ -1,0 +1,11 @@
+Title: G1-5团契
+
+----
+
+Builder:
+
+[{"content":{"title":"G1-5团契","subtitle":"1-5年级"},"id":"g15-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>G1-5团契是1-5年级儿童在有趣、适龄的环境中学习跟随耶稣的地方。我们相信这些成长岁月对建立坚固的信仰根基至关重要。</p><h3>我们做什么</h3><p>透过生动的圣经课程、游戏、手工和敬拜，孩子们学习神的爱以及如何在日常生活中应用圣经真理。我们关爱的带领者为孩子们创造一个可以提问和成长的安全空间。</p><h3>聚会时间</h3><p><strong>周五晚上7:30 - 9:00</strong><br>（与成人团契同时进行）</p><h3>孩子们的体验</h3><ul><li>互动圣经故事</li><li>敬拜诗歌和祷告</li><li>游戏和活动</li><li>背诵经文</li><li>特别活动和郊游</li></ul>"},"id":"g15-content","isHidden":false,"type":"richtext"},{"content":{"title":"欢迎您的孩子！","text":"<p>带您1-5年级的孩子来体验信仰、欢乐和友谊！</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"g15-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g15fell001
