@@ -11,7 +11,11 @@ return [
     'debug' => true,
     'yaml.handler' => 'symfony',
     
+    // Set homepage
+    'home' => 'homepage',
+    
     // Enable multilingual support
     'languages' => true,
     'languages.detect' => true,
-];
+
+]; 
