@@ -9,8 +9,8 @@
 // Language code to display label mapping
 $labels = [
     'en'    => 'EN',
-    'zh-TW' => '繁',
-    'zh-CN' => '简',
+    'zh-tw' => '繁',
+    'zh-cn' => '简',
 ];
 
 ?>
