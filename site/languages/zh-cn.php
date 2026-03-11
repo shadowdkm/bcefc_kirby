@@ -6,12 +6,12 @@
  */
 
 return [
-    'code'      => 'zh-CN',
+    'code'      => 'zh-cn',
     'default'   => false,
     'direction' => 'ltr',
     'locale'    => 'zh_CN.utf8',
     'name'      => '简体中文',
-    'url'       => '/zh-CN',
+    'url'       => '/zh-cn',
     
     // UI translations for templates
     'translations' => [
