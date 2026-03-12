@@ -16,7 +16,7 @@ return [
     // UI translations for templates
     'translations' => [
         // Site
-        'site.subtitle'      => '本拿比華人宣道會',
+        'site.subtitle'      => '本拿比華人播道會',
         'site.tagline'       => '同行深化靈命・生活延展真光',
         
         // Navigation

@@ -31,11 +31,11 @@
             <address class="site-footer__address">
               <p>
                 <svg class="icon"><use href="#icon-location"></use></svg>
-                <span>6580 Thomas Street<br>Burnaby, BC V5B 4P9</span>
+                <span>6112 Rumble Street<br>Burnaby, BC V5J 2C7</span>
               </p>
               <p>
                 <svg class="icon"><use href="#icon-phone"></use></svg>
-                <a href="tel:+16042991414">(604) 299-1414</a>
+                <a href="tel:+16044316969">(604) 431-6969</a>
               </p>
               <p>
                 <svg class="icon"><use href="#icon-email"></use></svg>
@@ -84,7 +84,7 @@
             
             <!-- Map embed placeholder -->
             <div class="site-footer__map">
-              <a href="https://maps.google.com/?q=6580+Thomas+Street+Burnaby+BC" target="_blank" rel="noopener" class="site-footer__map-link">
+              <a href="https://maps.google.com/?q=6112+Rumble+Street+Burnaby+BC" target="_blank" rel="noopener" class="site-footer__map-link">
                 <svg class="icon"><use href="#icon-location"></use></svg>
                 <?= t('footer.view_map', 'View on Google Maps') ?>
               </a>
