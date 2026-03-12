@@ -1,0 +1,11 @@
+Title: 关于我们
+
+----
+
+Builder:
+
+[{"content":{"title":"关于我们","subtitle":"ABOUT US"},"id":"about-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>欢迎认识本立比华人播道会！我们是一个以圣经为本、充满爱的教会家庭。</p>"},"id":"about-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"1/1","items":[{"title":"教会简介","text":"了解我们的教会、地址和崇拜时间","url":"/about/introduction"},{"title":"我们的信仰","text":"我们所相信的十条信仰宣言","url":"/about/beliefs"},{"title":"牧者与同工","text":"认识我们的教牧团队","url":"/about/pastoral-staff"},{"title":"执事团队","text":"服事教会的执事们","url":"/about/deacons"},{"title":"教会历史","text":"神在我们中间三十年的作为","url":"/about/history"},{"title":"五年计划","text":"我们的异象与方向","url":"/about/vision"},{"title":"联络我们","text":"地址、电话和办公时间","url":"/about/contact"}]},"id":"about-links","isHidden":false,"type":"card-grid"},{"content":{"title":"欢迎来访","text":"<p>无论您是第一次来访还是寻找教会家庭，我们都欢迎您！</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"about-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: D1yCxHPlHzgzBJI5

@@ -1,0 +1,11 @@
+Title: Downloads
+
+----
+
+Builder:
+
+[{"content":{"title":"Downloads","subtitle":"下載專區"},"id":"downloads-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Here you can download various church resources, including bulletins, forms, and other documents.</p><h3>Bulletin</h3><p>Weekly updated church bulletin containing worship program, prayer items, and event announcements.</p><ul><li><a href=\"#\">Latest Bulletin (This Week)</a></li></ul><h3>Forms</h3><p>Various church-related forms:</p><ul><li><a href=\"#\">Membership Application Form</a></li><li><a href=\"#\">Baptism Registration Form</a></li><li><a href=\"#\">Chinese School Registration Form</a></li><li><a href=\"#\">Fellowship Event Registration Form</a></li></ul><h3>Other Resources</h3><ul><li><a href=\"#\">Church Constitution</a></li><li><a href=\"#\">Statement of Faith</a></li></ul>"},"id":"downloads-content","isHidden":false,"type":"richtext"},{"content":{"title":"Need Help?","text":"<p>If you need other documents or have any questions, please contact the church office.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"downloads-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news-downloads-001

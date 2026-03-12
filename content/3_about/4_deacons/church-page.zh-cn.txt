@@ -1,0 +1,11 @@
+Title: 执事团队
+
+----
+
+Builder:
+
+[{"content":{"title":"执事团队","subtitle":"DEACON BOARD"},"id":"deacons-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>执事团队是教会的服事同工，协助牧者管理教会事务，在各样事工上服事弟兄姊妹。他们忠心爱主，甘心乐意为主摆上。</p><h3>执事会的职责</h3><ul><li>协助牧者管理教会行政事务</li><li>关顾弟兄姊妹的需要</li><li>统筹教会各项事工</li><li>管理教会财务</li><li>维护教会设施</li></ul><h3>现任执事</h3><p>执事团队成员名单将定期更新。如需了解更多关于执事团队的资讯，请联系教会办公室。</p>"},"id":"deacons-content","isHidden":false,"type":"richtext"},{"content":{"title":"有兴趣服事吗？","text":"<p>如果您有感动想要在教会中服事，欢迎与牧者或执事联系，了解各项服事机会。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"deacons-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-deacons-001

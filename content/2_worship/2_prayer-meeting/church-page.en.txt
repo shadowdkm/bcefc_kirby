@@ -4,7 +4,7 @@ Title: Prayer Meeting
 
 Builder:
 
-[{"content":{"title":"Prayer Meeting","subtitle":"COME TOGETHER IN PRAYER"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Prayer is the heartbeat of our church. We gather regularly to pray for our congregation, community, nation, and world.</p><h3>Weekly Prayer Meetings</h3><p><strong>English Prayer Meeting</strong><br>Wednesday 7:30 PM - Fellowship Hall</p><p><strong>Cantonese Prayer Meeting</strong><br>Wednesday 7:30 PM - Room 201</p><p><strong>Mandarin Prayer Meeting</strong><br>Friday 7:30 PM - Room 202</p><h3>Prayer Requests</h3><p>If you have a prayer request, please contact us at prayer@bcefc.ca or fill out a prayer card during any service.</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"Prayer Meeting","subtitle":"教會祈禱會"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Prayer is the heartbeat of our church. We gather regularly to pray for our congregation, community, nation, and world.</p><h3>Church Prayer Meeting</h3><p><strong>Second Sunday of each month, 1:00 PM</strong></p><p>Combined prayer meeting for the whole church.</p><h3>District Prayer Groups</h3><p><strong>分區祈禱小組</strong></p><p>Prayer groups are held in Vancouver, Burnaby, and Tri-Cities areas.</p><h3>Prayer Requests</h3><p>If you have a prayer request, please contact us at info@bcefc.ca or fill out a prayer card during any service.</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"Submit Prayer Request","text":"<p>We would be honored to pray for you.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"prayer-cta","isHidden":false,"type":"cta"}]
 
 ----
 

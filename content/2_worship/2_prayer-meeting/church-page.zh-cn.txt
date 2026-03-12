@@ -4,7 +4,7 @@ Title: 祈祷会
 
 Builder:
 
-[{"content":{"title":"祈祷会","subtitle":"一同祷告"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>祷告是教会的心跳。我们定期聚集，为会众、社区、国家和世界祷告。</p><h3>每周祈祷会</h3><p><strong>英语祈祷会</strong><br>周三 晚上7:30 - 团契厅</p><p><strong>粤语祈祷会</strong><br>周三 晚上7:30 - 201室</p><p><strong>国语祈祷会</strong><br>周五 晚上7:30 - 202室</p><h3>代祷事项</h3><p>如有代祷事项，请电邮至 prayer@bcefc.ca 或在崇拜时填写代祷卡。</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"祈祷会","subtitle":"教会祈祷会"},"id":"prayer-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>祷告是教会的心跳。我们定期聚集，为会众、社区、国家和世界祷告。</p><h3>教会祈祷会</h3><p><strong>每月第二个主日，下午1:00</strong></p><p>全教会联合祈祷会。</p><h3>分区祈祷小组</h3><p><strong>分区祈祷小组</strong></p><p>祈祷小组在温哥华、本拿比和三联市各区举行。</p><h3>代祷事项</h3><p>如有代祷事项，请电邮至 info@bcefc.ca 或在崇拜时填写代祷卡。</p>"},"id":"prayer-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"提交代祷事项","text":"<p>我们很荣幸为您祷告。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"prayer-cta","isHidden":false,"type":"cta"}]
 
 ----
 

@@ -1,0 +1,11 @@
+Title: Vision & Direction
+
+----
+
+Builder:
+
+[{"content":{"title":"Vision & Direction","subtitle":"五年計劃與方向"},"id":"vision-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>Church Vision</h2><p>The vision of Burnaby Chinese Evangelical Free Church is to build a church that <strong>worships God, equips believers, proclaims the Gospel, and serves the community</strong>, making disciples of all nations.</p><h2>Mission Statement</h2><p>As the body of Christ, affirming Him as Lord and source of strength, we have a four-fold purpose:</p><ul><li><strong>Worship the Father</strong> - Through thanksgiving, sharing in songs, enjoying the Lord's presence, including communion and prayer.</li><li><strong>Spiritual Growth</strong> - Studying God's Word, applying biblical principles in our lives, displaying the character of Christ.</li><li><strong>Caring for One Another</strong> - Building up and encouraging one another, exercising our spiritual gifts, serving each other.</li><li><strong>Spreading the Gospel</strong> - Through Scripture and life testimony, we share the Gospel with others.</li></ul><h2>Five-Year Strategic Direction</h2><h3>1. Deepen Discipleship Training</h3><p>Strengthen believers' biblical foundation, establish systematic discipleship courses, and cultivate mature disciples of Christ.</p><h3>2. Expand Youth Ministry</h3><p>Invest in the next generation, provide an environment for spiritual growth for young people, and develop youth leaders.</p><h3>3. Community Care</h3><p>Actively participate in community service, demonstrating Christ's love through practical actions, and becoming a blessing to the community.</p><h3>4. Missions Outreach</h3><p>Continue supporting local and overseas missions, sending more missionaries, and participating in global mission work.</p><h3>5. Team Building</h3><p>Develop church leaders, build healthy ministry teams, and promote overall church growth.</p>"},"id":"vision-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Us","text":"<p>We invite you to pray with us and participate in God's wonderful work at Burnaby Chinese Evangelical Free Church.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"vision-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-vision-001

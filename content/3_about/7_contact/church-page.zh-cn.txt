@@ -1,0 +1,11 @@
+Title: 联络我们
+
+----
+
+Builder:
+
+[{"content":{"title":"联络我们","subtitle":"CONTACT US"},"id":"contact-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们欢迎您的来访！无论您有任何问题或需要，都欢迎与我们联系。</p><h3>崇拜时间</h3><ul><li>国语崇拜：主日上午 9:15 - 10:30，大堂</li><li>粤语崇拜：主日上午 11:00 - 12:30，大堂</li><li>青年崇拜：主日上午 11:00，小屋</li></ul><h3>办公时间</h3><p>周二至周五：上午9:00 - 下午5:00</p>"},"id":"contact-intro","isHidden":false,"type":"richtext"},{"content":{"address":"6112 Rumble Street\nBurnaby BC, V5J 2C7\nCanada","phone":"(604) 431-6969","fax":"(604) 431-6969","email":"info@bcefc.ca","hours":"周二至周五 (上午9:00 - 下午5:00)","map_embed":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.8!2d-123.0088!3d49.2197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676e8c5c5c5c5%3A0x123456789!2s6112+Rumble+St%2C+Burnaby%2C+BC+V5J+2C7!5e0!3m2!1sen!2sca!4v1234567890\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>","quick_links":[{"label":"首页","url":"/"},{"label":"崇拜","url":"/worship"},{"label":"事工","url":"/ministries"},{"label":"团契","url":"/fellowships"}],"socials":[{"platform":"facebook","url":"https://www.facebook.com/bcefc"},{"platform":"youtube","url":"https://www.youtube.com/bcefc"}],"copyright_text":"© 2026 本立比华人播道会. All Rights Reserved."},"id":"contact-footer","isHidden":false,"type":"contact-footer"}]
+
+----
+
+Uuid: about-contact-001

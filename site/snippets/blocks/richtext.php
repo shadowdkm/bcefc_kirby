@@ -2,19 +2,26 @@
 /**
  * Rich Text Block
  * Long-form content (about, beliefs, policies)
- * Uses nested blocks for flexible content
+ * Supports both 'text' field (HTML) and 'content' field (nested blocks)
  * 
  * @var \Kirby\Cms\Block $block
  */
 
-$content = $block->content()->toBlocks();
-if ($content->isEmpty()) return;
+// Support 'text' field (direct HTML)
+$text = $block->text();
+
+// Check if we have direct text content
+if ($text->isNotEmpty()) {
+    $output = $text;
+} else {
+    return; // Nothing to display
+}
 
 ?>
 <article class="block-richtext">
   <div class="container">
     <div class="block-richtext__content prose">
-      <?= $content ?>
+      <?= $output ?>
     </div>
   </div>
 </article>

@@ -1,0 +1,11 @@
+Title: 五年计划与方向
+
+----
+
+Builder:
+
+[{"content":{"title":"五年计划与方向","subtitle":"VISION & DIRECTION"},"id":"vision-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>教会异象</h2><p>本立比华人播道会的异象是建立一个<strong>敬拜神、装备信徒、传扬福音、服事社区</strong>的教会，使万民作主的门徒。</p><h2>目标声明</h2><p>作为基督的身体，确认祂为主和力量的源头，我们有四重的目标：</p><ul><li><strong>敬拜父神</strong> - 藉感恩，诗歌分享，享受主的同在，包括圣餐和祷告。</li><li><strong>灵命成长</strong> - 研读神的话语，应用圣经原则在我们的生活中，显出基督的品格。</li><li><strong>彼此关心</strong> - 互相造就和激励，发挥我们的属灵恩赐，彼此服侍。</li><li><strong>传扬福音</strong> - 藉着圣经及生活见证，我们与人分享福音。</li></ul><h2>五年策略方向</h2><h3>1. 深化门徒训练</h3><p>加强信徒的圣经根基，建立有系统的门训课程，培养成熟的基督门徒。</p><h3>2. 扩展青年事工</h3><p>投资下一代，为青年人提供属灵成长的环境，培养青年领袖。</p><h3>3. 关怀社区</h3><p>积极参与社区服事，透过实际行动展现基督的爱，成为社区的祝福。</p><h3>4. 宣教外展</h3><p>继续支持本地和海外宣教，差派更多宣教士，参与普世宣教工作。</p><h3>5. 团队建造</h3><p>培养教会领袖，建立健康的事奉团队，促进教会整体的成长。</p>"},"id":"vision-content","isHidden":false,"type":"richtext"},{"content":{"title":"一同参与","text":"<p>邀请您与我们一同祷告，参与神在本立比华人播道会的美好工作。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"vision-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-vision-001

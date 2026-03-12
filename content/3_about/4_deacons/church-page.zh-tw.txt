@@ -1,0 +1,11 @@
+Title: 執事團隊
+
+----
+
+Builder:
+
+[{"content":{"title":"執事團隊","subtitle":"DEACON BOARD"},"id":"deacons-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>執事團隊是教會的服事同工，協助牧者管理教會事務，在各樣事工上服事弟兄姊妹。他們忠心愛主，甘心樂意為主擺上。</p><h3>執事會的職責</h3><ul><li>協助牧者管理教會行政事務</li><li>關顧弟兄姊妹的需要</li><li>統籌教會各項事工</li><li>管理教會財務</li><li>維護教會設施</li></ul><h3>現任執事</h3><p>執事團隊成員名單將定期更新。如需了解更多關於執事團隊的資訊，請聯繫教會辦公室。</p>"},"id":"deacons-content","isHidden":false,"type":"richtext"},{"content":{"title":"有興趣服事嗎？","text":"<p>如果您有感動想要在教會中服事，歡迎與牧者或執事聯繫，了解各項服事機會。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"deacons-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-deacons-001

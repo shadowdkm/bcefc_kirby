@@ -1,0 +1,11 @@
+Title: Deacon Board
+
+----
+
+Builder:
+
+[{"content":{"title":"Deacon Board","subtitle":"執事團隊"},"id":"deacons-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>The Deacon Board consists of dedicated servants who assist the pastoral staff in managing church affairs and serving the congregation in various ministries. They are faithful to the Lord and willing to serve.</p><h3>Responsibilities of the Deacon Board</h3><ul><li>Assist pastoral staff in church administration</li><li>Care for the needs of congregation members</li><li>Coordinate various church ministries</li><li>Manage church finances</li><li>Maintain church facilities</li></ul><h3>Current Deacons</h3><p>The list of deacon board members is updated periodically. For more information about the deacon board, please contact the church office.</p>"},"id":"deacons-content","isHidden":false,"type":"richtext"},{"content":{"title":"Interested in Serving?","text":"<p>If you feel called to serve in the church, please contact our pastoral staff or deacons to learn about service opportunities.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"deacons-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-deacons-001

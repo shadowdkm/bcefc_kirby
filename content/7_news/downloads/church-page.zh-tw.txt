@@ -1,0 +1,11 @@
+Title: 下載專區
+
+----
+
+Builder:
+
+[{"content":{"title":"下載專區","subtitle":"DOWNLOADS"},"id":"downloads-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在這裡您可以下載教會的各種資源，包括週報、表格和其他文件。</p><h3>週報 Bulletin</h3><p>每週更新的教會週報，包含崇拜程序、禱告事項和活動消息。</p><ul><li><a href=\"#\">最新週報 (本週)</a></li></ul><h3>表格 Forms</h3><p>各種教會事務相關表格：</p><ul><li><a href=\"#\">會員申請表</a></li><li><a href=\"#\">洗禮報名表</a></li><li><a href=\"#\">中文學校報名表</a></li><li><a href=\"#\">團契活動報名表</a></li></ul><h3>其他資源 Other Resources</h3><ul><li><a href=\"#\">教會章程</a></li><li><a href=\"#\">信仰宣言</a></li></ul>"},"id":"downloads-content","isHidden":false,"type":"richtext"},{"content":{"title":"需要協助？","text":"<p>如果您需要其他文件或有任何問題，請聯繫教會辦公室。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"downloads-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news-downloads-001

@@ -1,10 +1,10 @@
-Title: 信心團契
+Title: 基信團契
 
 ----
 
 Builder:
 
-[{"content":{"title":"信心團契","subtitle":"FAITH FELLOWSHIP"},"id":"faith-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>信心團契聚集有學齡兒童（K-6年級）的家庭。我們在育兒冒險、學校生活，以及養育孩子認識和愛神的旅程中彼此支持。</p><h3>我們做什麼</h3><p>我們定期聚會進行查經、禱告和團契。主題通常圍繞兒童信仰培育、家庭門訓，以及在當今世界養育孩子的挑戰。</p><h3>聚會時間</h3><p><strong>週六下午4:00 - 6:00</strong><br>同時提供兒童節目</p><h3>活動</h3><ul><li>每週查經和禱告</li><li>家庭遊戲之夜</li><li>夏季燒烤和野餐</li><li>聖誕派對</li><li>父母支持小組</li></ul>"},"id":"faith-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入信心團契","text":"<p>有學齡孩子嗎？我們很想與您的家庭連結！請聯繫我們了解更多關於信心團契的資訊。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"faith-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"基信團契","subtitle":"基信團 FAITH FELLOWSHIP"},"id":"faith-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>基信團（基信團契）聚集信徒深入研讀神的話語，彼此在信仰中鼓勵。</p><h3>聚會時間</h3><p><strong>每月第二和第四個週五，晚上7:30</strong></p><p>語言：粤語</p><p>歡迎每位參加。</p><h3>活動內容</h3><ul><li>查經和討論</li><li>禱告和團契</li><li>嘉賓講員和特別主題</li><li>彼此支持和鼓勵</li></ul>"},"id":"faith-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入基信團契","text":"<p>歡迎每位！請聯絡我們了解更多關於基信團契的資訊。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"faith-cta","isHidden":false,"type":"cta"}]
 
 ----
 

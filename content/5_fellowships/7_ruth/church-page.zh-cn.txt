@@ -1,10 +1,10 @@
-Title: 路得团契
+Title: 路得妇女查经
 
 ----
 
 Builder:
 
-[{"content":{"title":"路得团契","subtitle":"RUTH FELLOWSHIP - 妇女事工"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>路得团契是我们的妇女事工，以圣经中展现忠诚、信心和奉献的路得命名。各年龄层和人生阶段的妇女聚集一起在信仰中成长、彼此支持并一同服事。</p><h3>我们做什么</h3><p>我们聚会进行查经、祷告和团契。我们的讨论针对妇女面临的独特挑战和喜乐，从事业和家庭到灵命成长和服事。</p><h3>聚会时间</h3><p><strong>周四上午10:00 - 中午12:00</strong><br>晚间聚会：每月第一个周四，晚上7:30</p><h3>活动</h3><ul><li>每周查经</li><li>祷告伙伴</li><li>妇女退修会</li><li>母亲节庆祝</li><li>服务项目</li><li>辅导计划</li></ul>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入路得团契","text":"<p>欢迎所有姊妹！无论您是寻找深厚的友谊、灵命成长还是服事机会，路得团契适合您。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"路得妇女查经","subtitle":"路得妇女查经"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>路得妇女查经是我们的妇女事工，以圣经中展现忠诚、信心和奉献的路得命名。各年龄层的妇女聚集一起研读神的话语。</p><h3>聚会时间</h3><p><strong>每周五 上午9:30</strong></p><p>语言：粤语</p><p>适合妇女参加。</p><h3>活动内容</h3><ul><li>查经和讨论</li><li>祷告和团契</li><li>彼此支持和鼓励</li><li>灵命一同成长</li></ul>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我们","text":"<p>欢迎所有姊妹！请联系我们了解更多。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
 
 ----
 

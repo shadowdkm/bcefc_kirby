@@ -1,10 +1,10 @@
-Title: G9-大专团契
+Title: 青少年团契
 
 ----
 
 Builder:
 
-[{"content":{"title":"G9-大专团契","subtitle":"高中及大专"},"id":"g9c-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>G9-大专团契是为高中生（9-12年级）和大学生设计的。我们在这些关键年岁中与年轻人同行，帮助他们在信仰、学业、人际关系和人生决定中导航。</p><h3>我们做什么</h3><p>我们深入研读圣经、讨论现实生活议题、一起敬拜并建立群体。我们的领袖在高中挑战、大学申请和成年初期辅导学生。</p><h3>聚会时间</h3><p><strong>周六晚上7:00 - 9:30</strong></p><h3>我们提供</h3><ul><li>深入查经</li><li>敬拜之夜</li><li>信仰与文化讨论</li><li>辅导机会</li><li>大学预备支援</li><li>年度退修会</li><li>社交活动和郊游</li></ul>"},"id":"g9c-content","isHidden":false,"type":"richtext"},{"content":{"title":"与我们连结","text":"<p>高中生或大学生？欢迎加入我们的社群，一起在信仰中成长！</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"g9c-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"青少年团契","subtitle":"青少年团契"},"id":"g9c-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>青少年团契是为高中生（7-12年级）设计的。我们在这些关键年岁中与年轻人同行，帮助他们在信仰、学业、人际关系和人生决定中导航。</p><h3>团契聚会</h3><p><strong>每周六 晚上7:00 - 8:30</strong></p><p>语言：英语</p><h3>青少年崇拜</h3><p><strong>每主日 上午11:00</strong></p><p>地点：Little House（教会旁小屋）</p><h3>青少年主日学</h3><p><strong>每主日 上午11:30</strong></p><p>地点：Little House</p><h3>我们提供</h3><ul><li>查经和敬拜</li><li>小组讨论</li><li>游戏和社交活动</li><li>辅导机会</li><li>年度退修会</li></ul>"},"id":"g9c-content","isHidden":false,"type":"richtext"},{"content":{"title":"与我们连结","text":"<p>7-12年级青少年？欢迎加入我们的群体！</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"g9c-cta","isHidden":false,"type":"cta"}]
 
 ----
 

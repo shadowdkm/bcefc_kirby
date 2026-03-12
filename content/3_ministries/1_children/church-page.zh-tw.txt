@@ -4,7 +4,7 @@ Title: 兒童事工
 
 Builder:
 
-[{"content":{"title":"兒童事工","subtitle":"一至五年級"},"id":"children-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的兒童事工致力於培育嬰幼兒至五年級兒童的信仰。我們提供適齡的聖經教導、敬拜和活動，幫助兒童認識和愛耶穌。</p><h3>主日節目</h3><p>兒童主日學在所有崇拜時段進行，由受過訓練和審核的義工帶領。</p><h3>特別活動</h3><p>我們全年舉辦VBS（暑期聖經學校）、聖誕節目和家庭活動。</p>"},"id":"children-content","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"兒童事工","subtitle":"CHILDREN MINISTRY"},"id":"children-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>兒童事工</h2><p>我們愛孩子，你是神和我們的寶貝！</p><h3>兒童崇拜</h3><p><strong>主日上午 11:00 - 11:30</strong></p><p>我們在教會地下室歡樂聚會：唱歌、分享、學習、智慧成長。歡迎親身參加。</p><h3>兒童主日學</h3><p><strong>主日上午 11:30 - 12:15</strong></p><p>為嬰幼兒至五年級兒童提供適齡的聖經教導。</p><h3>兒童團契</h3><p><strong>星期六晚上 7:00 - 9:00</strong></p><p>我們正在探索「按神設計的品格」！透過聯繫、分享和鼓勵，孩子們建立良好的友誼和品格。加入我們享受美好的音樂、創意學習和有趣的活動。</p><h3>每月派對俱樂部</h3><p>每月在主日早上有一個特別主題活動，透過詩歌、活動、影片和手工藝，建立美好的友誼和歡樂。</p>"},"id":"children-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我們","text":"<p>聯繫我們了解更多兒童事工的資訊。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"children-cta","isHidden":false,"type":"cta"}]
 
 ----
 

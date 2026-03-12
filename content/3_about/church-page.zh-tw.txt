@@ -1,0 +1,11 @@
+Title: 關於我們
+
+----
+
+Builder:
+
+[{"content":{"title":"關於我們","subtitle":"ABOUT US"},"id":"about-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>歡迎認識本立比華人播道會！我們是一個以聖經為本、充滿愛的教會家庭。</p>"},"id":"about-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"1/1","items":[{"title":"教會簡介","text":"了解我們的教會、地址和崇拜時間","url":"/about/introduction"},{"title":"我們的信仰","text":"我們所相信的十條信仰宣言","url":"/about/beliefs"},{"title":"牧者與同工","text":"認識我們的教牧團隊","url":"/about/pastoral-staff"},{"title":"執事團隊","text":"服事教會的執事們","url":"/about/deacons"},{"title":"教會歷史","text":"神在我們中間三十年的作為","url":"/about/history"},{"title":"五年計劃","text":"我們的異象與方向","url":"/about/vision"},{"title":"聯絡我們","text":"地址、電話和辦公時間","url":"/about/contact"}]},"id":"about-links","isHidden":false,"type":"card-grid"},{"content":{"title":"歡迎來訪","text":"<p>無論您是第一次來訪還是尋找教會家庭，我們都歡迎您！</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"about-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: D1yCxHPlHzgzBJI5

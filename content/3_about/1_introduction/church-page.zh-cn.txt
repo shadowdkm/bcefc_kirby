@@ -1,0 +1,11 @@
+Title: 教会简介
+
+----
+
+Builder:
+
+[{"content":{"title":"教会简介","subtitle":"CHURCH INTRODUCTION"},"id":"intro-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>本立比华人播道会</h2><p>加拿大播道总会于一九六六年在本立比区成立了西人中区播道会，就这样一座外型吸引的教堂便矗立在本立比Rumble街6112号之上。自此，教会在区内传扬福音，百多位会友热心地服侍区内居民的种种需要。</p><p>然而就像许多低陆平原的西人教会，面对社区内道德民风的转变，教会未能满足区内居民的需要，经多次的讨论与祈祷后，在一九九一年，会友们作出了沉痛的决定：解散教会，并将物业转卖给温哥华华人播道会。</p><p>在温哥华华人播道会前任副牧师曾昭穗牧师的带领下，连同五十多位当时在温哥华母堂聚会的弟兄姊妹，在一九九一年六月成立了本立比华人播道会。</p><h3>教会地址</h3><p><strong>6112 Rumble Street<br>Burnaby BC, V5J 2C7</strong></p><p>电话：(604) 431-6969<br>传真：(604) 431-6969<br>电邮：info@bcefc.ca</p><h3>崇拜时间</h3><ul><li>国语崇拜：上午 9:15 - 10:30，大堂</li><li>粤语崇拜：上午 11:00 - 12:30，大堂</li><li>青年崇拜：上午 11:00，小屋</li></ul><h3>目标声明</h3><p>作为基督的身体，确认祂为主和力量的源头，我们有四重的目标：</p><ul><li><strong>敬拜父神</strong>：藉感恩，诗歌分享，享受主的同在，包括圣餐和祷告。</li><li><strong>灵命成长</strong>：研读神的话语，应用圣经原则在我们的生活中，显出基督的品格。</li><li><strong>彼此关心</strong>：互相造就和激励，发挥我们的属灵恩赐，彼此服侍。</li><li><strong>传扬福音</strong>：藉着圣经及生活见证，我们与人分享福音。</li></ul>"},"id":"intro-content","isHidden":false,"type":"richtext"},{"content":{"title":"了解更多","text":"<p>欢迎您来认识我们的教会、我们的信仰和我们的团队。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"intro-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-intro-001

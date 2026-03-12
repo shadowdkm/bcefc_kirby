@@ -1,0 +1,11 @@
+Title: 下载专区
+
+----
+
+Builder:
+
+[{"content":{"title":"下载专区","subtitle":"DOWNLOADS"},"id":"downloads-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在这里您可以下载教会的各种资源，包括周报、表格和其他文件。</p><h3>周报 Bulletin</h3><p>每周更新的教会周报，包含崇拜程序、祷告事项和活动消息。</p><ul><li><a href=\"#\">最新周报 (本周)</a></li></ul><h3>表格 Forms</h3><p>各种教会事务相关表格：</p><ul><li><a href=\"#\">会员申请表</a></li><li><a href=\"#\">洗礼报名表</a></li><li><a href=\"#\">中文学校报名表</a></li><li><a href=\"#\">团契活动报名表</a></li></ul><h3>其他资源 Other Resources</h3><ul><li><a href=\"#\">教会章程</a></li><li><a href=\"#\">信仰宣言</a></li></ul>"},"id":"downloads-content","isHidden":false,"type":"richtext"},{"content":{"title":"需要协助？","text":"<p>如果您需要其他文件或有任何问题，请联系教会办公室。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"downloads-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: news-downloads-001

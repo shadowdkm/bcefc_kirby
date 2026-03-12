@@ -4,7 +4,7 @@ Title: 青少年事工
 
 Builder:
 
-[{"content":{"title":"青少年事工","subtitle":"六至十二年級及大專"},"id":"youth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的青少年事工透過團契、門訓和服事機會，幫助青少年和青年在信仰中成長。</p><h3>初中（六至九年級）</h3><p>週五晚上7:00-9:00。遊戲、敬拜、小組和聖經教導。</p><h3>高中及大專（九年級以上）</h3><p>主日11:00崇拜，加上週五青年聚會和每週小組。</p>"},"id":"youth-content","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"青少年事工","subtitle":"GRADE 7-12"},"id":"youth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的青少年事工專為七至十二年級的青少年而設，幫助他們透過崇拜、門訓和團契在信仰中成長。</p><h3>青少年崇拜</h3><p><strong>每主日上午 11:00 - 11:30</strong></p><p>地點：Little House（教會旁的小屋）</p><h3>青少年主日學</h3><p><strong>每主日上午 11:30</strong></p><p>地點：Little House</p><p>透過聖經教導幫助青少年認識神，成為耶穌的門徒。</p><h3>青少年團契</h3><p><strong>每星期六晚上 7:00 - 8:30</strong></p><p>遊戲、敲拜、小組和聖經教導。</p><h3>聯絡我們</h3><p>如想了解更多青少年事工的資訊，請聯絡 info@bcefc.ca</p>"},"id":"youth-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我們","text":"<p>聯絡我們了解更多青少年事工的資訊。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"youth-cta","isHidden":false,"type":"cta"}]
 
 ----
 

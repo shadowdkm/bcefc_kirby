@@ -1,0 +1,11 @@
+Title: About Us
+
+----
+
+Builder:
+
+[{"content":{"title":"About Us","subtitle":"關於我們"},"id":"about-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Welcome to Burnaby Chinese Evangelical Free Church! We are a Bible-based, loving church family.</p>"},"id":"about-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"1/1","items":[{"title":"Church Introduction","text":"Learn about our church, location and worship times","url":"/about/introduction"},{"title":"What We Believe","text":"Our ten articles of faith","url":"/about/beliefs"},{"title":"Pastoral Staff","text":"Meet our pastoral team","url":"/about/pastoral-staff"},{"title":"Deacon Board","text":"Those who serve the church","url":"/about/deacons"},{"title":"Church History","text":"Thirty years of God's work among us","url":"/about/history"},{"title":"Vision & Direction","text":"Our vision and five-year plan","url":"/about/vision"},{"title":"Contact Us","text":"Address, phone and office hours","url":"/about/contact"}]},"id":"about-links","isHidden":false,"type":"card-grid"},{"content":{"title":"Welcome to Visit","text":"<p>Whether you're visiting for the first time or looking for a church home, we welcome you!</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"about-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: D1yCxHPlHzgzBJI5
