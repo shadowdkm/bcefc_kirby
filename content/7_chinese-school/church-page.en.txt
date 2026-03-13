@@ -1,0 +1,11 @@
+Title: Chinese School
+
+----
+
+Builder:
+
+[{"content":{"heading":"BCEFC Chinese School","subheading":"本立比華人播道會中文學校","image":"","overlay":true},"id":"cs-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>The BCEFC Chinese School has been serving the community since 1985, providing quality Chinese language education for children ages 4 and up. Through our Cantonese-taught program with Traditional Chinese characters, we help students develop strong language skills while cultivating an appreciation for Chinese culture and Christian values.</p><p><strong>Classes every Saturday: 9:30 AM - 11:30 AM | September through June</strong></p>"},"id":"cs-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Explore Our School","columns":[{"image":"","title":"About Us","text":"Our history, mission, philosophy, and core values since 1985.","link":"/chinese-school/about"},{"image":"","title":"Curriculum","text":"Programs for kindergarten through Grade 6, with cultural enrichment activities.","link":"/chinese-school/curriculum"},{"image":"","title":"Grade Levels","text":"Detailed information about each class level from JK to Grade 6.","link":"/chinese-school/grade-levels"},{"image":"","title":"Our Teachers","text":"Meet our experienced and dedicated team of Christian educators.","link":"/chinese-school/teachers"},{"image":"","title":"Class Information","text":"Schedule, semester dates, tuition fees, and frequently asked questions.","link":"/chinese-school/class-info"},{"image":"","title":"Registration","text":"Enrol your child for the upcoming school year. Online registration available.","link":"/chinese-school/registration"},{"image":"","title":"Contact Us","text":"Get in touch with the Chinese School office for enquiries and visits.","link":"/chinese-school/contact"}]},"id":"cs-nav-grid","isHidden":false,"type":"card-grid"},{"content":{"title":"Register Now","text":"<p>Registration for the 2025-2026 school year is now open. Secure your child's spot today!</p>","button_text":"Register","button_url":"/chinese-school/registration"},"id":"cs-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: cnschool01

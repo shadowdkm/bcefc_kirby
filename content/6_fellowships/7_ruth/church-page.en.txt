@@ -1,0 +1,11 @@
+Title: Ruth Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Ruth Women's Bible Study","subtitle":"路得婦女查經"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Introduction</h3><p>Ruth Women's Bible Study (路得婦女查經) is our women's ministry, named after the biblical Ruth who exemplified loyalty, faith, and devotion. Women of all ages gather to study God's Word together, supporting and encouraging one another in their walk with Christ.</p><h3>Meeting Time</h3><p><strong>Every Friday 9:30 AM</strong></p><p>Language: Cantonese (粵語)</p><p>Open to all women.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current women's ministry leader information.</p><h3>What We Do</h3><ul><li>Bible study and discussion</li><li>Prayer and fellowship</li><li>Mutual support and encouragement</li><li>Spiritual growth together</li><li>Special women's events and outings</li></ul><h3>Fellowship Photos</h3><p>Photos from our women's Bible study and fellowship activities will be shared here. Check back for updates!</p>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Us","text":"<p>All women are welcome! Contact us to learn more about Ruth Women's Bible Study.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: ruthfel001

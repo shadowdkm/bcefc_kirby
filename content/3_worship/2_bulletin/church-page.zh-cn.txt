@@ -1,0 +1,11 @@
+Title: 崇拜周刊
+
+----
+
+Builder:
+
+[{"content":{"title":"崇拜周刊","subtitle":"每周最新资讯"},"id":"bulletin-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>崇拜周刊让您掌握每周崇拜详情、教会公告、代祷事项及即将举行的活动。</p><h3>如何取得周刊</h3><p>每个主日崇拜前，欢迎台备有印刷版周刊供自由取阅。您亦可在下方浏览电子版周刊。</p><h3>周刊内容</h3><ul><li><strong>崇拜程序</strong> – 主日崇拜流程，包括诗歌、读经和讲道题目。</li><li><strong>教会公告</strong> – 重要教会消息、事工动态和义工招募。</li><li><strong>代祷事项</strong> – 会众、社区和宣教士的每周代祷需要。</li><li><strong>近期活动</strong> – 未来数周的教会活动日程。</li></ul><h3>电子周刊</h3><p>最新周刊通常于周六傍晚上载。若您未能亲自出席崇拜，可通过电子周刊保持联系。</p>"},"id":"bulletin-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"需要过往周刊？","text":"如需索取过往周刊，请联系教会办公室。","button_text":"联系教会办公室","button_url":"/about/contact","variant":"neutral","alignment":"center"},"id":"bulletin-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: bulletin00001

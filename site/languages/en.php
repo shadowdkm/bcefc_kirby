@@ -30,6 +30,7 @@ return [
         'nav.news'           => 'News',
         'nav.new_here'       => 'New Here',
         'nav.giving'         => 'Giving',
+        'nav.resources'      => 'Resources',
         
         // Header
         'menu.toggle'        => 'Toggle menu',

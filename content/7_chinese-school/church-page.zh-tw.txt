@@ -1,0 +1,11 @@
+Title: 中文學校
+
+----
+
+Builder:
+
+[{"content":{"heading":"本那比華人播道會中文學校","subheading":"BCEFC Chinese School","image":"","overlay":true},"id":"cs-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>本那比華人播道會中文學校自1985年起服務社區，為四歲以上的兒童提供優質中文教育。透過粵語教學和繁體中文書寫，我們幫助學生培養扎實的語言能力，同時培育對中華文化和基督教價值觀的欣賞。</p><p><strong>逢星期六上課：上午 9:30 - 11:30 | 九月至六月</strong></p>"},"id":"cs-intro","isHidden":false,"type":"richtext"},{"content":{"title":"探索我們的學校","columns":[{"image":"","title":"關於我們","text":"自1985年以來的歷史、使命、理念和核心價值。","link":"/chinese-school/about"},{"image":"","title":"課程設計","text":"幼稚園至六年級的課程項目及文化薰陶活動。","link":"/chinese-school/curriculum"},{"image":"","title":"年級安排","text":"從幼稚園低班到六年級的詳細班級資訊。","link":"/chinese-school/grade-levels"},{"image":"","title":"師資介紹","text":"認識我們經驗豐富且敬業的基督徒教師團隊。","link":"/chinese-school/teachers"},{"image":"","title":"上課資訊","text":"時間表、學期日期、學費及常見問題。","link":"/chinese-school/class-info"},{"image":"","title":"報名註冊","text":"為您的孩子報名新學年。可線上報名。","link":"/chinese-school/registration"},{"image":"","title":"聯繫我們","text":"如有查詢或預約參觀，請聯繫中文學校辦公室。","link":"/chinese-school/contact"}]},"id":"cs-nav-grid","isHidden":false,"type":"card-grid"},{"content":{"title":"立即報名","text":"<p>2025-2026學年報名現已開放。請即為您的孩子預留名額！</p>","button_text":"報名","button_url":"/chinese-school/registration"},"id":"cs-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: cnschool01

@@ -1,0 +1,11 @@
+Title: 男士的天空
+
+----
+
+Builder:
+
+[{"content":{"title":"男士的天空","subtitle":"男士的天空 MEN'S FELLOWSHIP"},"id":"mens-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介绍</h3><p>男士的天空聚集弟兄彼此鼓励、问责，并一同作为基督的跟随者成长。这个团契为弟兄提供一个空间，深化信仰、建立真实的关系，在丈夫、父亲和神的仆人角色中彼此扶持。</p><h3>聚会时间</h3><p><strong>每月第一个主日，下午3:00</strong></p><p>语言：粤语</p><p>适合弟兄参加。</p><h3>负责人</h3><p>如需了解目前弟兄团契负责人的资讯，请联系教会办公室。</p><h3>活动内容</h3><ul><li>查经和讨论</li><li>团契和分享</li><li>鼓励和问责</li><li>一起祷告</li><li>弟兄特别活动和郊游</li></ul><h3>团契照片</h3><p>我们弟兄团契活动的照片将在此分享。请关注更新！</p>"},"id":"mens-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我们","text":"<p>欢迎所有弟兄！请联系我们了解更多关于男士的天空的资讯。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"mens-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mensfel001

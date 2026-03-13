@@ -1,0 +1,11 @@
+Title: 活动回顾
+
+----
+
+Builder:
+
+[{"content":{"heading":"活动回顾","subheading":"本那比华人播道会近期活动","image":"","overlay":true},"id":"events-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>紧贴本那比华人播道会的最新动态！从社区外展到教会庆典再到宣教机会，总有有意义的活动正在进行。浏览以下活动类别，或查看我们即将举行的精彩活动。</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"heading":"即将举行的活动","mode":"manual","limit":3,"view_all_url":"","items":[{"title":"农历新年庆祝","date":"2026-01-29","time":"下午6:00","location":"教会团契厅","image":"","url":""},{"title":"春季宣教年会","date":"2026-03-20","time":"晚上7:00","location":"教会大堂","image":"","url":""},{"title":"复活节庆祝","date":"2026-04-05","time":"上午10:00","location":"教会大堂","image":"","url":""}]},"id":"events-upcoming","isHidden":false,"type":"events-preview"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"image":"","title":"社区活动","text":"农历新年庆祝、社区清洁日、家庭工作坊，以及向社区开放的外展活动","url":"/events/community","badge":"","badge_color":"primary"},{"image":"","title":"教会特别活动","text":"周年庆典、布道会、退修会、浸礼，以及教会家庭聚会","url":"/events/church","badge":"","badge_color":"primary"},{"image":"","title":"宣教活动","text":"本地外展日、短期宣教、宣教年会和祷告聚会","url":"/events/missions","badge":"","badge_color":"primary"}]},"id":"events-categories","isHidden":false,"type":"card-grid"},{"content":{"text":"<h3>按年份浏览活动</h3><p>想查看过去的活动？浏览我们的活动存档：</p><ul><li><strong>2026</strong> — 本年度活动</li><li><strong>2025</strong> — 上年度活动</li><li><strong>2024</strong> — 存档活动</li></ul><p>如需查看过去活动的照片和报告，请浏览上方的各活动类别页面。</p>"},"id":"events-archive","isHidden":false,"type":"richtext"},{"content":{"title":"保持更新","text":"<p>想要收到即将举行活动的通知？联系我们加入邮件列表或关注我们的社交媒体。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"events-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: events0001

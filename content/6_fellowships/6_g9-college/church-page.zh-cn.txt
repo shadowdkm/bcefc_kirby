@@ -1,0 +1,11 @@
+Title: 青少年团契
+
+----
+
+Builder:
+
+[{"content":{"title":"青少年团契","subtitle":"青少年团契 YOUTH FELLOWSHIP"},"id":"g9c-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介绍</h3><p>青少年团契是为高中生（7-12年级）设计的。我们在这些关键年岁中与年轻人同行，帮助他们在信仰、学业、人际关系和人生决定中导航。我们的团契提供一个支持性的群体，让青少年在信仰中成长并建立一生的友谊。</p><h3>团契聚会</h3><p><strong>每周六 晚上7:00 - 8:30</strong></p><p>语言：英语</p><h3>青少年崇拜</h3><p><strong>每主日 上午11:00</strong></p><p>地点：Little House（教会旁小屋）</p><h3>青少年主日学</h3><p><strong>每主日 上午11:30</strong></p><p>地点：Little House</p><h3>负责人</h3><p>如需了解目前青年牧师和带领者的资讯，请联系教会办公室。</p><h3>我们提供</h3><ul><li>查经和敬拜</li><li>小组讨论</li><li>游戏和社交活动</li><li>辅导机会</li><li>年度退修会</li><li>社区服务项目</li></ul><h3>团契照片</h3><p>我们青少年团契、崇拜和活动的照片将在此分享。请关注更新！</p>"},"id":"g9c-content","isHidden":false,"type":"richtext"},{"content":{"title":"与我们连结","text":"<p>7-12年级青少年？欢迎加入我们的群体！</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"g9c-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g9cfell001

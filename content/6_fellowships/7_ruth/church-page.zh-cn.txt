@@ -1,0 +1,11 @@
+Title: 路得妇女查经
+
+----
+
+Builder:
+
+[{"content":{"title":"路得妇女查经","subtitle":"路得妇女查经 RUTH WOMEN'S BIBLE STUDY"},"id":"ruth-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介绍</h3><p>路得妇女查经是我们的妇女事工，以圣经中展现忠诚、信心和奉献的路得命名。各年龄层的妇女聚集一起研读神的话语，在跟随基督的路上彼此支持和鼓励。</p><h3>聚会时间</h3><p><strong>每周五 上午9:30</strong></p><p>语言：粤语</p><p>适合妇女参加。</p><h3>负责人</h3><p>如需了解目前妇女事工负责人的资讯，请联系教会办公室。</p><h3>活动内容</h3><ul><li>查经和讨论</li><li>祷告和团契</li><li>彼此支持和鼓励</li><li>灵命一同成长</li><li>妇女特别活动和郊游</li></ul><h3>团契照片</h3><p>我们妇女查经和团契活动的照片将在此分享。请关注更新！</p>"},"id":"ruth-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我们","text":"<p>欢迎所有姊妹！请联系我们了解更多关于路得妇女查经的资讯。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"ruth-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: ruthfel001

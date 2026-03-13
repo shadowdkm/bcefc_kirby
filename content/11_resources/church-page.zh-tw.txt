@@ -1,0 +1,11 @@
+Title: 常用資料
+
+----
+
+Builder:
+
+[{"content":{"heading":"常用資料","subheading":"實用資訊與下載","image":"","overlay":true},"id":"resources-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>在這裡您可以找到教會行事曆、可下載的表格以及聯絡資訊。我們希望讓您能輕鬆地保持聯繫和了解教會最新動態。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"title":"快速連結","columns":[{"image":"","title":"教會行事曆","text":"查看即將舉行的活動、崇拜及重要日期","link":"/resources/calendar"},{"image":"","title":"表格下載","text":"取得常用的教會表格和文件","link":"/resources/forms"},{"image":"","title":"聯絡我們","text":"與我們聯繫 — 地址、電話、電郵及辦公時間","link":"/resources/contact"}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: resources001

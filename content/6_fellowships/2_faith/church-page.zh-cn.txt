@@ -1,0 +1,11 @@
+Title: 基信团契
+
+----
+
+Builder:
+
+[{"content":{"title":"基信团契","subtitle":"基信团契 FAITH FELLOWSHIP"},"id":"faith-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介绍</h3><p>基信团契聚集信徒深入研读神的话语，彼此在信仰中鼓励。我们的团契是有学龄儿童的家庭在灵性上一起成长、建立有意义的关系、在人生旅途中彼此支持的地方。</p><h3>聚会时间</h3><p><strong>每月第二和第四个周五，晚上7:30</strong></p><p>语言：粤语</p><p>欢迎每位参加。</p><h3>负责人</h3><p>如需了解目前团契负责人的资讯，请联系教会办公室。</p><h3>活动内容</h3><ul><li>查经和讨论</li><li>祷告和团契</li><li>嘉宾讲员和特别主题</li><li>彼此支持和鼓励</li><li>家庭郊游和季节性活动</li></ul><h3>团契照片</h3><p>我们团契聚会和活动的照片将在此分享。请关注我们近期活动的更新！</p>"},"id":"faith-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入基信团契","text":"<p>欢迎每位！请联系我们了解更多关于基信团契的资讯。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"faith-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faith00001

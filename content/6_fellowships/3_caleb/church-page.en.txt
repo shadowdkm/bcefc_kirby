@@ -1,0 +1,11 @@
+Title: Caleb Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Caleb Fellowship","subtitle":"迦勒長青團"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Introduction</h3><p>Caleb Fellowship (迦勒長青團) is named after the biblical Caleb who remained faithful and strong even in his later years. This fellowship is for seniors and elderly friends who desire to continue growing in their faith and enjoying rich fellowship together.</p><h3>Meeting Time</h3><p><strong>Third Saturday of each month, 1:00 PM</strong></p><p>Language: Cantonese (粵語)</p><p>Open to all senior friends.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current fellowship leader information.</p><h3>What We Do</h3><ul><li>Worship and Bible study</li><li>Fellowship and lunch together</li><li>Guest speakers on relevant topics</li><li>Outings and holiday celebrations</li><li>Mutual care and support</li></ul><h3>Fellowship Photos</h3><p>Photos from our fellowship gatherings and outings will be shared here. Check back for updates from our recent events!</p>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Caleb Fellowship","text":"<p>All seniors are welcome! Contact us to learn more about Caleb Fellowship.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caleb00001

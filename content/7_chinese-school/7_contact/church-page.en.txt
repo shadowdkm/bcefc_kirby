@@ -1,0 +1,11 @@
+Title: Contact Chinese School
+
+----
+
+Builder:
+
+[{"content":{"title":"Contact Chinese School","subtitle":"WE'D LOVE TO HEAR FROM YOU"},"id":"cscontact-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Whether you have questions about enrolment, curriculum, class schedules, or volunteering opportunities, we are here to help. Please feel free to reach out to us using any of the methods below.</p><h3>Chinese School Office</h3><p><strong>Email:</strong> <a href=\"mailto:chineseschool@bcefc.ca\">chineseschool@bcefc.ca</a></p><p><strong>Phone:</strong> (604) 438-6622 (Church Office — ask for Chinese School)</p><p><strong>Office Hours:</strong> Saturdays 9:00 AM - 12:00 PM during the school year (September - June)</p><h3>Mailing Address</h3><p>BCEFC Chinese School<br>c/o Burnaby Chinese Evangelical Free Church<br>5250 Joyce Street<br>Vancouver, BC V5R 4H1</p><h3>In-Person Visits</h3><p>Prospective families are welcome to visit during class hours on Saturdays. Please contact us in advance so we can arrange for a tour and class observation.</p><h3>For Current Families</h3><p>If you have a question about your child's class or progress, please contact the class teacher directly. For general school matters, please reach out to the school principal through the office email.</p>"},"id":"cscontact-content","isHidden":false,"type":"richtext"},{"content":{"church_name":"BCEFC Chinese School","address":"5250 Joyce Street, Vancouver, BC V5R 4H1","phone":"(604) 438-6622","email":"chineseschool@bcefc.ca","office_hours":"Saturdays 9:00 AM - 12:00 PM (September - June)","map_embed_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.5!2d-123.0!3d49.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEzJzEyLjAiTiAxMjPCsDAyJzI0LjAiVw!5e0!3m2!1sen!2sca!4v1234567890","social_links":[]},"id":"cscontact-footer","isHidden":false,"type":"contact-footer"}]
+
+----
+
+Uuid: cscontact1

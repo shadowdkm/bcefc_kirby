@@ -1,0 +1,11 @@
+Title: 奉献方式
+
+----
+
+Builder:
+
+[{"content":{"title":"奉献方式","subtitle":"Giving Methods"},"id":"methods-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>您可以通过以下几种便捷方式向本那比华人播道会奉献。所有奉献均可抵税，收据每年发放一次。</p><h3>Interac 电子转账（E-Transfer）</h3><p>电子转账是最方便快捷的奉献方式。请按以下步骤操作：</p><ol><li>登入您银行的网上银行或手机银行</li><li>选择 <strong>Interac e-Transfer</strong>（或「发送款项」）</li><li>添加收款人电邮：<strong>giving@bcefc.ca</strong></li><li>输入您要奉献的金额</li><li>在消息栏中填写您的<strong>全名</strong>和<strong>奉献指定用途</strong>（例如：常费基金、宣教基金、建堂基金）</li><li>发送 — 无需设定安全问题（已启用自动存款）</li></ol><p><strong>重要提示：</strong>请使用与您税务记录一致的姓名，以便我们正确开具退税收据。</p><h3>支票奉献</h3><p>您可以通过以下方式以支票奉献：</p><ul><li><strong>亲自提交：</strong>在主日崇拜时将支票放入奉献箱，或在办公时间内送到教会办公室</li><li><strong>邮寄：</strong>请将支票邮寄至：<br><br>Burnaby Chinese Evangelical Free Church<br>6112 Rumble Street<br>Burnaby, BC V5J 2C7</li></ul><p>支票抬头请写 <strong>\"Burnaby Chinese Evangelical Free Church\"</strong> 或 <strong>\"BCEFC\"</strong>。如需指定奉献用途，请在支票备注栏中注明。</p><h3>主日奉献</h3><p>座位上备有奉献封。请将现金或支票放入奉献封，填写所需资料，然后投入奉献箱。</p><h3>退税收据</h3><p>$20或以上奉献的正式退税收据于每年二月邮寄，涵盖上一个日历年度的奉献。请确保教会办公室有您最新的邮寄地址。如有收据相关问题，请联系 <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>。</p><h3>指定奉献</h3><p>您可以将奉献指定用于特定基金或目的（例如：宣教基金、建堂基金、关怀基金）。请在奉献时注明指定用途。如未指定，您的奉献将归入常费基金，用于支持教会整体运作和事工。</p>"},"id":"methods-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: giving-meth-001

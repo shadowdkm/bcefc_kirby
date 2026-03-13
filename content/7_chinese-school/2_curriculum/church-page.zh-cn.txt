@@ -1,0 +1,11 @@
+Title: 课程设计
+
+----
+
+Builder:
+
+[{"content":{"title":"课程设计","subtitle":"教学课程"},"id":"cscurr-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们的中文学校提供全面且结构完善的课程，旨在培养学生的中文能力，同时增进对中华文化的欣赏。我们的课程针对不同年龄和程度设计，确保每位学生都能获得适合其需求的教学。</p>"},"id":"cscurr-intro","isHidden":false,"type":"richtext"},{"content":{"title":"课程项目","columns":[{"image":"","title":"幼稚园课程","text":"四岁以上。通过儿歌、故事、美劳等游戏式教学引导幼儿认识中文。学生学习基本词汇、问候语、数字和简单汉字。","link":""},{"image":"","title":"小学课程（一至六年级）","text":"系统化课程建立听、说、读、写技能，采用台湾出版教科书，辅以香港教材及教师自编资源。","link":""},{"image":"","title":"文化熏陶","text":"每周宗教德育故事课、书法工作坊、中国节日庆祝活动、诗歌朗诵及季节性活动，让中华文化生动呈现。","link":""}]},"id":"cscurr-programs","isHidden":false,"type":"card-grid"},{"content":{"text":"<h3>授课语言</h3><p>以粤语教授，书写采用繁体中文。</p><h3>教材</h3><ul><li><strong>幼稚园：</strong>本校自编教材，内容适合幼儿，配有彩色插图和互动练习。</li><li><strong>小学一至六年级：</strong>选用台湾出版的教科书及作业，以其优质和全面的中文教学方法获得广泛认可。</li><li><strong>辅助教材：</strong>选用香港出版社的教科书，提供额外的阅读练习和文化背景。</li><li><strong>教师资源：</strong>老师编写额外的辅助材料、练习纸和活动，根据每班的进度和需求量身定制。</li></ul><h3>评估与进度</h3><p>学生在学年中接受定期评估，包括小测、期中考试和期末考试。每学期发放成绩报告，让家长了解孩子的学习进度。每年举行家长会。</p>"},"id":"cscurr-details","isHidden":false,"type":"richtext"},{"content":{"title":"了解更多","text":"<p>对我们的课程有疑问，或想知道哪个级别适合您的孩子？请联系我们安排分班咨询。</p>","button_text":"联系我们","button_url":"/chinese-school/contact"},"id":"cscurr-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: cscurr0001

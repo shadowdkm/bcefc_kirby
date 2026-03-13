@@ -1,0 +1,11 @@
+Title: G6-9團契
+
+----
+
+Builder:
+
+[{"content":{"title":"G6-9團契","subtitle":"6-9年級"},"id":"g69-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介紹</h3><p>G6-9團契是我們為6-9年級學生設計的初中事工。這是年輕人開始擁有自己信仰的關鍵時期，我們在這裡引導和支持他們度過這些轉變的歲月。我們創造一個環境，讓青少年可以探索信仰、提出困難的問題，並建立真誠的友誼。</p><h3>聚會時間</h3><p><strong>週五晚上7:30 - 9:30</strong></p><p>語言：英語 / 粵語</p><h3>負責人</h3><p>如需了解目前青少年事工負責人的資訊，請聯繫教會辦公室。</p><h3>活動內容</h3><ul><li>生動的查經</li><li>敬拜和禱告</li><li>遊戲和交誼時間</li><li>小組討論</li><li>退修會和營會</li><li>服務項目</li></ul><h3>團契照片</h3><p>我們青少年活動、營會和特別活動的照片將在此分享。請關注更新！</p>"},"id":"g69-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入G6-9！","text":"<p>如果你是6-9年級的學生，歡迎來看看！我們隨時歡迎新朋友。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"g69-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g69fell001

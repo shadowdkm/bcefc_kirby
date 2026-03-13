@@ -1,0 +1,11 @@
+Title: 报名注册
+
+----
+
+Builder:
+
+[{"content":{"title":"报名注册","subtitle":"立即报名"},"id":"csreg-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>如何报名</h3><p>2025-2026学年报名现已开放！请按以下步骤为您的孩子报名：</p><ol><li><strong>填写</strong>下方的线上报名表格，或到教会办公室索取纸本表格。</li><li><strong>缴费</strong>以支票、现金或电子转账方式缴交学费。</li><li><strong>参加</strong>分班评估（一年级及以上的新生必须参加）。</li><li><strong>收到</strong>开学前以电邮确认班级分配。</li></ol><h3>报名截止日期</h3><ul><li><strong>早鸟报名：</strong>7月1日 - 8月15日（学费优惠$20）</li><li><strong>正常报名：</strong>8月16日 - 9月1日</li><li><strong>逾期报名：</strong>9月1日后（视名额而定，须缴付$20逾期费用）</li></ul><h3>所需资料</h3><ul><li>学生全名、出生日期及年级</li><li>家长/监护人联系方式</li><li>紧急联络人资料</li><li>医疗或过敏资料（如适用）</li><li>以前的中文学校成绩（旧生或转校生）</li></ul><h3>付款方式</h3><p>我们接受支票（抬头请写BCEFC Chinese School）、现金或电子转账至 <strong>chineseschool@bcefc.ca</strong>。如有需要可申请分期付款，请与学校办公室联系。</p><h3>退费政策</h3><p>开课前可获全额退费。开课后两周内可退还50%。开课两周后不予退费。</p>"},"id":"csreg-content","isHidden":false,"type":"richtext"},{"content":{"title":"线上报名","text":"<p>填写线上报名表格，确保您孩子的名额。我们将在3个工作天内发送确认电邮。</p>","button_text":"报名表格","button_url":"https://forms.google.com/bcefc-chinese-school-registration","button_style":"embed"},"id":"csreg-form","isHidden":false,"type":"form-signup"},{"content":{"title":"需要帮助？","text":"<p>对报名有疑问？请联系中文学校办公室，我们乐意为您服务。</p>","button_text":"联系中文学校","button_url":"/chinese-school/contact"},"id":"csreg-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: csreg00001

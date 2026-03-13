@@ -1,0 +1,11 @@
+Title: Giving Philosophy
+
+----
+
+Builder:
+
+[{"content":{"title":"Giving Philosophy","subtitle":"奉獻理念"},"id":"philosophy-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Generosity as Worship</h3><p>At Burnaby Chinese Evangelical Free Church, we believe that giving is an act of worship and a joyful response to God's grace. The Bible teaches us that everything we have belongs to God, and we are stewards of His blessings.</p><p>\"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.\" — 2 Corinthians 9:7</p><h3>Biblical Foundations</h3><p>Scripture provides clear guidance on the principles of giving:</p><ul><li><strong>Tithe:</strong> The Old Testament establishes the tithe — giving the first ten percent of our income — as a baseline of faithful stewardship (Malachi 3:10). While the New Testament emphasizes grace-based giving, the tithe remains a meaningful starting point for many believers.</li><li><strong>Generous and Sacrificial:</strong> Beyond the tithe, God calls us to generous, sacrificial giving that reflects the depth of His love for us (2 Corinthians 8:1-5).</li><li><strong>Cheerful and Willing:</strong> God does not desire gifts given out of obligation or guilt. He delights in cheerful, willing hearts (2 Corinthians 9:7).</li><li><strong>Faithful and Regular:</strong> Consistent giving reflects our ongoing trust in God's provision and our commitment to the church's mission (1 Corinthians 16:2).</li></ul><h3>Why We Give</h3><p>Our giving supports the work God is doing through BCEFC:</p><ul><li>Proclaiming the Gospel in Burnaby and beyond</li><li>Discipling believers to grow in faith and maturity</li><li>Supporting missionaries and mission partners worldwide</li><li>Caring for those in need within our church and community</li><li>Maintaining a welcoming space for worship and fellowship</li></ul><p>We give not out of duty, but out of gratitude — because God first gave to us (John 3:16).</p>"},"id":"philosophy-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: giving-phil-001

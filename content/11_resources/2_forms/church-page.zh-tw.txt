@@ -1,0 +1,11 @@
+Title: 表格下載
+
+----
+
+Builder:
+
+[{"content":{"title":"表格下載","subtitle":"Form Downloads"},"id":"forms-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>請在下方下載常用的教會表格。如果您需要的表格不在列表中，請聯繫教會辦公室 <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>。</p>"},"id":"forms-intro","isHidden":false,"type":"richtext"},{"content":{"title":"可用表格","columns":[{"image":"","title":"會籍申請表","text":"教會會籍申請表。請填妥後提交至教會辦公室。","link":"#"},{"image":"","title":"受浸申請表","text":"預備受浸者的申請表。請連同個人見證一起提交。","link":"#"},{"image":"","title":"嬰孩奉獻禮表格","text":"嬰孩奉獻禮的登記表格。","link":"#"},{"image":"","title":"場地借用申請表","text":"申請借用教會場地舉辦活動或會議的表格。","link":"#"},{"image":"","title":"訪客卡","text":"初次來訪者資料卡。教會大堂亦有提供。","link":"/new-here/visitor-card"},{"image":"","title":"義工登記表","text":"報名參與教會各項事工和活動的服事。","link":"#"}]},"id":"forms-grid","isHidden":false,"type":"card-grid"},{"content":{"text":"<h3>提交表格</h3><p>填妥的表格可在辦公時間內（週二至週五，上午 9:00 – 下午 5:00）親自提交至教會辦公室，或以電郵發送至 <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>。</p>"},"id":"forms-submit","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: res-forms-001

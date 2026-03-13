@@ -1,0 +1,11 @@
+Title: Weekly Bulletin
+
+----
+
+Builder:
+
+[{"content":{"title":"Weekly Bulletin","subtitle":"STAY INFORMED EACH WEEK"},"id":"bulletin-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our weekly bulletin keeps you up to date with worship details, announcements, prayer items, and upcoming events at BCEFC.</p><h3>How to Access the Bulletin</h3><p>Printed copies of the bulletin are available at the welcome table every Sunday before each worship service. You may also access the digital version below.</p><h3>What's Inside</h3><ul><li><strong>Order of Worship</strong> – The flow of the Sunday service including hymns, Scripture readings, and sermon title.</li><li><strong>Announcements</strong> – Important church news, ministry updates, and volunteer opportunities.</li><li><strong>Prayer Items</strong> – Weekly prayer requests for our congregation, community, and missionaries.</li><li><strong>Upcoming Events</strong> – A calendar of church activities for the coming weeks.</li></ul><h3>Digital Bulletin</h3><p>The latest bulletin is typically uploaded by Saturday evening. If you are unable to attend in person, you can stay connected through the digital bulletin.</p>"},"id":"bulletin-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"Need a Past Bulletin?","text":"If you need a copy of a previous bulletin, please contact the church office.","button_text":"Contact Church Office","button_url":"/about/contact","variant":"neutral","alignment":"center"},"id":"bulletin-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: bulletin00001

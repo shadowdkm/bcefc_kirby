@@ -1,0 +1,11 @@
+Title: 迦勒长青团
+
+----
+
+Builder:
+
+[{"content":{"title":"迦勒长青团","subtitle":"迦勒长青团 CALEB FELLOWSHIP"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介绍</h3><p>迦勒长青团以圣经中的迦勒命名，他在晚年仍然忠心且刚强。这个团契是为长者和年长朋友设计的，让他们在信仰中持续成长，享受丰富的团契生活。</p><h3>聚会时间</h3><p><strong>每月第三个周六，下午1:00</strong></p><p>语言：粤语</p><p>适合年长朋友参加。</p><h3>负责人</h3><p>如需了解目前团契负责人的资讯，请联系教会办公室。</p><h3>活动内容</h3><ul><li>敬拜和查经</li><li>团契和午餐</li><li>嘉宾讲员分享相关主题</li><li>郊游和节日庆祝</li><li>彼此关怀和支持</li></ul><h3>团契照片</h3><p>我们团契聚会和郊游的照片将在此分享。请关注我们近期活动的更新！</p>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入迦勒长青团","text":"<p>欢迎所有长者！请联系我们了解更多关于迦勒长青团的资讯。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caleb00001

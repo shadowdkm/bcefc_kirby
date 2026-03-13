@@ -1,0 +1,11 @@
+Title: 奉献
+
+----
+
+Builder:
+
+[{"content":{"heading":"奉献","subheading":"慷慨作为敬拜","image":"","overlay":true},"id":"giving-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>「各人要随本心所酌定的，不要作难，不要勉强，因为捐得乐意的人是神所喜爱的。」— 哥林多后书 9:7</p><p>在本那比华人播道会，我们相信奉献是敬拜的行为，也是对神供应的信靠表达。您的慷慨使我们能够完成在社区和世界各地分享基督之爱的使命。</p>"},"id":"giving-intro","isHidden":false,"type":"richtext"},{"content":{"title":"了解更多","columns":[{"image":"","title":"奉献理念","text":"了解慷慨奉献的圣经根基和原则","link":"/giving/philosophy"},{"image":"","title":"奉献方式","text":"电子转账、支票、主日奉献 — 选择最适合您的方式","link":"/giving/methods"}]},"id":"giving-nav","isHidden":false,"type":"card-grid"},{"content":{"title":"奉献方式","columns":[{"icon":"heart","title":"主日奉献","description":"在主日崇拜期间透过奉献箱奉献"},{"icon":"mail","title":"邮寄","description":"将支票邮寄至教会办公室"},{"icon":"phone","title":"电子转账","description":"发送至：giving@bcefc.ca"}]},"id":"giving-options","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>您的奉献用途</h3><p>您忠心的奉献支持：</p><ul><li><strong>事工运作：</strong>同工、设施、项目和资源</li><li><strong>宣教：</strong>支持本地和全球的宣教士和宣教项目</li><li><strong>关怀基金：</strong>帮助教会和社区中有需要的人</li><li><strong>建堂基金：</strong>维护和改善我们的设施</li></ul><h3>有关奉献的问题？</h3><p>请联系教会办公室 <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a> 或致电 (604) 431-6969。</p>"},"id":"giving-details","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: giving0001

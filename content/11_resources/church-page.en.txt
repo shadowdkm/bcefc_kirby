@@ -1,0 +1,11 @@
+Title: Resources
+
+----
+
+Builder:
+
+[{"content":{"heading":"Resources","subheading":"Helpful Information & Downloads","image":"","overlay":true},"id":"resources-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>Find church calendars, downloadable forms, and contact information all in one place. We want to make it easy for you to stay connected and informed.</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Quick Links","columns":[{"image":"","title":"Church Calendar","text":"View upcoming events, services, and important dates","link":"/resources/calendar"},{"image":"","title":"Form Downloads","text":"Access commonly used church forms and documents","link":"/resources/forms"},{"image":"","title":"Contact Us","text":"Get in touch — address, phone, email, and office hours","link":"/resources/contact"}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: resources001

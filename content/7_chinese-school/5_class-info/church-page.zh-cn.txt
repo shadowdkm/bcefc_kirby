@@ -1,0 +1,11 @@
+Title: 上课资讯
+
+----
+
+Builder:
+
+[{"content":{"title":"上课资讯","subtitle":"2025-2026学年"},"id":"classinfo-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>上课时间</h3><p>课程于每年九月至六月的每周六举行，假期安排跟随本地公立学校校历。</p><p><strong>逢星期六：上午 9:30 - 11:30</strong></p><ul><li><strong>9:30 - 9:40：</strong>到校及课前准备</li><li><strong>9:40 - 10:30：</strong>第一节课</li><li><strong>10:30 - 10:40：</strong>课间休息</li><li><strong>10:40 - 11:20：</strong>第二节课</li><li><strong>11:20 - 11:30：</strong>宗教德育故事 / 放学</li></ul><h3>学期安排</h3><ul><li><strong>秋季学期：</strong>九月至一月（约18周）</li><li><strong>春季学期：</strong>二月至六月（约18周）</li><li><strong>假期：</strong>感恩节、圣诞假期、家庭日、春假、维多利亚日及其他法定假日暂停上课</li></ul><h3>学费</h3><p><strong>全年学费：</strong>每位学生$380</p><p><strong>家庭优惠：</strong>第二个孩子九折，第三个孩子八五折</p><p><strong>教材费：</strong>每位学生$40（包括课本和练习本）</p><p><strong>付款方式：</strong>支票（抬头请写BCEFC Chinese School）、现金或电子转账。如有需要可申请分期付款。</p><h3>上课地点</h3><p>所有课程于本那比华人播道会举行，地址：5250 Joyce Street, Vancouver, BC V5R 4H1。教会提供充足的免费停车位。</p>"},"id":"classinfo-content","isHidden":false,"type":"richtext"},{"content":{"items":[{"question":"我的孩子需要几岁才能报名？","answer":"孩子在该学年9月1日前须年满4岁，方可报读幼稚园低班。"},{"question":"我的孩子需要有中文基础吗？","answer":"幼稚园班不需要有中文基础。一年级及以上的新生须接受简短的分班评估，以确定最适合的班级。"},{"question":"以什么语言授课？","answer":"课程主要以粤语教授，书写采用繁体中文。"},{"question":"如果我的孩子缺课怎么办？","answer":"老师会提供补课材料和作业。家长可直接联系老师了解缺课内容。"},{"question":"课间休息时有人照看吗？","answer":"是的，老师和家长义工会在课间休息时照看学生。学生不得在无人陪同的情况下离开建筑物。"},{"question":"你们提供试读吗？","answer":"是的，有兴趣的学生可免费试读一堂课。请提前联系我们安排试读。"},{"question":"如果我的孩子介于两个年级之间怎么办？","answer":"我们的分班评估将帮助确定最适合的级别。我们优先考虑让学生在最有效的环境中学习，老师也会根据需要提供个别化教学。"},{"question":"家长需要在上课期间留下吗？","answer":"建议幼稚园学生的家长留在校舍内。较大学生的家长可以接送，但欢迎留下来当义工。"}]},"id":"classinfo-faq","isHidden":false,"type":"accordion"},{"content":{"title":"有疑问？","text":"<p>如需了解分班测试、课程名额和报名的更多资讯，请联系中文学校办公室。</p>","button_text":"联系我们","button_url":"/chinese-school/contact"},"id":"classinfo-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: classinfo1

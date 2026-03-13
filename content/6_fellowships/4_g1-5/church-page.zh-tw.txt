@@ -1,0 +1,11 @@
+Title: G1-5團契
+
+----
+
+Builder:
+
+[{"content":{"title":"G1-5團契","subtitle":"1-5年級"},"id":"g15-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介紹</h3><p>G1-5團契是1-5年級兒童在有趣、適齡的環境中學習跟隨耶穌的地方。我們相信這些成長歲月對建立堅固的信仰根基至關重要。透過生動的活動和關愛的帶領者，孩子們發現神的愛以及如何在日常生活中應用。</p><h3>聚會時間</h3><p><strong>週五晚上7:30 - 9:00</strong></p><p>（與成人團契同時進行）</p><p>語言：粵語 / 英語</p><h3>負責人</h3><p>如需了解目前兒童事工負責人的資訊，請聯繫教會辦公室。</p><h3>孩子們的體驗</h3><ul><li>互動聖經故事</li><li>敬拜詩歌和禱告</li><li>遊戲和活動</li><li>背誦經文</li><li>特別活動和郊遊</li><li>與聖經課程相關的手工製作</li></ul><h3>團契照片</h3><p>我們兒童活動和特別活動的照片將在此分享。請關注更新！</p>"},"id":"g15-content","isHidden":false,"type":"richtext"},{"content":{"title":"歡迎您的孩子！","text":"<p>帶您1-5年級的孩子來體驗信仰、歡樂和友誼！</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"g15-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: g15fell001

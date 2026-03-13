@@ -1,0 +1,11 @@
+Title: Careers
+
+----
+
+Builder:
+
+[{"content":{"title":"Careers","subtitle":"招聘"},"id":"careers-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>Serve With Us at BCEFC</h2><p>Burnaby Chinese Evangelical Free Church is a vibrant, multigenerational community committed to glorifying God and making disciples. We are always looking for passionate, gifted individuals who feel called to serve in full-time or part-time ministry.</p><h3>Why Serve at BCEFC?</h3><ul><li><strong>A Christ-centred community</strong> — Join a team that is united in faith and purpose, serving Christ together across three language congregations.</li><li><strong>Meaningful ministry</strong> — Make a lasting impact in the lives of families, youth, and newcomers in the Burnaby area.</li><li><strong>Growth and development</strong> — We invest in our staff through ongoing training, mentorship, and opportunities for professional and spiritual growth.</li><li><strong>Collaborative environment</strong> — Work alongside dedicated pastors, deacons, and volunteers in a supportive and encouraging atmosphere.</li></ul><h3>Current Openings</h3><p>We are currently seeking candidates for the following positions:</p><h4>Youth Pastor (Full-Time)</h4><p>Lead and develop our youth ministry, mentoring young people in their faith journey and equipping them for service. The ideal candidate has a heart for the next generation, experience in youth ministry, and the ability to communicate in English and Chinese.</p><h4>Church Administrator (Part-Time)</h4><p>Support the day-to-day operations of the church, including office management, communications, and event coordination. Strong organizational skills and proficiency in English and Chinese are required.</p><h3>How to Apply</h3><p>If you are interested in any of the above positions, please send your resume and a brief statement of faith to <strong>hr@bcefc.ca</strong>. We look forward to hearing from you.</p>"},"id":"careers-content","isHidden":false,"type":"richtext"},{"content":{"title":"Get in Touch","text":"<p>Have questions about serving at BCEFC? We would love to hear from you. Reach out to our church office for more information about current and future opportunities.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"careers-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-careers-001

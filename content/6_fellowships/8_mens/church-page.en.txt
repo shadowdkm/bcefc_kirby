@@ -1,0 +1,11 @@
+Title: Men's Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Men's Fellowship","subtitle":"男士的天空"},"id":"mens-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Introduction</h3><p>Men's Fellowship (男士的天空) brings together men for mutual encouragement, accountability, and growth as followers of Christ. This fellowship provides a space for men to deepen their faith, build authentic relationships, and support one another in their roles as husbands, fathers, and servants of God.</p><h3>Meeting Time</h3><p><strong>First Sunday of each month, 3:00 PM</strong></p><p>Language: Cantonese (粵語)</p><p>Open to all men.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current men's fellowship leader information.</p><h3>What We Do</h3><ul><li>Bible study and discussion</li><li>Fellowship and sharing</li><li>Encouragement and accountability</li><li>Prayer together</li><li>Special men's events and outings</li></ul><h3>Fellowship Photos</h3><p>Photos from our men's fellowship activities and events will be shared here. Check back for updates!</p>"},"id":"mens-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Us","text":"<p>All men are welcome! Contact us to learn more about Men's Fellowship.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"mens-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mensfel001

@@ -1,0 +1,11 @@
+Title: Form Downloads
+
+----
+
+Builder:
+
+[{"content":{"title":"Form Downloads","subtitle":"表格下載"},"id":"forms-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Download commonly used church forms below. If you need a form that is not listed here, please contact the church office at <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>.</p>"},"id":"forms-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Available Forms","columns":[{"image":"","title":"Membership Application","text":"Application form for church membership. Please complete and submit to the church office.","link":"#"},{"image":"","title":"Baptism Application","text":"Application form for those preparing for baptism. Submit along with your testimony.","link":"#"},{"image":"","title":"Child Dedication Form","text":"Registration form for child dedication ceremony.","link":"#"},{"image":"","title":"Facility Booking Request","text":"Request form for booking church facilities for events or meetings.","link":"#"},{"image":"","title":"Visitor Card","text":"First-time visitor information card. Also available in the church foyer.","link":"/new-here/visitor-card"},{"image":"","title":"Volunteer Registration","text":"Sign up to serve in various church ministries and programs.","link":"#"}]},"id":"forms-grid","isHidden":false,"type":"card-grid"},{"content":{"text":"<h3>Submitting Forms</h3><p>Completed forms can be submitted in person at the church office during office hours (Tuesday – Friday, 9:00 AM – 5:00 PM), or by email to <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>.</p>"},"id":"forms-submit","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: res-forms-001

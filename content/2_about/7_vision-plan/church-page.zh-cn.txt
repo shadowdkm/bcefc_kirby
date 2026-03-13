@@ -1,0 +1,11 @@
+Title: 五年计划与方向
+
+----
+
+Builder:
+
+[{"content":{"title":"五年计划与方向","subtitle":"Five-Year Plan & Direction"},"id":"visionplan-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>我们的五年计划（2025–2030）</h2><p>本立比华人播道会展望未来，致力于制定一个荣耀神、坚固信徒、拓展神国的策略计划。我们的五年计划是藉着祷告、圣经和圣灵的引导而制定，引领我们迈向忠心成长和更深影响力的未来。</p><h3>指导原则</h3><p>我们的计划建基于三大支柱：</p><ul><li><strong>忠于神的话语</strong> — 每一项事工都植根于圣经真理，并与使万民作主门徒的使命一致。</li><li><strong>资源的好管家</strong> — 我们寻求以智慧和慷慨的管理，荣耀神所托付给我们的时间、恩赐和财务。</li><li><strong>在基督里合一</strong> — 我们跨越世代和语言，作为一个教会家庭，一同追求我们的目标。</li></ul><h3>关键里程碑</h3><p>在未来五年，我们的目标是：</p><ol><li>在2026年前为所有年龄群体推出全面的门徒训练路径。</li><li>在2027年前建立两项新的社区外展计划。</li><li>在2028年前将宣教奉献增加20%，并差派更多短宣队伍。</li><li>在2029年前完成设施改善工程，以更好地服事日益增长的会众。</li><li>在2030年前培养和差遣10位新的事工领袖。</li></ol>"},"id":"visionplan-content","isHidden":false,"type":"richtext"},{"content":{"title":"重点事工","columns":[{"image":"","title":"门徒训练","text":"系统化的课程，深化圣经知识，装备每位信徒投入服事。","link":"/ministries"},{"image":"","title":"青年与下一代","text":"透过导师指导、领袖培训和活泼的团契，投资于年轻人。","link":"/fellowships"},{"image":"","title":"社区关怀","text":"透过实际的爱心行动、ESL课程和社区活动，服事本立比的邻舍。","link":"/events"},{"image":"","title":"宣教与传福音","text":"支持本地和全球宣教，差派团队，勇敢地传扬福音。","link":"/missions"}]},"id":"visionplan-grid","isHidden":false,"type":"card-grid"},{"content":{"title":"与我们同行","text":"<p>邀请您与我们一同祷告、奉献和服事，一起追求神对本立比华人播道会的异象。同心合意，我们能为祂的国度带来持久的影响。</p>","button_text":"参与我们","button_url":"/about/contact"},"id":"visionplan-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-visionplan-001

@@ -1,0 +1,11 @@
+Title: 国语小组
+
+----
+
+Builder:
+
+[{"content":{"title":"国语小组","subtitle":"国语小组 MANDARIN FELLOWSHIP"},"id":"mandarin-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>国语小组是一个温馨的团契，专为说国语的会友和朋友而设。我们以国语一起查经、祷告和团契，为说国语的朋友建立一个属灵的家。</p><h3>介绍</h3><p>我们的团契为国语使用者提供一个彼此支持的群体，一起在信仰中成长、分享生活、彼此鼓励。无论您是刚来加拿大还是已经在这里多年，您都能在这里找到归属感。</p><h3>聚会时间</h3><p><strong>每周五 晚上7:30</strong></p><p>语言：国语（普通话）</p><p>欢迎所有说国语的朋友参加。</p><h3>负责人</h3><p>如需了解目前团契负责人的资讯，请联系教会办公室。</p><h3>活动内容</h3><ul><li>国语查经和讨论</li><li>祷告和彼此扶持</li><li>团契聚餐和社交活动</li><li>节日庆祝和郊游</li><li>新朋友欢迎和关怀</li></ul><h3>团契照片</h3><p>我们团契活动的照片将在此分享。请关注我们近期活动的更新！</p>"},"id":"mandarin-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入国语小组","text":"<p>我们热烈欢迎所有说国语的朋友！无论您是寻求信仰还是寻找社群，欢迎您来加入我们。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"mandarin-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mandarin01

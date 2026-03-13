@@ -1,0 +1,11 @@
+Title: Faith Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Faith Fellowship","subtitle":"基信團契"},"id":"faith-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Introduction</h3><p>Faith Fellowship (基信團契) brings together believers for deeper study of God's Word and mutual encouragement in faith. Our fellowship is a place where families with school-age children can grow together spiritually, build meaningful relationships, and support one another through life's journey.</p><h3>Meeting Time</h3><p><strong>2nd and 4th Friday of each month, 7:30 PM</strong></p><p>Language: Cantonese (粵語)</p><p>Open to all who wish to join.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current fellowship leader information.</p><h3>What We Do</h3><ul><li>Bible study and discussion</li><li>Prayer and fellowship</li><li>Guest speakers and special topics</li><li>Mutual support and encouragement</li><li>Family outings and seasonal activities</li></ul><h3>Fellowship Photos</h3><p>Photos from our fellowship gatherings and activities will be shared here. Check back for updates from our recent events!</p>"},"id":"faith-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Faith Fellowship","text":"<p>All are welcome! Contact us to learn more about Faith Fellowship.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"faith-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: faith00001

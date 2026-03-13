@@ -1,0 +1,11 @@
+Title: 联络中文学校
+
+----
+
+Builder:
+
+[{"content":{"title":"联络中文学校","subtitle":"欢迎与我们联系"},"id":"cscontact-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>无论您对报名、课程、上课时间或义工机会有任何疑问，我们都乐意为您解答。请通过以下方式与我们联系。</p><h3>中文学校办公室</h3><p><strong>电邮：</strong><a href=\"mailto:chineseschool@bcefc.ca\">chineseschool@bcefc.ca</a></p><p><strong>电话：</strong>(604) 438-6622（教会办公室 — 请转接中文学校）</p><p><strong>办公时间：</strong>学年期间（九月至六月）逢星期六上午 9:00 - 12:00</p><h3>通讯地址</h3><p>BCEFC Chinese School<br>c/o Burnaby Chinese Evangelical Free Church<br>5250 Joyce Street<br>Vancouver, BC V5R 4H1</p><h3>到校参观</h3><p>欢迎有兴趣的家庭在星期六上课时间前来参观。请提前联系我们，以便安排校园导览和课堂观摩。</p><h3>现有学生家长</h3><p>如对您孩子的班级或学习进度有疑问，请直接联系班级老师。如有一般校务事宜，请通过办公室电邮联系校长。</p>"},"id":"cscontact-content","isHidden":false,"type":"richtext"},{"content":{"church_name":"本那比华人播道会中文学校","address":"5250 Joyce Street, Vancouver, BC V5R 4H1","phone":"(604) 438-6622","email":"chineseschool@bcefc.ca","office_hours":"学年期间逢星期六上午 9:00 - 12:00","map_embed_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.5!2d-123.0!3d49.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEzJzEyLjAiTiAxMjPCsDAyJzI0LjAiVw!5e0!3m2!1sen!2sca!4v1234567890","social_links":[]},"id":"cscontact-footer","isHidden":false,"type":"contact-footer"}]
+
+----
+
+Uuid: cscontact1

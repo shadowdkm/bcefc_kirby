@@ -1,0 +1,11 @@
+Title: 團契生活
+
+----
+
+Builder:
+
+[{"content":{"heading":"團契生活","subheading":"在群體中一起成長","image":"","overlay":true},"id":"fel-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>在本那比華人播道會，我們相信靈命成長在群體中最能發生。我們的團契為各年齡層和人生階段的人提供連結、研讀神話語、一起禱告和建立持久友誼的空間。</p><p>無論您是年輕專業人士、正在養育家庭，還是享受退休生活，都有適合您的團契。每個小組定期聚會進行查經、禱告和社交活動。瀏覽以下團契，找到適合您的群體。</p>"},"id":"fel-intro","isHidden":false,"type":"richtext"},{"content":{"heading":"我們的團契","subheading":"找到屬於你的群體","fellowships":[{"photo":"","name":"約瑟團契","tagline":"年輕已婚夫婦和有幼兒的家庭","url":"/fellowships/joseph"},{"photo":"","name":"基信團契","tagline":"有學齡兒童的家庭，一同在信仰中成長","url":"/fellowships/faith"},{"photo":"","name":"迦勒長青團","tagline":"長者享受團契和屬靈的活力","url":"/fellowships/caleb"},{"photo":"","name":"G1-5團契","tagline":"1-5年級兒童建立信仰根基","url":"/fellowships/g1-5"},{"photo":"","name":"G6-9團契","tagline":"初中青少年探索信仰和友誼","url":"/fellowships/g6-9"},{"photo":"","name":"青少年團契","tagline":"高中和大專學生在信仰和生活中同行","url":"/fellowships/g9-college"},{"photo":"","name":"路得婦女查經","tagline":"各年齡婦女一起研讀神的話語","url":"/fellowships/ruth"},{"photo":"","name":"男士的天空","tagline":"弟兄在基督裡彼此鼓勵","url":"/fellowships/mens"},{"photo":"","name":"國語小組","tagline":"國語朋友在群體中一起成長","url":"/fellowships/mandarin-group"}]},"id":"fel-gallery","isHidden":false,"type":"fellowship-gallery"},{"content":{"title":"加入團契","text":"<p>不確定哪個團契適合您？歡迎聯絡我們，我們會幫助您找到適合的群體！</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"fel-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: fellows001

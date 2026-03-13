@@ -1,0 +1,11 @@
+Title: 常用资料
+
+----
+
+Builder:
+
+[{"content":{"heading":"常用资料","subheading":"实用信息与下载","image":"","overlay":true},"id":"resources-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>在这里您可以找到教会行事历、可下载的表格以及联络信息。我们希望让您能轻松地保持联系和了解教会最新动态。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"title":"快速链接","columns":[{"image":"","title":"教会行事历","text":"查看即将举行的活动、崇拜及重要日期","link":"/resources/calendar"},{"image":"","title":"表格下载","text":"获取常用的教会表格和文件","link":"/resources/forms"},{"image":"","title":"联络我们","text":"与我们联系 — 地址、电话、电邮及办公时间","link":"/resources/contact"}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
+
+----
+
+Uuid: resources001

@@ -1,0 +1,11 @@
+Title: Giving
+
+----
+
+Builder:
+
+[{"content":{"heading":"Giving","subheading":"Generosity as Worship","image":"","overlay":true},"id":"giving-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>\"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.\" — 2 Corinthians 9:7</p><p>At BCEFC, we believe that giving is an act of worship and an expression of trust in God's provision. Your generosity enables us to fulfill our mission of sharing Christ's love in our community and around the world.</p>"},"id":"giving-intro","isHidden":false,"type":"richtext"},{"content":{"title":"Learn More","columns":[{"image":"","title":"Giving Philosophy","text":"Understand the Biblical foundations and principles of generous giving","link":"/giving/philosophy"},{"image":"","title":"Giving Methods","text":"E-Transfer, cheque, Sunday offering — find the way that works best for you","link":"/giving/methods"}]},"id":"giving-nav","isHidden":false,"type":"card-grid"},{"content":{"title":"Ways to Give","columns":[{"icon":"heart","title":"Sunday Offering","description":"Give during our Sunday services via the offering box"},{"icon":"mail","title":"By Mail","description":"Mail a cheque to our church office"},{"icon":"phone","title":"E-Transfer","description":"Send to: giving@bcefc.ca"}]},"id":"giving-options","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>Where Your Giving Goes</h3><p>Your faithful giving supports:</p><ul><li><strong>Ministry Operations:</strong> Staff, facilities, programs, and resources</li><li><strong>Missions:</strong> Supporting missionaries and mission projects locally and globally</li><li><strong>Benevolence:</strong> Helping those in need in our church and community</li><li><strong>Building Fund:</strong> Maintaining and improving our facilities</li></ul><h3>Questions About Giving?</h3><p>Contact the church office at <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a> or call (604) 431-6969.</p>"},"id":"giving-details","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: giving0001

@@ -1,0 +1,11 @@
+Title: 社区活动
+
+----
+
+Builder:
+
+[{"content":{"title":"社区活动","subtitle":"社区活动 服事本那比"},"id":"comm-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我们相信要成为邻舍的祝福。我们的社区活动向所有人开放，提供连结、服事和以实际方式分享神的爱的机会。</p>"},"id":"comm-intro","isHidden":false,"type":"richtext"},{"content":{"heading":"精选社区活动","mode":"manual","limit":4,"view_all_url":"","items":[{"title":"农历新年庆祝","date":"2026-01-29","time":"下午6:00","location":"教会团契厅","image":"","url":""},{"title":"春季社区清洁日","date":"2026-04-18","time":"上午9:00","location":"教会及邻近社区","image":"","url":""},{"title":"家庭教养工作坊","date":"2026-05-09","time":"上午10:00","location":"教会团契厅","image":"","url":""},{"title":"夏季社区烧烤","date":"2026-07-11","time":"上午11:00","location":"教会场地","image":"","url":""}]},"id":"comm-featured","isHidden":false,"type":"events-preview"},{"content":{"title":"常规社区项目","columns":[{"icon":"heart","title":"食物银行事工","description":"每周六上午10点至中午12点派发食物"},{"icon":"book","title":"英语班","description":"为新移民提供免费英语课，周二和周四"},{"icon":"users","title":"社区晚餐","description":"每月第三个周五为社区提供免费晚餐"},{"icon":"music","title":"夏季音乐会系列","description":"七月和八月的免费户外音乐会"}]},"id":"comm-programs","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>年度社区活动</h3><ul><li><strong>农历新年庆祝：</strong>文化表演、传统美食和家庭活动，迎接新年</li><li><strong>社区清洁日：</strong>每季社区美化项目</li><li><strong>家庭工作坊：</strong>亲子教养讲座、理财知识和其他实用工作坊</li><li><strong>夏季烧烤与运动日：</strong>各年龄层的户外团契、游戏和美食</li><li><strong>感恩节社区晚餐：</strong>向整个社区开放的免费晚餐</li><li><strong>圣诞社区外展：</strong>社区礼物派发和报佳音</li></ul>"},"id":"comm-annual","isHidden":false,"type":"richtext"},{"content":{"title":"参与服事","text":"<p>想要做义工或参加我们的社区活动？请联系我们了解更多资讯。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"comm-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: commevnt01

@@ -1,0 +1,11 @@
+Title: Mandarin Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Mandarin Fellowship","subtitle":"國語小組"},"id":"mandarin-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Mandarin Fellowship (國語小組) is a warm and welcoming group for Mandarin-speaking members and friends. We gather together for Bible study, prayer, and fellowship in Mandarin, creating a spiritual home for those who speak the language.</p><h3>Introduction</h3><p>Our fellowship provides a supportive community for Mandarin speakers to grow in faith, share life together, and encourage one another. Whether you are new to Canada or have been here for years, you will find a place of belonging here.</p><h3>Meeting Time</h3><p><strong>Every Friday, 7:30 PM</strong></p><p>Language: Mandarin (國語/普通話)</p><p>Open to all Mandarin-speaking friends.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current fellowship leader information.</p><h3>What We Do</h3><ul><li>Bible study and discussion in Mandarin</li><li>Prayer and mutual support</li><li>Fellowship meals and social gatherings</li><li>Holiday celebrations and outings</li><li>Newcomer welcome and support</li></ul><h3>Fellowship Photos</h3><p>Photos from our fellowship gatherings will be shared here. Stay tuned for updates from our recent activities!</p>"},"id":"mandarin-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Mandarin Fellowship","text":"<p>We warmly welcome all Mandarin-speaking friends! Whether you are seeking faith or looking for community, come join us.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"mandarin-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mandarin01

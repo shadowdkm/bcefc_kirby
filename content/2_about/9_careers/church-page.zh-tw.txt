@@ -1,0 +1,11 @@
+Title: 招聘
+
+----
+
+Builder:
+
+[{"content":{"title":"招聘","subtitle":"Careers"},"id":"careers-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>與我們一同服事</h2><p>本立比華人播道會是一個充滿活力、跨世代的社區，致力於榮耀神和使人作主的門徒。我們一直在尋找有熱忱、有恩賜、蒙神呼召在教會全職或兼職服事的弟兄姊妹。</p><h3>為何在本立比華人播道會服事？</h3><ul><li><strong>以基督為中心的群體</strong> — 加入一個在信仰和使命上同心合意的團隊，跨越三個語言會眾一起服事基督。</li><li><strong>有意義的事工</strong> — 在本立比地區的家庭、青年和新移民的生命中帶來持久的影響。</li><li><strong>成長與發展</strong> — 我們透過持續的培訓、導師指導和專業及靈命成長的機會，投資於我們的同工。</li><li><strong>協作的環境</strong> — 在一個支持和鼓勵的氛圍中，與忠心的牧者、執事和義工一同服事。</li></ul><h3>目前招聘職位</h3><p>我們目前正在招聘以下職位的候選人：</p><h4>青年牧者（全職）</h4><p>帶領和發展我們的青年事工，在信仰旅程中指導年輕人，裝備他們參與服事。理想的候選人對下一代有負擔，具有青年事工經驗，並能以英語和中文溝通。</p><h4>教會行政同工（兼職）</h4><p>支援教會的日常運作，包括辦公室管理、通訊和活動統籌。需具備良好的組織能力和中英文能力。</p><h3>如何申請</h3><p>如果您對以上任何職位有興趣，請將您的履歷和簡短的信仰告白發送至 <strong>hr@bcefc.ca</strong>。我們期待收到您的回覆。</p>"},"id":"careers-content","isHidden":false,"type":"richtext"},{"content":{"title":"聯繫我們","text":"<p>對在本立比華人播道會服事有任何疑問？歡迎聯絡我們的教會辦公室，了解更多目前和未來的機會。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"careers-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-careers-001

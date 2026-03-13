@@ -1,0 +1,11 @@
+Title: Joseph Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Joseph Fellowship","subtitle":"約瑟團契"},"id":"joseph-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>Introduction</h3><p>Joseph Fellowship (約瑟團契) is designed for families and individuals looking for fellowship and spiritual growth. Named after the biblical Joseph who faithfully served God through every season of life, this fellowship brings together believers to support one another in their walk of faith, family life, and daily challenges.</p><h3>Meeting Time</h3><p><strong>Every Saturday 7:00 PM</strong></p><p>Language: Cantonese (粵語)</p><p>Open to all who wish to join.</p><h3>Fellowship Leader</h3><p>Please contact the church office for current fellowship leader information.</p><h3>What We Do</h3><ul><li>Weekly Bible study and prayer</li><li>Fellowship and mutual support</li><li>Family activities and outings</li><li>Spiritual growth discussions</li><li>Seasonal celebrations and retreats</li></ul><h3>Fellowship Photos</h3><p>Photos from our fellowship gatherings and activities will be shared here. Check back for updates from our recent events!</p>"},"id":"joseph-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Joseph Fellowship","text":"<p>We'd love to have you join us! Contact us to learn more about Joseph Fellowship.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"joseph-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: joseph0001

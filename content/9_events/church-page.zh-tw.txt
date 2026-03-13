@@ -1,0 +1,11 @@
+Title: 活動回顧
+
+----
+
+Builder:
+
+[{"content":{"heading":"活動回顧","subheading":"本那比華人播道會近期活動","image":"","overlay":true},"id":"events-hero","isHidden":false,"type":"hero"},{"content":{"text":"<p>緊貼本那比華人播道會的最新動態！從社區外展到教會慶典再到宣教機會，總有有意義的活動正在進行。瀏覽以下活動類別，或查看我們即將舉行的精彩活動。</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"heading":"即將舉行的活動","mode":"manual","limit":3,"view_all_url":"","items":[{"title":"農曆新年慶祝","date":"2026-01-29","time":"下午6:00","location":"教會團契廳","image":"","url":""},{"title":"春季宣教年會","date":"2026-03-20","time":"晚上7:00","location":"教會大堂","image":"","url":""},{"title":"復活節慶祝","date":"2026-04-05","time":"上午10:00","location":"教會大堂","image":"","url":""}]},"id":"events-upcoming","isHidden":false,"type":"events-preview"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"image":"","title":"社區活動","text":"農曆新年慶祝、社區清潔日、家庭工作坊，以及向社區開放的外展活動","url":"/events/community","badge":"","badge_color":"primary"},{"image":"","title":"教會特別活動","text":"週年慶典、佈道會、退修會、浸禮，以及教會家庭聚會","url":"/events/church","badge":"","badge_color":"primary"},{"image":"","title":"宣教活動","text":"本地外展日、短期宣教、宣教年會和禱告聚會","url":"/events/missions","badge":"","badge_color":"primary"}]},"id":"events-categories","isHidden":false,"type":"card-grid"},{"content":{"text":"<h3>按年份瀏覽活動</h3><p>想查看過去的活動？瀏覽我們的活動存檔：</p><ul><li><strong>2026</strong> — 本年度活動</li><li><strong>2025</strong> — 上年度活動</li><li><strong>2024</strong> — 存檔活動</li></ul><p>如需查看過去活動的照片和報告，請瀏覽上方的各活動類別頁面。</p>"},"id":"events-archive","isHidden":false,"type":"richtext"},{"content":{"title":"保持更新","text":"<p>想要收到即將舉行活動的通知？聯繫我們加入郵件列表或關注我們的社交媒體。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"events-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: events0001

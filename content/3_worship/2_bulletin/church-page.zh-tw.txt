@@ -1,0 +1,11 @@
+Title: 崇拜週刊
+
+----
+
+Builder:
+
+[{"content":{"title":"崇拜週刊","subtitle":"每週最新資訊"},"id":"bulletin-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>崇拜週刊讓您掌握每週崇拜詳情、教會公告、代禱事項及即將舉行的活動。</p><h3>如何取得週刊</h3><p>每個主日崇拜前，歡迎台備有印刷版週刊供自由取閱。您亦可在下方瀏覽電子版週刊。</p><h3>週刊內容</h3><ul><li><strong>崇拜程序</strong> – 主日崇拜流程，包括詩歌、讀經和講道題目。</li><li><strong>教會公告</strong> – 重要教會消息、事工動態和義工招募。</li><li><strong>代禱事項</strong> – 會眾、社區和宣教士的每週代禱需要。</li><li><strong>近期活動</strong> – 未來數週的教會活動日程。</li></ul><h3>電子週刊</h3><p>最新週刊通常於週六傍晚上載。若您未能親自出席崇拜，可透過電子週刊保持聯繫。</p>"},"id":"bulletin-content-001","isHidden":false,"type":"richtext"},{"content":{"title":"需要過往週刊？","text":"如需索取過往週刊，請聯絡教會辦公室。","button_text":"聯絡教會辦公室","button_url":"/about/contact","variant":"neutral","alignment":"center"},"id":"bulletin-cta-001","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: bulletin00001

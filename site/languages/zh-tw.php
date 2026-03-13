@@ -30,6 +30,7 @@ return [
         'nav.news'           => '最新消息',
         'nav.new_here'       => '新朋友',
         'nav.giving'         => '奉獻',
+        'nav.resources'      => '常用資料',
         
         // Header
         'menu.toggle'        => '切換選單',

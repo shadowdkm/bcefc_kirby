@@ -1,0 +1,11 @@
+Title: 社區活動
+
+----
+
+Builder:
+
+[{"content":{"title":"社區活動","subtitle":"社區活動 服事本那比"},"id":"comm-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們相信要成為鄰舍的祝福。我們的社區活動向所有人開放，提供連結、服事和以實際方式分享神的愛的機會。</p>"},"id":"comm-intro","isHidden":false,"type":"richtext"},{"content":{"heading":"精選社區活動","mode":"manual","limit":4,"view_all_url":"","items":[{"title":"農曆新年慶祝","date":"2026-01-29","time":"下午6:00","location":"教會團契廳","image":"","url":""},{"title":"春季社區清潔日","date":"2026-04-18","time":"上午9:00","location":"教會及鄰近社區","image":"","url":""},{"title":"家庭教養工作坊","date":"2026-05-09","time":"上午10:00","location":"教會團契廳","image":"","url":""},{"title":"夏季社區燒烤","date":"2026-07-11","time":"上午11:00","location":"教會場地","image":"","url":""}]},"id":"comm-featured","isHidden":false,"type":"events-preview"},{"content":{"title":"常規社區項目","columns":[{"icon":"heart","title":"食物銀行事工","description":"每週六上午10點至中午12點派發食物"},{"icon":"book","title":"英語班","description":"為新移民提供免費英語課，週二和週四"},{"icon":"users","title":"社區晚餐","description":"每月第三個週五為社區提供免費晚餐"},{"icon":"music","title":"夏季音樂會系列","description":"七月和八月的免費戶外音樂會"}]},"id":"comm-programs","isHidden":false,"type":"icon-feature-grid"},{"content":{"text":"<h3>年度社區活動</h3><ul><li><strong>農曆新年慶祝：</strong>文化表演、傳統美食和家庭活動，迎接新年</li><li><strong>社區清潔日：</strong>每季社區美化項目</li><li><strong>家庭工作坊：</strong>親子教養講座、理財知識和其他實用工作坊</li><li><strong>夏季燒烤與運動日：</strong>各年齡層的戶外團契、遊戲和美食</li><li><strong>感恩節社區晚餐：</strong>向整個社區開放的免費晚餐</li><li><strong>聖誕社區外展：</strong>社區禮物派發和報佳音</li></ul>"},"id":"comm-annual","isHidden":false,"type":"richtext"},{"content":{"title":"參與服事","text":"<p>想要做義工或參加我們的社區活動？請聯繫我們了解更多資訊。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"comm-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: commevnt01

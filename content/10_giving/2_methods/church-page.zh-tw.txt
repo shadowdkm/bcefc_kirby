@@ -1,0 +1,11 @@
+Title: 奉獻方式
+
+----
+
+Builder:
+
+[{"content":{"title":"奉獻方式","subtitle":"Giving Methods"},"id":"methods-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>您可以透過以下幾種便捷方式向本那比華人播道會奉獻。所有奉獻均可抵稅，收據每年發放一次。</p><h3>Interac 電子轉帳（E-Transfer）</h3><p>電子轉帳是最方便快捷的奉獻方式。請按以下步驟操作：</p><ol><li>登入您銀行的網上銀行或手機銀行</li><li>選擇 <strong>Interac e-Transfer</strong>（或「發送款項」）</li><li>添加收款人電郵：<strong>giving@bcefc.ca</strong></li><li>輸入您要奉獻的金額</li><li>在訊息欄中填寫您的<strong>全名</strong>和<strong>奉獻指定用途</strong>（例如：常費基金、宣教基金、建堂基金）</li><li>發送 — 無需設定安全問題（已啟用自動存款）</li></ol><p><strong>重要提示：</strong>請使用與您稅務紀錄一致的姓名，以便我們正確開具退稅收據。</p><h3>支票奉獻</h3><p>您可以透過以下方式以支票奉獻：</p><ul><li><strong>親自提交：</strong>在主日崇拜時將支票放入奉獻箱，或在辦公時間內送到教會辦公室</li><li><strong>郵寄：</strong>請將支票郵寄至：<br><br>Burnaby Chinese Evangelical Free Church<br>6112 Rumble Street<br>Burnaby, BC V5J 2C7</li></ul><p>支票抬頭請寫 <strong>\"Burnaby Chinese Evangelical Free Church\"</strong> 或 <strong>\"BCEFC\"</strong>。如需指定奉獻用途，請在支票備註欄中註明。</p><h3>主日奉獻</h3><p>座位上備有奉獻封。請將現金或支票放入奉獻封，填寫所需資料，然後投入奉獻箱。</p><h3>退稅收據</h3><p>$20或以上奉獻的正式退稅收據於每年二月郵寄，涵蓋上一個日曆年度的奉獻。請確保教會辦公室有您最新的郵寄地址。如有收據相關問題，請聯繫 <a href=\"mailto:office@bcefc.ca\">office@bcefc.ca</a>。</p><h3>指定奉獻</h3><p>您可以將奉獻指定用於特定基金或目的（例如：宣教基金、建堂基金、關懷基金）。請在奉獻時註明指定用途。如未指定，您的奉獻將歸入常費基金，用於支持教會整體運作和事工。</p>"},"id":"methods-content","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: giving-meth-001

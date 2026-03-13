@@ -1,0 +1,11 @@
+Title: 教會行事曆
+
+----
+
+Builder:
+
+[{"content":{"title":"教會行事曆","subtitle":"Church Calendar"},"id":"calendar-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>隨時了解教會所有活動、崇拜及重要日期。我們的行事曆包括定期崇拜、團契聚會、特別活動和節日。</p><h3>每週固定聚會時間</h3><ul><li><strong>主日國語崇拜：</strong>上午 9:15 – 10:30</li><li><strong>主日粵語崇拜：</strong>上午 11:00 – 下午 12:30</li><li><strong>主日青少年崇拜：</strong>上午 11:00</li><li><strong>主日學：</strong>上午 9:30（兒童）、上午 11:00（成人）</li><li><strong>週五團契：</strong>晚上 8:00 – 10:00（各小組）</li></ul>"},"id":"calendar-info","isHidden":false,"type":"richtext"},{"content":{"url":"https://calendar.google.com/calendar/embed?src=bcefc.ca_churchcalendar%40group.calendar.google.com&ctz=America%2FVancouver","caption":"本那比華人播道會行事曆","aspect_ratio":"4/3"},"id":"calendar-embed","isHidden":false,"type":"media-embed"},{"content":{"text":"<p>如需最新資訊，請查閱每週週報或聯繫教會辦公室 <a href=\"mailto:info@bcefc.ca\">info@bcefc.ca</a>。</p>"},"id":"calendar-note","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: res-cal-001
