@@ -1790,17 +1790,22 @@ a:hover .arrow {
 .site-header {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
   background: var(--color-white);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  /* No break-out technique - use padding matching body instead */
+  /* Break out of body constraints - use negative margins to cancel body padding */
+  width: auto;
+  margin-left: calc(-1 * var(--padding));
+  margin-right: calc(-1 * var(--padding));
 }
 
 .site-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-3) 0; /* Only vertical padding - body provides horizontal */
+  padding: var(--space-3) var(--padding); /* Match body horizontal padding */
   max-width: 70rem; /* Match body max-width */
   margin: 0 auto;
   gap: var(--space-4);
