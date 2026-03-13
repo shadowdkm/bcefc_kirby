@@ -75,6 +75,17 @@
             <?php endif ?>
           </li>
           <?php endforeach ?>
+
+          <!-- More dropdown for overflow items (Priority+ pattern) -->
+          <li class="site-header__item site-header__more has-dropdown" style="display: none;">
+            <button class="site-header__link site-header__more-btn" aria-expanded="false">
+              <?= t('nav.more', 'More') ?> (<span class="site-header__more-count">0</span>)
+              <svg class="icon icon--dropdown"><use href="#icon-chevron-down"></use></svg>
+            </button>
+            <ul class="site-header__dropdown site-header__more-dropdown">
+              <!-- Items will be dynamically added here by priority-nav.js -->
+            </ul>
+          </li>
         </ul>
         
         <!-- Right side: Language + Giving -->

@@ -31,6 +31,7 @@ return [
         'nav.new_here'       => '新朋友',
         'nav.giving'         => '奉献',
         'nav.resources'      => '常用资料',
+        'nav.more'           => '更多',
         
         // Header
         'menu.toggle'        => '切换菜单',

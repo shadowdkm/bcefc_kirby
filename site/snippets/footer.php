@@ -112,9 +112,9 @@
     'assets/js/prism.js',
     'assets/js/lightbox.js',
     'assets/js/index.js',
+    'assets/js/priority-nav.js',
     '@auto'
   ]) ?>
-  
   <script>
     // Mobile menu toggle
     document.addEventListener('DOMContentLoaded', function() {
@@ -140,6 +140,26 @@
           }
         });
       });
+      
+      // "More" button toggle for Priority+ navigation
+      const moreBtn = document.querySelector('.site-header__more-btn');
+      const moreItem = document.querySelector('.site-header__more');
+      if (moreBtn && moreItem) {
+        moreBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          moreItem.classList.toggle('dropdown-open');
+        });
+        
+        // Close More dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!moreItem.contains(e.target)) {
+            moreItem.classList.remove('dropdown-open');
+            moreBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
     });
   </script>
 

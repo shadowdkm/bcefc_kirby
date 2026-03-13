@@ -1793,17 +1793,19 @@ a:hover .arrow {
   z-index: 100;
   background: var(--color-white);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  /* No break-out technique - use padding matching body instead */
 }
 
 .site-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-3) var(--space-4);
-  max-width: var(--container-max-width);
+  padding: var(--space-3) 0; /* Only vertical padding - body provides horizontal */
+  max-width: 70rem; /* Match body max-width */
   margin: 0 auto;
   gap: var(--space-4);
 }
+
 
 /* Logo */
 .site-header__logo {
@@ -2036,7 +2038,91 @@ a:hover .arrow {
   font-weight: 600;
 }
 
-/* Body when nav open */
+body.nav-open {
+  overflow: hidden;
+}
+
+/* Priority+ Navigation Pattern - More dropdown */
+.site-header__more {
+  position: relative;
+}
+
+.site-header__more-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2);
+  background: none;
+  border: none;
+  color: var(--color-gray-700);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition-fast);
+}
+
+.site-header__more-btn:hover {
+  color: var(--color-accent);
+}
+
+.site-header__more-count {
+  font-weight: 400;
+}
+
+.site-header__more .icon--dropdown {
+  width: 14px;
+  height: 14px;
+  transition: transform var(--transition-fast);
+}
+
+.site-header__more.dropdown-open .icon--dropdown {
+  transform: rotate(180deg);
+}
+
+.site-header__more-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 200px;
+  background: var(--color-white);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) 0;
+  z-index: 100;
+  list-style: none;
+  margin: 0;
+}
+
+.site-header__more.dropdown-open .site-header__more-dropdown {
+  display: block;
+}
+
+.site-header__more-item {
+  list-style: none;
+}
+
+.site-header__more-item a {
+  display: block;
+  padding: var(--space-2) var(--space-4);
+  color: var(--color-gray-700);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.site-header__more-item a:hover {
+  background: var(--color-gray-50);
+  color: var(--color-accent);
+}
+
+/* Hide More button on mobile (hamburger menu handles it) */
+@media (max-width: 1023px) {
+  .site-header__more {
+    display: none !important;
+  }
+}
 body.nav-open {
   overflow: hidden;
 }
