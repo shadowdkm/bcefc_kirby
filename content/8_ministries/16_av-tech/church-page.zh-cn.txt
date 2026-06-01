@@ -1,0 +1,11 @@
+Title: 影音科技部
+
+----
+
+Builder:
+
+[{"content":{"title":"影音科技部","subtitle":"Audio-Visual & IT Department"},"id":"avtechdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>影音科技部在主任 Daniel 的带领下，确保教会的科技系统运作顺畅——从主日崇拜的影音播放到牧师及同工的日常技术支援，一应俱全。</p><h3>服事范畴</h3><ol><li><strong>主堂电脑管理</strong> — 负责操作和维护崇拜时用于 PowerPoint 演示的主堂电脑。</li><li><strong>音响设备控制</strong> — 管理主堂的音响系统，确保崇拜和讲道时声音清晰平衡。</li><li><strong>程序安装及软件支援</strong> — 为教会电脑和系统安装程序及提供软件技术支持。</li><li><strong>音响及扬声器系统保养</strong> — 定期保养和排除所有音响及扬声器设备的故障。</li><li><strong>电脑维修及技术支援</strong> — 为牧师及同工提供电脑维修和技术协助。</li></ol>"},"id":"avtechdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"加入科技事奉团队","text":"<p>您在音响、资讯科技或媒体制作方面有恩赐吗？欢迎与我们一起服事。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"avtechdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: avtechdp001

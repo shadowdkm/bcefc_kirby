@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt:
+
+----
+
+Uuid: g69jpg00001
+
+----
+
+Template: image

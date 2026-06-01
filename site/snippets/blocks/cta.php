@@ -17,7 +17,7 @@ $alignment = $block->alignment()->or('center');
         <h2 class="block-cta__title"><?= $block->title()->esc() ?></h2>
         
         <?php if ($block->text()->isNotEmpty()): ?>
-        <p class="block-cta__text"><?= $block->text()->esc() ?></p>
+        <div class="block-cta__text"><?= $block->text() ?></div>
         <?php endif ?>
       </div>
       

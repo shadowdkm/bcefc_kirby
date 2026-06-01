@@ -1,0 +1,11 @@
+Title: Caring Department
+
+----
+
+Builder:
+
+[{"content":{"title":"Caring Department","subtitle":"關顧部"},"id":"caringdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>Under the leadership of Director Josephine, the Caring Department is dedicated to expressing the love of Christ by reaching out to members at every stage of life — in times of need, celebration, and everyday moments.</p><h3>Our Ministries</h3><ul><li><strong>Staying Connected</strong> — We maintain regular contact with members via phone calls, email, and WhatsApp. We also send comfort cards, provide meals, and offer transportation assistance to those in need.</li><li><strong>Senior Care</strong> — Dedicated phone calls and home visitations to our senior members, ensuring they feel valued and supported.</li><li><strong>Sharing Sorrows and Joys</strong> — We send comfort cards to those facing difficulties, and congratulatory cards to celebrate joyful milestones in members' lives.</li><li><strong>Sunday Worship Welcoming Ministry</strong> — Creating a warm and hospitable atmosphere every Sunday for both members and guests.</li><li><strong>Newcomer Care</strong> — Following up with newcomers through phone calls, personal introductions, invitations to church activities, and small welcome gifts.</li></ul>"},"id":"caringdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"Connect With Us","text":"<p>Whether you need support or want to serve others through caring ministry, we'd love to hear from you.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"caringdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caringdp001

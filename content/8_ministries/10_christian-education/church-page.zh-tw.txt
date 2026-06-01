@@ -1,0 +1,11 @@
+Title: 宗教教育部
+
+----
+
+Builder:
+
+[{"content":{"title":"宗教教育部","subtitle":"Christian Education Department"},"id":"chrstned-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>宗教教育部致力透過多元化的學習形式推動靈命成長。在部長 Celine 的帶領下，本部透過以下事工服事會眾：</p><ul><li><strong>全年讀經運動</strong> — 鼓勵全教會一起每年讀完整本聖經。</li><li><strong>主題講座</strong> — 深入教導與信仰及生活相關的聖經主題。</li><li><strong>「三人行」小組活動</strong> — 以三人為單位的門訓小組，彼此守望、共同成長。</li><li><strong>主日學</strong> — 四季課程制，設有聖經研讀、逐卷研讀、主題課程及恩典（長者）班，適合各年齡層。</li><li><strong>圖書館</strong> — 由部長 Carmen 管理，藏書逾三千冊，設成人及兒童書區，每年舉辦書展，鼓勵閱讀與靈命培育。</li></ul>"},"id":"chrstned-about","isHidden":false,"type":"richtext"},{"content":{"title":"參與服事","text":"<p>有興趣參加課程或在宗教教育部服事？歡迎與我們聯絡。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"chrstned-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: chrstned001

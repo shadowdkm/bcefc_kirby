@@ -1,0 +1,11 @@
+Title: Fellowship Department
+
+----
+
+Builder:
+
+[{"content":{"title":"Fellowship Department","subtitle":"團契部"},"id":"fellowdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>The Fellowship Department exists to foster genuine community and mutual care among all fellowship groups within the church. Our committee is chaired by the Department Head, with all fellowship chairpersons serving as members.</p><h3>Our Objectives</h3><ol><li><strong>Encourage Participation</strong> — Invite and encourage all members to join a fellowship group for companionship and spiritual growth.</li><li><strong>Encourage Cross-Generational Service</strong> — Encourage younger members to serve and support our senior members, building bridges across generations.</li><li><strong>Promote Joint Fellowship Activities</strong> — Organize shared activities across fellowships to strengthen friendship, unity, and a sense of belonging within the church family.</li></ol>"},"id":"fellowdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"Find Your Fellowship","text":"<p>Looking for a fellowship group to join? Browse our fellowships or reach out and we'll help you find the right fit.</p>","button_text":"Browse Fellowships","button_url":"/fellowships"},"id":"fellowdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: fellowdp001

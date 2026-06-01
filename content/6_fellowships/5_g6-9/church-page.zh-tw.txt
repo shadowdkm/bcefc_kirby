@@ -1,10 +1,10 @@
-Title: G6-9團契
+Title: SPORTEF — 少年及家庭事工（G6–9）
 
 ----
 
 Builder:
 
-[{"content":{"title":"G6-9團契","subtitle":"6-9年級"},"id":"g69-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>介紹</h3><p>G6-9團契是我們為6-9年級學生設計的初中事工。這是年輕人開始擁有自己信仰的關鍵時期，我們在這裡引導和支持他們度過這些轉變的歲月。我們創造一個環境，讓青少年可以探索信仰、提出困難的問題，並建立真誠的友誼。</p><h3>聚會時間</h3><p><strong>週五晚上7:30 - 9:30</strong></p><p>語言：英語 / 粵語</p><h3>負責人</h3><p>如需了解目前青少年事工負責人的資訊，請聯繫教會辦公室。</p><h3>活動內容</h3><ul><li>生動的查經</li><li>敬拜和禱告</li><li>遊戲和交誼時間</li><li>小組討論</li><li>退修會和營會</li><li>服務項目</li></ul><h3>團契照片</h3><p>我們青少年活動、營會和特別活動的照片將在此分享。請關注更新！</p>"},"id":"g69-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入G6-9！","text":"<p>如果你是6-9年級的學生，歡迎來看看！我們隨時歡迎新朋友。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"g69-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://g69jpg00001"],"overlay_strength":"45","eyebrow":"","title":"SPORTEF 少年事工","subtitle":"六至九年級 · 英語","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","height":"large"},"id":"g69-header","isHidden":false,"type":"hero"},{"content":{"text":"<h3>關於 SPORTEF</h3><p>SPORTEF 是我們為六至九年級學生而設的少年及家庭事工。這是年輕人塑造身份認同、價值觀和信仰的關鍵時期——我們與他們同行每一步。</p><p>透過互動式教學、小組分享和有意義的活動，我們建立一個安全和歡迎的環境，讓學生可以提出真實的問題、誠實地探索信仰，並親身與神相遇。</p><h3>我們的方式</h3><ul><li>互動且生動的教學</li><li>小組討論和分享</li><li>安全的空間讓學生提問和尋找答案</li><li>幫助學生建立身份認同、價值觀和信仰</li><li>有意義的活動和服事機會</li></ul><h3>家庭事工</h3><p>SPORTEF 同樣支持家庭。我們為家長提供工具和資源，幫助他們在家中培育信仰對話，與家庭攜手培養下一代。</p><h3>聯絡</h3><p>Jean 牧師：<a href=\"mailto:jeannielam1230@gmail.com\">jeannielam1230@gmail.com</a></p>"},"id":"g69-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入 SPORTEF","text":"<p>你是六至九年級的學生嗎？歡迎前來——隨時歡迎新朋友！</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"g69-cta","isHidden":false,"type":"cta"}]
 
 ----
 

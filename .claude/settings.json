@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w * http://localhost*)",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "mcp__claude_ai_Google_Drive__get_file_metadata",
+      "mcp__claude_ai_Google_Drive__read_file_content"
+    ]
+  }
+}

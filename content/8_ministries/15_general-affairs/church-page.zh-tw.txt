@@ -1,0 +1,11 @@
+Title: 總務部
+
+----
+
+Builder:
+
+[{"content":{"title":"總務部","subtitle":"General Affairs Department"},"id":"genadept-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>總務部由一群忠心盡職的弟兄組成，專責管理和維護教會的設施。他們默默無聞的付出，確保每一個事工和聚會都有安全、運作良好及溫馨的環境。</p><h3>負責範疇</h3><ul><li><strong>燈光系統</strong> — 負責教會大樓所有燈光的安裝、維修及故障處理。</li><li><strong>水管設施</strong> — 定期保養和維修，確保設施正常運作。</li><li><strong>閉路電視系統</strong> — 管理及維護保安攝影機系統，保障會眾和建築物的安全。</li></ul><p>透過他們忠心的管理，總務部為全體會眾提供一個安全舒適的聚會場所，讓大家可以聚集、敬拜和服事。</p>"},"id":"genadept-about","isHidden":false,"type":"richtext"},{"content":{"title":"加入服事行列","text":"<p>有興趣參與設施管理或維修服事？歡迎加入我們的團隊。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"genadept-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: genadept001

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: missnmin001
+
+----
+
+Template: image

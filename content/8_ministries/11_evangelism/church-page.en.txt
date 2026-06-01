@@ -1,0 +1,11 @@
+Title: Evangelism
+
+----
+
+Builder:
+
+[{"content":{"title":"Evangelism Department","subtitle":"傳道部"},"id":"evangelm-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>The primary direction of the Evangelism Department is to encourage and mobilize church members to fulfill the Great Commission through intentional training and teaching. We help every member grow in their confidence and ability to share the Gospel.</p><h3>Key Ministries</h3><ul><li><strong>Personal Evangelism Training</strong> — Equipping members with practical skills and Biblical grounding to share their faith naturally in everyday life.</li><li><strong>Gospel Sunday Services</strong> — Special Sunday worship services designed to welcome guests and present the Gospel clearly.</li><li><strong>Evangelistic Meetings</strong> — Outreach events and campaigns organized to reach those who have not yet heard the Good News.</li></ul>"},"id":"evangelm-about","isHidden":false,"type":"richtext"},{"content":{"title":"Get Involved","text":"<p>Interested in learning how to share your faith or joining an outreach event? We'd love to connect with you.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"evangelm-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: evangelm001

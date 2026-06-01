@@ -1,0 +1,11 @@
+Title: General Affairs Department
+
+----
+
+Builder:
+
+[{"content":{"title":"General Affairs Department","subtitle":"總務部"},"id":"genadept-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>The General Affairs Department is composed of faithful brothers who are dedicated to managing and maintaining the church's facilities. Their behind-the-scenes service ensures that every ministry and gathering has a safe, functional, and welcoming space.</p><h3>Areas of Responsibility</h3><ul><li><strong>Lighting Systems</strong> — Installation, maintenance, and troubleshooting of all lighting throughout the church building.</li><li><strong>Plumbing</strong> — Routine maintenance and repairs to keep facilities in good working order.</li><li><strong>CCTV Systems</strong> — Management and maintenance of security camera systems for the safety of our congregation and building.</li></ul><p>Through their faithful stewardship, the General Affairs Department provides a safe and comfortable meeting place for the entire congregation to gather, worship, and serve.</p>"},"id":"genadept-about","isHidden":false,"type":"richtext"},{"content":{"title":"Serve With Us","text":"<p>Interested in serving in facilities management or maintenance? We'd love to have you join the team.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"genadept-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: genadept001

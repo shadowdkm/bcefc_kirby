@@ -1,0 +1,11 @@
+Title: 國語事工
+
+----
+
+Builder:
+
+[{"content":{"title":"國語事工","subtitle":"Mandarin Ministry"},"id":"mandarinm-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>國語事工於 2013 年正式成立，由最初十多位成員發展至 2026 年的近四十人。疫情後，我們於 2021 年 9 月 5 日舉行了第一次實體崇拜，標誌著國語事工的新篇章。</p><p><strong>牧師：</strong>林海鴻牧師、劉真榮牧師</p><h3>每週聚會時間</h3><ul><li><strong>主日上午 9:15–10:30</strong> — 崇拜聚會</li><li><strong>主日上午 10:50–12:15</strong> — 主日學（第一、二、三、五主日）；禱告會（第四主日）</li><li><strong>週六晚上 7:00–9:00</strong> — 兒童及青少年團契</li><li><strong>週四晚上 7:30–9:00</strong> — 網上聖經研讀</li><li><strong>週三上午 9:30–10:45</strong> — 讚美舞蹈事工</li></ul>"},"id":"mandarinm-about","isHidden":false,"type":"richtext"},{"content":{"title":"歡迎加入","text":"<p>無論您是正在尋找教會的國語信徒，還是想進一步了解我們的群體，都熱誠歡迎您的到來。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"mandarinm-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: mandarinm01

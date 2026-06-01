@@ -1,0 +1,11 @@
+Title: 團契部
+
+----
+
+Builder:
+
+[{"content":{"title":"團契部","subtitle":"Fellowship Department"},"id":"fellowdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>團契部致力於在教會各團契之間建立真誠的群體關係和彼此關顧。本部委員會由部長擔任主席，各團契主席均為委員。</p><h3>部門目標</h3><ol><li><strong>鼓勵參與</strong> — 邀請並鼓勵所有會友加入團契，在群體中獲得陪伴與靈命成長。</li><li><strong>鼓勵跨代服事</strong> — 鼓勵年輕會友服事和支持長者會友，建立代際橋樑。</li><li><strong>推動聯合團契活動</strong> — 籌辦各團契的聯合活動，加深友誼、增強合一，培育教會家庭的歸屬感。</li></ol>"},"id":"fellowdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"尋找您的團契","text":"<p>想加入一個團契？瀏覽我們的團契介紹，或直接聯絡我們，我們會幫您找到合適的群體。</p>","button_text":"瀏覽團契","button_url":"/fellowships"},"id":"fellowdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: fellowdp001

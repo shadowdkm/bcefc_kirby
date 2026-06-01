@@ -1,0 +1,11 @@
+Title: 团契部
+
+----
+
+Builder:
+
+[{"content":{"title":"团契部","subtitle":"Fellowship Department"},"id":"fellowdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>团契部致力于在教会各团契之间建立真诚的群体关系和彼此关顾。本部委员会由部长担任主席，各团契主席均为委员。</p><h3>部门目标</h3><ol><li><strong>鼓励参与</strong> — 邀请并鼓励所有会友加入团契，在群体中获得陪伴与灵命成长。</li><li><strong>鼓励跨代服事</strong> — 鼓励年轻会友服事和支持长者会友，建立代际桥梁。</li><li><strong>推动联合团契活动</strong> — 筹办各团契的联合活动，加深友谊、增强合一，培育教会家庭的归属感。</li></ol>"},"id":"fellowdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"寻找您的团契","text":"<p>想加入一个团契？浏览我们的团契介绍，或直接联络我们，我们会帮您找到合适的群体。</p>","button_text":"浏览团契","button_url":"/fellowships"},"id":"fellowdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: fellowdp001

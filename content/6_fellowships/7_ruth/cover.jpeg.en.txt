@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: ruthcov0001
+
+----
+
+Template: image

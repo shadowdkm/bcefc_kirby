@@ -1,0 +1,152 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "BCEFC BURNABY CHINESE EVANGELICAL FREE CHURCH" [ref=e4] [cursor=pointer]:
+        - /url: http://localhost:8123
+        - generic [ref=e5]: BCEFC
+        - generic [ref=e6]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "About Us" [ref=e10] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+              - text: About Us
+              - img [ref=e11]
+          - listitem [ref=e13]:
+            - link "Worship & Gatherings" [ref=e14] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+              - text: Worship & Gatherings
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - link "News" [ref=e18] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+              - text: News
+              - img [ref=e19]
+          - listitem [ref=e21]:
+            - link "New Here" [ref=e22] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+              - text: New Here
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "Fellowship Life" [ref=e26] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships
+              - text: Fellowship Life
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - button "More ( 4 )" [ref=e30] [cursor=pointer]:
+              - text: More (
+              - generic [ref=e31]: "4"
+              - text: )
+              - img [ref=e32]
+        - generic [ref=e34]:
+          - navigation "Language" [ref=e35]:
+            - link "EN" [ref=e36] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships/joseph
+            - generic [ref=e37]: "|"
+            - link "简" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-cn/fellowships/joseph
+            - generic [ref=e39]: "|"
+            - link "繁" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-tw/fellowships/joseph
+          - link "Giving" [ref=e41] [cursor=pointer]:
+            - /url: http://localhost:8123/giving
+  - main [ref=e42]:
+    - generic [ref=e46]:
+      - heading "Joseph Fellowship" [level=2] [ref=e47]
+      - paragraph [ref=e48]: 約瑟團契 · Cantonese Adult Fellowship
+    - article [ref=e49]:
+      - generic [ref=e51]:
+        - heading "About Us" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Joseph Fellowship (約瑟團契) is a Cantonese-speaking adult fellowship for believers and families — many with roots in Hong Kong. Named after the biblical Joseph who faithfully served God through every season of life, our fellowship brings people together to support one another in faith, family life, and daily challenges.
+        - heading "Meeting Time" [level=3] [ref=e54]
+        - paragraph [ref=e55]:
+          - strong [ref=e56]: Every Saturday 7:00–9:00 PM
+          - text: "Church Basement · Language: Cantonese"
+        - heading "Our Activities" [level=3] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]: Weekly Bible study and group discussions
+          - listitem [ref=e60]: Fellowship outings and spring picnics
+          - listitem [ref=e61]: Love feasts and seasonal celebrations
+          - listitem [ref=e62]: Community Clean-Up Day (社區清潔日)
+          - listitem [ref=e63]: Shoebox Ministry — blessing children in other nations
+          - listitem [ref=e64]: Writing Chinese New Year blessing banners (寫揮春)
+        - heading "2026 Leadership" [level=3] [ref=e65]
+        - paragraph [ref=e66]:
+          - text: "Chairperson: Mark · Vice-Chair: Andrew"
+          - text: "Treasurer: Lucy · Secretary: Eric"
+        - heading "Contact" [level=3] [ref=e67]
+        - paragraph [ref=e68]: "Church Office: (604) 431-6969"
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - heading "Join Joseph Fellowship" [level=2] [ref=e73]
+        - paragraph [ref=e74]: <p>All are welcome! Come join us any Saturday evening at the church basement.</p>
+      - link "Contact Us" [ref=e76] [cursor=pointer]:
+        - /url: /new-here/contact
+  - contentinfo [ref=e77]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]: BCEFC
+          - generic [ref=e84]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+        - paragraph [ref=e85]: Deepening Faith Together · Extending Light in Life
+      - generic [ref=e86]:
+        - heading "Contact Us" [level=3] [ref=e87]
+        - generic [ref=e88]:
+          - paragraph [ref=e89]:
+            - img [ref=e90]
+            - generic [ref=e92]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - paragraph [ref=e93]:
+            - img [ref=e94]
+            - link "(604) 431-6969" [ref=e96] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - paragraph [ref=e97]:
+            - img [ref=e98]
+            - link "info@bcefc.ca" [ref=e100] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - paragraph [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e104]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e105]:
+        - heading "Quick Links" [level=3] [ref=e106]
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - link "About Us" [ref=e109] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+          - listitem [ref=e110]:
+            - link "Worship" [ref=e111] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e112]:
+            - link "Ministries" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:8123/ministries
+          - listitem [ref=e114]:
+            - link "News" [ref=e115] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e116]:
+            - link "New Here" [ref=e117] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+          - listitem [ref=e118]:
+            - link "Giving" [ref=e119] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e120]:
+        - heading "Connect" [level=3] [ref=e121]
+        - generic [ref=e122]:
+          - link "Facebook" [ref=e123] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e124]
+          - link "Instagram" [ref=e126] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e127]
+          - link "YouTube" [ref=e129] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e130]
+        - link "View on Google Maps" [ref=e133] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=6112+Rumble+Street+Burnaby+BC
+          - img [ref=e134]
+          - text: View on Google Maps
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: © 2026 BCEFC. All rights reserved.
+      - navigation [ref=e139]:
+        - link "Privacy Policy" [ref=e140] [cursor=pointer]:
+          - /url: http://localhost:8123/privacy

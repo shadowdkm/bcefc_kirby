@@ -1,0 +1,161 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "BCEFC BURNABY CHINESE EVANGELICAL FREE CHURCH" [ref=e4] [cursor=pointer]:
+        - /url: http://localhost:8123
+        - generic [ref=e5]: BCEFC
+        - generic [ref=e6]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "About Us" [ref=e10] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+              - text: About Us
+              - img [ref=e11]
+          - listitem [ref=e13]:
+            - link "Worship & Gatherings" [ref=e14] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+              - text: Worship & Gatherings
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - link "News" [ref=e18] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+              - text: News
+              - img [ref=e19]
+          - listitem [ref=e21]:
+            - link "New Here" [ref=e22] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+              - text: New Here
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "Fellowship Life" [ref=e26] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships
+              - text: Fellowship Life
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - button "More ( 4 )" [ref=e30] [cursor=pointer]:
+              - text: More (
+              - generic [ref=e31]: "4"
+              - text: )
+              - img [ref=e32]
+        - generic [ref=e34]:
+          - navigation "Language" [ref=e35]:
+            - link "EN" [ref=e36] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships/caleb
+            - generic [ref=e37]: "|"
+            - link "简" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-cn/fellowships/caleb
+            - generic [ref=e39]: "|"
+            - link "繁" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-tw/fellowships/caleb
+          - link "Giving" [ref=e41] [cursor=pointer]:
+            - /url: http://localhost:8123/giving
+  - main [ref=e42]:
+    - generic [ref=e46]:
+      - heading "Caleb Fellowship" [level=2] [ref=e47]
+      - paragraph [ref=e48]: 迦勒團契 · Cantonese Senior Fellowship
+    - article [ref=e49]:
+      - generic [ref=e51]:
+        - heading "About Us" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Caleb Fellowship (迦勒團契) is a Cantonese-speaking senior fellowship named after the biblical Caleb, who remained faithful and strong even in his later years. We gather monthly for a luncheon in dim sum style, enjoying rich fellowship, God's Word, and one another's company.
+        - heading "Meeting Time" [level=3] [ref=e54]
+        - paragraph [ref=e55]:
+          - strong [ref=e56]: 3rd week of each month, 1:00–3:00 PM
+          - text: "Luncheon / Dim Sum format · Language: Cantonese"
+        - heading "Annual Events" [level=3] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - strong [ref=e60]: "February:"
+            - text: Poon Choi Chinese New Year feast (盆菜慶新春)
+          - listitem [ref=e61]:
+            - strong [ref=e62]: "May:"
+            - text: Dragon Boat Festival celebration
+          - listitem [ref=e63]:
+            - strong [ref=e64]: "August:"
+            - text: Group outing
+          - listitem [ref=e65]:
+            - strong [ref=e66]: "September:"
+            - text: Mid-Autumn Festival gathering
+          - listitem [ref=e67]:
+            - strong [ref=e68]: "December:"
+            - text: Christmas & Winter Solstice celebration
+        - heading "2026 Leadership" [level=3] [ref=e69]
+        - paragraph [ref=e70]:
+          - text: "Chair: Sylvana Ling · Vice-Chair: Pauline Leung"
+          - text: "Treasurer: Viva Tam & Genora Eang · Secretary: Pauline Fong & Ady Lo"
+        - heading "Contact" [level=3] [ref=e71]
+        - paragraph [ref=e72]: "Church Office: (604) 431-6969"
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Join Caleb Fellowship" [level=2] [ref=e77]
+        - generic [ref=e78]: <p>All seniors are warmly welcome! Join us for our monthly luncheon and enjoy great fellowship.</p>
+      - link "Contact Us" [ref=e80] [cursor=pointer]:
+        - /url: /new-here/contact
+  - contentinfo [ref=e81]:
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: BCEFC
+          - generic [ref=e88]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+        - paragraph [ref=e89]: Deepening Faith Together · Extending Light in Life
+      - generic [ref=e90]:
+        - heading "Contact Us" [level=3] [ref=e91]
+        - generic [ref=e92]:
+          - paragraph [ref=e93]:
+            - img [ref=e94]
+            - generic [ref=e96]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - paragraph [ref=e97]:
+            - img [ref=e98]
+            - link "(604) 431-6969" [ref=e100] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - paragraph [ref=e101]:
+            - img [ref=e102]
+            - link "info@bcefc.ca" [ref=e104] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - paragraph [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e108]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e109]:
+        - heading "Quick Links" [level=3] [ref=e110]
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "About Us" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+          - listitem [ref=e114]:
+            - link "Worship" [ref=e115] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e116]:
+            - link "Ministries" [ref=e117] [cursor=pointer]:
+              - /url: http://localhost:8123/ministries
+          - listitem [ref=e118]:
+            - link "News" [ref=e119] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e120]:
+            - link "New Here" [ref=e121] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+          - listitem [ref=e122]:
+            - link "Giving" [ref=e123] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e124]:
+        - heading "Connect" [level=3] [ref=e125]
+        - generic [ref=e126]:
+          - link "Facebook" [ref=e127] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e128]
+          - link "Instagram" [ref=e130] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e131]
+          - link "YouTube" [ref=e133] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e134]
+        - link "View on Google Maps" [ref=e137] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=6112+Rumble+Street+Burnaby+BC
+          - img [ref=e138]
+          - text: View on Google Maps
+    - generic [ref=e141]:
+      - paragraph [ref=e142]: © 2026 BCEFC. All rights reserved.
+      - navigation [ref=e143]:
+        - link "Privacy Policy" [ref=e144] [cursor=pointer]:
+          - /url: http://localhost:8123/privacy

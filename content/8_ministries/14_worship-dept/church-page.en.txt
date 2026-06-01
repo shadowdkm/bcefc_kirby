@@ -1,0 +1,11 @@
+Title: Worship Department
+
+----
+
+Builder:
+
+[{"content":{"title":"Worship Department","subtitle":"崇拜部"},"id":"worshpdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>Sunday Worship is at the heart of our church life. Each week, our congregation gathers for a service that includes praise, hymns, prayer, Scripture reading, the sermon, and Holy Communion. The Worship Department is responsible for ensuring every element of worship is meaningful, reverent, and spiritually nourishing.</p><h3>Our Objectives</h3><ul><li>Enable members to use their spiritual gifts in worship ministry.</li><li>Ensure a smooth, orderly, and Spirit-led flow of worship each Sunday.</li></ul><h3>Ministry Roles</h3><p>Our worship services are made possible by the faithful service of many volunteers across the following roles:</p><ul><li>Worship Department Deacon</li><li>Worship Director</li><li>Service Chairperson</li><li>Praise Leader</li><li>Worship Team</li><li>Choir</li><li>Pianists</li><li>Ushers</li><li>Sound &amp; Computer Control</li><li>Flower Arrangement</li><li>Communion Preparation</li></ul>"},"id":"worshpdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"Serve in Worship","text":"<p>Interested in using your gifts to serve in our worship ministry? We welcome you to join us.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"worshpdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: worshpdp001

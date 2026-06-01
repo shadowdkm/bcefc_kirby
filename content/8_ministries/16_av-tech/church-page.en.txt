@@ -1,0 +1,11 @@
+Title: Audio-Visual & IT Department
+
+----
+
+Builder:
+
+[{"content":{"title":"Audio-Visual & IT Department","subtitle":"影音科技部"},"id":"avtechdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>Under the direction of Director Daniel, the Audio-Visual & IT Department keeps our church's technology running smoothly — from Sunday worship presentations to everyday technical support for pastors and staff.</p><h3>Areas of Service</h3><ol><li><strong>Main Sanctuary Computer Management</strong> — Operating and maintaining the computer used for PowerPoint presentations during worship services.</li><li><strong>Audio Equipment Control</strong> — Managing the main sanctuary's audio systems to ensure clear, balanced sound for worship and preaching.</li><li><strong>Software Installation & Support</strong> — Installing programs and providing software support across church computers and systems.</li><li><strong>Audio & Speaker System Maintenance</strong> — Regular upkeep and troubleshooting of all audio and speaker equipment.</li><li><strong>Computer Repair & Technical Support</strong> — Providing hands-on technical assistance and computer repair services for pastors and staff.</li></ol>"},"id":"avtechdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"Join the Tech Team","text":"<p>Do you have skills in audio, IT, or media production? We'd love to have you serve with us.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"avtechdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: avtechdp001

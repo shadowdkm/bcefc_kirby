@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "BCEFC BURNABY CHINESE EVANGELICAL FREE CHURCH" [ref=e4] [cursor=pointer]:
+        - /url: http://localhost:8123
+        - generic [ref=e5]: BCEFC
+        - generic [ref=e6]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "About Us" [ref=e10] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+              - text: About Us
+              - img [ref=e11]
+          - listitem [ref=e13]:
+            - link "Worship & Gatherings" [ref=e14] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+              - text: Worship & Gatherings
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - link "News" [ref=e18] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+              - text: News
+              - img [ref=e19]
+          - listitem [ref=e21]:
+            - link "New Here" [ref=e22] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+              - text: New Here
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "Fellowship Life" [ref=e26] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships
+              - text: Fellowship Life
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - button "More ( 4 )" [ref=e30] [cursor=pointer]:
+              - text: More (
+              - generic [ref=e31]: "4"
+              - text: )
+              - img [ref=e32]
+        - generic [ref=e34]:
+          - navigation "Language" [ref=e35]:
+            - link "EN" [ref=e36] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+            - generic [ref=e37]: "|"
+            - link "简" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-cn/news
+            - generic [ref=e39]: "|"
+            - link "繁" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-tw/news
+          - link "Giving" [ref=e41] [cursor=pointer]:
+            - /url: http://localhost:8123/giving
+  - main [ref=e42]:
+    - generic [ref=e46]:
+      - heading "News & Announcements" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Stay Updated with BCEFC
+    - article [ref=e49]:
+      - paragraph [ref=e52]: Keep up with the latest news, announcements, and stories from our church family.
+    - generic [ref=e55]:
+      - link "Spring Revival Meetings Join us for special revival meetings with a guest speaker. Check the bulletin for dates. →" [ref=e56] [cursor=pointer]:
+        - /url: /news/20250301_spring-revival
+        - generic [ref=e57]:
+          - heading "Spring Revival Meetings" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Join us for special revival meetings with a guest speaker. Check the bulletin for dates.
+        - generic [ref=e60]: →
+      - link "Family Camp Registration Open Register now for our annual Family Camp. Fun for the whole family! →" [ref=e61] [cursor=pointer]:
+        - /url: /news/20250215_family-camp
+        - generic [ref=e62]:
+          - heading "Family Camp Registration Open" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Register now for our annual Family Camp. Fun for the whole family!
+        - generic [ref=e65]: →
+      - link "Chinese School Registration Registration for the upcoming school year. Enrol your child today. →" [ref=e66] [cursor=pointer]:
+        - /url: /news/20250201_chinese-school-registration
+        - generic [ref=e67]:
+          - heading "Chinese School Registration" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Registration for the upcoming school year. Enrol your child today.
+        - generic [ref=e70]: →
+  - contentinfo [ref=e71]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: BCEFC
+          - generic [ref=e78]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+        - paragraph [ref=e79]: Deepening Faith Together · Extending Light in Life
+      - generic [ref=e80]:
+        - heading "Contact Us" [level=3] [ref=e81]
+        - generic [ref=e82]:
+          - paragraph [ref=e83]:
+            - img [ref=e84]
+            - generic [ref=e86]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - paragraph [ref=e87]:
+            - img [ref=e88]
+            - link "(604) 431-6969" [ref=e90] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - paragraph [ref=e91]:
+            - img [ref=e92]
+            - link "info@bcefc.ca" [ref=e94] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - paragraph [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e98]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e99]:
+        - heading "Quick Links" [level=3] [ref=e100]
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "About Us" [ref=e103] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+          - listitem [ref=e104]:
+            - link "Worship" [ref=e105] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e106]:
+            - link "Ministries" [ref=e107] [cursor=pointer]:
+              - /url: http://localhost:8123/ministries
+          - listitem [ref=e108]:
+            - link "News" [ref=e109] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e110]:
+            - link "New Here" [ref=e111] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+          - listitem [ref=e112]:
+            - link "Giving" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e114]:
+        - heading "Connect" [level=3] [ref=e115]
+        - generic [ref=e116]:
+          - link "Facebook" [ref=e117] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e118]
+          - link "Instagram" [ref=e120] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e121]
+          - link "YouTube" [ref=e123] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e124]
+        - link "View on Google Maps" [ref=e127] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=6112+Rumble+Street+Burnaby+BC
+          - img [ref=e128]
+          - text: View on Google Maps
+    - generic [ref=e131]:
+      - paragraph [ref=e132]: © 2026 BCEFC. All rights reserved.
+      - navigation [ref=e133]:
+        - link "Privacy Policy" [ref=e134] [cursor=pointer]:
+          - /url: http://localhost:8123/privacy

@@ -1,0 +1,11 @@
+Title: 关顾部
+
+----
+
+Builder:
+
+[{"content":{"title":"关顾部","subtitle":"Caring Department"},"id":"caringdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>关顾部在部长 Josephine 的带领下，致力于在生命的各个阶段——无论是困难、喜乐还是日常时刻——向会友表达基督的爱。</p><h3>我们的事工</h3><ul><li><strong>保持联系</strong> — 透过电话、电邮及 WhatsApp 与会友保持定期联络，并在有需要时送上安慰卡、膳食及交通协助。</li><li><strong>长者关顾</strong> — 专门致电及亲身探访长者会友，让他们感受到被重视和支持。</li><li><strong>同悲共乐</strong> — 在会友面对困难时送上安慰卡，在喜庆时刻送上贺卡，与他们一同分享悲喜。</li><li><strong>主日崇拜迎宾事工</strong> — 每个主日以温馨热情的态度迎接会友和宾客。</li><li><strong>新朋友关顾</strong> — 透过电话跟进、个人介绍、邀请参与教会活动及送上小礼物，关心每一位新来者。</li></ul>"},"id":"caringdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"与我们联系","text":"<p>无论您需要支持，或希望透过关顾事工服事他人，欢迎与我们联络。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"caringdp-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: caringdp001

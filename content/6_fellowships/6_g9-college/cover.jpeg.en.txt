@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: g9ccov00001
+
+----
+
+Template: image

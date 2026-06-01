@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: josephact001
+
+----
+
+Template: image

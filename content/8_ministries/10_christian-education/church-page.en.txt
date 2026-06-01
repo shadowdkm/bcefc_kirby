@@ -1,0 +1,11 @@
+Title: Christian Education
+
+----
+
+Builder:
+
+[{"content":{"title":"Christian Education Department","subtitle":"宗教教育部"},"id":"chrstned-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>The Christian Education Department is committed to promoting spiritual growth through various forms of learning. Under the leadership of Director Celine, the department serves the congregation through the following key ministries:</p><ul><li><strong>Annual Bible Reading Campaign</strong> — Encouraging the whole church to read through the Bible together each year.</li><li><strong>Topical Seminars</strong> — In-depth teaching on Biblical and life topics relevant to our congregation.</li><li><strong>\"Triplets\" (Three-Person) Small Group Activities</strong> — Intentional discipleship in groups of three for mutual accountability and growth.</li><li><strong>Sunday School</strong> — A four-season curriculum offering Biblical Studies, Book-by-Book, Topical, and Evergreen (seniors) classes for all ages.</li><li><strong>Library</strong> — Managed by Director Carmen, our library holds over 3,000 volumes across adult and children's sections, with annual book fairs to encourage reading and spiritual formation.</li></ul>"},"id":"chrstned-about","isHidden":false,"type":"richtext"},{"content":{"title":"Get Involved","text":"<p>Interested in joining a class or serving in Christian Education? We'd love to hear from you.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"chrstned-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: chrstned001

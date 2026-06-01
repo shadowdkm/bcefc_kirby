@@ -1,0 +1,1 @@
+php -S localhost:8123 kirby/router.php

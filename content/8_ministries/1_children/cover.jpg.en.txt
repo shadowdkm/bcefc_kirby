@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: chldmin0001
+
+----
+
+Template: image

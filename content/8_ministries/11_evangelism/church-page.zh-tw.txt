@@ -1,0 +1,11 @@
+Title: 傳道部
+
+----
+
+Builder:
+
+[{"content":{"title":"傳道部","subtitle":"Evangelism Department"},"id":"evangelm-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>傳道部的首要方向是透過訓練和教導，鼓勵並動員會眾完成大使命。我們幫助每一位會友在傳福音的信心和能力上不斷成長。</p><h3>主要事工</h3><ul><li><strong>個人佈道訓練</strong> — 裝備會友以實際技巧和聖經根基，在日常生活中自然地分享信仰。</li><li><strong>福音主日崇拜</strong> — 特別主日崇拜，歡迎賓客，清晰地傳講福音。</li><li><strong>佈道會</strong> — 外展活動和佈道聚會，向未曾聽聞福音的人傳揚好消息。</li></ul>"},"id":"evangelm-about","isHidden":false,"type":"richtext"},{"content":{"title":"參與服事","text":"<p>有興趣學習如何分享信仰或參加外展活動？歡迎與我們聯繫。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"evangelm-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: evangelm001

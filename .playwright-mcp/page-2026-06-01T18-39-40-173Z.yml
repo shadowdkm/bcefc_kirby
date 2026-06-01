@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "BCEFC BURNABY CHINESE EVANGELICAL FREE CHURCH" [ref=e4] [cursor=pointer]:
+        - /url: http://localhost:8123
+        - generic [ref=e5]: BCEFC
+        - generic [ref=e6]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "About Us" [ref=e10] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+              - text: About Us
+              - img [ref=e11]
+          - listitem [ref=e13]:
+            - link "Worship & Gatherings" [ref=e14] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+              - text: Worship & Gatherings
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - link "News" [ref=e18] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+              - text: News
+              - img [ref=e19]
+          - listitem [ref=e21]:
+            - link "New Here" [ref=e22] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+              - text: New Here
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "Fellowship Life" [ref=e26] [cursor=pointer]:
+              - /url: http://localhost:8123/fellowships
+              - text: Fellowship Life
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - button "More ( 4 )" [ref=e30] [cursor=pointer]:
+              - text: More (
+              - generic [ref=e31]: "4"
+              - text: )
+              - img [ref=e32]
+        - generic [ref=e34]:
+          - navigation "Language" [ref=e35]:
+            - link "EN" [ref=e36] [cursor=pointer]:
+              - /url: http://localhost:8123/ministries
+            - generic [ref=e37]: "|"
+            - link "简" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-cn/ministries
+            - generic [ref=e39]: "|"
+            - link "繁" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8123/zh-tw/ministries
+          - link "Giving" [ref=e41] [cursor=pointer]:
+            - /url: http://localhost:8123/giving
+  - main [ref=e42]:
+    - generic [ref=e46]:
+      - heading "Ministries · 教會事工" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Serving God and community together
+    - heading "English Ministry" [level=2] [ref=e53]
+    - generic [ref=e56]:
+      - link "Children's Ministry (G1–5) Nurturing faith in children from Grade 1 through Grade 5 with age-appropriate Bible teaching and activities. →" [ref=e57] [cursor=pointer]:
+        - /url: /ministries/children
+        - generic [ref=e58]:
+          - heading "Children's Ministry (G1–5)" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Nurturing faith in children from Grade 1 through Grade 5 with age-appropriate Bible teaching and activities.
+        - generic [ref=e61]: →
+      - link "SPORTEF (G6–9) Helping preteens grow in identity, values, and faith through fellowship, discipleship, and fun. →" [ref=e62] [cursor=pointer]:
+        - /url: /ministries/youth
+        - generic [ref=e63]:
+          - heading "SPORTEF (G6–9)" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Helping preteens grow in identity, values, and faith through fellowship, discipleship, and fun.
+        - generic [ref=e66]: →
+      - link "Little House Fellows (G9+) English youth ministry for Grade 9 through college — Saturday 7 PM & Sunday 9:30 AM. →" [ref=e67] [cursor=pointer]:
+        - /url: /ministries/youth
+        - generic [ref=e68]:
+          - heading "Little House Fellows (G9+)" [level=3] [ref=e69]
+          - paragraph [ref=e70]: English youth ministry for Grade 9 through college — Saturday 7 PM & Sunday 9:30 AM.
+        - generic [ref=e71]: →
+    - generic [ref=e75]:
+      - heading "Cantonese Ministry" [level=2] [ref=e76]
+      - paragraph [ref=e77]: 粵語事工
+    - generic [ref=e80]:
+      - link "Christian Education (宗教教育部) Promoting spiritual growth through Bible reading campaigns, seminars, Sunday School, and a 3,000-volume library. →" [ref=e81] [cursor=pointer]:
+        - /url: /ministries/christian-education
+        - generic [ref=e82]:
+          - heading "Christian Education (宗教教育部)" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Promoting spiritual growth through Bible reading campaigns, seminars, Sunday School, and a 3,000-volume library.
+        - generic [ref=e85]: →
+      - link "Evangelism (傳道部) Equipping and mobilizing members to fulfill the Great Commission through training, Gospel Sundays, and outreach. →" [ref=e86] [cursor=pointer]:
+        - /url: /ministries/evangelism
+        - generic [ref=e87]:
+          - heading "Evangelism (傳道部)" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Equipping and mobilizing members to fulfill the Great Commission through training, Gospel Sundays, and outreach.
+        - generic [ref=e90]: →
+      - link "Fellowship Dept (團契部) Fostering community and unity among all fellowship groups across the church. →" [ref=e91] [cursor=pointer]:
+        - /url: /ministries/fellowship-dept
+        - generic [ref=e92]:
+          - heading "Fellowship Dept (團契部)" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Fostering community and unity among all fellowship groups across the church.
+        - generic [ref=e95]: →
+      - link "Caring (關顧部) Expressing Christ's love through phone calls, cards, meals, senior visits, and newcomer follow-up. →" [ref=e96] [cursor=pointer]:
+        - /url: /ministries/caring
+        - generic [ref=e97]:
+          - heading "Caring (關顧部)" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Expressing Christ's love through phone calls, cards, meals, senior visits, and newcomer follow-up.
+        - generic [ref=e100]: →
+      - link "Worship Dept (崇拜部) Enabling members to use their gifts to ensure meaningful, Spirit-led Sunday worship each week. →" [ref=e101] [cursor=pointer]:
+        - /url: /ministries/worship-dept
+        - generic [ref=e102]:
+          - heading "Worship Dept (崇拜部)" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Enabling members to use their gifts to ensure meaningful, Spirit-led Sunday worship each week.
+        - generic [ref=e105]: →
+      - link "General Affairs (總務部) Faithful brothers maintaining church facilities — lighting, plumbing, and CCTV — for a safe and comfortable space. →" [ref=e106] [cursor=pointer]:
+        - /url: /ministries/general-affairs
+        - generic [ref=e107]:
+          - heading "General Affairs (總務部)" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Faithful brothers maintaining church facilities — lighting, plumbing, and CCTV — for a safe and comfortable space.
+        - generic [ref=e110]: →
+      - link "Missions (差傳部) Reaching the world locally and globally with the Gospel of Jesus Christ. →" [ref=e111] [cursor=pointer]:
+        - /url: /ministries/missions
+        - generic [ref=e112]:
+          - heading "Missions (差傳部)" [level=3] [ref=e113]
+          - paragraph [ref=e114]: Reaching the world locally and globally with the Gospel of Jesus Christ.
+        - generic [ref=e115]: →
+      - link "AV & IT (影音科技部) Managing audio, computer, and technical systems to support worship services and church operations. →" [ref=e116] [cursor=pointer]:
+        - /url: /ministries/av-tech
+        - generic [ref=e117]:
+          - heading "AV & IT (影音科技部)" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Managing audio, computer, and technical systems to support worship services and church operations.
+        - generic [ref=e120]: →
+    - generic [ref=e124]:
+      - heading "Mandarin Ministry" [level=2] [ref=e125]
+      - paragraph [ref=e126]: 國語事工
+    - link "Mandarin Ministry (國語事工) Launched in 2013, the Mandarin Ministry offers weekly worship, Sunday School, Bible study, and youth fellowships. →" [ref=e130] [cursor=pointer]:
+      - /url: /ministries/mandarin-ministry
+      - generic [ref=e131]:
+        - heading "Mandarin Ministry (國語事工)" [level=3] [ref=e132]
+        - paragraph [ref=e133]: Launched in 2013, the Mandarin Ministry offers weekly worship, Sunday School, Bible study, and youth fellowships.
+      - generic [ref=e134]: →
+  - contentinfo [ref=e135]:
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: BCEFC
+          - generic [ref=e142]: BURNABY CHINESE EVANGELICAL FREE CHURCH
+        - paragraph [ref=e143]: Deepening Faith Together · Extending Light in Life
+      - generic [ref=e144]:
+        - heading "Contact Us" [level=3] [ref=e145]
+        - generic [ref=e146]:
+          - paragraph [ref=e147]:
+            - img [ref=e148]
+            - generic [ref=e150]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - paragraph [ref=e151]:
+            - img [ref=e152]
+            - link "(604) 431-6969" [ref=e154] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - paragraph [ref=e155]:
+            - img [ref=e156]
+            - link "info@bcefc.ca" [ref=e158] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - paragraph [ref=e159]:
+            - img [ref=e160]
+            - generic [ref=e162]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e163]:
+        - heading "Quick Links" [level=3] [ref=e164]
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - link "About Us" [ref=e167] [cursor=pointer]:
+              - /url: http://localhost:8123/about
+          - listitem [ref=e168]:
+            - link "Worship" [ref=e169] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e170]:
+            - link "Ministries" [ref=e171] [cursor=pointer]:
+              - /url: http://localhost:8123/ministries
+          - listitem [ref=e172]:
+            - link "News" [ref=e173] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e174]:
+            - link "New Here" [ref=e175] [cursor=pointer]:
+              - /url: http://localhost:8123/new-here
+          - listitem [ref=e176]:
+            - link "Giving" [ref=e177] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e178]:
+        - heading "Connect" [level=3] [ref=e179]
+        - generic [ref=e180]:
+          - link "Facebook" [ref=e181] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e182]
+          - link "Instagram" [ref=e184] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e185]
+          - link "YouTube" [ref=e187] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e188]
+        - link "View on Google Maps" [ref=e191] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=6112+Rumble+Street+Burnaby+BC
+          - img [ref=e192]
+          - text: View on Google Maps
+    - generic [ref=e195]:
+      - paragraph [ref=e196]: © 2026 BCEFC. All rights reserved.
+      - navigation [ref=e197]:
+        - link "Privacy Policy" [ref=e198] [cursor=pointer]:
+          - /url: http://localhost:8123/privacy
