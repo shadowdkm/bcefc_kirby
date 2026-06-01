@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Pastor Grace Chang - Children's Ministry Pastor
+
+----
+
+Uuid: pagrace001
+
+----
+
+Template: image

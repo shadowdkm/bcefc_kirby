@@ -1,0 +1,11 @@
+Title: 活动预告
+
+----
+
+Builder:
+
+[{"content":{"title":"活动预告","subtitle":"即将举行的活动"},"id":"evprev-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>了解本那比华人播道会即将举行的各项活动，欢迎计划参加！</p>"},"id":"evprev-intro","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: newsevprev1

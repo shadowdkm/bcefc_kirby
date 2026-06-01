@@ -1,75 +1,53 @@
 <?php
-/**
- * People / Team List Block
- * Pastors/staff/deacons list with photo + role + bio
- * 
- * @var \Kirby\Cms\Block $block
- */
-
 $people = $block->people()->toStructure();
 if ($people->isEmpty()) return;
 
 $layout = $block->layout()->or('grid');
-
 ?>
 <section class="block-people-list block-people-list--<?= $layout ?>">
   <div class="container">
     <?php if ($block->heading()->isNotEmpty()): ?>
-    <header class="block-people-list__header">
-      <h2 class="block-people-list__heading"><?= $block->heading()->esc() ?></h2>
-    </header>
+    <h2 class="people-list__title"><?= $block->heading()->esc() ?></h2>
     <?php endif ?>
-    
-    <div class="block-people-list__grid">
-      <?php foreach ($people as $person): 
+
+    <div class="people-list__grid">
+      <?php foreach ($people as $person):
         $photo = $person->photo()->toFile();
       ?>
-      <article class="person-card">
-        <div class="person-card__photo">
-          <?php if ($photo): ?>
-          <img 
-            src="<?= $photo->thumb(['width' => 300, 'height' => 300, 'crop' => true])->url() ?>" 
-            alt="<?= $photo->alt()->or($person->name()) ?>"
-            loading="lazy"
-          >
-          <?php else: ?>
-          <div class="person-card__placeholder">
-            <svg class="icon"><use href="#icon-user"></use></svg>
-          </div>
-          <?php endif ?>
+      <article class="people-list__item">
+        <?php if ($photo): ?>
+        <img
+          class="people-list__photo"
+          src="<?= $photo->thumb(['width' => 320, 'height' => 320, 'crop' => true])->url() ?>"
+          alt="<?= $photo->alt()->or($person->name()) ?>"
+          loading="lazy"
+        >
+        <?php else: ?>
+        <div class="people-list__photo people-list__photo--placeholder">
+          <svg class="icon"><use href="#icon-users"></use></svg>
         </div>
-        
-        <div class="person-card__content">
-          <h3 class="person-card__name">
-            <?= $person->name()->esc() ?>
-            <?php if ($person->name_en()->isNotEmpty()): ?>
-            <span class="person-card__name-en"><?= $person->name_en()->esc() ?></span>
-            <?php endif ?>
-          </h3>
-          
-          <?php if ($person->role()->isNotEmpty()): ?>
-          <p class="person-card__role"><?= $person->role()->esc() ?></p>
-          <?php endif ?>
-          
-          <?php if ($person->bio()->isNotEmpty()): ?>
-          <p class="person-card__bio"><?= $person->bio()->esc() ?></p>
-          <?php endif ?>
-          
-          <?php if ($person->email()->isNotEmpty() || $person->phone()->isNotEmpty()): ?>
-          <div class="person-card__contact">
-            <?php if ($person->email()->isNotEmpty()): ?>
-            <a href="mailto:<?= $person->email() ?>" class="person-card__email">
-              <?= $person->email()->esc() ?>
-            </a>
-            <?php endif ?>
-            <?php if ($person->phone()->isNotEmpty()): ?>
-            <a href="tel:<?= $person->phone() ?>" class="person-card__phone">
-              <?= $person->phone()->esc() ?>
-            </a>
-            <?php endif ?>
-          </div>
-          <?php endif ?>
-        </div>
+        <?php endif ?>
+
+        <h3 class="people-list__name"><?= $person->name()->esc() ?></h3>
+
+        <?php if ($person->role()->isNotEmpty()): ?>
+        <p class="people-list__role"><?= $person->role()->esc() ?></p>
+        <?php endif ?>
+
+        <?php if ($person->bio()->isNotEmpty()): ?>
+        <p class="people-list__bio"><?= $person->bio()->esc() ?></p>
+        <?php endif ?>
+
+        <?php if ($person->email()->isNotEmpty()): ?>
+        <a href="mailto:<?= $person->email() ?>" class="people-list__email">
+          <?= $person->email()->esc() ?>
+        </a>
+        <?php endif ?>
+        <?php if ($person->phone()->isNotEmpty()): ?>
+        <a href="tel:<?= $person->phone() ?>" class="people-list__email">
+          <?= $person->phone()->esc() ?>
+        </a>
+        <?php endif ?>
       </article>
       <?php endforeach ?>
     </div>

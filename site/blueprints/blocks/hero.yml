@@ -69,6 +69,15 @@ fields:
     options:
       center: Center
       left: Left
+
+  valign:
+    label: Vertical Position
+    type: select
+    default: center
+    options:
+      top: Top
+      center: Center
+      bottom: Bottom
   
   height:
     label: Hero Height

@@ -1,0 +1,11 @@
+Title: 最新公告
+
+----
+
+Builder:
+
+[{"content":{"title":"最新公告","subtitle":"本那比華人播道會最新資訊"},"id":"ann-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>隨時掌握教會最新公告。請定期回來查看教會生活、事工及重要通知的最新動態。</p>"},"id":"ann-intro","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: newsann001

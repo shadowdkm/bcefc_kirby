@@ -9,6 +9,7 @@
 $bgImage = $block->bg_image()->toFile();
 $overlayStrength = $block->overlay_strength()->or(45);
 $align = $block->align()->or('center');
+$valign = $block->valign()->or('center');
 $height = $block->height()->or('large');
 
 // Height mapping
@@ -20,7 +21,7 @@ $heights = [
 $heroHeight = $heights[$height->value()] ?? '640px';
 
 ?>
-<section class="block-hero block-hero--<?= $align ?>" style="--hero-height: <?= $heroHeight ?>;">
+<section class="block-hero block-hero--<?= $align ?> block-hero--v<?= $valign ?>" style="--hero-height: <?= $heroHeight ?>;">
   <?php if ($bgImage): ?>
   <div class="block-hero__bg">
     <img 

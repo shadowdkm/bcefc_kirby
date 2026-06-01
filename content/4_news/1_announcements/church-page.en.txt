@@ -1,0 +1,11 @@
+Title: Announcements
+
+----
+
+Builder:
+
+[{"content":{"title":"Announcements","subtitle":"Latest news from BCEFC"},"id":"ann-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Stay up to date with the latest announcements from our church family. Check back regularly for updates on church life, programs, and important notices.</p>"},"id":"ann-intro","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: newsann001

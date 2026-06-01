@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Rev. Sam Lam - Lead Pastor
+
+----
+
+Uuid: pasamlam001
+
+----
+
+Template: image

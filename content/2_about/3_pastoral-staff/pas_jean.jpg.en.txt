@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Pastor Jean Lam - Youth Ministry Pastor
+
+----
+
+Uuid: pajean0001
+
+----
+
+Template: image

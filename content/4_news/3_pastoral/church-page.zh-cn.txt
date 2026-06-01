@@ -1,0 +1,11 @@
+Title: 教牧消息
+
+----
+
+Builder:
+
+[{"content":{"title":"教牧消息","subtitle":"来自牧者的话语"},"id":"pastoral-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>阅读来自教牧团队的信息、反思与最新消息。这些信息旨在鼓励和装备会众在日常信仰与生活中前行。</p>"},"id":"pastoral-intro","isHidden":false,"type":"richtext"}]
+
+----
+
+Uuid: newspastor1

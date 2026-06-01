@@ -49,7 +49,7 @@
       <!-- Navigation -->
       <nav class="site-header__nav" id="main-nav">
         <ul class="site-header__menu">
-          <?php foreach ($site->children()->listed()->filterBy('uid', '!=', 'giving') as $item): ?>
+          <?php foreach ($site->children()->listed()->filterBy('uid', '!=', 'giving')->filterBy('uid', '!=', 'new-here') as $item): ?>
           <li class="site-header__item<?php e($item->hasListedChildren(), ' has-dropdown') ?>">
             <a 
               href="<?= $item->url() ?>" 
