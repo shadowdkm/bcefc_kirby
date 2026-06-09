@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "本立比華人播道會 Burnaby Chinese Evangelical Free Church" [ref=e3] [cursor=pointer]:
+      - /url: http://localhost:8123
+      - img [ref=e4]
+      - generic [ref=e8]:
+        - generic [ref=e9]: 本立比華人播道會
+        - generic [ref=e10]: Burnaby Chinese Evangelical Free Church
+    - generic [ref=e11]:
+      - link "About Us" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8123/about
+        - text: About Us
+        - img [ref=e15]
+      - link "Worship & Gatherings" [ref=e18] [cursor=pointer]:
+        - /url: http://localhost:8123/worship
+        - text: Worship & Gatherings
+        - img [ref=e20]
+      - link "News" [ref=e23] [cursor=pointer]:
+        - /url: http://localhost:8123/news
+        - text: News
+        - img [ref=e25]
+      - link "Fellowship Life" [ref=e28] [cursor=pointer]:
+        - /url: http://localhost:8123/fellowships
+        - text: Fellowship Life
+        - img [ref=e30]
+      - link "Chinese School" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost:8123/chinese-school
+        - text: Chinese School
+        - img [ref=e35]
+      - link "Ministries" [ref=e38] [cursor=pointer]:
+        - /url: http://localhost:8123/ministries
+        - text: Ministries
+        - img [ref=e40]
+      - link "Events" [ref=e43] [cursor=pointer]:
+        - /url: http://localhost:8123/events
+        - text: Events
+        - img [ref=e45]
+      - link "Resources" [ref=e48] [cursor=pointer]:
+        - /url: http://localhost:8123/resources
+        - text: Resources
+        - img [ref=e50]
+    - generic [ref=e52]:
+      - navigation "Language" [ref=e53]:
+        - link "EN" [ref=e54] [cursor=pointer]:
+          - /url: http://localhost:8123/about/pastoral-staff
+        - generic [ref=e55]: "|"
+        - link "简" [ref=e56] [cursor=pointer]:
+          - /url: http://localhost:8123/zh-cn/about/pastoral-staff
+        - generic [ref=e57]: "|"
+        - link "繁" [ref=e58] [cursor=pointer]:
+          - /url: http://localhost:8123/zh-tw/about/pastoral-staff
+      - link "Giving" [ref=e59] [cursor=pointer]:
+        - /url: http://localhost:8123/giving
+        - img [ref=e60]
+        - text: Giving
+  - main [ref=e62]:
+    - generic [ref=e66]:
+      - heading "Pastoral Staff" [level=2] [ref=e67]
+      - paragraph [ref=e68]: 牧者與同工
+    - article [ref=e69]:
+      - paragraph [ref=e72]: Our pastoral staff team is dedicated to serving God and the church, leading brothers and sisters to grow in faith, and building the body of Christ.
+    - generic [ref=e74]:
+      - heading "Our Pastors" [level=2] [ref=e75]
+      - generic [ref=e76]:
+        - article [ref=e77]:
+          - img "Rev. Sam Lam - Lead Pastor" [ref=e78]
+          - heading "Rev. Sam Lam" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Lead Pastor & Chinese Ministry Pastor
+          - paragraph [ref=e81]: Rev. Sam Lam was born in Hong Kong and came to faith in 1998. He was baptized in 2000 and joined the Evangelical Free Church of China Grace Spring Church in Hong Kong. In 2005, he answered God's call to enter Evangel Seminary, earning his Bachelor of Theology in 2009 and Master of Divinity in 2011. After graduation, he returned to serve at his home church. Rev. Lam joined Burnaby Chinese Evangelical Free Church in April 2016. He is married with one son currently in secondary school. His wife, Pastor Lai Hing-ying, obtained her Master of Divinity from Evangel Seminary in 2008 and now serves as a volunteer pastor assisting with Mandarin ministry development.
+        - article [ref=e82]:
+          - img "Pastor Grace Chang - Children's Ministry Pastor" [ref=e83]
+          - heading "Pastor Grace Chang" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Children's Ministry Pastor
+          - paragraph [ref=e86]: Pastor Grace Chang was born into a Christian family. She came to faith in elementary school and responded to God's call during her teenage years, dedicating her life to Kingdom work. Pastor Chang taught in Hong Kong before immigrating to Canada in 1988. She completed her Christian Education degree from Prairie Bible College in 1994 and pursued further studies at the Child Evangelism Fellowship's Children's Education Institute in the USA. Pastor Chang has a special love for children and serves as their mentor, leader, and friend. She joined the BCEFC family in June 2013.
+        - article [ref=e87]:
+          - img "Pastor Jean Lam - Youth Ministry Pastor" [ref=e88]
+          - heading "Pastor Jean Lam" [level=3] [ref=e89]
+          - paragraph [ref=e90]: Youth Ministry Pastor
+          - paragraph [ref=e91]: Pastor Jean Lam was born in Hong Kong and came to faith in 2004. Answering God's call, she came to the Canadian Chinese School of Theology Vancouver in 2023 to pursue her Master of Theological Studies, graduating in 2025 before joining Burnaby Chinese Evangelical Free Church. Pastor Lam primarily serves in youth and family-related ministries, focusing on nurturing teenagers and their inner growth. She hopes to accompany them through this crucial stage of faith and life formation through biblical truth and life testimony, helping them establish a firm and healthy foundation in Christ. Pastor Lam is married to Benny, has a daughter Vivian, and lives in Richmond with their dog Kobe.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - heading "Contact Us" [level=2] [ref=e96]
+        - paragraph [ref=e98]: If you would like to contact our pastoral staff, please feel free to reach out via email or call the church office.
+      - link "Contact Information" [ref=e100] [cursor=pointer]:
+        - /url: /about/contact
+  - contentinfo [ref=e101]:
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - link "本立比華人播道會 BCEFC · Since 1991" [ref=e104] [cursor=pointer]:
+          - /url: http://localhost:8123
+          - img [ref=e105]
+          - generic [ref=e109]:
+            - generic [ref=e110]: 本立比華人播道會
+            - generic [ref=e111]: BCEFC · Since 1991
+        - paragraph [ref=e112]: 致力於建立一個生命轉化的屬靈大家庭，帶領萬民作主耶穌基督的門徒。
+        - generic [ref=e113]:
+          - link "Facebook" [ref=e114] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e115]
+          - link "YouTube" [ref=e117] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e118]
+          - link "Instagram" [ref=e120] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e121]
+      - generic [ref=e123]:
+        - heading "Quick Links" [level=4] [ref=e124]
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "Worship" [ref=e127] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e128]:
+            - link "線上直播 Livestream" [ref=e129] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e130]:
+            - link "News" [ref=e131] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e132]:
+            - link "中文學校" [ref=e133] [cursor=pointer]:
+              - /url: http://localhost:8123/chinese-school
+          - listitem [ref=e134]:
+            - link "Giving" [ref=e135] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e136]:
+        - heading "Contact Us" [level=4] [ref=e137]
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - img [ref=e140]
+            - generic [ref=e142]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - generic [ref=e143]:
+            - img [ref=e144]
+            - link "(604) 431-6969" [ref=e147] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - generic [ref=e148]:
+            - img [ref=e149]
+            - link "info@bcefc.ca" [ref=e152] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - generic [ref=e153]:
+            - img [ref=e154]
+            - generic [ref=e156]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e157]:
+        - heading "主日聚會" [level=4] [ref=e158]
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - link "國語崇拜 · 9:15 AM" [ref=e161] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e162]:
+            - link "粵語崇拜 · 11:00 AM" [ref=e163] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e164]:
+            - link "English Worship · 11:00 AM" [ref=e165] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e166]:
+            - link "兒童及青少年主日學" [ref=e167] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+    - generic [ref=e168]: © 2026 本立比華人播道會 Burnaby Chinese Evangelical Free Church · All Rights Reserved.

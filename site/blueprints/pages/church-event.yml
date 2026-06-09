@@ -1,0 +1,53 @@
+title: Church Event
+num: date
+icon: 📅
+
+status:
+  draft:
+    label: Draft
+    text: Not shown on the calendar.
+  listed:
+    label: Published
+    text: Visible on the calendar.
+
+columns:
+  - width: 2/3
+    fields:
+      description:
+        label: Description / 描述
+        type: blocks
+
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          date_start:
+            label: Start / 開始
+            type: date
+            time: true
+            required: true
+            default: now
+          date_end:
+            label: End / 結束
+            type: date
+            time: true
+          all_day:
+            label: All Day / 全天
+            type: toggle
+            default: false
+          location:
+            label: Location / 地點
+            type: text
+            placeholder: "Church Hall"
+          category:
+            label: Category / 類別
+            type: select
+            default: general
+            options:
+              general: General / 一般
+              worship: Worship / 崇拜
+              fellowship: Fellowship / 團契
+              youth: Youth / 青少年
+              children: Children / 兒童
+              special: Special Event / 特別活動

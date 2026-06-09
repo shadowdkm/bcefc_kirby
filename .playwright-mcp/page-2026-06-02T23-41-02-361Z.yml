@@ -1,0 +1,272 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "本立比華人播道會 Burnaby Chinese Evangelical Free Church" [ref=e3] [cursor=pointer]:
+      - /url: http://localhost:8123
+      - img [ref=e4]
+      - generic [ref=e8]:
+        - generic [ref=e9]: 本立比華人播道會
+        - generic [ref=e10]: Burnaby Chinese Evangelical Free Church
+    - generic [ref=e11]:
+      - link "About Us" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8123/about
+        - text: About Us
+        - img [ref=e15]
+      - link "Worship & Gatherings" [ref=e18] [cursor=pointer]:
+        - /url: http://localhost:8123/worship
+        - text: Worship & Gatherings
+        - img [ref=e20]
+      - link "News" [ref=e23] [cursor=pointer]:
+        - /url: http://localhost:8123/news
+        - text: News
+        - img [ref=e25]
+      - link "Fellowship Life" [ref=e28] [cursor=pointer]:
+        - /url: http://localhost:8123/fellowships
+        - text: Fellowship Life
+        - img [ref=e30]
+      - link "Chinese School" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost:8123/chinese-school
+        - text: Chinese School
+        - img [ref=e35]
+      - link "Ministries" [ref=e38] [cursor=pointer]:
+        - /url: http://localhost:8123/ministries
+        - text: Ministries
+        - img [ref=e40]
+      - link "Events" [ref=e43] [cursor=pointer]:
+        - /url: http://localhost:8123/events
+        - text: Events
+        - img [ref=e45]
+      - link "Resources" [ref=e48] [cursor=pointer]:
+        - /url: http://localhost:8123/resources
+        - text: Resources
+        - img [ref=e50]
+    - generic [ref=e52]:
+      - navigation "Language" [ref=e53]:
+        - link "EN" [ref=e54] [cursor=pointer]:
+          - /url: http://localhost:8123
+        - generic [ref=e55]: "|"
+        - link "简" [ref=e56] [cursor=pointer]:
+          - /url: http://localhost:8123/zh-cn
+        - generic [ref=e57]: "|"
+        - link "繁" [ref=e58] [cursor=pointer]:
+          - /url: http://localhost:8123/zh-tw
+      - link "Giving" [ref=e59] [cursor=pointer]:
+        - /url: http://localhost:8123/giving
+        - img [ref=e60]
+        - text: Giving
+  - main [ref=e62]:
+    - generic [ref=e66]:
+      - paragraph [ref=e67]: A Transforming Community Making Disciples For Jesus Christ
+      - heading "崇敬真神樂團契 謹遵使命發光輝" [level=1] [ref=e68]
+      - paragraph [ref=e69]: Welcome to Burnaby Chinese Evangelical Free Church. We are committed to building a transforming spiritual family.
+      - generic [ref=e70]:
+        - link "New Here?" [ref=e71] [cursor=pointer]:
+          - /url: /new-here
+        - link "About Us" [ref=e72] [cursor=pointer]:
+          - /url: /about
+    - paragraph [ref=e73]: "Block error: \"Cannot access offset of type Kirby\\Content\\Field on array\" in block type: \"quick-links\""
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - heading "This Week's Service Times" [level=2] [ref=e78]
+          - paragraph [ref=e79]: JOIN US FOR WORSHIP THIS SUNDAY
+        - link "View Full Schedule →" [ref=e80] [cursor=pointer]:
+          - /url: /worship
+          - text: View Full Schedule
+          - generic [ref=e81]: →
+      - generic [ref=e82]:
+        - article [ref=e83]:
+          - heading "Mandarin Worship" [level=3] [ref=e84]
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - generic [ref=e89]: Every Sunday 9:15 AM
+            - generic [ref=e90]:
+              - img [ref=e91]
+              - generic [ref=e93]: Church Sanctuary
+            - generic [ref=e94]:
+              - img [ref=e95]
+              - generic [ref=e96]: Physical & Online
+          - paragraph [ref=e97]: Mandarin worship service with simultaneous children's Sunday School (G1-5).
+          - link "View Details" [ref=e98] [cursor=pointer]:
+            - /url: /worship/mandarin
+        - article [ref=e99]:
+          - heading "Cantonese Worship" [level=3] [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - generic [ref=e105]: Every Sunday 11:00 AM
+            - generic [ref=e106]:
+              - img [ref=e107]
+              - generic [ref=e109]: Physical & YouTube Live
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - generic [ref=e112]: Livestream available for those far away
+          - paragraph [ref=e113]: Cantonese worship service with online livestream. Join us in person or online.
+          - link "Watch Online" [ref=e114] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+        - article [ref=e115]:
+          - heading "English Worship" [level=3] [ref=e116]
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e121]: Sunday 11:00 AM
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - generic [ref=e125]: Grade 9-College+
+            - generic [ref=e126]:
+              - img [ref=e127]
+              - generic [ref=e128]: Contemporary service for young generation
+          - paragraph [ref=e129]: Contemporary service focusing on the young generation with modern worship.
+          - link "Visit Site" [ref=e130] [cursor=pointer]:
+            - /url: /worship/english
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - heading "About Our Church" [level=2] [ref=e135]
+        - paragraph [ref=e136]: VISION & MISSION
+      - link "Learn More About Us →" [ref=e137] [cursor=pointer]:
+        - /url: /about
+        - text: Learn More About Us
+        - generic [ref=e138]: →
+    - generic [ref=e141]:
+      - link "Our Vision To be a transforming community making disciples for Jesus Christ who will impact the world. →" [ref=e142] [cursor=pointer]:
+        - /url: /about/vision
+        - generic [ref=e143]:
+          - heading "Our Vision" [level=3] [ref=e144]
+          - paragraph [ref=e145]: To be a transforming community making disciples for Jesus Christ who will impact the world.
+        - generic [ref=e146]: →
+      - link "Our Mission Glorify God through worship, nurture believers through discipleship, and reach the community with the Gospel. →" [ref=e147] [cursor=pointer]:
+        - /url: /about/mission
+        - generic [ref=e148]:
+          - heading "Our Mission" [level=3] [ref=e149]
+          - paragraph [ref=e150]: Glorify God through worship, nurture believers through discipleship, and reach the community with the Gospel.
+        - generic [ref=e151]: →
+      - link "Three-Person Walk Our unique mentorship ministry pairing believers together for spiritual growth and accountability. →" [ref=e152] [cursor=pointer]:
+        - /url: /ministries/three-person-walk
+        - generic [ref=e153]:
+          - heading "Three-Person Walk" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Our unique mentorship ministry pairing believers together for spiritual growth and accountability.
+        - generic [ref=e156]: →
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - heading "Latest News" [level=2] [ref=e160]
+        - link "View All →" [ref=e161] [cursor=pointer]:
+          - /url: /news
+      - list [ref=e162]:
+        - listitem [ref=e163]:
+          - time [ref=e164]: Mar 15
+          - generic [ref=e165]:
+            - text: Event
+            - link "2025 Spring Revival Meeting" [ref=e166] [cursor=pointer]:
+              - /url: /news/spring-revival-2025
+          - generic [ref=e167]: →
+        - listitem [ref=e168]:
+          - time [ref=e169]: Mar 01
+          - generic [ref=e170]:
+            - text: Registration
+            - link "Chinese School Spring Registration Now Open" [ref=e171] [cursor=pointer]:
+              - /url: /chinese-school/register
+          - generic [ref=e172]: →
+        - listitem [ref=e173]:
+          - time [ref=e174]: Feb 28
+          - generic [ref=e175]:
+            - text: Important
+            - link "Family Camp Registration Deadline Extended" [ref=e176] [cursor=pointer]:
+              - /url: /news/family-camp-2025
+          - generic [ref=e177]: →
+        - listitem [ref=e178]:
+          - time [ref=e179]: Feb 20
+          - link "New Sunday School Classes Starting" [ref=e181] [cursor=pointer]:
+            - /url: /news/sunday-school-spring
+          - generic [ref=e182]: →
+        - listitem [ref=e183]:
+          - time [ref=e184]: Feb 15
+          - generic [ref=e185]:
+            - text: Missions
+            - link "Mission Team Update from Mexico" [ref=e186] [cursor=pointer]:
+              - /url: /news/mexico-mission-update
+          - generic [ref=e187]: →
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - heading "New Here? We'd Love to Meet You!" [level=2] [ref=e192]
+        - generic [ref=e193]: Whether you're exploring faith, looking for a church home, or just curious, you're welcome here. Join us this Sunday!
+      - link "Plan Your Visit" [ref=e195] [cursor=pointer]:
+        - /url: /new-here
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - heading "Chinese School Registration" [level=2] [ref=e200]
+        - generic [ref=e201]: Our Chinese School offers quality Mandarin and Cantonese education for children of all ages. Spring semester enrollment is now open!
+      - link "Register Now" [ref=e203] [cursor=pointer]:
+        - /url: /chinese-school/register
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - link "本立比華人播道會 BCEFC · Since 1991" [ref=e207] [cursor=pointer]:
+          - /url: http://localhost:8123
+          - img [ref=e208]
+          - generic [ref=e212]:
+            - generic [ref=e213]: 本立比華人播道會
+            - generic [ref=e214]: BCEFC · Since 1991
+        - paragraph [ref=e215]: 致力於建立一個生命轉化的屬靈大家庭，帶領萬民作主耶穌基督的門徒。
+        - generic [ref=e216]:
+          - link "Facebook" [ref=e217] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e218]
+          - link "YouTube" [ref=e220] [cursor=pointer]:
+            - /url: https://youtube.com/@bcefc
+            - img [ref=e221]
+          - link "Instagram" [ref=e223] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e224]
+      - generic [ref=e226]:
+        - heading "Quick Links" [level=4] [ref=e227]
+        - list [ref=e228]:
+          - listitem [ref=e229]:
+            - link "Worship" [ref=e230] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e231]:
+            - link "線上直播 Livestream" [ref=e232] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e233]:
+            - link "News" [ref=e234] [cursor=pointer]:
+              - /url: http://localhost:8123/news
+          - listitem [ref=e235]:
+            - link "中文學校" [ref=e236] [cursor=pointer]:
+              - /url: http://localhost:8123/chinese-school
+          - listitem [ref=e237]:
+            - link "Giving" [ref=e238] [cursor=pointer]:
+              - /url: http://localhost:8123/giving
+      - generic [ref=e239]:
+        - heading "Contact Us" [level=4] [ref=e240]
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - img [ref=e243]
+            - generic [ref=e245]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - generic [ref=e246]:
+            - img [ref=e247]
+            - link "(604) 431-6969" [ref=e250] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - generic [ref=e251]:
+            - img [ref=e252]
+            - link "info@bcefc.ca" [ref=e255] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - generic [ref=e256]:
+            - img [ref=e257]
+            - generic [ref=e259]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e260]:
+        - heading "主日聚會" [level=4] [ref=e261]
+        - list [ref=e262]:
+          - listitem [ref=e263]:
+            - link "國語崇拜 · 9:15 AM" [ref=e264] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e265]:
+            - link "粵語崇拜 · 11:00 AM" [ref=e266] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e267]:
+            - link "English Worship · 11:00 AM" [ref=e268] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+          - listitem [ref=e269]:
+            - link "兒童及青少年主日學" [ref=e270] [cursor=pointer]:
+              - /url: http://localhost:8123/worship
+    - generic [ref=e271]: © 2026 本立比華人播道會 Burnaby Chinese Evangelical Free Church · All Rights Reserved.

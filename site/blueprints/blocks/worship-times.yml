@@ -19,12 +19,20 @@ fields:
     type: text
     width: 1/2
     placeholder: "查看完整時間表"
-  
+
   view_all_url:
     label: View All URL
     type: url
     width: 1/2
-  
+
+  bulletin_pdf:
+    label: 本週週報 PDF (Weekly Bulletin)
+    type: files
+    multiple: false
+    accept:
+      extension: pdf
+    help: Upload this week's bulletin PDF. A download button will appear on the worship section.
+
   services:
     label: Services
     type: structure

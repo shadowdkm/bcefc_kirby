@@ -16,12 +16,17 @@ if ($fellowships->isEmpty()) return;
     <div class="fellowship-gallery__grid">
       <?php foreach ($fellowships as $fellowship):
         $photo = $fellowship->photo()->toFile();
-        $hasLink = $fellowship->url()->isNotEmpty();
+        $urlRaw = trim((string)$fellowship->url(), '/');
+        $hasLink = $urlRaw !== '';
         $tag = $hasLink ? 'a' : 'div';
+        if ($hasLink) {
+          $linkedPage = page($urlRaw);
+          $resolvedUrl = $linkedPage ? $linkedPage->url() : '/' . $urlRaw;
+        }
       ?>
       <<?= $tag ?>
         class="fellowship-item"
-        <?php if ($hasLink): ?>href="<?= $fellowship->url() ?>"<?php endif ?>
+        <?php if ($hasLink): ?>href="<?= $resolvedUrl ?>"<?php endif ?>
       >
         <?php if ($photo): ?>
         <img

@@ -1,34 +1,42 @@
 <?php
 /**
- * Quick Links Row Block
- * 3-6 icon cards for quick navigation (New Here, This Week, Giving, etc.)
- * 
- * @var \Kirby\Cms\Block $block
+ * Quick Links Block — qcard design
  */
 
 $items = $block->items()->toStructure();
 if ($items->isEmpty()) return;
 
+$iconMap = [
+  'time'    => 'clock',
+  'people'  => 'users',
+  'news'    => 'book',
+  'church'  => 'cross',
+];
+
 ?>
-<section class="block-quick-links">
-  <div class="container">
-    <div class="block-quick-links__grid" style="--columns: <?= min($items->count(), 4) ?>;">
-      <?php foreach ($items as $item): ?>
-      <a href="<?= $item->url()->or('#') ?>" class="quick-link-card<?php e($item->emphasis()->toBool(), ' quick-link-card--emphasis') ?>">
-        <?php if ($item->icon()->isNotEmpty()): ?>
-        <span class="quick-link-card__icon" data-icon="<?= $item->icon()->esc() ?>">
-          <svg class="icon"><use href="#icon-<?= $item->icon()->esc() ?>"></use></svg>
+<section style="padding: 52px 0; position: relative; z-index: 2;">
+  <div class="wrap-wide">
+    <div class="qlinks">
+      <?php foreach ($items as $item):
+        $iconRaw = (string)$item->icon();
+        $icon    = isset($iconMap[$iconRaw]) ? $iconMap[$iconRaw] : $iconRaw;
+        $url     = (string)$item->url() ?: '#';
+        $feature = (string)$item->emphasis() === 'true';
+      ?>
+      <a href="<?= esc($url) ?>" class="qcard<?= $feature ? ' feature' : '' ?>">
+        <span class="q-ico">
+          <svg class="icon" aria-hidden="true"><use href="#icon-<?= esc($icon) ?>"></use></svg>
         </span>
-        <?php endif ?>
-        
-        <div class="quick-link-card__content">
-          <h3 class="quick-link-card__title"><?= $item->title()->esc() ?></h3>
+        <span>
+          <div class="q-title"><?= $item->title()->esc() ?></div>
           <?php if ($item->subtitle()->isNotEmpty()): ?>
-          <p class="quick-link-card__subtitle"><?= $item->subtitle()->esc() ?></p>
+          <div class="q-sub"><?= $item->subtitle()->esc() ?></div>
           <?php endif ?>
-        </div>
-        
-        <span class="quick-link-card__arrow">→</span>
+        </span>
+        <span class="q-go">
+          前往
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </span>
       </a>
       <?php endforeach ?>
     </div>

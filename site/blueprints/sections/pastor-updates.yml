@@ -1,0 +1,11 @@
+type: pages
+label: Pastor Updates
+parent: kirby.page("pastor-updates")
+info: "{{ page.date.toDate('Y-m-d') }} · {{ page.author }}"
+template: pastor-update
+empty: No updates yet
+sortBy: date desc
+image:
+  query: page.cover.toFile
+  cover: true
+  ratio: 3/2

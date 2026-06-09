@@ -1,0 +1,19 @@
+title: Pastor Updates
+icon: ✍️
+
+columns:
+  - width: 1/3
+    sections:
+      drafts:
+        extends: sections/pastor-updates
+        label: Drafts
+        status: draft
+
+  - width: 2/3
+    sections:
+      listed:
+        extends: sections/pastor-updates
+        label: Published
+        status: listed
+        layout: cards
+        size: small

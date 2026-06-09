@@ -9,6 +9,8 @@
 $services = $block->services()->toStructure();
 if ($services->isEmpty()) return;
 
+$bulletinPdf = $block->bulletin_pdf()->toFile();
+
 ?>
 <section class="block-worship-times">
   <div class="container">
@@ -21,12 +23,20 @@ if ($services->isEmpty()) return;
         <?php endif ?>
       </div>
       
-      <?php if ($block->view_all_text()->isNotEmpty()): ?>
-      <a href="<?= $block->view_all_url()->or('#') ?>" class="block-worship-times__link">
-        <?= $block->view_all_text()->esc() ?>
-        <span class="arrow">→</span>
-      </a>
-      <?php endif ?>
+      <div class="block-worship-times__header-actions">
+        <?php if ($block->view_all_text()->isNotEmpty()): ?>
+        <a href="<?= $block->view_all_url()->or('#') ?>" class="block-worship-times__link">
+          <?= $block->view_all_text()->esc() ?>
+          <span class="arrow">→</span>
+        </a>
+        <?php endif ?>
+        <?php if ($bulletinPdf): ?>
+        <a href="<?= $bulletinPdf->url() ?>" class="btn btn-sm btn--outline" download>
+          <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
+          <?= t('worship.bulletin', '本週週報') ?>
+        </a>
+        <?php endif ?>
+      </div>
     </header>
     <?php endif ?>
     

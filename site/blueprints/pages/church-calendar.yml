@@ -1,0 +1,28 @@
+title: Church Calendar
+icon: 📅
+
+columns:
+  - width: 1/3
+    sections:
+      drafts:
+        type: pages
+        label: Drafts
+        parent: page
+        template: church-event
+        status: draft
+        empty: No draft events
+        sortBy: date_start asc
+        info: "{{ page.date_start.toDate('Y-m-d') }}"
+
+  - width: 2/3
+    sections:
+      events:
+        type: pages
+        label: Upcoming Events
+        parent: page
+        template: church-event
+        status: listed
+        empty: No events yet. Add one →
+        sortBy: date_start asc
+        layout: list
+        info: "{{ page.date_start.toDate('Y-m-d H:i') }}{{ page.location.isNotEmpty ? ' · ' : '' }}{{ page.location }}"
