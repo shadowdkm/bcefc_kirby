@@ -47,6 +47,7 @@ Icon
 # License
 # ---------------
 
+deploy.env
 /site/config/.license
 /site/config/config.starterkit.test.php
 nul
