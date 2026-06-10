@@ -36,8 +36,12 @@ ssh $SSH_OPTS "$DEPLOY_USER@$DEPLOY_HOST" bash << REMOTE
   set -e
   cd "$DEPLOY_PATH"
 
+  echo "→ Fixing file ownership..."
+  sudo chown -R "${DEPLOY_USER}:www-data" "$DEPLOY_PATH"
+  sudo chmod -R 775 "$DEPLOY_PATH"
+
   echo "→ Pulling from GitHub..."
-  git pull
+  git pull origin master
 
   echo "→ Updating Composer dependencies..."
   composer install --no-dev --optimize-autoloader --quiet
