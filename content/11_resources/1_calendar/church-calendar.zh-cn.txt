@@ -2,9 +2,15 @@ Title: 教会行事历
 
 ----
 
-Builder:
+Calendar_title: 教会行事历
 
-[{"content":{"title":"教会行事历","subtitle":"Church Calendar"},"id":"calendar-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>随时了解教会所有活动、崇拜及重要日期。我们的行事历包括定期崇拜、团契聚会、特别活动和节日。</p><h3>每周固定聚会时间</h3><ul><li><strong>主日国语崇拜：</strong>上午 9:15 – 10:30</li><li><strong>主日粤语崇拜：</strong>上午 11:00 – 下午 12:30</li><li><strong>主日青少年崇拜：</strong>上午 11:00</li><li><strong>主日学：</strong>上午 9:30（儿童）、上午 11:00（成人）</li><li><strong>周五团契：</strong>晚上 8:00 – 10:00（各小组）</li></ul>"},"id":"calendar-info","isHidden":false,"type":"richtext"},{"content":{"url":"https://calendar.google.com/calendar/embed?src=bcefc.ca_churchcalendar%40group.calendar.google.com&ctz=America%2FVancouver","caption":"本那比华人播道会行事历","aspect_ratio":"4/3"},"id":"calendar-embed","isHidden":false,"type":"media-embed"},{"content":{"text":"<p>如需最新信息，请查阅每周周报或联系教会办公室 <a href=\"mailto:info@bcefc.ca\">info@bcefc.ca</a>。</p>"},"id":"calendar-note","isHidden":false,"type":"richtext"}]
+----
+
+Calendar_subtitle: 掌握教会所有活动和聚会的最新资讯
+
+----
+
+Google_embed_url: https://calendar.google.com/calendar/embed?src=fdd0a46b5f587f5db4155b4a5862ad7a60985c64e9f61a171da33da96603eed4%40group.calendar.google.com&ctz=America%2FVancouver
 
 ----
 

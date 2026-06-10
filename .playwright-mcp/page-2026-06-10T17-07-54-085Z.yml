@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "本立比華人播道會 Burnaby Chinese Evangelical Free Church" [ref=e3] [cursor=pointer]:
+      - /url: http://localhost:8000
+      - img [ref=e4]
+      - generic [ref=e8]:
+        - generic [ref=e9]: 本立比華人播道會
+        - generic [ref=e10]: Burnaby Chinese Evangelical Free Church
+    - generic [ref=e11]:
+      - link "About Us" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8000/about
+        - text: About Us
+        - img [ref=e15]
+      - link "Worship & Gatherings" [ref=e18] [cursor=pointer]:
+        - /url: http://localhost:8000/worship
+        - text: Worship & Gatherings
+        - img [ref=e20]
+      - link "News" [ref=e23] [cursor=pointer]:
+        - /url: http://localhost:8000/news
+        - text: News
+        - img [ref=e25]
+      - link "Fellowship Life" [ref=e28] [cursor=pointer]:
+        - /url: http://localhost:8000/fellowships
+        - text: Fellowship Life
+        - img [ref=e30]
+      - link "Chinese School" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost:8000/chinese-school
+        - text: Chinese School
+        - img [ref=e35]
+      - link "Ministries" [ref=e38] [cursor=pointer]:
+        - /url: http://localhost:8000/ministries
+        - text: Ministries
+        - img [ref=e40]
+      - link "Events" [ref=e43] [cursor=pointer]:
+        - /url: http://localhost:8000/events
+        - text: Events
+        - img [ref=e45]
+      - link "Resources" [ref=e48] [cursor=pointer]:
+        - /url: http://localhost:8000/resources
+        - text: Resources
+        - img [ref=e50]
+    - generic [ref=e52]:
+      - navigation "Language" [ref=e53]:
+        - link "EN" [ref=e54] [cursor=pointer]:
+          - /url: http://localhost:8000/ministries/evangelism
+        - generic [ref=e55]: "|"
+        - link "简" [ref=e56] [cursor=pointer]:
+          - /url: http://localhost:8000/zh-cn/ministries/evangelism
+        - generic [ref=e57]: "|"
+        - link "繁" [ref=e58] [cursor=pointer]:
+          - /url: http://localhost:8000/zh-tw/ministries/evangelism
+      - link "Giving" [ref=e59] [cursor=pointer]:
+        - /url: http://localhost:8000/giving
+        - img [ref=e60]
+        - text: Giving
+  - main [ref=e62]:
+    - generic [ref=e66]:
+      - heading "Evangelism Department" [level=2] [ref=e67]
+      - paragraph [ref=e68]: Sharing the Good News · 傳道部
+    - article [ref=e69]:
+      - generic [ref=e71]:
+        - paragraph [ref=e72]: The Evangelism Department mobilises and trains our congregation to fulfil the Great Commission — sharing the Gospel with boldness, love and intentionality.
+        - heading "Personal Evangelism Training" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Practical training equipping members with the confidence and skills to share their faith in everyday conversations.
+        - heading "Gospel Sunday Services" [level=3] [ref=e75]
+        - paragraph [ref=e76]: Special Sunday services designed to welcome seekers and non-believers, with clear Gospel presentations and warm community welcome.
+        - heading "Evangelistic Meetings" [level=3] [ref=e77]
+        - paragraph [ref=e78]: Larger outreach events — including Christmas Music Sharing Nights — that create natural opportunities to invite friends and family to hear the Gospel.
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "Make a Difference" [level=2] [ref=e83]
+        - paragraph [ref=e85]: Want to share your faith but not sure how? Join us for evangelism training and discover how God can use you.
+      - link "Get Involved" [ref=e87] [cursor=pointer]:
+        - /url: http://localhost:8000/new-here/contact
+  - contentinfo [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - link "本立比華人播道會 BCEFC · Since 1991" [ref=e91] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img [ref=e92]
+          - generic [ref=e96]:
+            - generic [ref=e97]: 本立比華人播道會
+            - generic [ref=e98]: BCEFC · Since 1991
+        - paragraph [ref=e99]: 致力於建立一個生命轉化的屬靈大家庭，帶領萬民作主耶穌基督的門徒。
+        - generic [ref=e100]:
+          - link "Facebook" [ref=e101] [cursor=pointer]:
+            - /url: https://facebook.com/bcefc
+            - img [ref=e102]
+          - link "Instagram" [ref=e104] [cursor=pointer]:
+            - /url: https://instagram.com/bcefc
+            - img [ref=e105]
+      - generic [ref=e107]:
+        - heading "Quick Links" [level=4] [ref=e108]
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Worship" [ref=e111] [cursor=pointer]:
+              - /url: http://localhost:8000/worship
+          - listitem [ref=e112]:
+            - link "News" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:8000/news
+          - listitem [ref=e114]:
+            - link "中文學校" [ref=e115] [cursor=pointer]:
+              - /url: http://localhost:8000/chinese-school
+          - listitem [ref=e116]:
+            - link "Giving" [ref=e117] [cursor=pointer]:
+              - /url: http://localhost:8000/giving
+      - generic [ref=e118]:
+        - heading "Contact Us" [level=4] [ref=e119]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - img [ref=e122]
+            - generic [ref=e124]:
+              - text: 6112 Rumble Street
+              - text: Burnaby, BC V5J 2C7
+          - generic [ref=e125]:
+            - img [ref=e126]
+            - link "(604) 431-6969" [ref=e129] [cursor=pointer]:
+              - /url: tel:+16044316969
+          - generic [ref=e130]:
+            - img [ref=e131]
+            - link "info@bcefc.ca" [ref=e134] [cursor=pointer]:
+              - /url: mailto:info@bcefc.ca
+          - generic [ref=e135]:
+            - img [ref=e136]
+            - generic [ref=e138]: "Office: Mon-Fri 9am-5pm"
+      - generic [ref=e139]:
+        - heading "主日聚會" [level=4] [ref=e140]
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - link "國語崇拜 · 9:15 AM" [ref=e143] [cursor=pointer]:
+              - /url: http://localhost:8000/worship
+          - listitem [ref=e144]:
+            - link "粵語崇拜 · 11:00 AM" [ref=e145] [cursor=pointer]:
+              - /url: http://localhost:8000/worship
+          - listitem [ref=e146]:
+            - link "English Worship · 11:00 AM" [ref=e147] [cursor=pointer]:
+              - /url: http://localhost:8000/worship
+          - listitem [ref=e148]:
+            - link "兒童及青少年主日學" [ref=e149] [cursor=pointer]:
+              - /url: http://localhost:8000/worship
+    - generic [ref=e150]: © 2026 本立比華人播道會 Burnaby Chinese Evangelical Free Church · All Rights Reserved.

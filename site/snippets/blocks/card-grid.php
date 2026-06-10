@@ -17,14 +17,15 @@ $imageRatio = $block->image_ratio()->or('3/2');
 <section class="block-card-grid block-card-grid--<?= $cardStyle ?>">
   <div class="container">
     <div class="block-card-grid__grid" style="--columns: <?= $columns ?>; --image-ratio: <?= $imageRatio ?>;">
-      <?php foreach ($items as $item): 
+      <?php foreach ($items as $item):
         $image = $item->image()->toFile();
         $hasLink = $item->url()->isNotEmpty();
         $tag = $hasLink ? 'a' : 'div';
+        $resolvedUrl = $hasLink ? pageUrl((string)$item->url()) : '#';
       ?>
-      <<?= $tag ?> 
+      <<?= $tag ?>
         class="card-grid-item"
-        <?php if ($hasLink): ?>href="<?= $item->url() ?>"<?php endif ?>
+        <?php if ($hasLink): ?>href="<?= $resolvedUrl ?>"<?php endif ?>
       >
         <?php if ($image): ?>
         <div class="card-grid-item__image">

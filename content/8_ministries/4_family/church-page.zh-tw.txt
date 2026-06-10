@@ -1,11 +1,11 @@
-Title: 家庭事工
+Title: SPORTEF · 少年及家庭事工
 
 ----
 
 Builder:
 
-[{"content":{"title":"家庭事工","subtitle":"為基督建立穩固的家"},"id":"family-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>我們的家庭事工旨在以聖經原則裝備家庭，並在家庭生活的每個階段提供支持，藉此鞏固婚姻和家庭關係。</p><h3>婚姻增進</h3><p>我們提供婚姻工作坊、約會之夜和夫妻退修會，幫助加強夫妻之間的關係。</p><h3>育兒資源</h3><p>為父母提供以聖經價值觀養育孩子的課程和資源，涵蓋幼兒到青少年各階段。</p><h3>家庭活動</h3><p>定期舉辦適合全家參與的活動，讓不同世代在歡樂、團契和信仰建造中連結。</p>"},"id":"family-content","isHidden":false,"type":"richtext"},{"content":{"title":"家庭課程","columns":[{"icon":"heart","title":"婚姻事工","description":"為夫妻提供工作坊、退修會和輔導"},{"icon":"users","title":"育兒課程","description":"各年齡段養育孩子的聖經指導"},{"icon":"calendar","title":"家庭活動","description":"野餐、遊戲之夜和節日慶祝"},{"icon":"home","title":"家庭靈修","description":"居家敬拜和查經資源"}]},"id":"family-programs","isHidden":false,"type":"icon-feature-grid"}]
+[{"content":{"bg_image":["file://sporteffam001"],"overlay_strength":50,"eyebrow":"","title":"SPORTEF","subtitle":"少年及家庭事工 · 中一至中三","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-4_family-zh-tw","isHidden":false,"type":"hero"},{"content":{"text":"<p>SPORTEF（少年及家庭事工）是為中一至中三同學而設的少年及家庭事工，為少年人創造空間探索信仰、建立友誼、一同成長，同時裝備他們的家庭。</p><h3>家有好時光 · Café Together</h3><p>一個以家庭為中心的牧養平台，專為12至18歲青少年的父母而設。透過輕鬆的茶聚，父母互相分享，學習如何陪伴孩子走過這關鍵成長期。</p><p>第一年主題包括：了解兒童發展、健康溝通、情緒自覺、建立關係、壓力管理及家庭信仰。</p><h3>聯絡</h3><p>林傳道 · <a href=\"mailto:jeannielam1230@gmail.com\">jeannielam1230@gmail.com</a></p>"},"id":"sp-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入 SPORTEF","text":"<p>你的孩子在中一至中三嗎？歡迎來找一個可以在信仰和友誼中成長的群體。</p>","button_text":"聯絡我們","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"sp-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: family00001
+Uuid: sportef-g69-001

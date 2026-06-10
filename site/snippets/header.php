@@ -2,6 +2,23 @@
 /*
   Header snippet — BCEFC redesign nav
 */
+
+if (!function_exists('pageUrl')) {
+    function pageUrl(string $raw): string {
+        $raw = trim($raw);
+        if ($raw === '' || $raw === '#') return '#';
+        if (
+            strpos($raw, 'http')    === 0 ||
+            strpos($raw, 'mailto:') === 0 ||
+            strpos($raw, 'tel:')    === 0 ||
+            strpos($raw, '//')      === 0
+        ) {
+            return $raw;
+        }
+        $p = page(trim($raw, '/'));
+        return $p ? $p->url() : $raw;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= $kirby->language() ? $kirby->language()->code() : 'en' ?>">

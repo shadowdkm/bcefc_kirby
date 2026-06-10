@@ -73,7 +73,10 @@ columns:
       pages:
         type: pages
         headline: Subpages
-        template: church-page
+        templates:
+          - church-page
+          - church-calendar
+          - church-event
       
       files:
         type: files

@@ -6,7 +6,11 @@
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__claude_ai_Google_Drive__search_files",
       "mcp__claude_ai_Google_Drive__get_file_metadata",
-      "mcp__claude_ai_Google_Drive__read_file_content"
+      "mcp__claude_ai_Google_Drive__read_file_content",
+	  "Bash(pip show *)",
+	  "Bash(pip3 show *)",
+	  "Bash(where *)",
+	  "mcp__plugin_playwright_playwright__browser_navigate"
     ]
   }
 }

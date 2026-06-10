@@ -2,27 +2,29 @@ title: Church Calendar
 icon: 📅
 
 columns:
-  - width: 1/3
+  main:
+    width: 2/3
     sections:
-      drafts:
-        type: pages
-        label: Drafts
-        parent: page
-        template: church-event
-        status: draft
-        empty: No draft events
-        sortBy: date_start asc
-        info: "{{ page.date_start.toDate('Y-m-d') }}"
+      content:
+        type: fields
+        fields:
+          google_embed_url:
+            label: Google Calendar Embed URL
+            type: text
+            placeholder: "https://calendar.google.com/calendar/embed?src=..."
+            help: |
+              在 Google Calendar 桌面版：設定 (⚙) → 選擇行事曆 → 整合行事曆 → 複製「公開網址」貼到這裏。
+              記得先將行事曆設定為「公開」，否則訪客看不到。
 
-  - width: 2/3
+  sidebar:
+    width: 1/3
     sections:
-      events:
-        type: pages
-        label: Upcoming Events
-        parent: page
-        template: church-event
-        status: listed
-        empty: No events yet. Add one →
-        sortBy: date_start asc
-        layout: list
-        info: "{{ page.date_start.toDate('Y-m-d H:i') }}{{ page.location.isNotEmpty ? ' · ' : '' }}{{ page.location }}"
+      info:
+        type: fields
+        fields:
+          calendar_title:
+            label: Page Title
+            type: text
+          calendar_subtitle:
+            label: Subtitle
+            type: text

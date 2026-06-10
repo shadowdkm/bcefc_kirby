@@ -4,8 +4,8 @@ Title: 差传部
 
 Builder:
 
-[{"content":{"title":"差传部","subtitle":"为基督差遣，远近宣扬"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>我们的使命</h3><p>本那比华人播道会差传部的使命是动员会众参与偏远及未得之地的宣教工作。我们相信每位信徒都有角色可以扮演——无论是亲身前往、奉献支持，还是代祷守望。</p><h3>小城短宣</h3><p>我们组织短宣队前往小城镇和有需要的社区。这些短宣旅程让会友亲身体验跨文化事工、传福音和服事。</p><h3>海外宣教</h3><p>我们与在泰国和印尼服事的宣教士合作，提供祷告支持、奉献和鼓励。</p><h3>差传月</h3><p>每年十月，我们举办年度<strong>差传月</strong>——一个特别的祷告、教导和感恩季节，庆祝神在世界各地的工作。会友聆听宣教士分享、了解全球需要，并受挑战作出回应。</p><h3>本地布道</h3><p>宣教从身边开始。本地布道和社区外展是我们更广泛宣教异象的根基。</p><h3>如何参与</h3><p>无论您感到被呼召亲身参与短宣、在财务上支持宣教士，还是忠心代祷——差传事工都有您的位置。请联络教会办公室了解即将举行的机会。</p><h3>联络</h3><p>教会办公室：(604) 431-6969</p>"},"id":"missions-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入差传行列","text":"<p>请联络我们，了解短宣队、差传月活动，以及如何参与神的全球事工。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://missnmin001"],"overlay_strength":50,"eyebrow":"","title":"差传部","subtitle":"直到地极 · 传扬主道","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-6_missions-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>差传部动员会众走出舒适圈，参与神的普世使命。</p><h3>小城短宣队</h3><p>每年组队前往小城镇和农村，分享福音。</p><h3>海外宣教</h3><p>支援在泰国和印尼的宣教工作。</p><h3>十月宣教月</h3><p>全教会一同祷告、学习和奉献支持普世宣教。</p><h3>鞋盒计划</h3><p>祝福世界各地儿童。</p>"},"id":"mi-content","isHidden":false,"type":"richtext"},{"content":{"title":"去，使万民作主的门徒","text":"<p>欢迎参与差传事工！</p>","button_text":"参与差传","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"mi-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: missions001
+Uuid: missions-dept-001

@@ -36,4 +36,4 @@ fields:
       
       url:
         label: Fellowship Page URL
-        type: url
+        type: text

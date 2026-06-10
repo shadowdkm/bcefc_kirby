@@ -22,16 +22,16 @@ fields:
 
   view_all_url:
     label: View All URL
-    type: url
+    type: text
     width: 1/2
 
   bulletin_pdf:
     label: 本週週報 PDF (Weekly Bulletin)
     type: files
     multiple: false
-    accept:
-      extension: pdf
-    help: Upload this week's bulletin PDF. A download button will appear on the worship section.
+    translate: false
+    uploads: true
+    help: 上傳後所有語言版本都會在粵語崇拜卡片下方顯示下載按鈕。
 
   services:
     label: Services
@@ -78,7 +78,7 @@ fields:
       
       cta_url:
         label: Button URL
-        type: url
+        type: text
         width: 1/2
       
       featured:

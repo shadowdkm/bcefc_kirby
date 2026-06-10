@@ -22,7 +22,7 @@ fields:
   
   button_url:
     label: Button URL
-    type: url
+    type: text
     width: 1/2
   
   variant:

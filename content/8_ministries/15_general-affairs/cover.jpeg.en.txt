@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt:
+
+----
+
+Uuid: genaff0001
+
+----
+
+Template: image

@@ -1,11 +1,11 @@
-Title: Mandarin Ministry
+Title: Mandarin Congregation
 
 ----
 
 Builder:
 
-[{"content":{"title":"Mandarin Ministry","subtitle":"國語事工"},"id":"mandarinm-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>About Us</h2><p>The Mandarin Ministry was officially launched in 2013, and has grown from a small gathering of 10 or more members to nearly 40 by 2026. After the pandemic, our first in-person service was held on September 5, 2021 — a milestone that marked a new chapter for our community.</p><p><strong>Pastors:</strong> Pastor Hoi Hung Lam, Pastor Zhen Rong Liu</p><h3>Weekly Schedule</h3><ul><li><strong>Sunday 9:15–10:30 AM</strong> — Worship Service</li><li><strong>Sunday 10:50 AM–12:15 PM</strong> — Sunday School (1st, 2nd, 3rd &amp; 5th Sundays); Prayer Meeting (4th Sunday)</li><li><strong>Saturday 7:00–9:00 PM</strong> — Children and Youth Fellowships</li><li><strong>Thursday 7:30–9:00 PM</strong> — Online Bible Study</li><li><strong>Wednesday 9:30–10:45 AM</strong> — Praise Dance Ministry</li></ul>"},"id":"mandarinm-about","isHidden":false,"type":"richtext"},{"content":{"title":"Join Us","text":"<p>Whether you're a Mandarin speaker looking for a church home or simply curious about our community, we warmly welcome you.</p>","button_text":"Contact Us","button_url":"/new-here/contact"},"id":"mandarinm-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://mandminist01"],"overlay_strength":50,"eyebrow":"","title":"Mandarin Congregation","subtitle":"國語堂 · Sunday 9:15 AM","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-17_mandarin-ministry-en","isHidden":false,"type":"hero"},{"content":{"text":"<p>The Mandarin Congregation began in 2000, was formally launched in 2013, and has grown from 15 members in 2021 to approximately 40 today. We are a warm community worshipping in Mandarin and welcoming all Mandarin-speaking believers.</p><h3>Weekly Gatherings</h3><p><strong>Sunday Worship</strong> · 9:15 – 10:30 AM<br><strong>Sunday School</strong> · 10:50 AM – 12:15 PM (1st, 2nd, 3rd &amp; 5th Sundays)<br><strong>Prayer Meeting</strong> · 10:50 AM – 12:15 PM (4th Sunday)<br><strong>Enoch Fellowship</strong> · Saturday 7:00 – 9:00 PM<br><strong>Online Bible Study</strong> · Thursday 7:30 – 9:00 PM<br><strong>Praise Dance</strong> · Wednesday 9:30 – 10:45 AM</p><h3>Pastors</h3><p>Pastor Hoi Hung Lam (林海鴻) · Pastor Zhen Rong Liu (劉振榮)</p>"},"id":"mc-content","isHidden":false,"type":"richtext"},{"content":{"title":"Join Our Mandarin Community","text":"<p>Looking for a Mandarin-speaking church home? We'd love to welcome you!</p>","button_text":"Plan Your Visit","button_url":"/new-here","variant":"primary","alignment":"center"},"id":"mc-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: mandarinm01
+Uuid: mandarin-min-001

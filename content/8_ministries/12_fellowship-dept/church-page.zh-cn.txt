@@ -4,8 +4,8 @@ Title: 团契部
 
 Builder:
 
-[{"content":{"title":"团契部","subtitle":"Fellowship Department"},"id":"fellowdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>团契部致力于在教会各团契之间建立真诚的群体关系和彼此关顾。本部委员会由部长担任主席，各团契主席均为委员。</p><h3>部门目标</h3><ol><li><strong>鼓励参与</strong> — 邀请并鼓励所有会友加入团契，在群体中获得陪伴与灵命成长。</li><li><strong>鼓励跨代服事</strong> — 鼓励年轻会友服事和支持长者会友，建立代际桥梁。</li><li><strong>推动联合团契活动</strong> — 筹办各团契的联合活动，加深友谊、增强合一，培育教会家庭的归属感。</li></ol>"},"id":"fellowdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"寻找您的团契","text":"<p>想加入一个团契？浏览我们的团契介绍，或直接联络我们，我们会帮您找到合适的群体。</p>","button_text":"浏览团契","button_url":"/fellowships"},"id":"fellowdp-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://fellodept001"],"overlay_strength":50,"eyebrow":"","title":"团契部","subtitle":"在群体中同行建立","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-12_fellowship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>团契部统筹和支援所有团契组织，建立归属感和互相关顾的文化。</p><h3>工作目标</h3><p>• 鼓励每位会众参与团契<br>• 鼓励年轻会众服侍年长会众<br>• 推动各团契联合活动</p><h3>各团契</h3><p>约瑟团 · 信心团 · 迦勒团 · 路得妇女查经 · 男士团契 · 以诺团契（国语）</p>"},"id":"fd-content","isHidden":false,"type":"richtext"},{"content":{"title":"找到你的团契","text":"<p>欢迎认识我们的各个团契。</p>","button_text":"认识各团契","button_url":"/fellowships","variant":"primary","alignment":"center"},"id":"fd-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: fellowdp001
+Uuid: fellowship-dept-001

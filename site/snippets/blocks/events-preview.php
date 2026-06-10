@@ -31,7 +31,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
     <header class="block-events-preview__header">
       <h2 class="block-events-preview__heading"><?= $block->heading()->esc() ?></h2>
       <?php if ($block->view_all_url()->isNotEmpty()): ?>
-      <a href="<?= $block->view_all_url() ?>" class="block-events-preview__link">
+      <a href="<?= pageUrl((string)$block->view_all_url()) ?>" class="block-events-preview__link">
         <?= t('ui.viewall') ?>
         <span class="arrow">→</span>
       </a>
@@ -61,7 +61,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
       ?>
       <<?= $tag ?> 
         class="event-card"
-        <?php if ($hasLink): ?>href="<?= $url ?>"<?php endif ?>
+        <?php if ($hasLink): ?>href="<?= $isQuery ? $url : pageUrl((string)$url) ?>"<?php endif ?>
       >
         <?php if ($image): ?>
         <div class="event-card__image">

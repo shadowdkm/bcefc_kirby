@@ -4,8 +4,8 @@ Title: 團契部
 
 Builder:
 
-[{"content":{"title":"團契部","subtitle":"Fellowship Department"},"id":"fellowdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>關於我們</h2><p>團契部致力於在教會各團契之間建立真誠的群體關係和彼此關顧。本部委員會由部長擔任主席，各團契主席均為委員。</p><h3>部門目標</h3><ol><li><strong>鼓勵參與</strong> — 邀請並鼓勵所有會友加入團契，在群體中獲得陪伴與靈命成長。</li><li><strong>鼓勵跨代服事</strong> — 鼓勵年輕會友服事和支持長者會友，建立代際橋樑。</li><li><strong>推動聯合團契活動</strong> — 籌辦各團契的聯合活動，加深友誼、增強合一，培育教會家庭的歸屬感。</li></ol>"},"id":"fellowdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"尋找您的團契","text":"<p>想加入一個團契？瀏覽我們的團契介紹，或直接聯絡我們，我們會幫您找到合適的群體。</p>","button_text":"瀏覽團契","button_url":"/fellowships"},"id":"fellowdp-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://fellodept001"],"overlay_strength":50,"eyebrow":"","title":"團契部","subtitle":"在群體中同行建立","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-12_fellowship-dept-zh-tw","isHidden":false,"type":"hero"},{"content":{"text":"<p>團契部統籌和支援所有團契組織，在整個教會大家庭中建立歸屬感、互相關顧和靈命同行的文化。</p><h3>工作目標</h3><p>• 鼓勵每位會眾參與團契，在靈命上有同伴同行<br>• 鼓勵年輕會眾服侍和關顧年長會眾<br>• 推動各團契聯合活動，建立全教會的群體關係</p><h3>架構</h3><p>部長主持由各粵語團契領袖組成的委員會，統籌聯合活動並支援各團契事奉。</p><h3>各團契</h3><p>約瑟團 · 信心團 · 迦勒團 · 路得婦女查經 · 男士團契 · 以諾團契（國語）</p>"},"id":"fd-content","isHidden":false,"type":"richtext"},{"content":{"title":"找到你的團契","text":"<p>想尋找一個可以一同成長的群體？來認識我們的各個團契。</p>","button_text":"認識各團契","button_url":"/fellowships","variant":"primary","alignment":"center"},"id":"fd-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: fellowdp001
+Uuid: fellowship-dept-001

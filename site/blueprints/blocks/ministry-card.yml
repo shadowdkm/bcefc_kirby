@@ -45,4 +45,4 @@ fields:
   
   url:
     label: Learn More URL
-    type: url
+    type: text

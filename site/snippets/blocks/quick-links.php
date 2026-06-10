@@ -20,7 +20,7 @@ $iconMap = [
       <?php foreach ($items as $item):
         $iconRaw = (string)$item->icon();
         $icon    = isset($iconMap[$iconRaw]) ? $iconMap[$iconRaw] : $iconRaw;
-        $url     = (string)$item->url() ?: '#';
+        $url     = pageUrl((string)$item->url());
         $feature = (string)$item->emphasis() === 'true';
       ?>
       <a href="<?= esc($url) ?>" class="qcard<?= $feature ? ' feature' : '' ?>">

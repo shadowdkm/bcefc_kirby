@@ -1,0 +1,29 @@
+Title: 牧師生日
+
+----
+
+Description: 
+
+----
+
+Date-start: 2026-06-10 19:15:00
+
+----
+
+Date-end: 
+
+----
+
+All-day: true
+
+----
+
+Location: 
+
+----
+
+Category: general
+
+----
+
+Uuid: icd3lcysteja0hik

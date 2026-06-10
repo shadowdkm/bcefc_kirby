@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt:
+
+----
+
+Uuid: worshpdept01
+
+----
+
+Template: image

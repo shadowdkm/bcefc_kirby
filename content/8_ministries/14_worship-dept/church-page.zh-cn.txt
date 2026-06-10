@@ -1,11 +1,11 @@
-Title: 崇拜部
+﻿Title: 崇拜部
 
 ----
 
 Builder:
 
-[{"content":{"title":"崇拜部","subtitle":"Worship Department"},"id":"worshpdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>主日崇拜是教会生活的核心。每周，我们的会众聚集在一起，透过赞美、诗歌、祷告、读经、讲道及圣餐，共同敬拜神。崇拜部负责确保崇拜的每一个环节都充满意义、虔诚庄重，并滋养灵命。</p><h3>部门目标</h3><ul><li>让会友能够运用各自的恩赐参与崇拜事奉。</li><li>确保每主日崇拜流程顺畅有序，在圣灵带领下进行。</li></ul><h3>事奉岗位</h3><p>我们的主日崇拜有赖众多义工在各岗位忠心服事：</p><ul><li>崇拜部执事</li><li>崇拜主任</li><li>司会</li><li>领诗</li><li>敬拜团</li><li>诗班</li><li>司琴</li><li>招待</li><li>音响及电脑控制</li><li>插花</li><li>圣餐预备</li></ul>"},"id":"worshpdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"参与崇拜事奉","text":"<p>有兴趣以恩赐参与崇拜事奉？欢迎加入我们的团队。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"worshpdp-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://worshpdept01"],"overlay_strength":50,"eyebrow":"","title":"崇拜部","subtitle":"一同敬拜荣耀神","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-14_worship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>崇拜部每个主日早上服侍，创造敬拜环境，让会众专注赞美神。</p><h3>我们的目标</h3><p>• 让会众使用属灵恩赐服侍<br>• 帮助会众专注赞美神<br>• 确保崇拜流畅有序</p><h3>事奉岗位</h3><p>司会 · 领诗 · 敬拜小组 · 圣诗班 · 司琴 · 招待 · 音响 · 电脑媒体 · 圣餐预备</p>"},"id":"wd-content","isHidden":false,"type":"richtext"},{"content":{"title":"参与崇拜事奉","text":"<p>欢迎加入我们的敬拜事奉团队！</p>","button_text":"参与事奉","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"wd-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: worshpdp001
+Uuid: worship-dept-001

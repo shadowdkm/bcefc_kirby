@@ -61,13 +61,13 @@ $heroHeight = $heights[$height->value()] ?? '640px';
     <?php if ($block->cta_primary_text()->isNotEmpty() || $block->cta_secondary_text()->isNotEmpty()): ?>
     <div class="block-hero__actions">
       <?php if ($block->cta_primary_text()->isNotEmpty()): ?>
-      <a href="<?= $block->cta_primary_url()->or('#') ?>" class="btn btn--primary">
+      <a href="<?= pageUrl((string)$block->cta_primary_url()) ?>" class="btn btn--primary">
         <?= $block->cta_primary_text()->esc() ?>
       </a>
       <?php endif ?>
-      
+
       <?php if ($block->cta_secondary_text()->isNotEmpty()): ?>
-      <a href="<?= $block->cta_secondary_url()->or('#') ?>" class="btn btn--secondary">
+      <a href="<?= pageUrl((string)$block->cta_secondary_url()) ?>" class="btn btn--secondary">
         <?= $block->cta_secondary_text()->esc() ?>
       </a>
       <?php endif ?>

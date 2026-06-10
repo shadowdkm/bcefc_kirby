@@ -4,8 +4,8 @@ Title: 关顾部
 
 Builder:
 
-[{"content":{"title":"关顾部","subtitle":"Caring Department"},"id":"caringdp-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>关顾部在部长 Josephine 的带领下，致力于在生命的各个阶段——无论是困难、喜乐还是日常时刻——向会友表达基督的爱。</p><h3>我们的事工</h3><ul><li><strong>保持联系</strong> — 透过电话、电邮及 WhatsApp 与会友保持定期联络，并在有需要时送上安慰卡、膳食及交通协助。</li><li><strong>长者关顾</strong> — 专门致电及亲身探访长者会友，让他们感受到被重视和支持。</li><li><strong>同悲共乐</strong> — 在会友面对困难时送上安慰卡，在喜庆时刻送上贺卡，与他们一同分享悲喜。</li><li><strong>主日崇拜迎宾事工</strong> — 每个主日以温馨热情的态度迎接会友和宾客。</li><li><strong>新朋友关顾</strong> — 透过电话跟进、个人介绍、邀请参与教会活动及送上小礼物，关心每一位新来者。</li></ul>"},"id":"caringdp-about","isHidden":false,"type":"richtext"},{"content":{"title":"与我们联系","text":"<p>无论您需要支持，或希望透过关顾事工服事他人，欢迎与我们联络。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"caringdp-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://caring0001"],"overlay_strength":50,"eyebrow":"","title":"关顾部","subtitle":"没有人要独自走过","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-13_caring-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>关顾部确保每一位会众在生命各个季节中都不孤单。</p><h3>牧养关顾</h3><p>通过电话、电邮和WhatsApp定期联络会众，为患病者送上安慰卡和探访。</p><h3>人人互助</h3><p>会众互相帮助，包括预备食物和交通接送。</p><h3>长者关顾</h3><p>为长者作定期电话问候和家庭探访。</p><h3>迎新关顾</h3><p>新朋友首次到访后一周内跟进，并送上小礼物。</p><p>部长：Josephine</p>"},"id":"ca-content","isHidden":false,"type":"richtext"},{"content":{"title":"你不是一个人","text":"<p>欢迎联络我们。</p>","button_text":"联络我们","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ca-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: caringdp001
+Uuid: caring-dept-001

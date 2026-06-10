@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt:
+
+----
+
+Uuid: avtech0001
+
+----
+
+Template: image

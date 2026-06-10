@@ -53,7 +53,7 @@ $hasLink = $block->url()->isNotEmpty();
         <?php endif ?>
         
         <?php if ($hasLink): ?>
-        <a href="<?= $block->url() ?>" class="ministry-card__link btn btn--outline">
+        <a href="<?= pageUrl((string)$block->url()) ?>" class="ministry-card__link btn btn--outline">
           <?= t('ui.learnmore') ?>
         </a>
         <?php endif ?>

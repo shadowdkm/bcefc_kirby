@@ -4,8 +4,8 @@ Title: 差傳部
 
 Builder:
 
-[{"content":{"title":"差傳部","subtitle":"為基督差遣，遠近宣揚"},"id":"missions-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>我們的使命</h3><p>本那比華人播道會差傳部的使命是動員會眾參與偏遠及未得之地的宣教工作。我們相信每位信徒都有角色可以扮演——無論是親身前往、奉獻支持，還是代禱守望。</p><h3>小城短宣</h3><p>我們組織短宣隊前往小城鎮和有需要的社區。這些短宣旅程讓會友親身體驗跨文化事工、傳福音和服事。</p><h3>海外宣教</h3><p>我們與在泰國和印尼服事的宣教士合作，提供禱告支持、奉獻和鼓勵。</p><h3>差傳月</h3><p>每年十月，我們舉辦年度<strong>差傳月</strong>——一個特別的禱告、教導和感恩季節，慶祝神在世界各地的工作。會友聆聽宣教士分享、了解全球需要，並受挑戰作出回應。</p><h3>本地佈道</h3><p>宣教從身邊開始。本地佈道和社區外展是我們更廣泛宣教異象的根基。</p><h3>如何參與</h3><p>無論您感到被呼召親身參與短宣、在財務上支持宣教士，還是忠心代禱——差傳事工都有您的位置。請聯絡教會辦公室了解即將舉行的機會。</p><h3>聯絡</h3><p>教會辦公室：(604) 431-6969</p>"},"id":"missions-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入差傳行列","text":"<p>請聯絡我們，了解短宣隊、差傳月活動，以及如何參與神的全球事工。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"missions-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://missnmin001"],"overlay_strength":50,"eyebrow":"","title":"差傳部","subtitle":"直到地極 · 傳揚主道","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-6_missions-zh-tw","isHidden":false,"type":"hero"},{"content":{"text":"<p>差傳部動員會眾走出舒適圈，透過本地短宣和海外宣教夥伴關係，參與神的普世使命。</p><h3>小城短宣隊</h3><p>每年組隊前往小城鎮和農村社區，分享福音並提供實際服侍。</p><h3>海外宣教</h3><p>鼓勵和支援參與海外宣教的會眾，特別是在泰國和印尼的宣教工作。</p><h3>十月宣教月</h3><p>每年十月是差傳月，是全教會一同禱告、學習和奉獻支持普世宣教的特別季節。</p><h3>鞋盒計劃</h3><p>與「Operation Christmas Child」合作，透過裝滿禮物的鞋盒，把祝福和盼望帶給世界各地的兒童。</p>"},"id":"mi-content","isHidden":false,"type":"richtext"},{"content":{"title":"去，使萬民作主的門徒","text":"<p>對短宣或支援宣教士有興趣？歡迎聯絡我們。</p>","button_text":"參與差傳","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"mi-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: missions001
+Uuid: missions-dept-001

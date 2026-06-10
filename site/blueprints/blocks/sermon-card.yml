@@ -39,15 +39,15 @@ fields:
   
   video_url:
     label: Video URL (YouTube)
-    type: url
+    type: text
     width: 1/2
     placeholder: "https://youtube.com/watch?v=..."
   
   audio_url:
     label: Audio URL
-    type: url
+    type: text
     width: 1/2
   
   notes_url:
     label: Sermon Notes Download
-    type: url
+    type: text

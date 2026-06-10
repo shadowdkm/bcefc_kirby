@@ -28,7 +28,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
     <header class="block-announcements__header">
       <h2 class="block-announcements__heading"><?= $block->heading()->esc() ?></h2>
       <?php if ($block->view_all_url()->isNotEmpty()): ?>
-      <a href="<?= $block->view_all_url() ?>" class="block-announcements__link">
+      <a href="<?= pageUrl((string)$block->view_all_url()) ?>" class="block-announcements__link">
         <?= t('ui.viewall') ?>
         <span class="arrow">→</span>
       </a>
@@ -61,7 +61,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
           <?php endif ?>
           
           <?php if (is_object($url) ? $url->isNotEmpty() : !empty($url)): ?>
-          <a href="<?= $url ?>" class="announcement-item__title"><?= is_object($title) ? $title->esc() : e($title) ?></a>
+          <a href="<?= $isQuery ? $url : pageUrl((string)$url) ?>" class="announcement-item__title"><?= is_object($title) ? $title->esc() : e($title) ?></a>
           <?php else: ?>
           <span class="announcement-item__title"><?= is_object($title) ? $title->esc() : e($title) ?></span>
           <?php endif ?>

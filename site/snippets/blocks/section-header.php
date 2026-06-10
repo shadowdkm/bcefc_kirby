@@ -20,7 +20,7 @@ if ($block->title()->isEmpty()) return;
       </div>
       
       <?php if ($block->link_text()->isNotEmpty()): ?>
-      <a href="<?= $block->link_url()->or('#') ?>" class="block-section-header__link">
+      <a href="<?= pageUrl((string)$block->link_url()) ?>" class="block-section-header__link">
         <?= $block->link_text()->esc() ?>
         <span class="arrow">→</span>
       </a>

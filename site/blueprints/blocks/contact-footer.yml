@@ -42,7 +42,7 @@ fields:
       
       url:
         label: URL
-        type: url
+        type: text
         required: true
         width: 1/2
   
@@ -64,7 +64,7 @@ fields:
       
       url:
         label: Profile URL
-        type: url
+        type: text
         required: true
         width: 1/2
   

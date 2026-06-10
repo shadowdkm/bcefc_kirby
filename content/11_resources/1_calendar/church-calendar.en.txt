@@ -2,9 +2,15 @@ Title: Church Calendar
 
 ----
 
-Builder:
+Google-embed-url: https://calendar.google.com/calendar/embed?src=fdd0a46b5f587f5db4155b4a5862ad7a60985c64e9f61a171da33da96603eed4%40group.calendar.google.com&ctz=America%2FVancouver
 
-[{"content":{"title":"Church Calendar","subtitle":"教會行事曆"},"id":"calendar-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Stay up to date with all church events, services, and important dates. Our calendar includes regular worship services, fellowship meetings, special events, and holidays.</p><h3>Regular Weekly Schedule</h3><ul><li><strong>Sunday Mandarin Service:</strong> 9:15 – 10:30 AM</li><li><strong>Sunday Cantonese Service:</strong> 11:00 AM – 12:30 PM</li><li><strong>Sunday Youth Service:</strong> 11:00 AM</li><li><strong>Sunday School:</strong> 9:30 AM (Children), 11:00 AM (Adult)</li><li><strong>Friday Fellowship:</strong> 8:00 – 10:00 PM (various groups)</li></ul>"},"id":"calendar-info","isHidden":false,"type":"richtext"},{"content":{"url":"https://calendar.google.com/calendar/embed?src=bcefc.ca_churchcalendar%40group.calendar.google.com&ctz=America%2FVancouver","caption":"BCEFC Church Calendar","aspect_ratio":"4/3"},"id":"calendar-embed","isHidden":false,"type":"media-embed"},{"content":{"text":"<p>For the most current information, please check the weekly bulletin or contact the church office at <a href=\"mailto:info@bcefc.ca\">info@bcefc.ca</a>.</p>"},"id":"calendar-note","isHidden":false,"type":"richtext"}]
+----
+
+Calendar-title: Church Calendar · 教會行事曆
+
+----
+
+Calendar-subtitle: Stay up to date with all church events and gatherings
 
 ----
 

@@ -19,7 +19,7 @@ fields:
   
   view_all_url:
     label: View All URL
-    type: url
+    type: text
     width: 1/2
   
   limit:
@@ -65,4 +65,4 @@ fields:
       
       url:
         label: Link URL
-        type: url
+        type: text

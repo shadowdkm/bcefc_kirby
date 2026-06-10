@@ -4,8 +4,8 @@ Title: 宗教教育部
 
 Builder:
 
-[{"content":{"title":"宗教教育部","subtitle":"Christian Education Department"},"id":"chrstned-hdr","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>关于我们</h2><p>宗教教育部致力透过多元化的学习形式推动灵命成长。在部长 Celine 的带领下，本部透过以下事工服事会众：</p><ul><li><strong>全年读经运动</strong> — 鼓励全教会一起每年读完整本圣经。</li><li><strong>主题讲座</strong> — 深入教导与信仰及生活相关的圣经主题。</li><li><strong>「三人行」小组活动</strong> — 以三人为单位的门训小组，彼此守望、共同成长。</li><li><strong>主日学</strong> — 四季课程制，设有圣经研读、逐卷研读、主题课程及恩典（长者）班，适合各年龄层。</li><li><strong>图书馆</strong> — 由部长 Carmen 管理，藏书逾三千册，设成人及儿童书区，每年举办书展，鼓励阅读与灵命培育。</li></ul>"},"id":"chrstned-about","isHidden":false,"type":"richtext"},{"content":{"title":"参与服事","text":"<p>有兴趣参加课程或在宗教教育部服事？欢迎与我们联络。</p>","button_text":"联络我们","button_url":"/new-here/contact"},"id":"chrstned-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://chredu0001"],"overlay_strength":50,"eyebrow":"","title":"宗教教育部","subtitle":"在神的话语中更深成长","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-10_christian-education-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>宗教教育部通过有系统的学习和群体活动，装备会众在圣经知识和灵命成熟上增长。</p><h3>主日学</h3><p>四季课程，包括圣经逐卷研读、专题课程，以及常青班（长者）。</p><h3>全年读经运动</h3><p>鼓励每位会众读完整本圣经，并举行颁奖礼。</p><h3>三人行守望</h3><p>独特的门训模式，将信徒三人配对，互相守望。</p><h3>教会图书馆</h3><p>藏书逾3,000册，设成人图书馆及儿童阅读角。</p><p>部长：Celine · 图书馆长：Carmen</p>"},"id":"ce-content","isHidden":false,"type":"richtext"},{"content":{"title":"在神的话语中成长","text":"<p>欢迎联络我们了解更多。</p>","button_text":"联络我们","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ce-cta","isHidden":false,"type":"cta"}]
 
 ----
 
-Uuid: chrstned001
+Uuid: chr-edu-001

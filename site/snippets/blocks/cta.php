@@ -23,7 +23,7 @@ $alignment = $block->alignment()->or('center');
       
       <?php if ($block->button_text()->isNotEmpty()): ?>
       <div class="block-cta__action">
-        <a href="<?= $block->button_url()->or('#') ?>" class="btn btn--<?php e($variant->value() === 'primary', 'white', 'primary') ?> btn--large">
+        <a href="<?= pageUrl((string)$block->button_url()) ?>" class="btn btn--<?php e($variant->value() === 'primary', 'white', 'primary') ?> btn--large">
           <?= $block->button_text()->esc() ?>
         </a>
       </div>

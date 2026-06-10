@@ -48,19 +48,21 @@ fields:
   
   cta_primary_url:
     label: Primary Button URL
-    type: url
+    type: text
     width: 1/2
-  
+    placeholder: "/new-here"
+
   cta_secondary_text:
     label: Secondary Button Text
     type: text
     width: 1/2
     placeholder: "認識我們"
-  
+
   cta_secondary_url:
     label: Secondary Button URL
-    type: url
+    type: text
     width: 1/2
+    placeholder: "/about"
   
   align:
     label: Text Alignment

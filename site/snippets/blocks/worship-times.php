@@ -9,7 +9,7 @@
 $services = $block->services()->toStructure();
 if ($services->isEmpty()) return;
 
-$bulletinPdf = $block->bulletin_pdf()->toFile();
+$bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
 
 ?>
 <section class="block-worship-times">
@@ -25,15 +25,9 @@ $bulletinPdf = $block->bulletin_pdf()->toFile();
       
       <div class="block-worship-times__header-actions">
         <?php if ($block->view_all_text()->isNotEmpty()): ?>
-        <a href="<?= $block->view_all_url()->or('#') ?>" class="block-worship-times__link">
+        <a href="<?= pageUrl((string)$block->view_all_url()) ?>" class="block-worship-times__link">
           <?= $block->view_all_text()->esc() ?>
           <span class="arrow">→</span>
-        </a>
-        <?php endif ?>
-        <?php if ($bulletinPdf): ?>
-        <a href="<?= $bulletinPdf->url() ?>" class="btn btn-sm btn--outline" download>
-          <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
-          <?= t('worship.bulletin', '本週週報') ?>
         </a>
         <?php endif ?>
       </div>
@@ -72,8 +66,13 @@ $bulletinPdf = $block->bulletin_pdf()->toFile();
         <p class="worship-card__description"><?= $service->description()->esc() ?></p>
         <?php endif ?>
         
-        <?php if ($service->cta_text()->isNotEmpty()): ?>
-        <a href="<?= $service->cta_url()->or('#') ?>" class="worship-card__cta btn<?php e($service->featured()->toBool(), ' btn--accent', ' btn--outline') ?>">
+        <?php if ($service->featured()->toBool() && $bulletinPdf): ?>
+        <a href="<?= $bulletinPdf->url() ?>" class="worship-card__cta btn btn--accent" download>
+          <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
+          <?= t('worship.bulletin', '本週週報') ?>
+        </a>
+        <?php elseif ($service->cta_text()->isNotEmpty()): ?>
+        <a href="<?= pageUrl((string)$service->cta_url()) ?>" class="worship-card__cta btn<?php e($service->featured()->toBool(), ' btn--accent', ' btn--outline') ?>">
           <?= $service->cta_text()->esc() ?>
         </a>
         <?php endif ?>
