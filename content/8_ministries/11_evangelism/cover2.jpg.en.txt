@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: 傳道部佈道會
+
+----
+
+Uuid: evang0002
+
+----
+
+Template: image

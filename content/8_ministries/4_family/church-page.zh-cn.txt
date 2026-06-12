@@ -4,7 +4,7 @@ Title: SPORTEF · 少年及家庭事工
 
 Builder:
 
-[{"content":{"bg_image":["file://sporteffam001"],"overlay_strength":50,"eyebrow":"","title":"SPORTEF","subtitle":"少年及家庭事工 · 初一至初三","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-4_family-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>SPORTEF（少年及家庭事工）是为初一至初三同学而设的少年及家庭事工。</p><h3>家有好时光 · Café Together</h3><p>一个以家庭为中心的牧养平台，专为12至18岁青少年的父母而设。通过轻松的茶聚，父母互相分享，学习如何陪伴孩子成长。</p><h3>联络</h3><p>林传道 · <a href=\"mailto:jeannielam1230@gmail.com\">jeannielam1230@gmail.com</a></p>"},"id":"sp-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入 SPORTEF","text":"<p>欢迎初一至初三的同学加入！</p>","button_text":"联络我们","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"sp-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://sporteffam002"],"overlay_strength":50,"eyebrow":"","title":"SPORTEF","subtitle":"少年及家庭事工 · 初一至初三","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-4_family-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>SPORTEF（少年及家庭事工）是为初一至初三同学而设的少年及家庭事工。</p><h3>家有好时光 · Café Together</h3><p>一个以家庭为中心的牧养平台，专为12至18岁青少年的父母而设。通过轻松的茶聚，父母互相分享，学习如何陪伴孩子成长。</p><h3>联络</h3><p>林传道 · <a href=\"mailto:jeannielam1230@gmail.com\">jeannielam1230@gmail.com</a></p>"},"id":"sp-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入 SPORTEF","text":"<p>欢迎初一至初三的同学加入！</p>","button_text":"联络我们","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"sp-cta","isHidden":false,"type":"cta"}]
 
 ----
 

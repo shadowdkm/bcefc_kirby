@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: 總務部
+
+----
+
+Uuid: genaff0002
+
+----
+
+Template: image

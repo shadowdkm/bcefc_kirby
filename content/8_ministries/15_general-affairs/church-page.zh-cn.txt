@@ -4,7 +4,7 @@ Title: 总务部
 
 Builder:
 
-[{"content":{"bg_image":["file://genaff0001"],"overlay_strength":50,"eyebrow":"","title":"总务部","subtitle":"照管教会的家","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-15_general-affairs-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>总务部由忠心的弟兄组成，负责管理和维护教会所有设施，确保安全舒适的聚会环境。</p><h3>主要职责</h3><p>• 灯光系统维护<br>• 水管系统管理<br>• 闭路电视和保安系统<br>• 设施维修保养</p>"},"id":"ga-content","isHidden":false,"type":"richtext"},{"content":{"title":"服侍教会","text":"<p>欢迎有建筑维修技能的弟兄参与服侍！</p>","button_text":"参与服侍","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ga-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://genaff0002"],"overlay_strength":50,"eyebrow":"","title":"总务部","subtitle":"照管教会的家","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-15_general-affairs-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>总务部由忠心的弟兄组成，负责管理和维护教会所有设施，确保安全舒适的聚会环境。</p><h3>主要职责</h3><p>• 灯光系统维护<br>• 水管系统管理<br>• 闭路电视和保安系统<br>• 设施维修保养</p>"},"id":"ga-content","isHidden":false,"type":"richtext"},{"content":{"title":"服侍教会","text":"<p>欢迎有建筑维修技能的弟兄参与服侍！</p>","button_text":"参与服侍","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ga-cta","isHidden":false,"type":"cta"}]
 
 ----
 

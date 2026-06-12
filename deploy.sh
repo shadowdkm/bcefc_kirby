@@ -41,6 +41,7 @@ ssh $SSH_OPTS "$DEPLOY_USER@$DEPLOY_HOST" bash << REMOTE
   sudo chmod -R 775 "$DEPLOY_PATH"
 
   echo "→ Pulling from GitHub..."
+  git reset --hard HEAD
   git pull origin master
 
   echo "→ Updating Composer dependencies..."

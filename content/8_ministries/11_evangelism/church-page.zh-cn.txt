@@ -4,7 +4,7 @@ Title: 传道部
 
 Builder:
 
-[{"content":{"bg_image":["file://evang0001"],"overlay_strength":50,"eyebrow":"","title":"传道部","subtitle":"传扬福音 · 履行大使命","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-11_evangelism-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>传道部通过训练和教导，鼓励弟兄姊妹履行大使命。</p><h3>个人布道训练</h3><p>装备会众在日常生活中分享信仰。</p><h3>福音主日崇拜</h3><p>欢迎慕道友和未信者的特别崇拜。</p><h3>布道会</h3><p>大型外展活动，包括圣诞音乐分享晚会。</p>"},"id":"ev-content","isHidden":false,"type":"richtext"},{"content":{"title":"成为福音使者","text":"<p>欢迎加入我们的布道训练。</p>","button_text":"参与事奉","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ev-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://evang0002"],"overlay_strength":50,"eyebrow":"","title":"传道部","subtitle":"传扬福音 · 履行大使命","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-11_evangelism-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>传道部通过训练和教导，鼓励弟兄姊妹履行大使命。</p><h3>个人布道训练</h3><p>装备会众在日常生活中分享信仰。</p><h3>福音主日崇拜</h3><p>欢迎慕道友和未信者的特别崇拜。</p><h3>布道会</h3><p>大型外展活动，包括圣诞音乐分享晚会。</p>"},"id":"ev-content","isHidden":false,"type":"richtext"},{"content":{"title":"成为福音使者","text":"<p>欢迎加入我们的布道训练。</p>","button_text":"参与事奉","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"ev-cta","isHidden":false,"type":"cta"}]
 
 ----
 

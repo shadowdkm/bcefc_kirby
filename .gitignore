@@ -48,6 +48,7 @@ Icon
 # ---------------
 
 deploy.env
+.playwright-mcp/
 /site/config/.license
 /site/config/config.starterkit.test.php
 nul
