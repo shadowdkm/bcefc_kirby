@@ -4,7 +4,7 @@ Title: 影音科技部
 
 Builder:
 
-[{"content":{"bg_image":["file://avtech0001"],"overlay_strength":50,"eyebrow":"","title":"影音科技部","subtitle":"以科技服侍敬拜","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-16_av-tech-zh-tw","isHidden":false,"type":"hero"},{"content":{"text":"<p>影音科技部確保教會各項事務順暢運作——從主日早上的音響系統到辦公室的電腦。我們的義工團隊每週默默在幕後服侍。</p><h3>主要職責</h3><p>• 崇拜時的PowerPoint和電腦投影操作<br>• 音響器材管理和操作（混音、麥克風）<br>• 為同工和牧者提供軟件安裝和技術支援<br>• 音響和喇叭器材保養<br>• 電腦維修和資訊科技支援</p><h3>培訓</h3><p>我們舉辦影音操作講座，培訓新義工和提升團隊技能。</p><p>部長：Daniel</p>"},"id":"av-content","isHidden":false,"type":"richtext"},{"content":{"title":"以科技恩賜服侍","text":"<p>擅長科技？加入影音科技部，用你的技能服侍神的國度！</p>","button_text":"加入團隊","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"av-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://avtech0001"],"overlay_strength":50,"eyebrow":"","title":"影音科技部","subtitle":"以科技服侍敬拜","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-16_av-tech-zh-tw","isHidden":false,"type":"hero"},{"content":{"text":"<p>影音科技部確保教會各項事務順暢運作——從主日早上的音響系統到辦公室的電腦。我們的服事團隊每週默默在幕後服侍。</p><h3>主要職責</h3><p>• 崇拜時的PowerPoint和電腦投影操作<br>• 音響器材管理和操作（混音、麥克風）<br>• 為同工和牧者提供軟件安裝和技術支援<br>• 音響和喇叭器材保養<br>• 電腦維修和資訊科技支援</p><h3>培訓</h3><p>我們舉辦影音操作講座，培訓新同工和提升團隊技能。</p><p>部長：Daniel</p>"},"id":"av-content","isHidden":false,"type":"richtext"},{"content":{"title":"以科技恩賜服侍","text":"<p>擅長科技？加入影音科技部，用你的技能服侍神的國度！</p>","button_text":"加入團隊","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"av-cta","isHidden":false,"type":"cta"}]
 
 ----
 
