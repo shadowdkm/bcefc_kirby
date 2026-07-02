@@ -6,7 +6,7 @@ Google-embed-url: https://calendar.google.com/calendar/embed?src=fdd0a46b5f587f5
 
 ----
 
-Calendar-title: Church Calendar · 教會行事曆
+Calendar-title: Church Calendar
 
 ----
 

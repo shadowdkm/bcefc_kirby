@@ -7,6 +7,7 @@
  */
 
 $thumbnail = $block->thumbnail()->toFile();
+$dateFormat = $kirby->language() && $kirby->language()->code() === 'en' ? 'F j, Y' : 'Y年m月d日';
 
 ?>
 <article class="block-sermon-card">
@@ -50,7 +51,7 @@ $thumbnail = $block->thumbnail()->toFile();
           
           <?php if ($block->date()->isNotEmpty()): ?>
           <time class="sermon-card__date" datetime="<?= $block->date()->toDate('Y-m-d') ?>">
-            <?= $block->date()->toDate('Y年m月d日') ?>
+            <?= $block->date()->toDate($dateFormat) ?>
           </time>
           <?php endif ?>
           

@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Caleb Fellowship members gathered together
+
+----
+
+Uuid: calebcover01
+
+----
+
+Template: image

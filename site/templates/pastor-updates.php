@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php $dateFormat = $kirby->language() && $kirby->language()->code() === 'en' ? 'F j, Y' : 'Y年n月j日' ?>
 
 <section class="pastor-updates-hero">
   <div class="container">
@@ -34,7 +35,7 @@
         <div class="pastor-card__body">
           <div class="pastor-card__meta">
             <time datetime="<?= $post->date()->toDate('c') ?>">
-              <?= $post->date()->toDate('Y年n月j日') ?>
+              <?= $post->date()->toDate($dateFormat) ?>
             </time>
             <?php if ($post->author()->isNotEmpty()): ?>
             <span class="pastor-card__author"><?= $post->author()->esc() ?></span>

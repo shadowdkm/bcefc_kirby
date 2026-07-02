@@ -16,7 +16,7 @@ $iconMap = [
 ?>
 <section style="padding: 52px 0; position: relative; z-index: 2;">
   <div class="wrap-wide">
-    <div class="qlinks">
+    <div class="qlinks" style="--columns: <?= $items->count() ?>;">
       <?php foreach ($items as $item):
         $iconRaw = (string)$item->icon();
         $icon    = isset($iconMap[$iconRaw]) ? $iconMap[$iconRaw] : $iconRaw;
@@ -34,7 +34,7 @@ $iconMap = [
           <?php endif ?>
         </span>
         <span class="q-go">
-          前往
+          <?= t('ui.goto', '前往') ?>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </span>
       </a>

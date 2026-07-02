@@ -543,7 +543,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
 /* ========================================================================= */
 /* Quick links (new design)                                                   */
 /* ========================================================================= */
-.qlinks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.qlinks { display: grid; grid-template-columns: repeat(var(--columns, 3), 1fr); gap: 20px; }
 .qcard {
   position: relative;
   display: flex;

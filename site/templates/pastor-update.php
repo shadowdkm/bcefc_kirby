@@ -19,9 +19,10 @@ $cover = $page->cover()->toFile();
         ← <?= t('pastor.updates.back', '返回牧者心語') ?>
       </a>
 
+      <?php $dateFormat = $kirby->language() && $kirby->language()->code() === 'en' ? 'F j, Y' : 'Y年n月j日' ?>
       <div class="pastor-post__meta">
         <time datetime="<?= $page->date()->toDate('c') ?>">
-          <?= $page->date()->toDate('Y年n月j日') ?>
+          <?= $page->date()->toDate($dateFormat) ?>
         </time>
         <?php if ($page->author()->isNotEmpty()): ?>
         <span class="pastor-post__author"><?= $page->author()->esc() ?></span>

@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Group photo of the Chinese School teaching team
+
+----
+
+Uuid: csimgteach001
+
+----
+
+Template: image

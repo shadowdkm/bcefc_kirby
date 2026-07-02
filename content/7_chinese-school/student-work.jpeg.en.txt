@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Student calligraphy and writing assignments displayed on the bulletin board
+
+----
+
+Uuid: csimgwork001
+
+----
+
+Template: image

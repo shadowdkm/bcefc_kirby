@@ -4,7 +4,7 @@ Title: 消息
 
 Builder:
 
-[{"content":{"title":"最新消息","subtitle":"緊貼本立比華人播道會動態"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>緊貼教會家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"春季培靈會","text":"特別培靈會，請留意週刊獲取日期詳情。","url":"/news/20250301_spring-revival","image":"","badge":""},{"title":"家庭營報名開放","text":"立即報名年度家庭營，全家同樂！","url":"/news/20250215_family-camp","image":"","badge":""},{"title":"中文學校報名","text":"新學年報名現已開放，立即為您的孩子報名。","url":"/news/20250201_chinese-school-registration","image":"","badge":""}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"最新消息","subtitle":"緊貼本立比華人播道會動態"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>緊貼教會家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"春季培靈會","text":"特別培靈會，請留意週刊獲取日期詳情。","url":"/news/spring-revival","image":"","badge":""},{"title":"家庭營報名開放","text":"立即報名年度家庭營，全家同樂！","url":"/news/family-camp","image":"","badge":""},{"title":"中文學校報名","text":"新學年報名現已開放，立即為您的孩子報名。","url":"/news/chinese-school-registration","image":"","badge":""}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

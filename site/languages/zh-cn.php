@@ -48,6 +48,7 @@ return [
         'ui.download'        => '下载',
         'ui.livestream'      => '在线直播',
         'ui.directions'      => '地图导航',
+        'ui.goto'            => '前往',
         
         // Worship times
         'worship.thisweek'   => '本周聚会时间',
@@ -56,6 +57,7 @@ return [
         'worship.cantonese'  => '粤语崇拜',
         'worship.mandarin'   => '国语崇拜',
         'worship.english'    => '英语崇拜',
+        'worship.bulletin'   => '本周周报',
         
         // Footer
         'footer.contact'     => '联系方式',
@@ -65,6 +67,25 @@ return [
         'footer.view_map'    => '查看 Google 地图',
         'footer.rights'      => '版权所有。',
         'footer.privacy'     => '隐私政策',
+        'footer.about'       => '致力于建立一个生命转化的属灵大家庭，带领万民作主耶稣基督的门徒。',
+        'footer.sunday_services' => '主日聚会',
+        'footer.kids_youth'  => '儿童及青少年主日学',
+        'footer.map'         => '地图',
+        'footer.copyright'   => '&copy; ' . date('Y') . ' 本立比华人宣道会 Burnaby Chinese Evangelical Free Church. 版权所有。',
+
+        // 牧者心语
+        'pastor.updates.eyebrow' => '牧者心语',
+        'pastor.updates.empty'   => '暂无最新消息，敬请留意。',
+        'pastor.updates.back'    => '返回牧者心语',
+
+        // 分页
+        'pagination.prev'    => '上一页',
+        'pagination.next'    => '下一页',
+        'pagination.newer'   => '较新',
+        'pagination.older'   => '较旧',
+
+        // 行事历
+        'cal.no_embed'       => '行事历尚未设定。请在 Panel 贴上 Google Calendar 的 Embed URL。',
         
         // Forms
         'form.guestcard'     => '填写来宾卡',

@@ -25,7 +25,7 @@
           <div class="brand-sub">BCEFC · Since 1991</div>
         </span>
       </a>
-      <p class="foot-about">致力於建立一個生命轉化的屬靈大家庭，帶領萬民作主耶穌基督的門徒。</p>
+      <p class="foot-about"><?= t('footer.about', '致力於建立一個生命轉化的屬靈大家庭，帶領萬民作主耶穌基督的門徒。') ?></p>
       <div class="foot-social">
         <a href="https://facebook.com/bcefc" target="_blank" rel="noopener" aria-label="Facebook">
           <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
@@ -52,7 +52,7 @@
       <ul>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('nav.worship', '主日崇拜時間') ?></a></li>
         <li><a href="<?= $newsPage ? $newsPage->url() : '#' ?>"><?= t('nav.news', '最新消息與活動') ?></a></li>
-        <li><a href="<?= $chineseSchoolPage ? $chineseSchoolPage->url() : '#' ?>">中文學校</a></li>
+        <li><a href="<?= $chineseSchoolPage ? $chineseSchoolPage->url() : '#' ?>"><?= t('nav.school', '中文學校') ?></a></li>
         <li><a href="<?= $footGivingPage ? $footGivingPage->url() : '#' ?>"><?= t('nav.giving', '奉獻支持 Giving') ?></a></li>
       </ul>
     </div>
@@ -82,12 +82,12 @@
 
     <!-- Col 4: Sunday services -->
     <div>
-      <h4>主日聚會</h4>
+      <h4><?= t('footer.sunday_services', '主日聚會') ?></h4>
       <ul>
-        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>">國語崇拜 · 9:15 AM</a></li>
-        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>">粵語崇拜 · 11:00 AM</a></li>
-        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>">English Worship · 11:00 AM</a></li>
-        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>">兒童及青少年主日學</a></li>
+        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.mandarin', '國語崇拜') ?> · 9:15 AM</a></li>
+        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.cantonese', '粵語崇拜') ?> · 11:00 AM</a></li>
+        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.english', '英語崇拜') ?> · 11:00 AM</a></li>
+        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('footer.kids_youth', '兒童及青少年主日學') ?></a></li>
       </ul>
     </div>
 
