@@ -934,14 +934,23 @@ a.card-grid-item:hover .card-grid-item__image img { transform: scale(1.04); }
 .foot-contact { display: flex; flex-direction: column; gap: 13px; }
 .foot-contact .c-row { display: flex; gap: 11px; font-size: 14.5px; line-height: 1.5; align-items: flex-start; }
 .foot-contact svg { width: 17px; height: 17px; color: var(--accent); flex: none; margin-top: 2px; }
+.foot-contact .c-row span a { color: var(--accent); text-decoration: none; }
+.foot-contact .c-row span a:hover { text-decoration: underline; }
 .foot-bottom {
   border-top: 1px solid var(--dark-line);
   padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 20px;
   text-align: center;
   font-size: 13px;
   letter-spacing: .04em;
   color: rgba(199,180,158,.75);
 }
+.foot-bottom__privacy { color: rgba(199,180,158,.75); text-decoration: underline; }
+.foot-bottom__privacy:hover { color: #FFFCF6; }
 
 /* ========================================================================= */
 /* Inner page banner                                                          */
@@ -1495,3 +1504,62 @@ details[open] .faq-q .fq-ico { transform: rotate(180deg); background: var(--prim
   line-height: 1.55;
 }
 .cal-popover__loc::before { content: '📍 '; }
+
+/* ========================================================================= */
+/* Password gate                                                             */
+/* ========================================================================= */
+.password-gate { padding: 140px 0; display: flex; justify-content: center; }
+.password-gate__inner {
+  max-width: 420px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: 48px 36px;
+}
+.password-gate__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+.password-gate__icon svg { width: 26px; height: 26px; }
+.password-gate__title {
+  font-family: var(--font-cjk-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.password-gate__text { color: var(--ink-soft); font-size: 15px; line-height: 1.6; margin: 0 0 20px; }
+.password-gate__error { color: var(--primary); font-size: 14px; font-weight: 600; margin: 0 0 16px; }
+.password-gate__form { display: flex; flex-direction: column; gap: 12px; }
+.password-gate__form input[type="password"] {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg);
+}
+.password-gate__form input[type="password"]:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+.password-gate__form .btn { justify-content: center; }
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}

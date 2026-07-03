@@ -4,7 +4,7 @@ Title: 团契部
 
 Builder:
 
-[{"content":{"bg_image":["file://fellodept001"],"overlay_strength":50,"eyebrow":"","title":"团契部","subtitle":"在群体中同行建立","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-12_fellowship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>团契部统筹和支援所有团契组织，建立归属感和互相关顾的文化。</p><h3>工作目标</h3><p>• 鼓励每位会众参与团契<br>• 鼓励年轻会众服侍年长会众<br>• 推动各团契联合活动</p><h3>各团契</h3><p>约瑟团 · 信心团 · 迦勒团 · 路得妇女查经 · 男士团契 · 以诺团契（国语）</p>"},"id":"fd-content","isHidden":false,"type":"richtext"},{"content":{"title":"找到你的团契","text":"<p>欢迎认识我们的各个团契。</p>","button_text":"认识各团契","button_url":"/fellowships","variant":"primary","alignment":"center"},"id":"fd-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://fellodept001"],"overlay_strength":50,"eyebrow":"","title":"团契部","subtitle":"在群体中同行建立","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-12_fellowship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>团契部统筹和支援所有团契组织，在整个教会大家庭中建立归属感、互相关顾和灵命同行的文化。</p><h3>工作目标</h3><p>• 鼓励每位会众参与团契，在灵命上有同伴同行<br>• 鼓励年轻会众服侍和关顾年长会众<br>• 推动各团契联合活动，建立全教会的群体关系</p><h3>架构</h3><p>部长主持由各粤语团契领袖组成的委员会，统筹联合活动并支援各团契事奉。</p><h3>各团契</h3><p>约瑟团 · 信心团 · 迦勒团 · 路得妇女查经 · 男士团契 · 以诺团契（国语）</p>"},"id":"fd-content","isHidden":false,"type":"richtext"},{"content":{"title":"找到你的团契","text":"<p>想寻找一个可以一同成长的群体？来认识我们的各个团契。</p>","button_text":"认识各团契","button_url":"/fellowships","variant":"primary","alignment":"center"},"id":"fd-cta","isHidden":false,"type":"cta"}]
 
 ----
 

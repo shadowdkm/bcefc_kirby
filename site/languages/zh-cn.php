@@ -86,6 +86,13 @@ return [
 
         // 行事历
         'cal.no_embed'       => '行事历尚未设定。请在 Panel 贴上 Google Calendar 的 Embed URL。',
+
+        // 密码保护
+        'protect.prompt'         => '此页面需要密码才能浏览，请输入密码继续。',
+        'protect.password_label' => '密码',
+        'protect.submit'         => '进入',
+        'protect.error'          => '密码错误，请再试一次。',
+        'protect.locked'         => '尝试次数过多，请稍等一分钟后再试。',
         
         // Forms
         'form.guestcard'     => '填写来宾卡',

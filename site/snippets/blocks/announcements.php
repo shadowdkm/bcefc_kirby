@@ -57,7 +57,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
         
         <div class="announcement-item__content">
           <?php if ($tag && is_object($tag) ? $tag->isNotEmpty() : !empty($tag)): ?>
-          <span class="announcement-item__tag"><?= is_object($tag) ? $tag->esc() : e($tag) ?></span>
+          <span class="announcement-item__badge"><?= is_object($tag) ? $tag->esc() : e($tag) ?></span>
           <?php endif ?>
           
           <?php if (is_object($url) ? $url->isNotEmpty() : !empty($url)): ?>

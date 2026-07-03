@@ -86,6 +86,13 @@ return [
 
         // 行事曆
         'cal.no_embed'       => '行事曆尚未設定。請在 Panel 貼上 Google Calendar 的 Embed URL。',
+
+        // 密碼保護
+        'protect.prompt'         => '此頁面需要密碼才能瀏覽，請輸入密碼繼續。',
+        'protect.password_label' => '密碼',
+        'protect.submit'         => '進入',
+        'protect.error'          => '密碼錯誤，請再試一次。',
+        'protect.locked'         => '嘗試次數過多，請稍等一分鐘後再試。',
         
         // Forms
         'form.guestcard'     => '填寫來賓卡',

@@ -28,6 +28,7 @@ columns:
               # Section Structure
               - section-header
               - card-grid
+              - icon-feature-grid
               - richtext
               
               # Worship & Ministry
@@ -69,7 +70,14 @@ columns:
             type: textarea
             maxlength: 160
             buttons: false
-      
+
+          password_protected:
+            label: Password Protect This Page
+            type: toggle
+            default: false
+            translate: false
+            help: When enabled, visitors must enter the shared site password to view this page's content. This setting applies to all languages.
+
       pages:
         type: pages
         headline: Subpages

@@ -4,7 +4,7 @@ Title: 影音科技部
 
 Builder:
 
-[{"content":{"bg_image":["file://avtech0001"],"overlay_strength":50,"eyebrow":"","title":"影音科技部","subtitle":"以科技服侍敬拜","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-16_av-tech-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>影音科技部确保教会各项事务顺畅运作。</p><h3>主要职责</h3><p>• 崇拜时的PowerPoint和电脑投影操作<br>• 音响器材管理和操作<br>• 软件安装和技术支援<br>• 音响器材保养<br>• 电脑维修和IT支援</p><p>部长：Daniel</p>"},"id":"av-content","isHidden":false,"type":"richtext"},{"content":{"title":"以科技恩赐服侍","text":"<p>欢迎加入影音科技部！</p>","button_text":"加入团队","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"av-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://avtech0001"],"overlay_strength":50,"eyebrow":"","title":"影音科技部","subtitle":"以科技服侍敬拜","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-16_av-tech-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>影音科技部确保教会各项事务顺畅运作——从主日早上的音响系统到办公室的电脑。我们的服事团队每周默默在幕后服侍。</p><h3>主要职责</h3><p>• 崇拜时的PowerPoint和电脑投影操作<br>• 音响器材管理和操作（混音、麦克风）<br>• 为同工和牧者提供软件安装和技术支援<br>• 音响和喇叭器材保养<br>• 电脑维修和资讯科技支援</p><h3>培训</h3><p>我们举办影音操作讲座，培训新同工和提升团队技能。</p><p>部长：Daniel</p>"},"id":"av-content","isHidden":false,"type":"richtext"},{"content":{"title":"以科技恩赐服侍","text":"<p>擅长科技？加入影音科技部，用你的技能服侍神的国度！</p>","button_text":"加入团队","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"av-cta","isHidden":false,"type":"cta"}]
 
 ----
 

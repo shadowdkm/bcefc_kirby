@@ -25,7 +25,10 @@ if (!function_exists('pageUrl')) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
+  <title><?= $page->seo_title()->or($site->title() . ' | ' . $page->title())->esc() ?></title>
+  <?php if ($page->seo_description()->isNotEmpty()): ?>
+  <meta name="description" content="<?= $page->seo_description()->esc() ?>">
+  <?php endif ?>
   <?= css([
     'assets/css/prism.css',
     'assets/css/lightbox.css',

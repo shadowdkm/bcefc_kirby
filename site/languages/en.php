@@ -86,6 +86,13 @@ return [
 
         // Calendar
         'cal.no_embed'       => 'Calendar not set up yet. Paste the Google Calendar embed URL in the Panel.',
+
+        // Password protection
+        'protect.prompt'         => 'This page is password protected. Please enter the password to continue.',
+        'protect.password_label' => 'Password',
+        'protect.submit'         => 'Enter',
+        'protect.error'          => 'Incorrect password. Please try again.',
+        'protect.locked'         => 'Too many incorrect attempts. Please wait a minute before trying again.',
         
         // Forms
         'form.guestcard'     => 'Fill Guest Card',

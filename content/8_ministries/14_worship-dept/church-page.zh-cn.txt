@@ -4,7 +4,7 @@
 
 Builder:
 
-[{"content":{"bg_image":["file://worshpdept01"],"overlay_strength":50,"eyebrow":"","title":"崇拜部","subtitle":"一同敬拜荣耀神","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-14_worship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>崇拜部每个主日早上服侍，创造敬拜环境，让会众专注赞美神。</p><h3>我们的目标</h3><p>• 让会众使用属灵恩赐服侍<br>• 帮助会众专注赞美神<br>• 确保崇拜流畅有序</p><h3>事奉岗位</h3><p>司会 · 领诗 · 敬拜小组 · 圣诗班 · 司琴 · 招待 · 音响 · 电脑媒体 · 圣餐预备</p>"},"id":"wd-content","isHidden":false,"type":"richtext"},{"content":{"title":"参与崇拜事奉","text":"<p>欢迎加入我们的敬拜事奉团队！</p>","button_text":"参与事奉","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"wd-cta","isHidden":false,"type":"cta"}]
+[{"content":{"bg_image":["file://worshpdept01"],"overlay_strength":50,"eyebrow":"","title":"崇拜部","subtitle":"一同敬拜荣耀神","cta_primary_text":"","cta_primary_url":"","cta_secondary_text":"","cta_secondary_url":"","align":"center","valign":"center","height":"medium"},"id":"hero-14_worship-dept-zh-cn","isHidden":false,"type":"hero"},{"content":{"text":"<p>崇拜部每个主日早上服侍，创造敬拜环境，让会众能专注赞美神，透过诗歌、祷告、读经、讲道和圣餐一同敬拜。</p><h3>我们的目标</h3><p>• 让会众在崇拜事奉中使用各自的属灵恩赐<br>• 帮助会众专注赞美，与神相遇<br>• 确保每次崇拜流畅、有序</p><h3>事奉岗位</h3><p>司会 · 领诗 · 敬拜小组 · 圣诗班 · 司琴 · 招待主任 · 招待同工 · 音响控制 · 电脑及媒体操作 · 插花 · 圣餐预备 · 直播室预备</p><h3>与我们同工</h3><p>有很多方式可以在主日崇拜中使用你的恩赐——音乐、科技或接待。欢迎加入！</p>"},"id":"wd-content","isHidden":false,"type":"richtext"},{"content":{"title":"参与崇拜事奉","text":"<p>有兴趣加入敬拜小组、圣诗班、招待或科技团队？欢迎与我们同工！</p>","button_text":"参与事奉","button_url":"/new-here/contact","variant":"primary","alignment":"center"},"id":"wd-cta","isHidden":false,"type":"cta"}]
 
 ----
 

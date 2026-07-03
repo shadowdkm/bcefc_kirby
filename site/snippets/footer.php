@@ -46,6 +46,7 @@
       $newsPage         = $site->find('news');
       $chineseSchoolPage = $site->find('chinese-school');
       $footGivingPage   = $site->find('giving');
+      $privacyPage      = $site->find('privacy-policy');
     ?>
     <div>
       <h4><?= t('footer.quicklinks', '快速連結') ?></h4>
@@ -63,7 +64,7 @@
       <div class="foot-contact">
         <div class="c-row">
           <svg class="icon" aria-hidden="true"><use href="#icon-location"></use></svg>
-          <span>6112 Rumble Street<br>Burnaby, BC V5J 2C7</span>
+          <span>6112 Rumble Street<br>Burnaby, BC V5J 2C7<br><a href="https://www.google.com/maps/search/?api=1&query=6112+Rumble+Street+Burnaby+BC+V5J+2C7" target="_blank" rel="noopener"><?= t('footer.view_map', 'View on Google Maps') ?></a></span>
         </div>
         <div class="c-row">
           <svg class="icon" aria-hidden="true"><use href="#icon-phone"></use></svg>
@@ -94,7 +95,10 @@
   </div>
 
   <div class="foot-bottom wrap">
-    &copy; <?= date('Y') ?> 本立比華人播道會 Burnaby Chinese Evangelical Free Church &middot; All Rights Reserved.
+    <span>&copy; <?= date('Y') ?> 本立比華人播道會 Burnaby Chinese Evangelical Free Church &middot; All Rights Reserved.</span>
+    <?php if ($privacyPage): ?>
+    <a href="<?= $privacyPage->url() ?>" class="foot-bottom__privacy"><?= t('footer.privacy', 'Privacy Policy') ?></a>
+    <?php endif ?>
   </div>
 </footer>
 

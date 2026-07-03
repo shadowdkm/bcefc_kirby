@@ -1,0 +1,41 @@
+name: Icon Feature Grid
+icon: grid
+preview: fields
+fields:
+  title:
+    label: Section Title
+    type: text
+    placeholder: "Regular Community Programs"
+
+  columns:
+    label: Features
+    type: structure
+    min: 1
+    fields:
+      icon:
+        label: Icon
+        type: select
+        options:
+          heart: Heart
+          book: Book
+          users: Users
+          compass: Compass
+          calendar: Calendar
+          gift: Gift
+          plane: Plane
+          globe: Globe
+          music: Music
+          clock: Clock
+          home: Home
+          cross: Cross
+
+      title:
+        label: Title
+        type: text
+        required: true
+
+      description:
+        label: Description
+        type: textarea
+        maxlength: 200
+        buttons: false

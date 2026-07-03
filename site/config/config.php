@@ -18,4 +18,8 @@ return [
     'languages' => true,
     'languages.detect' => true,
 
-]; 
+    // Shared password for pages with "Password Protect This Page" enabled
+    // (e.g. Sermons). Change here to update the password for all protected pages.
+    'bcefc.protectPassword' => '6112',
+
+];

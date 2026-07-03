@@ -24,6 +24,7 @@ columns:
               # Section Structure
               - section-header
               - card-grid
+              - icon-feature-grid
               - richtext
               
               # Worship & Ministry
