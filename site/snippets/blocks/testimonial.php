@@ -21,7 +21,7 @@ $style = $block->style()->or('standard');
         <?php if ($photo): ?>
         <img 
           src="<?= $photo->thumb(['width' => 80, 'height' => 80, 'crop' => true])->url() ?>" 
-          alt="<?= $photo->alt()->or($block->author_name()) ?>"
+          alt="<?= $photo->alt()->or($block->author_name())->esc() ?>"
           class="testimonial__photo"
           loading="lazy"
         >

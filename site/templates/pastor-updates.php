@@ -23,7 +23,7 @@
         <?php if ($cover): ?>
         <div class="pastor-card__img">
           <img src="<?= $cover->thumb(['width' => 800, 'height' => 480, 'crop' => true])->url() ?>"
-               alt="<?= $cover->alt()->or($post->title()) ?>"
+               alt="<?= $cover->alt()->or($post->title())->esc() ?>"
                loading="lazy">
         </div>
         <?php else: ?>

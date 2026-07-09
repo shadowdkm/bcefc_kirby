@@ -16,6 +16,7 @@ return [
     // UI translations for templates
     'translations' => [
         // Site
+        'site.name'          => '本立比華人播道會',
         'site.subtitle'      => 'BURNABY CHINESE EVANGELICAL FREE CHURCH',
         'site.tagline'       => 'Deepening Faith Together · Extending Light in Life',
         
@@ -56,7 +57,7 @@ return [
         'worship.schedule'   => 'View Full Schedule',
         'worship.cantonese'  => 'Cantonese Worship',
         'worship.mandarin'   => 'Mandarin Worship',
-        'worship.english'    => 'English Worship',
+        'worship.youth'      => 'Youth Worship',
         'worship.bulletin'   => 'This Week\'s Bulletin',
         
         // Footer

@@ -31,7 +31,7 @@ $imageRatio = $block->image_ratio()->or('3/2');
         <div class="card-grid-item__image">
           <img 
             src="<?= $image->thumb(['width' => 600, 'quality' => 80])->url() ?>" 
-            alt="<?= $image->alt()->or($item->title()) ?>"
+            alt="<?= $image->alt()->or($item->title())->esc() ?>"
             loading="lazy"
           >
           <?php if ($item->badge()->isNotEmpty()): ?>

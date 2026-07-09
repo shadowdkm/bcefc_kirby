@@ -16,7 +16,8 @@ return [
     // UI translations for templates
     'translations' => [
         // Site
-        'site.subtitle'      => '本拿比华人宣道会',
+        'site.name'          => '本立比华人播道会',
+        'site.subtitle'      => '本立比华人播道会',
         'site.tagline'       => '同行深化灵命・生活延展真光',
         
         // Navigation
@@ -56,7 +57,7 @@ return [
         'worship.schedule'   => '查看完整时间表',
         'worship.cantonese'  => '粤语崇拜',
         'worship.mandarin'   => '国语崇拜',
-        'worship.english'    => '英语崇拜',
+        'worship.youth'      => '青年崇拜',
         'worship.bulletin'   => '本周周报',
         
         // Footer
@@ -71,7 +72,7 @@ return [
         'footer.sunday_services' => '主日聚会',
         'footer.kids_youth'  => '儿童及青少年主日学',
         'footer.map'         => '地图',
-        'footer.copyright'   => '&copy; ' . date('Y') . ' 本立比华人宣道会 Burnaby Chinese Evangelical Free Church. 版权所有。',
+        'footer.copyright'   => '&copy; ' . date('Y') . ' 本立比华人播道会 Burnaby Chinese Evangelical Free Church. 版权所有。',
 
         // 牧者心语
         'pastor.updates.eyebrow' => '牧者心语',

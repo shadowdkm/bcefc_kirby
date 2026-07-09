@@ -8,7 +8,7 @@ $cover = $page->cover()->toFile();
   <?php if ($cover): ?>
   <div class="pastor-post__cover">
     <img src="<?= $cover->thumb(['width' => 1400, 'height' => 560, 'crop' => true])->url() ?>"
-         alt="<?= $cover->alt()->or($page->title()) ?>">
+         alt="<?= $cover->alt()->or($page->title())->esc() ?>">
   </div>
   <?php endif ?>
 

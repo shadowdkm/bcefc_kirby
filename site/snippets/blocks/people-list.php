@@ -19,7 +19,7 @@ $layout = $block->layout()->or('grid');
         <img
           class="people-list__photo"
           src="<?= $photo->thumb(['width' => 320, 'height' => 320, 'crop' => true])->url() ?>"
-          alt="<?= $photo->alt()->or($person->name()) ?>"
+          alt="<?= $photo->alt()->or($person->name())->esc() ?>"
           loading="lazy"
         >
         <?php else: ?>

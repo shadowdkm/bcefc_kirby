@@ -21,7 +21,7 @@
           </g>
         </svg>
         <span>
-          <div class="brand-name">本立比華人播道會</div>
+          <div class="brand-name"><?= t('site.name', '本立比華人播道會') ?></div>
           <div class="brand-sub">BCEFC · Since 1991</div>
         </span>
       </a>
@@ -42,6 +42,7 @@
 
     <!-- Col 2: quick links -->
     <?php
+      $footNewHerePage  = $site->find('new-here');
       $worshipPage      = $site->find('worship');
       $newsPage         = $site->find('news');
       $chineseSchoolPage = $site->find('chinese-school');
@@ -51,6 +52,7 @@
     <div>
       <h4><?= t('footer.quicklinks', '快速連結') ?></h4>
       <ul>
+        <li><a href="<?= $footNewHerePage ? $footNewHerePage->url() : '#' ?>"><?= t('nav.new_here', '新朋友') ?></a></li>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('nav.worship', '主日崇拜時間') ?></a></li>
         <li><a href="<?= $newsPage ? $newsPage->url() : '#' ?>"><?= t('nav.news', '最新消息與活動') ?></a></li>
         <li><a href="<?= $chineseSchoolPage ? $chineseSchoolPage->url() : '#' ?>"><?= t('nav.school', '中文學校') ?></a></li>
@@ -76,7 +78,7 @@
         </div>
         <div class="c-row">
           <svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg>
-          <span><?= t('footer.office_hours', '辦公時間 週二至週五 9AM–5PM') ?></span>
+          <span><?= t('footer.office_hours', '辦公時間 週一至週五 9AM–5PM') ?></span>
         </div>
       </div>
     </div>
@@ -87,7 +89,7 @@
       <ul>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.mandarin', '國語崇拜') ?> · 9:15 AM</a></li>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.cantonese', '粵語崇拜') ?> · 11:00 AM</a></li>
-        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.english', '英語崇拜') ?> · 11:00 AM</a></li>
+        <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('worship.youth', '青年崇拜') ?> · 11:00 AM</a></li>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('footer.kids_youth', '兒童及青少年主日學') ?></a></li>
       </ul>
     </div>
@@ -95,7 +97,7 @@
   </div>
 
   <div class="foot-bottom wrap">
-    <span>&copy; <?= date('Y') ?> 本立比華人播道會 Burnaby Chinese Evangelical Free Church &middot; All Rights Reserved.</span>
+    <span>&copy; <?= date('Y') ?> <?= t('site.name', '本立比華人播道會') ?> Burnaby Chinese Evangelical Free Church &middot; <?= t('footer.rights', 'All rights reserved.') ?></span>
     <?php if ($privacyPage): ?>
     <a href="<?= $privacyPage->url() ?>" class="foot-bottom__privacy"><?= t('footer.privacy', 'Privacy Policy') ?></a>
     <?php endif ?>

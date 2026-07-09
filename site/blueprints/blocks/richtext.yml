@@ -2,16 +2,15 @@ name: Rich Text
 icon: text
 preview: fields
 fields:
-  content:
-    label: Content
-    type: blocks
-    fieldsets:
+  text:
+    label: Text
+    type: writer
+    nodes:
       - heading
-      - text
-      - list
-      - quote
-      - line
-      - table
-      - markdown
-      - image
-      - video
+      - paragraph
+      - bulletList
+      - orderedList
+    marks:
+      - bold
+      - italic
+      - link

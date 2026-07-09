@@ -57,7 +57,7 @@ if (!function_exists('pageUrl')) {
       </g>
     </svg>
     <span>
-      <div class="brand-name">本立比華人播道會</div>
+      <div class="brand-name"><?= t('site.name', '本立比華人播道會') ?></div>
       <div class="brand-sub">Burnaby Chinese Evangelical Free Church</div>
     </span>
   </a>
@@ -98,9 +98,13 @@ if (!function_exists('pageUrl')) {
     <?php endforeach ?>
   </div>
 
-  <!-- Right: language + giving CTA -->
+  <!-- Right: language + new here + giving CTA -->
   <div class="nav-right">
     <?php snippet('language-switcher') ?>
+    <?php $newHerePage = $site->find('new-here') ?>
+    <a href="<?= $newHerePage ? $newHerePage->url() : '#' ?>" class="btn btn-outline btn-sm">
+      <?= t('nav.new_here', '新朋友') ?>
+    </a>
     <?php $givingPage = $site->find('giving') ?>
     <a href="<?= $givingPage ? $givingPage->url() : '#' ?>" class="btn btn-primary btn-sm">
       <svg class="icon" aria-hidden="true"><use href="#icon-heart"></use></svg>

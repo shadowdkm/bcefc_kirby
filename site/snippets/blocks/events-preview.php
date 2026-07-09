@@ -8,17 +8,22 @@
 
 $mode = $block->mode()->or('manual');
 $limit = $block->limit()->or(3)->toInt();
+$today = date('Y-m-d');
 
 // Get items based on mode
 if ($mode->value() === 'query' && $block->query_parent()->isNotEmpty()) {
     $parentPage = page($block->query_parent()->value());
-    $today = date('Y-m-d');
     $items = $parentPage ? $parentPage->children()->listed()->filter(function($p) use ($today) {
         return $p->date()->toDate('Y-m-d') >= $today;
     })->sortBy('date', 'asc')->limit($limit) : [];
     $isQuery = true;
 } else {
-    $items = $block->items()->toStructure();
+    // Manual items: hide any that have already passed, same as query mode,
+    // so a "Featured Events" list doesn't silently go stale.
+    $items = $block->items()->toStructure()->filter(function($item) use ($today) {
+        $date = $item->date();
+        return $date->isEmpty() || $date->toDate('Y-m-d') >= $today;
+    });
     $isQuery = false;
 }
 
@@ -67,7 +72,7 @@ if ((is_object($items) && $items->isEmpty()) || (is_array($items) && empty($item
         <div class="event-card__image">
           <img 
             src="<?= $image->thumb(['width' => 400, 'height' => 250, 'crop' => true])->url() ?>" 
-            alt="<?= $image->alt()->or($title) ?>"
+            alt="<?= $image->alt()->or($title)->esc() ?>"
             loading="lazy"
           >
         </div>

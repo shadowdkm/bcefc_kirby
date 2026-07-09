@@ -4,7 +4,7 @@ Title: 活動預告
 
 Builder:
 
-[{"content":{"title":"活動預告","subtitle":"即將舉行的活動"},"id":"evprev-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>了解本那比華人播道會即將舉行的各項活動，歡迎計劃參加！</p>"},"id":"evprev-intro","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"活動預告","subtitle":"即將舉行的活動"},"id":"evprev-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>了解本立比華人播道會即將舉行的各項活動，歡迎計劃參加！</p>"},"id":"evprev-intro","isHidden":false,"type":"richtext"}]
 
 ----
 

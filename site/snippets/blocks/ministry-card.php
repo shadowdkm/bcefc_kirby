@@ -17,7 +17,7 @@ $hasLink = $block->url()->isNotEmpty();
       <div class="ministry-card__image">
         <img 
           src="<?= $image->thumb(['width' => 800, 'height' => 500, 'crop' => true])->url() ?>" 
-          alt="<?= $image->alt()->or($block->title()) ?>"
+          alt="<?= $image->alt()->or($block->title())->esc() ?>"
           loading="lazy"
         >
       </div>

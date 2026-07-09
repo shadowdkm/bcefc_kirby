@@ -28,7 +28,7 @@ $heroHeight = $heights[$height->value()] ?? '640px';
     <img
       class="block-hero__slide<?= $first ? ' is-active' : '' ?>"
       src="<?= $bgImage->thumb(['width' => 1920, 'quality' => 82])->url() ?>"
-      alt="<?= $bgImage->alt()->or('') ?>"
+      alt="<?= $bgImage->alt()->or('')->esc() ?>"
       loading="<?= $first ? 'eager' : 'lazy' ?>"
     >
     <?php endforeach ?>

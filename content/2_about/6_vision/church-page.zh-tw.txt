@@ -4,7 +4,7 @@ Title: 異象與方向
 
 Builder:
 
-[{"content":{"title":"異象與方向","subtitle":"VISION & MISSION"},"id":"vision-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>教會異象</h2><p>本立比華人播道會的異象是建立一個<strong>敬拜神、裝備信徒、傳揚福音、服事社區</strong>的教會，使萬民作主的門徒。</p><h2>目標聲明</h2><p>作為基督的身體，確認祂為主和力量的源頭，我們有四重的目標：</p><ul><li><strong>敬拜父神</strong> - 藉感恩，詩歌分享，享受主的同在，包括聖餐和祷告。</li><li><strong>靈命成長</strong> - 研讀神的話語，應用聖經原則在我們的生活中，顯出基督的品格。</li><li><strong>彼此關心</strong> - 互相造就和激勵，發揮我們的屬靈恩賜，彼此服侍。</li><li><strong>傳揚福音</strong> - 藉著聖經及生活見證，我們與人分享福音。</li></ul>"},"id":"vision-content","isHidden":false,"type":"richtext"},{"content":{"title":"一同參與","text":"<p>邀請您與我們一同祷告，參與神在本立比華人播道會的美好工作。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"vision-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"異象與方向","subtitle":"VISION & MISSION"},"id":"vision-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h2>教會異象</h2><p>本立比華人播道會的異象是建立一個<strong>敬拜神、裝備信徒、傳揚福音、服事社區</strong>的教會，使萬民作主的門徒。</p><h2>目標聲明</h2><p>作為基督的身體，確認祂為主和力量的源頭，我們有四重的目標：</p><ul><li><strong>敬拜父神</strong> - 藉感恩，詩歌分享，享受主的同在，包括聖餐和禱告。</li><li><strong>靈命成長</strong> - 研讀神的話語，應用聖經原則在我們的生活中，顯出基督的品格。</li><li><strong>彼此關心</strong> - 互相造就和激勵，發揮我們的屬靈恩賜，彼此服侍。</li><li><strong>傳揚福音</strong> - 藉著聖經及生活見證，我們與人分享福音。</li></ul>"},"id":"vision-content","isHidden":false,"type":"richtext"},{"content":{"title":"一同參與","text":"<p>邀請您與我們一同禱告，參與神在本立比華人播道會的美好工作。</p>","button_text":"聯繫我們","button_url":"/about/contact"},"id":"vision-cta","isHidden":false,"type":"cta"}]
 
 ----
 

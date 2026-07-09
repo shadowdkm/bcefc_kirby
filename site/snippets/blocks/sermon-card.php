@@ -34,7 +34,7 @@ $dateFormat = $kirby->language() && $kirby->language()->code() === 'en' ? 'F j, 
         <?php elseif ($thumbnail): ?>
         <img 
           src="<?= $thumbnail->thumb(['width' => 800, 'height' => 450, 'crop' => true])->url() ?>" 
-          alt="<?= $thumbnail->alt()->or($block->title()) ?>"
+          alt="<?= $thumbnail->alt()->or($block->title())->esc() ?>"
           loading="lazy"
         >
         <?php endif ?>

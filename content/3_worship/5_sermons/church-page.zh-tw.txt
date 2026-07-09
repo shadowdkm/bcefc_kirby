@@ -4,11 +4,7 @@ Title: 講道重溫
 
 Builder:
 
-[{"content":{"title":"講道重溫","subtitle":"聆聽神的話語"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>錯過了主日或想重溫信息？歡迎在線收聽我們的講道。</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"},{"content":{"title":"最新講道","speaker":"黃大衛牧師","date":"2025年3月2日","series":"與神同行","scripture":"詩篇 23:1-6","video_url":"","audio_url":"","description":"在這篇信息中，黃牧師探索詩篇23篇的美麗意象，以及以耶和華為牧者的意義。"},"id":"sermon-featured-001","isHidden":false,"type":"sermon-card"},{"content":{"title":"近期講道","speaker":"陳明理牧師","date":"2025年2月23日","series":"與神同行","scripture":"詩篇 27:1-14","video_url":"","audio_url":"","description":"在患難中尋求神的面，信靠祂的救恩。"},"id":"sermon-recent-001","isHidden":false,"type":"sermon-card"}]
-
-----
-
-Password_protected: true
+[{"content":{"title":"講道重溫","subtitle":"聆聽神的話語"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>錯過了主日或想重溫信息？歡迎在線收聽我們的講道。</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"},{"content":{"title":"精選講道","speaker":"黃大衛牧師","date":"2025年3月2日","series":"與神同行","scripture":"詩篇 23:1-6","video_url":"","audio_url":"","description":"在這篇信息中，黃牧師探索詩篇23篇的美麗意象，以及以耶和華為牧者的意義。"},"id":"sermon-featured-001","isHidden":false,"type":"sermon-card"},{"content":{"title":"更多信息","speaker":"陳明理牧師","date":"2025年2月23日","series":"與神同行","scripture":"詩篇 27:1-14","video_url":"","audio_url":"","description":"在患難中尋求神的面，信靠祂的救恩。"},"id":"sermon-recent-001","isHidden":false,"type":"sermon-card"}]
 
 ----
 

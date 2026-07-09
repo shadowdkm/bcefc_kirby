@@ -4,7 +4,7 @@ Title: 最新公告
 
 Builder:
 
-[{"content":{"title":"最新公告","subtitle":"本那比华人播道会最新资讯"},"id":"ann-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>随时掌握教会最新公告。请定期回来查看教会生活、事工及重要通知的最新动态。</p>"},"id":"ann-intro","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"最新公告","subtitle":"本立比华人播道会最新资讯"},"id":"ann-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>随时掌握教会最新公告。请定期回来查看教会生活、事工及重要通知的最新动态。</p>"},"id":"ann-intro","isHidden":false,"type":"richtext"}]
 
 ----
 

@@ -32,7 +32,7 @@ if ($fellowships->isEmpty()) return;
         <img
           class="fellowship-item__image"
           src="<?= $photo->thumb(['width' => 800, 'height' => 600, 'crop' => true])->url() ?>"
-          alt="<?= $photo->alt()->or($fellowship->name()) ?>"
+          alt="<?= $photo->alt()->or($fellowship->name())->esc() ?>"
           loading="lazy"
         >
         <?php endif ?>

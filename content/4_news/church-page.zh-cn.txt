@@ -4,7 +4,7 @@ Title: 消息
 
 Builder:
 
-[{"content":{"title":"最新消息","subtitle":"紧贴本立比华人播道会动态"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴教会家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"春季培灵会","text":"特别培灵会，请留意周刊获取日期详情。","url":"/news/spring-revival","image":"","badge":""},{"title":"家庭营报名开放","text":"立即报名年度家庭营，全家同乐！","url":"/news/family-camp","image":"","badge":""},{"title":"中文学校报名","text":"新学年报名现已开放，立即为您的孩子报名。","url":"/news/chinese-school-registration","image":"","badge":""}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"最新消息","subtitle":"紧贴本立比华人播道会动态"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴教会家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"2025年春季培灵会","text":"回顾我们邀请陈大卫牧师主领的特别培灵会。","url":"/news/spring-revival","image":"","badge":"活动已结束"},{"title":"2025年家庭营","text":"回顾我们在Camp Qwanoes举行的年度家庭营。","url":"/news/family-camp","image":"","badge":"活动已结束"},{"title":"2025-2026学年中文学校报名","text":"2025-2026学年的报名已经结束。","url":"/news/chinese-school-registration","image":"","badge":"已结束"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

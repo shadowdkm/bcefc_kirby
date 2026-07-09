@@ -16,7 +16,8 @@ return [
     // UI translations for templates
     'translations' => [
         // Site
-        'site.subtitle'      => '本拿比華人播道會',
+        'site.name'          => '本立比華人播道會',
+        'site.subtitle'      => '本立比華人播道會',
         'site.tagline'       => '同行深化靈命・生活延展真光',
         
         // Navigation
@@ -56,7 +57,7 @@ return [
         'worship.schedule'   => '查看完整時間表',
         'worship.cantonese'  => '粵語崇拜',
         'worship.mandarin'   => '國語崇拜',
-        'worship.english'    => '英語崇拜',
+        'worship.youth'      => '青年崇拜',
         'worship.bulletin'   => '本週週報',
         
         // Footer
