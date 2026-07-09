@@ -1,0 +1,25 @@
+Caption:
+
+----
+
+Alt: The BCEFC church building exterior on a sunny day
+
+----
+
+Photographer:
+
+----
+
+License:
+
+----
+
+Link:
+
+----
+
+Uuid: herobuilding0002
+
+----
+
+Template: image

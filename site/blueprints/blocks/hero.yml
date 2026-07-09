@@ -3,12 +3,12 @@ icon: image
 preview: fields
 fields:
   bg_image:
-    label: Background Image
+    label: Background Image(s)
     type: files
-    multiple: false
+    multiple: true
     uploads:
       template: image
-    help: High-quality image (recommended 1920x1080 or larger)
+    help: High-quality image (recommended 1920x1080 or larger). Add more than one and they will cross-fade on a timer.
   
   overlay_strength:
     label: Overlay Darkness

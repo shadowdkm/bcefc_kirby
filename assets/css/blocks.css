@@ -259,6 +259,24 @@ body {
   object-fit: cover;
 }
 
+/* Cross-fading background slides (single image or shuffled slideshow) */
+.block-hero__slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.block-hero__slide.is-active {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .block-hero__slide {
+    transition: none;
+  }
+}
+
 .block-hero__overlay {
   position: absolute;
   inset: 0;

@@ -6,7 +6,7 @@
  * @var \Kirby\Cms\Block $block
  */
 
-$bgImage = $block->bg_image()->toFile();
+$bgImages = $block->bg_image()->toFiles();
 $overlayStrength = $block->overlay_strength()->or(45);
 $align = $block->align()->or('center');
 $valign = $block->valign()->or('center');
@@ -22,13 +22,16 @@ $heroHeight = $heights[$height->value()] ?? '640px';
 
 ?>
 <section class="block-hero block-hero--<?= $align ?> block-hero--v<?= $valign ?>" style="--hero-height: <?= $heroHeight ?>;">
-  <?php if ($bgImage): ?>
-  <div class="block-hero__bg">
+  <?php if ($bgImages->isNotEmpty()): ?>
+  <div class="block-hero__bg"<?php if ($bgImages->count() > 1): ?> data-hero-slideshow data-interval="6000"<?php endif ?>>
+    <?php foreach ($bgImages->values() as $i => $bgImage): $first = $i === 0; ?>
     <img
-      src="<?= $bgImage->url() ?>"
+      class="block-hero__slide<?= $first ? ' is-active' : '' ?>"
+      src="<?= $bgImage->thumb(['width' => 1920, 'quality' => 82])->url() ?>"
       alt="<?= $bgImage->alt()->or('') ?>"
-      loading="eager"
+      loading="<?= $first ? 'eager' : 'lazy' ?>"
     >
+    <?php endforeach ?>
     <div class="block-hero__overlay" style="opacity: <?= $overlayStrength->value() / 100 ?>;"></div>
     <?php if ($height->value() === 'large'): ?>
     <div class="hero-divider" aria-hidden="true">
