@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Men's Fellowship summer barbecue day
+
+----
+
+Uuid: mensact0002
+
+----
+
+Template: image

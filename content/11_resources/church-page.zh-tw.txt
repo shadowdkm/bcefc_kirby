@@ -4,7 +4,7 @@ Title: 常用資料
 
 Builder:
 
-[{"content":{"title":"常用資料","subtitle":"實用資訊與下載"},"id":"resources-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在這裡您可以找到教會行事曆、可下載的表格以及聯絡資訊。我們希望讓您能輕鬆地保持聯繫和了解教會最新動態。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教會行事曆","text":"查看即將舉行的活動、崇拜及重要日期。","url":"/resources/calendar","image":"","badge":""},{"title":"表格下載","text":"取得常用的教會表格和文件。","url":"/resources/forms","image":"","badge":""},{"title":"奉獻","text":"了解我們的奉獻理念及奉獻方式。","url":"/giving","image":"","badge":""},{"title":"聯絡我們","text":"與我們聯繫 — 地址、電話、電郵及辦公時間。","url":"/resources/contact","image":"","badge":""}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"常用資料","subtitle":"實用資訊與下載"},"id":"resources-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在這裡您可以找到教會行事曆、可下載的表格以及聯絡資訊。我們希望讓您能輕鬆地保持聯絡和了解教會最新動態。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教會行事曆","text":"查看即將舉行的活動、崇拜及重要日期。","url":"/resources/calendar","image":"","badge":""},{"title":"表格下載","text":"取得常用的教會表格和文件。","url":"/resources/forms","image":"","badge":""},{"title":"奉獻","text":"了解我們的奉獻理念及奉獻方式。","url":"/giving","image":"","badge":""},{"title":"聯絡我們","text":"與我們聯絡 — 地址、電話、電郵及辦公時間。","url":"/resources/contact","image":"","badge":""}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

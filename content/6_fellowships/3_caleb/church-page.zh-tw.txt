@@ -1,10 +1,10 @@
-Title: 迦勒團契
+Title: 迦勒長青團
 
 ----
 
 Builder:
 
-[{"content":{"title":"迦勒團契","subtitle":"粵語長者團契"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>關於我們</h3><p>迦勒團契是一個粵語長者團契，以聖經中在晚年仍忠心剛強的迦勒命名。我們每月以飲茶聚餐形式聚會，在神的話語中彼此建立，享受豐富的團契生活。</p><h3>聚會時間</h3><p><strong>每月第三週，下午 1:00–3:00</strong><br>飲茶 / 午宴形式 · 語言：粵語</p><h3>年度活動</h3><ul><li><strong>二月：</strong>盆菜慶新春</li><li><strong>五月：</strong>端午節慶祝</li><li><strong>八月：</strong>集體郊遊</li><li><strong>九月：</strong>中秋節聚會</li><li><strong>十二月：</strong>聖誕及冬至慶祝</li></ul><h3>2026年領袖</h3><p>主席：Sylvana Ling · 副主席：Pauline Leung<br>司庫：Viva Tam &amp; Genora Eang · 秘書：Pauline Fong &amp; Ady Lo</p><h3>聯絡</h3><p>教會辦公室：(604) 431-6969</p>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入迦勒團契","text":"<p>歡迎所有長者！請來我們的每月午宴，享受美好的團契時光。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"迦勒長青團","subtitle":"粵語長者團契"},"id":"caleb-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>關於我們</h3><p>迦勒長青團是一個粵語長者團契，以聖經中在晚年仍忠心剛強的迦勒命名。我們每月以飲茶聚餐形式聚會，在神的話語中彼此建立，享受豐富的團契生活。</p><h3>聚會時間</h3><p><strong>每月第三週，下午 1:00–3:00</strong><br>飲茶 / 午宴形式 · 語言：粵語</p><h3>年度活動</h3><ul><li><strong>二月：</strong>盆菜慶新春</li><li><strong>五月：</strong>端午節慶祝</li><li><strong>八月：</strong>集體郊遊</li><li><strong>九月：</strong>中秋節聚會</li><li><strong>十二月：</strong>聖誕及冬至慶祝</li></ul><h3>2026年領袖</h3><p>主席：Sylvana Ling · 副主席：Pauline Leung<br>司庫：Viva Tam &amp; Genora Eang · 秘書：Pauline Fong &amp; Ady Lo</p><h3>聯絡</h3><p>教會辦公室：(604) 431-6969</p>"},"id":"caleb-content","isHidden":false,"type":"richtext"},{"content":{"title":"團契生活","subtitle":"","link_text":"","link_url":""},"id":"caleb-gallery-header","isHidden":false,"type":"section-header"},{"content":{"images":["file://calebact0001","file://calebact0002","file://calebact0003","file://calebact0004","file://calebact0005","file://calebact0006","file://calebact0007","file://calebact0008"],"caption":"","ratio":"4/3","crop":"true"},"id":"caleb-gallery","isHidden":false,"type":"gallery"},{"content":{"title":"加入迦勒長青團","text":"<p>歡迎所有長者！請來我們的每月午宴，享受美好的團契時光。</p>","button_text":"聯絡我們","button_url":"/new-here/contact"},"id":"caleb-cta","isHidden":false,"type":"cta"}]
 
 ----
 

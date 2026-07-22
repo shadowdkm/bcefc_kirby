@@ -44,6 +44,20 @@ return [
             'pattern' => 'english/sermons',
             'action'  => fn() => go('/worship/sermons', 301),
         ],
+
+        // 35th anniversary moved from Events (活動回顧) to News (最新消息).
+        [
+            'pattern' => 'events/35th-anniversary',
+            'action'  => fn() => go('/news/35th-anniversary', 301),
+        ],
+        [
+            'pattern' => 'zh-cn/events/35th-anniversary',
+            'action'  => fn() => go('/zh-cn/news/35th-anniversary', 301),
+        ],
+        [
+            'pattern' => 'zh-tw/events/35th-anniversary',
+            'action'  => fn() => go('/zh-tw/news/35th-anniversary', 301),
+        ],
     ],
 
 ];

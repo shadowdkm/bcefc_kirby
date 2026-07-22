@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Men's Fellowship New Year's Day tea gathering
+
+----
+
+Uuid: mensact0001
+
+----
+
+Template: image

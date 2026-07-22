@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Faith Fellowship members at a joint fellowship event
+
+----
+
+Uuid: faithact0003
+
+----
+
+Template: image

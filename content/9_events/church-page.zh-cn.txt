@@ -4,7 +4,7 @@ Title: 活动回顾
 
 Builder:
 
-[{"content":{"title":"活动回顾","subtitle":"本立比华人播道会近期活动"},"id":"events-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴本立比华人播道会的最新动态！从社区外展到教会庆典再到宣教机会，总有有意义的活动正在进行。</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"社区活动","text":"农历新年庆祝、社区清洁日、家庭工作坊，以及向社区开放的外展活动。","url":"/events/community","image":"","badge":""},{"title":"教会特别活动","text":"周年庆典、布道会、退修会、浸礼，以及教会家庭聚会。","url":"/events/church","image":"","badge":""},{"title":"宣教活动","text":"本地外展日、短期宣教、宣教年会和祷告聚会。","url":"/events/missions","image":"","badge":""}]},"id":"events-categories","isHidden":false,"type":"card-grid"},{"content":{"title":"保持更新","text":"<p>想要收到即将举行活动的通知？联系我们加入邮件列表或关注我们的社交媒体。</p>","button_text":"联系我们","button_url":"/about/contact"},"id":"events-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"活动回顾","subtitle":"本立比华人播道会近期活动"},"id":"events-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴本立比华人播道会的最新动态！从社区外展到教会庆典再到宣教机会，总有有意义的活动正在进行。</p>"},"id":"events-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"社区活动","text":"农历新年庆祝、社区清洁日、家庭工作坊，以及向社区开放的外展活动。","url":"/events/community","image":"","badge":""},{"title":"教会特别活动","text":"周年庆典、布道会、退修会、浸礼，以及教会家庭聚会。","url":"/events/church","image":"","badge":""},{"title":"宣教活动","text":"本地外展日、短期宣教、宣教年会和祷告聚会。","url":"/events/missions","image":"","badge":""}]},"id":"events-categories","isHidden":false,"type":"card-grid"},{"content":{"title":"保持更新","text":"<p>想要收到即将举行活动的通知？联络我们加入邮件列表或关注我们的社交媒体。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"events-cta","isHidden":false,"type":"cta"}]
 
 ----
 

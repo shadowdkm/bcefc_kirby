@@ -4,7 +4,7 @@ Title: 新朋友
 
 Builder:
 
-[{"content":{"title":"新朋友？","subtitle":"很高兴您找到我们！"},"id":"new-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>欢迎来到本立比华人播道会！无论您是第一次探索信仰、寻找教会家园，还是只是路过，我们都很高兴您来到这里。</p><p>我们知道第一次到访新教会可能会感到不知所措。我们想让您的第一次到访尽可能舒适。</p>"},"id":"new-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"欢迎","text":"了解您第一次到访时可以期待什么。","url":"/new-here/welcome","image":"","badge":""},{"title":"如何加入","text":"准备好让本立比华人播道会成为您的教会家园？","url":"/new-here/how-to-join","image":"","badge":""},{"title":"常见问题","text":"常见问题解答。","url":"/new-here/faq","image":"","badge":""},{"title":"联系我们","text":"与我们的团队联系。","url":"/new-here/contact","image":"","badge":""},{"title":"访客卡","text":"让我们知道您要来！","url":"/new-here/visitor-card","image":"","badge":""}]},"id":"new-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"新朋友？","subtitle":"很高兴您找到我们！"},"id":"new-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>欢迎来到本立比华人播道会！无论您是第一次探索信仰、寻找教会家园，还是只是路过，我们都很高兴您来到这里。</p><p>我们知道第一次到访新教会可能会感到不知所措。我们想让您的第一次到访尽可能舒适。</p>"},"id":"new-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"欢迎","text":"了解您第一次到访时可以期待什么。","url":"/new-here/welcome","image":"","badge":""},{"title":"如何加入","text":"准备好让本立比华人播道会成为您的教会家园？","url":"/new-here/how-to-join","image":"","badge":""},{"title":"常见问题","text":"常见问题解答。","url":"/new-here/faq","image":"","badge":""},{"title":"联络我们","text":"与我们的团队联络。","url":"/new-here/contact","image":"","badge":""},{"title":"访客卡","text":"让我们知道您要来！","url":"/new-here/visitor-card","image":"","badge":""}]},"id":"new-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

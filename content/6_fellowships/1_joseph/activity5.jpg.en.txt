@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Joseph Fellowship spring picnic outing
+
+----
+
+Uuid: josephact005
+
+----
+
+Template: image
