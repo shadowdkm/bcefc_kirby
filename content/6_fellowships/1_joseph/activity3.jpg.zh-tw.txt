@@ -1,4 +1,6 @@
-Caption: Dinner Table Evangelism
+Caption:
+
+社區清潔日
 
 ----
 
@@ -15,11 +17,3 @@ License:
 ----
 
 Link: 
-
-----
-
-Uuid: josephact001
-
-----
-
-Template: image

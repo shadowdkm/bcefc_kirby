@@ -1,4 +1,4 @@
-Caption: Fellowship Picnic Day
+Caption: 团契郊游日
 
 ----
 
@@ -15,11 +15,3 @@ License:
 ----
 
 Link: 
-
-----
-
-Uuid: josephact005
-
-----
-
-Template: image

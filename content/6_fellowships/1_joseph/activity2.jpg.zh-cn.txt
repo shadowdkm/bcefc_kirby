@@ -1,4 +1,4 @@
-Caption: Dinner Table Evangelism
+Caption: 鞋盒事工
 
 ----
 
@@ -15,11 +15,3 @@ License:
 ----
 
 Link: 
-
-----
-
-Uuid: josephact001
-
-----
-
-Template: image

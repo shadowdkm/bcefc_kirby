@@ -1,4 +1,4 @@
-Caption: Chinese New Year Fai Chun Writing
+Caption: 新春写挥春
 
 ----
 
@@ -15,11 +15,3 @@ License:
 ----
 
 Link: 
-
-----
-
-Uuid: josephact004
-
-----
-
-Template: image
