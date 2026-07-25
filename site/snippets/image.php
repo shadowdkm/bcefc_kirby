@@ -10,6 +10,8 @@ $attrs = attr([
   <img
     src="<?= esc($src, 'attr') ?>"
     alt="<?= esc($alt, 'attr') ?>"
+    loading="<?= esc($loading ?? 'lazy', 'attr') ?>"
+    decoding="async"
     style="
       display: block;
       width: 100%;

@@ -16,13 +16,21 @@ $crop  = $block->crop()->isTrue();
   <div class="container">
     <div class="gallery__grid">
       <?php foreach ($images as $image): ?>
+      <?php
+        // Serve a sized thumbnail in the grid and a bounded version to the
+        // lightbox — never the original, which can be several megabytes.
+        $resizable = $image->isResizable();
+        $src  = $resizable ? $image->thumb(['width' => 900,  'quality' => 82])->url() : $image->url();
+        $href = $resizable ? $image->thumb(['width' => 1800, 'quality' => 82])->url() : $image->url();
+      ?>
       <figure class="gallery__item">
         <?php snippet('image', [
           'alt'      => $image->alt(),
           'contain'  => !$crop,
           'lightbox' => true,
           'ratio'    => $ratio,
-          'src'      => $image->url(),
+          'src'      => $src,
+          'href'     => $href,
         ]) ?>
         <?php if ($image->caption()->isNotEmpty()): ?>
         <figcaption class="gallery__item-caption"><?= $image->caption() ?></figcaption>
