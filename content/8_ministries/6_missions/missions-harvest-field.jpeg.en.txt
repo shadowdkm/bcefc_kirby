@@ -1,0 +1,13 @@
+Caption: "The harvest is plentiful, but the workers are few" (Luke 10:2)
+
+----
+
+Alt: "The harvest is plentiful, but the workers are few" (Luke 10:2)
+
+----
+
+Uuid: ovrm0pkfe5uu5pyu
+
+----
+
+Template: image
