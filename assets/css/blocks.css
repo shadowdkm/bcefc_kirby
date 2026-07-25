@@ -982,6 +982,13 @@ a.card-grid-item:hover .card-grid-item__image img {
   padding: var(--section-padding-y) 0;
 }
 
+/* Consecutive rich text blocks read as sections of one passage, so the second
+   and later ones drop their top padding — otherwise two 72px paddings stack
+   into a 144px trench between them. */
+.reveal:has(> .block-richtext) + .reveal > .block-richtext {
+  padding-top: 0;
+}
+
 .prose {
   max-width: 720px;
   margin: 0 auto;
@@ -2551,5 +2558,130 @@ body.nav-open {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+}
+
+/* ===================================
+   STORY ROWS BLOCK
+   Alternating photo / text rows. Photo sits left on odd rows, right on even;
+   on narrow screens every row stacks photo-above-text.
+   =================================== */
+
+.block-story-rows {
+  padding: var(--section-padding-y) 0;
+}
+
+.story-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-10);
+  align-items: center;
+}
+
+.story-row + .story-row {
+  margin-top: var(--space-12);
+}
+
+/* Every second row flips the photo to the right. */
+.story-row:nth-child(even) .story-row__media {
+  order: 2;
+}
+
+.story-row--textonly {
+  grid-template-columns: 1fr;
+  max-width: 46rem;
+}
+
+.story-row__media {
+  margin: 0;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-normal);
+}
+
+.story-row__media:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+.story-row__media a {
+  display: block;
+  cursor: pointer;
+}
+
+.story-row__media img {
+  width: 100%;
+  transition: transform var(--transition-slow);
+}
+
+.story-row__media:hover img {
+  transform: scale(1.04);
+}
+
+.story-row__title {
+  font-size: var(--font-size-2xl);
+  margin: 0 0 var(--space-3);
+}
+
+.story-row__text {
+  color: var(--color-gray-700);
+  line-height: 1.7;
+}
+
+.story-row__text p {
+  margin: 0 0 var(--space-3);
+}
+
+.story-row__text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Reveal: rows drift in from the side their photo is on, so the zig-zag of the
+   layout is echoed by the motion. Overrides the generic vertical rise in the
+   SCROLL REVEAL section above — hence the repeated .is-revealed reset. */
+.js-reveal .story-row[data-reveal] {
+  transform: translate3d(-2.5rem, 0.75rem, 0);
+}
+
+.js-reveal .story-row[data-reveal]:nth-child(even) {
+  transform: translate3d(2.5rem, 0.75rem, 0);
+}
+
+.js-reveal .story-row[data-reveal].is-revealed,
+.js-reveal .story-row[data-reveal]:nth-child(even).is-revealed {
+  transform: none;
+}
+
+@media (max-width: 900px) {
+  .story-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  /* Stacked: photo always on top, so the flip must be undone. */
+  .story-row:nth-child(even) .story-row__media {
+    order: 0;
+  }
+
+  .story-row + .story-row {
+    margin-top: var(--space-10);
+  }
+
+  /* Sideways drift reads badly in a single column — fall back to a rise. */
+  .js-reveal .story-row[data-reveal],
+  .js-reveal .story-row[data-reveal]:nth-child(even) {
+    transform: translate3d(0, 1.125rem, 0);
+  }
+
+  .js-reveal .story-row[data-reveal].is-revealed,
+  .js-reveal .story-row[data-reveal]:nth-child(even).is-revealed {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal .story-row[data-reveal],
+  .js-reveal .story-row[data-reveal]:nth-child(even) {
+    transform: none;
   }
 }

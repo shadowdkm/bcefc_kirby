@@ -1,0 +1,38 @@
+name: Story Rows (alternating photo / text)
+icon: layout
+preview: fields
+fields:
+  ratio:
+    label: Photo Ratio
+    type: select
+    default: "4/3"
+    options:
+      "4/3": Landscape (4:3)
+      "3/2": Landscape (3:2)
+      "16/9": Wide (16:9)
+      "1/1": Square (1:1)
+
+  rows:
+    label: Rows
+    type: structure
+    min: 1
+    fields:
+      photo:
+        label: Photo
+        type: files
+        multiple: false
+        uploads:
+          template: image
+        help: The photo sides alternate automatically — left, right, left…
+
+      title:
+        label: Title
+        type: text
+        required: true
+        placeholder: "餐桌佈道 / Dinner Table Evangelism"
+
+      text:
+        label: Description
+        type: textarea
+        maxlength: 500
+        buttons: false

@@ -30,6 +30,7 @@ columns:
               - card-grid
               - icon-feature-grid
               - richtext
+              - story-rows
               
               # Worship & Ministry
               - worship-times
