@@ -1,0 +1,13 @@
+Caption: A corner of the church library
+
+----
+
+Alt: A corner of the church library
+
+----
+
+Uuid: ov6ww3avtzo2mv3p
+
+----
+
+Template: image
