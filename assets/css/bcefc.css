@@ -505,7 +505,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
 
 .block-hero__eyebrow {
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: .22em;
   text-transform: uppercase;
@@ -521,14 +521,20 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
   text-shadow: 0 2px 24px rgba(0,0,0,.35);
   margin: 0;
   word-break: keep-all;
+  white-space: pre-line;
+}
+@media (min-width: 641px) {
+  html[lang="en"] .block-hero__content { max-width: 1240px; }
+  html[lang="en"] .block-hero__title { font-size: 46px; }
 }
 .block-hero__subtitle {
   font-size: 18px;
   line-height: 1.7;
-  max-width: 42ch;
+  max-width: min(640px, 100%);
   margin: 20px auto 0;
   opacity: .92;
   color: rgba(255,251,246,.92);
+  white-space: pre-line;
 }
 .block-hero--left .block-hero__subtitle { margin-left: 0; }
 .block-hero__actions {
