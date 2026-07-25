@@ -1,0 +1,13 @@
+Caption: Children's Sunday School welcomes you
+
+----
+
+Alt: Children's Sunday School welcomes you
+
+----
+
+Uuid: fzlypyrgjrnseahb
+
+----
+
+Template: image
