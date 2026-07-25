@@ -91,18 +91,21 @@ If **yes**:
      {"content":{"images":[],"caption":"","ratio":"4/3","crop":"true"},"id":"<page>-gallery","isHidden":false,"type":"gallery"}
      ```
    Use the same `id`s across all three languages.
-3. Then **loop**: ask for a **photo file path** to add, then its **caption** in the language sequence. For each photo:
-   - Verify the source file exists. Copy it into the page folder with a clean, web-safe lowercase filename:
-     ```bash
-     cp "<source-path>" "content/<page-folder>/<safe-name>.<ext>"
-     ```
-   - Generate a **unique 16-char lowercase-alphanumeric UUID** and confirm it's unused:
-     ```bash
-     grep -rl "^Uuid: <uuid>$" content/ ; # must return nothing
-     ```
-   - Create the three meta files (see format below) with the captions, `Alt` set to the English caption, and (en only) the `Uuid` and `Template: image`.
-   - Append `"file://<uuid>"` to the gallery block's `images` array in **all three** language files.
-   - Ask **"Add another photo, or are you done?"** Repeat until done.
+3. **Handle photos in one batch, same as Case A** — don't loop one photo at a time. Ask the user for all the photo file paths they want to add (they'll often paste several at once with captions or context for each). For each source file, confirm it exists.
+   - Before finalizing, **flag any photo that's a poor fit for a permanent gallery**: a flyer/poster with a specific date that will look stale once it passes, or an image with personal contact info (phone, WhatsApp, email) baked into the graphic itself. Note which photos this applies to and ask the user to confirm they still want it included — don't silently drop it, just make sure it's a deliberate choice.
+   - Propose Traditional/English/Simplified captions for the whole set in a single table (per the caption convention above) and get confirmation before writing anything.
+   - On confirmation, for each photo:
+     - Copy it into the page folder with a clean, web-safe lowercase filename:
+       ```bash
+       cp "<source-path>" "content/<page-folder>/<safe-name>.<ext>"
+       ```
+     - Generate a **unique 16-char lowercase-alphanumeric UUID** and confirm it's unused:
+       ```bash
+       grep -rl "^Uuid: <uuid>$" content/ ; # must return nothing
+       ```
+     - Create the three meta files (see format below) with the captions, `Alt` set to the English caption, and (en only) the `Uuid` and `Template: image`.
+   - Append **all** the new `"file://<uuid>"` entries to the gallery block's `images` array in **all three** language files in one pass.
+   - Ask **"Add another photo, or are you done?"** in case there's a second batch. Repeat until done.
 
 ### Image meta file format
 
@@ -173,3 +176,4 @@ Link:
 - Work on `content/**` and photo files only. Don't modify templates, blueprints, or CSS as part of this workflow.
 - If a page's structure doesn't match the standard block order, adapt — but explain what you found before changing anything.
 - Keep each interactive prompt short and answer the sequence explicitly (say which language you're asking for).
+- **Dated or PII-bearing gallery photos:** before adding any new photo (Case A batch-add or Case C), check whether it's a flyer/poster carrying a specific date (will look stale once it passes) or personal contact info (phone, WhatsApp, email) baked into the image itself. Flag it and get explicit confirmation before including it — a permanent gallery isn't a great home for one-time event promos or exposed personal numbers.
