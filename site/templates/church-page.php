@@ -10,7 +10,7 @@
 <?php if ($page->password_protected()->toBool() && $kirby->session()->get('bcefc_content_unlocked') !== true): ?>
   <?php snippet('password-gate') ?>
 <?php elseif ($page->builder()->isNotEmpty()): ?>
-  <?= $page->builder()->toBlocks() ?>
+  <?php snippet('builder', ['blocks' => $page->builder()->toBlocks()]) ?>
 <?php endif ?>
 
 <?php snippet('footer') ?>

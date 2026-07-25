@@ -8,7 +8,7 @@
 <?php snippet('header') ?>
 
 <?php if ($page->builder()->isNotEmpty()): ?>
-  <?= $page->builder()->toBlocks() ?>
+  <?php snippet('builder', ['blocks' => $page->builder()->toBlocks()]) ?>
 <?php endif ?>
 
 <?php snippet('footer') ?>

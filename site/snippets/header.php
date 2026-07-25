@@ -37,6 +37,14 @@ if (!function_exists('pageUrl')) {
     '@auto'
   ]) ?>
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+  <?php /* Arms the scroll-reveal styles before first paint so blocks never flash
+           in and then hide. Gated on IntersectionObserver so browsers without it
+           (and browsers with JS off) simply render everything visible. */ ?>
+  <script>
+    if ('IntersectionObserver' in window) {
+      document.documentElement.classList.add('js-reveal');
+    }
+  </script>
 </head>
 <body>
 

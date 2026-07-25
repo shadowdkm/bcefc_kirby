@@ -14,7 +14,7 @@ $crop  = $block->crop()->isTrue();
 ?>
 <section class="block-gallery">
   <div class="container">
-    <div class="gallery__grid">
+    <div class="gallery__grid" data-reveal-stagger>
       <?php foreach ($images as $image): ?>
       <?php
         // Serve a sized thumbnail in the grid and a bounded version to the
