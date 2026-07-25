@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Three friends walking together at sunset, symbolizing the Three-Person Walk
+
+----
+
+Uuid: tpwalk001
+
+----
+
+Template: image
