@@ -11,6 +11,8 @@ $attrs = attr([
     src="<?= esc($src, 'attr') ?>"
     alt="<?= esc($alt, 'attr') ?>"
     style="
+      display: block;
+      width: 100%;
       aspect-ratio: <?= $ratio ?? 'auto' ?>;
       object-fit: <?= ($contain ?? false) ? 'contain' : 'cover' ?>
     "
