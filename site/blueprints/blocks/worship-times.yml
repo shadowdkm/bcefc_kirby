@@ -92,3 +92,12 @@ fields:
           - Standard
           - Featured
         help: Featured cards have colored background
+
+      show_bulletin:
+        label: Show Bulletin Download
+        type: toggle
+        default: false
+        text:
+          - Hidden
+          - Shown
+        help: If a bulletin PDF is attached to the block above, show its download button on this card. Independent of the Featured styling.

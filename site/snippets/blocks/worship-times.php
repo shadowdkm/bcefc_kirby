@@ -66,7 +66,7 @@ $bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
         <p class="worship-card__description"><?= $service->description()->esc() ?></p>
         <?php endif ?>
         
-        <?php if ($service->featured()->toBool() && $bulletinPdf): ?>
+        <?php if ($service->show_bulletin()->toBool() && $bulletinPdf): ?>
         <a href="<?= $bulletinPdf->url() ?>" class="worship-card__cta btn btn--accent" download>
           <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
           <?= t('worship.bulletin', '本週週報') ?>
