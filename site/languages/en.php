@@ -64,7 +64,7 @@ return [
         'footer.contact'     => 'Contact Us',
         'footer.quicklinks'  => 'Quick Links',
         'footer.connect'     => 'Connect',
-        'footer.office_hours'=> 'Office: Mon-Fri 9am-5pm',
+        'footer.office_hours'=> 'Office: Tue-Fri 9am-5pm',
         'footer.view_map'    => 'View on Google Maps',
         'footer.rights'      => 'All rights reserved.',
         'footer.privacy'     => 'Privacy Policy',

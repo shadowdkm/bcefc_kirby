@@ -78,7 +78,8 @@ if (!function_exists('pageUrl')) {
 
   <!-- Nav links -->
   <div class="nav-links" id="nav-collapse">
-    <?php foreach ($site->children()->listed()->filterBy('uid', '!=', 'giving')->filterBy('uid', '!=', 'new-here') as $item): ?>
+    <?php // 'events' and 'resources' hidden until the pages are ready — remove from the not-in list to restore. ?>
+    <?php foreach ($site->children()->listed()->filter(fn($p) => !in_array($p->uid(), ['giving', 'new-here', 'events', 'resources'], true)) as $item): ?>
     <?php $hasChildren = $item->hasListedChildren(); ?>
     <?php if ($hasChildren): ?>
     <div class="nav-item">
@@ -106,13 +107,9 @@ if (!function_exists('pageUrl')) {
     <?php endforeach ?>
   </div>
 
-  <!-- Right: language + new here + giving CTA -->
+  <!-- Right: language + giving CTA -->
   <div class="nav-right">
     <?php snippet('language-switcher') ?>
-    <?php $newHerePage = $site->find('new-here') ?>
-    <a href="<?= $newHerePage ? $newHerePage->url() : '#' ?>" class="btn btn-outline btn-sm">
-      <?= t('nav.new_here', '新朋友') ?>
-    </a>
     <?php $givingPage = $site->find('giving') ?>
     <a href="<?= $givingPage ? $givingPage->url() : '#' ?>" class="btn btn-primary btn-sm">
       <svg class="icon" aria-hidden="true"><use href="#icon-heart"></use></svg>

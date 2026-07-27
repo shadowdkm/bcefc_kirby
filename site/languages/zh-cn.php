@@ -64,7 +64,7 @@ return [
         'footer.contact'     => '联系方式',
         'footer.quicklinks'  => '快速链接',
         'footer.connect'     => '社交媒体',
-        'footer.office_hours'=> '办公时间：周一至周五 9am-5pm',
+        'footer.office_hours'=> '办公时间：周二至周五 9am-5pm',
         'footer.view_map'    => '查看 Google 地图',
         'footer.rights'      => '版权所有。',
         'footer.privacy'     => '隐私政策',

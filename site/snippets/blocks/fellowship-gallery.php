@@ -29,9 +29,15 @@ if ($fellowships->isEmpty()) return;
         <?php if ($hasLink): ?>href="<?= $resolvedUrl ?>"<?php endif ?>
       >
         <?php if ($photo): ?>
+        <?php
+          $canResize = $photo->isResizable() && (extension_loaded('gd') || extension_loaded('imagick'));
+          $photoSrc = $canResize
+            ? $photo->thumb(['width' => 800, 'height' => 600, 'crop' => true])->url()
+            : $photo->url();
+        ?>
         <img
           class="fellowship-item__image"
-          src="<?= $photo->thumb(['width' => 800, 'height' => 600, 'crop' => true])->url() ?>"
+          src="<?= $photoSrc ?>"
           alt="<?= $photo->alt()->or($fellowship->name())->esc() ?>"
           loading="lazy"
         >

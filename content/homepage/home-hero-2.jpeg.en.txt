@@ -1,0 +1,25 @@
+Caption:
+
+----
+
+Alt: BCEFC homepage hero photo
+
+----
+
+Photographer:
+
+----
+
+License:
+
+----
+
+Link:
+
+----
+
+Uuid: herohomeimg002
+
+----
+
+Template: image

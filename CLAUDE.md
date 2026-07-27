@@ -50,7 +50,7 @@ Three languages: `en` (default), `zh-cn`, `zh-tw`. Configured in `site/config/co
 
 ### Frontend Assets
 Static files in `assets/` are plain CSS/JS — no build pipeline. Key files:
-- `assets/js/index.js` — mobile burger toggle, lightbox, hero slideshow. Nav overflow below ~1500px is handled purely by CSS (`.nav-toggle` breakpoint in `bcefc.css`), not JS.
+- `assets/js/index.js` — mobile burger toggle, lightbox, hero slideshow. Nav collapse is pure CSS in `bcefc.css` (`.nav-toggle` breakpoint) — English folds at ≤1619px, Chinese (`html[lang^='zh']`) folds at ≤1379px because its labels are shorter.
 - `assets/icons/icons.svg` — SVG sprite; reference with `<use href="#icon-name">`
 - `assets/css/blocks.css` — block-specific styles
 

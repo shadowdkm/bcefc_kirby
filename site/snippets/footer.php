@@ -78,7 +78,7 @@
         </div>
         <div class="c-row">
           <svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg>
-          <span><?= t('footer.office_hours', '辦公時間 週一至週五 9AM–5PM') ?></span>
+          <span><?= t('footer.office_hours', '辦公時間 週二至週五 9AM–5PM') ?></span>
         </div>
       </div>
     </div>

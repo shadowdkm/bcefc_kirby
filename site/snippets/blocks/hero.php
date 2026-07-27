@@ -25,9 +25,13 @@ $heroHeight = $heights[$height->value()] ?? '640px';
   <?php if ($bgImages->isNotEmpty()): ?>
   <div class="block-hero__bg"<?php if ($bgImages->count() > 1): ?> data-hero-slideshow data-interval="6000"<?php endif ?>>
     <?php foreach ($bgImages->values() as $i => $bgImage): $first = $i === 0; ?>
+    <?php
+      $canResize = $bgImage->isResizable() && (extension_loaded('gd') || extension_loaded('imagick'));
+      $bgSrc = $canResize ? $bgImage->thumb(['width' => 1920, 'quality' => 82])->url() : $bgImage->url();
+    ?>
     <img
       class="block-hero__slide<?= $first ? ' is-active' : '' ?>"
-      src="<?= $bgImage->thumb(['width' => 1920, 'quality' => 82])->url() ?>"
+      src="<?= $bgSrc ?>"
       alt="<?= $bgImage->alt()->or('')->esc() ?>"
       loading="<?= $first ? 'eager' : 'lazy' ?>"
     >

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(where.exe node *)",
+      "Bash(where.exe php *)",
+      "Bash(npm list *)",
+      "Bash(where.exe msedge *)",
+      "Read(//c/Program Files/Microsoft/Edge/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
+      "Bash(/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe *)",
+      "Bash(php -S localhost:8123 kirby/router.php)",
+      "Bash(echo \"started $!\")",
+      "Bash(curl -s http://localhost:8123 -o /tmp/index.html)",
+      "Bash(mkdir -p /tmp/nav-test)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1600,300 --screenshot=/tmp/nav-test/1600.png http://localhost:8123)",
+      "Read(//tmp/**)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1200,300 --screenshot=/tmp/nav-test/zh_nofold_1200.png http://localhost:8123/zh-tw)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1620,300 --screenshot=/tmp/nav-test/zh_1620.png http://localhost:8123/zh-tw)",
+      "Bash(cp C:/Users/shado/Documents/bcefc_kirby/assets/css/bcefc.css /tmp/nav-test/bcefc.css.bak)",
+      "Bash(sed -i 's/@media \\(max-width: 1619px\\)/@media \\(max-width: 100px\\)/' C:/Users/shado/Documents/bcefc_kirby/assets/css/bcefc.css)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1380,200 --screenshot=/tmp/nav-test/nofold_cn_1380.png http://localhost:8123/zh-cn)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1350,200 --screenshot=/tmp/nav-test/nofold_cn_1350.png http://localhost:8123/zh-cn)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1500,200 --screenshot=/tmp/nav-test/verify_cn_1500.png http://localhost:8123/zh-cn)",
+      "Bash(taskkill //F //IM php.exe)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v1.png http://localhost:8123/zh-tw/worship)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v2.png http://localhost:8123/zh-tw/worship)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v3.png http://localhost:8123/zh-tw/worship)"
+    ]
+  }
+}

@@ -19,9 +19,11 @@ $crop  = $block->crop()->isTrue();
       <?php
         // Serve a sized thumbnail in the grid and a bounded version to the
         // lightbox — never the original, which can be several megabytes.
-        $resizable = $image->isResizable();
-        $src  = $resizable ? $image->thumb(['width' => 900,  'quality' => 82])->url() : $image->url();
-        $href = $resizable ? $image->thumb(['width' => 1800, 'quality' => 82])->url() : $image->url();
+        // Falls back to the original when the host PHP has no image library
+        // to generate thumbs with (e.g. local dev without the GD extension).
+        $canResize = $image->isResizable() && (extension_loaded('gd') || extension_loaded('imagick'));
+        $src  = $canResize ? $image->thumb(['width' => 900,  'quality' => 82])->url() : $image->url();
+        $href = $canResize ? $image->thumb(['width' => 1800, 'quality' => 82])->url() : $image->url();
       ?>
       <figure class="gallery__item">
         <?php snippet('image', [

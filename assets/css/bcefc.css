@@ -391,6 +391,26 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
   .brand-sub { display: none; }
 }
 
+/* Chinese labels are noticeably shorter than English, so the full nav still fits
+   comfortably down to ~1380px. Revert the fold above this width on zh pages. */
+@media (min-width: 1380px) and (max-width: 1619px) {
+  html[lang^='zh'] .nav { padding: 16px 28px; flex-wrap: nowrap; }
+  html[lang^='zh'] .nav-toggle { display: none; }
+  html[lang^='zh'] .nav-links,
+  html[lang^='zh'] .nav-right { display: flex; width: auto; }
+  html[lang^='zh'] .nav-links a { width: auto; }
+  html[lang^='zh'] .nav-item .nav-dropdown {
+    position: absolute;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-md);
+    border-radius: var(--r-md);
+    padding: 14px 8px 8px;
+    margin-left: 0;
+  }
+  html[lang^='zh'] .brand-sub { display: block; }
+}
+
 /* ========================================================================= */
 /* Hero                                                                       */
 /* ========================================================================= */
@@ -717,6 +737,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
 .worship-card__detail { display: flex; align-items: center; gap: 10px; font-size: 14.5px; color: var(--ink-soft); }
 .worship-card--featured .worship-card__detail { color: var(--dark-soft); }
 .worship-card__detail .icon { width: 16px; height: 16px; color: var(--accent); }
+.worship-card--featured .worship-card__detail .icon { color: #E5B84C; }
 .worship-card__description { font-size: 14.5px; color: var(--ink-soft); line-height: 1.6; margin: 0 0 20px; }
 .worship-card--featured .worship-card__description { color: var(--dark-soft); }
 .worship-card__cta { width: 100%; justify-content: center; margin-top: auto; }

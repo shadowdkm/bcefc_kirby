@@ -34,7 +34,7 @@ $bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
     </header>
     <?php endif ?>
     
-    <div class="block-worship-times__grid" style="--columns: <?= min($services->count(), 3) ?>;">
+    <div class="block-worship-times__grid" style="--columns: <?= min($services->count(), 4) ?>;">
       <?php foreach ($services as $service): ?>
       <article class="worship-card<?php e($service->featured()->toBool(), ' worship-card--featured') ?>">
         <h3 class="worship-card__name"><?= $service->name()->esc() ?></h3>
@@ -47,12 +47,12 @@ $bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
           </div>
           <?php endif ?>
           
-          <?php if ($service->location()->isNotEmpty()): ?>
+          <?php foreach (preg_split('/\r\n|\r|\n/', (string)$service->location(), -1, PREG_SPLIT_NO_EMPTY) as $locationLine): ?>
           <div class="worship-card__detail">
             <svg class="icon" aria-hidden="true"><use href="#icon-location"></use></svg>
-            <span><?= $service->location()->esc() ?></span>
+            <span><?= esc(trim($locationLine)) ?></span>
           </div>
-          <?php endif ?>
+          <?php endforeach ?>
           
           <?php if ($service->extra_info()->isNotEmpty()): ?>
           <div class="worship-card__detail">

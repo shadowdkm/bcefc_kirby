@@ -54,9 +54,12 @@ fields:
       
       location:
         label: Location / Format
-        type: text
+        type: textarea
         width: 1/2
+        size: small
+        buttons: false
         placeholder: "教會禮堂 / 實體"
+        help: One location per line — each renders as a separate row with a pin icon.
       
       extra_info:
         label: Additional Info
