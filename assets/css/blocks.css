@@ -251,6 +251,10 @@ body {
 .block-hero__bg {
   position: absolute;
   inset: 0;
+  /* Stands in for the photo until it arrives, so the headline is never sitting
+     on a bare page. Tuned to roughly what the photo looks like under the
+     overlay, which keeps the hand-off from placeholder to photo quiet. */
+  background: linear-gradient(160deg, #3F3025 0%, #2C2017 55%, #221A13 100%);
 }
 
 .block-hero__bg img {
@@ -259,7 +263,10 @@ body {
   object-fit: cover;
 }
 
-/* Cross-fading background slides (single image or shuffled slideshow) */
+/* Cross-fading background slides (single image or shuffled slideshow).
+   Slides start hidden and are faded in by assets/js/index.js once the image
+   has decoded — so the photo arrives the same way whether it came off the
+   network or straight out of cache. */
 .block-hero__slide {
   position: absolute;
   inset: 0;
@@ -268,6 +275,12 @@ body {
 }
 
 .block-hero__slide.is-active {
+  opacity: 1;
+}
+
+/* Without the reveal script (no JS) nothing would ever add .is-active, so fall
+   back to showing the one slide that ships with a src. */
+html:not(.js-reveal) .block-hero__slide:first-of-type {
   opacity: 1;
 }
 

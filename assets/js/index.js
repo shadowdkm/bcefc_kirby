@@ -6,28 +6,72 @@ Array.from(document.querySelectorAll("[data-lightbox]")).forEach(element => {
   };
 });
 
-// Hero background slideshow — shuffles the slides and cross-fades them on a timer
-Array.from(document.querySelectorAll("[data-hero-slideshow]")).forEach(bg => {
-  const slides = Array.from(bg.querySelectorAll(".block-hero__slide"));
-  if (slides.length < 2) return;
+// Hero background — fades the first photo in once it has actually decoded, then
+// loads the remaining slides and cross-fades them on a timer.
+//
+// The slide order is shuffled server-side (site/snippets/blocks/hero.php); only
+// the first slide ships with a src, so the browser spends all its bandwidth on
+// the photo that is actually about to be shown.
+(function () {
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Fisher–Yates shuffle so the order differs each visit
-  for (let i = slides.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [slides[i], slides[j]] = [slides[j], slides[i]];
-  }
+  // Resolves once the image has pixels. A cached image is already `complete`
+  // before this script runs, so its load event never fires — hence the check.
+  const ready = (img) => new Promise(resolve => {
+    if (img.dataset.src) {
+      if (img.dataset.srcset) img.srcset = img.dataset.srcset;
+      img.src = img.dataset.src;
+      delete img.dataset.src;
+      delete img.dataset.srcset;
+    }
+    if (img.complete && img.naturalWidth > 0) return resolve(img);
+    img.addEventListener("load", () => resolve(img), { once: true });
+    img.addEventListener("error", () => resolve(img), { once: true });
+  });
 
-  let index = 0;
-  slides.forEach(slide => slide.classList.remove("is-active"));
-  slides[index].classList.add("is-active");
+  // Two frames: the first guarantees the browser has painted the slide at
+  // opacity 0, so the fade also plays for a cached image instead of popping.
+  const show = (img) => requestAnimationFrame(() => requestAnimationFrame(() => {
+    img.classList.add("is-active");
+  }));
 
-  const interval = parseInt(bg.getAttribute("data-interval"), 10) || 6000;
-  setInterval(() => {
-    slides[index].classList.remove("is-active");
-    index = (index + 1) % slides.length;
-    slides[index].classList.add("is-active");
-  }, interval);
-});
+  Array.from(document.querySelectorAll("[data-hero-slideshow]")).forEach(bg => {
+    const slides = Array.from(bg.querySelectorAll(".block-hero__slide"));
+    if (slides.length === 0) return;
+
+    ready(slides[0]).then(() => show(slides[0]));
+
+    // Hard cuts every few seconds are worse than no slideshow at all for
+    // anyone who asked for less motion — leave them on the first photo.
+    if (slides.length < 2 || reduceMotion) return;
+
+    const rotate = () => {
+      let index = 0;
+      const interval = parseInt(bg.getAttribute("data-interval"), 10) || 6000;
+      setInterval(() => {
+        slides[index].classList.remove("is-active");
+        index = (index + 1) % slides.length;
+        slides[index].classList.add("is-active");
+      }, interval);
+    };
+
+    // Fetch the remaining photos one at a time — in parallel they would just
+    // throttle each other — and only start rotating once they can all cross-fade
+    // instantly.
+    const start = () => slides
+      .slice(1)
+      .reduce((chain, img) => chain.then(() => ready(img)), Promise.resolve())
+      .then(rotate);
+
+    // Pull the other photos in only after everything else has landed, so they
+    // never compete with the first paint.
+    if (document.readyState === "complete") {
+      start();
+    } else {
+      window.addEventListener("load", start, { once: true });
+    }
+  });
+})();
 
 // Scroll reveal — fades blocks in as they enter the viewport.
 // The `js-reveal` class on <html> (set in the head) gates the CSS that hides

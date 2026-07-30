@@ -20,21 +20,62 @@ $heights = [
 ];
 $heroHeight = $heights[$height->value()] ?? '640px';
 
+// Shuffle here rather than in JS so each visit opens on a different photo *and*
+// the photo shown first is the one the browser loads eagerly. Shuffling in the
+// browser would hand the head start to a slide that may never be shown first.
+$slides = $bgImages->values();
+if (count($slides) > 1) {
+    shuffle($slides);
+}
+
+$canResize = extension_loaded('gd') || extension_loaded('imagick');
+
 ?>
 <section class="block-hero block-hero--<?= $align ?> block-hero--v<?= $valign ?>" style="--hero-height: <?= $heroHeight ?>;">
   <?php if ($bgImages->isNotEmpty()): ?>
-  <div class="block-hero__bg"<?php if ($bgImages->count() > 1): ?> data-hero-slideshow data-interval="6000"<?php endif ?>>
-    <?php foreach ($bgImages->values() as $i => $bgImage): $first = $i === 0; ?>
+  <div class="block-hero__bg" data-hero-slideshow data-interval="6000">
+    <?php foreach ($slides as $i => $bgImage): $first = $i === 0; ?>
     <?php
-      $canResize = $bgImage->isResizable() && (extension_loaded('gd') || extension_loaded('imagick'));
-      $bgSrc = $canResize ? $bgImage->thumb(['width' => 1920, 'quality' => 82])->url() : $bgImage->url();
+      // Responsive variants so phones don't pull down the 1920px file. Widths
+      // wider than the original are dropped — upscaling only wastes bytes.
+      $srcset = '';
+      $bgSrc  = $bgImage->url();
+
+      if ($canResize && $bgImage->isResizable()) {
+          $widths = array_values(array_filter(
+              [768, 1200, 1600, 1920],
+              fn ($w) => $w <= $bgImage->width()
+          )) ?: [$bgImage->width()];
+
+          $srcset = implode(', ', array_map(
+              fn ($w) => $bgImage->thumb(['width' => $w, 'quality' => 82])->url() . ' ' . $w . 'w',
+              $widths
+          ));
+          $bgSrc = $bgImage->thumb(['width' => end($widths), 'quality' => 82])->url();
+      }
     ?>
+    <?php if ($first): ?>
+    <?php /* Only the first slide carries a real src: four 1920px photos racing
+             each other is what delays the hero. The rest are swapped in by
+             assets/js/index.js once the page has finished loading. */ ?>
     <img
-      class="block-hero__slide<?= $first ? ' is-active' : '' ?>"
+      class="block-hero__slide"
       src="<?= $bgSrc ?>"
+      <?php if ($srcset): ?>srcset="<?= $srcset ?>" sizes="100vw"<?php endif ?>
       alt="<?= $bgImage->alt()->or('')->esc() ?>"
-      loading="<?= $first ? 'eager' : 'lazy' ?>"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
     >
+    <?php else: ?>
+    <img
+      class="block-hero__slide"
+      data-src="<?= $bgSrc ?>"
+      <?php if ($srcset): ?>data-srcset="<?= $srcset ?>" sizes="100vw"<?php endif ?>
+      alt=""
+      decoding="async"
+    >
+    <?php endif ?>
     <?php endforeach ?>
     <div class="block-hero__overlay" style="opacity: <?= $overlayStrength->value() / 100 ?>;"></div>
     <?php if ($height->value() === 'large'): ?>
