@@ -18,7 +18,7 @@ $layout = $block->layout()->or('grid');
         <?php if ($photo): ?>
         <img
           class="people-list__photo"
-          src="<?= $photo->thumb(['width' => 320, 'height' => 320, 'crop' => true])->url() ?>"
+          src="<?= $photo->thumb(['width' => 400, 'height' => 400, 'crop' => true])->url() ?>"
           alt="<?= $photo->alt()->or($person->name())->esc() ?>"
           loading="lazy"
         >
@@ -28,6 +28,7 @@ $layout = $block->layout()->or('grid');
         </div>
         <?php endif ?>
 
+        <div class="people-list__body">
         <h3 class="people-list__name"><?= $person->name()->esc() ?></h3>
 
         <?php if ($person->role()->isNotEmpty()): ?>
@@ -35,7 +36,11 @@ $layout = $block->layout()->or('grid');
         <?php endif ?>
 
         <?php if ($person->bio()->isNotEmpty()): ?>
-        <p class="people-list__bio"><?= $person->bio()->esc() ?></p>
+        <div class="people-list__bio">
+          <?php foreach (preg_split('/\R\s*\R/', trim($person->bio()->value())) as $paragraph): ?>
+          <p><?= esc(trim($paragraph)) ?></p>
+          <?php endforeach ?>
+        </div>
         <?php endif ?>
 
         <?php if ($person->email()->isNotEmpty()): ?>
@@ -48,6 +53,7 @@ $layout = $block->layout()->or('grid');
           <?= $person->phone()->esc() ?>
         </a>
         <?php endif ?>
+        </div>
       </article>
       <?php endforeach ?>
     </div>

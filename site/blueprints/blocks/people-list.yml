@@ -45,8 +45,9 @@ fields:
       bio:
         label: Bio
         type: textarea
-        maxlength: 400
+        maxlength: 2500
         buttons: false
+        help: Leave a blank line between paragraphs.
       
       email:
         label: Email

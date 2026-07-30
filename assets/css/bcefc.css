@@ -1133,6 +1133,20 @@ details[open] .faq-q .fq-ico { transform: rotate(180deg); background: var(--prim
 .people-list__name { font-family: var(--font-cjk-serif); font-size: 20px; font-weight: 700; color: var(--ink); }
 .people-list__role { color: var(--primary); font-weight: 600; font-size: 14px; margin: 6px 0; }
 .people-list__bio { font-size: 14px; color: var(--ink-soft); line-height: 1.65; }
+.people-list__bio p + p { margin-top: 12px; }
+
+/* List layout — portrait beside a full-length biography */
+.block-people-list--list .people-list__grid { grid-template-columns: 1fr; gap: 56px; max-width: 900px; margin: 0 auto; }
+.block-people-list--list .people-list__item { display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: start; }
+.block-people-list--list .people-list__photo { width: 200px; height: 200px; margin: 0; }
+.block-people-list--list .people-list__name { font-size: 22px; }
+.block-people-list--list .people-list__role { margin: 4px 0 14px; }
+
+@media (max-width: 640px) {
+  .block-people-list--list .people-list__grid { gap: 44px; }
+  .block-people-list--list .people-list__item { grid-template-columns: 1fr; gap: 18px; }
+  .block-people-list--list .people-list__photo { width: 160px; height: 160px; }
+}
 
 /* ========================================================================= */
 /* Fellowship gallery (existing block — update look)                         */

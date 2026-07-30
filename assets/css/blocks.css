@@ -1149,6 +1149,10 @@ a:hover .arrow {
   line-height: 1.6;
 }
 
+.people-list__bio p + p {
+  margin-top: var(--space-3);
+}
+
 .people-list__email {
   display: inline-flex;
   align-items: center;

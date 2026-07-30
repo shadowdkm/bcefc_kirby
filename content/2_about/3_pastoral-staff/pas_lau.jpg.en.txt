@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Pastor Lau - Mandarin Ministry Pastor
+
+----
+
+Uuid: paslau0001
+
+----
+
+Template: image
