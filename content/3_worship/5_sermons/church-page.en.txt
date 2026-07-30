@@ -4,7 +4,7 @@ Title: Sermons
 
 Builder:
 
-[{"content":{"title":"Sermons","subtitle":"LISTEN TO GOD'S WORD"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Missed a Sunday or want to revisit a message? Listen to our sermons online.</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"},{"content":{"title":"Featured Sermon","speaker":"Pastor David Wong","date":"March 2, 2025","series":"Walking with God","scripture":"Psalm 23:1-6","video_url":"","audio_url":"","description":"In this message, Pastor David explores the beautiful imagery of Psalm 23 and what it means to have the Lord as our shepherd."},"id":"sermon-featured-001","isHidden":false,"type":"sermon-card"},{"content":{"title":"More Messages","speaker":"Pastor Michael Chen","date":"February 23, 2025","series":"Walking with God","scripture":"Psalm 27:1-14","video_url":"","audio_url":"","description":"Seeking God's face in times of trouble and trusting in His salvation."},"id":"sermon-recent-001","isHidden":false,"type":"sermon-card"}]
+[{"content":{"title":"Sermons","subtitle":"LISTEN TO GOD'S WORD"},"id":"sermons-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>This page is under construction. Please check back soon.</p>"},"id":"sermons-intro-001","isHidden":false,"type":"richtext"}]
 
 ----
 
