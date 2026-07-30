@@ -13,7 +13,7 @@ columns:
             type: text
             placeholder: "https://calendar.google.com/calendar/embed?src=..."
             help: |
-              在 Google Calendar 桌面版：設定 (⚙) → 選擇行事曆 → 整合行事曆 → 複製「公開網址」貼到這裏。
+              在 Google Calendar 桌面版：設定 (⚙) → 選擇行事曆 → 整合行事曆 → 複製「公開網址」貼到這裡。
               記得先將行事曆設定為「公開」，否則訪客看不到。
 
   sidebar:
