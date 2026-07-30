@@ -23,3 +23,14 @@ fields:
     label: Link URL
     type: text
     width: 1/2
+
+  background:
+    label: Section Background
+    type: select
+    default: default
+    width: 1/2
+    options:
+      default: Page (sand)
+      warm: Warm tint
+      dark: Dark
+    help: Give adjacent blocks the same background to join them into one band.

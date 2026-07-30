@@ -20,6 +20,17 @@ fields:
     width: 1/2
     placeholder: "查看完整時間表"
 
+  background:
+    label: Section Background
+    type: select
+    default: default
+    width: 1/2
+    options:
+      default: Page (sand)
+      warm: Warm tint
+      dark: Dark
+    help: Give adjacent blocks the same background to join them into one band.
+
   view_all_url:
     label: View All URL
     type: text

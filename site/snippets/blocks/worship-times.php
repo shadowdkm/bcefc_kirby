@@ -10,9 +10,10 @@ $services = $block->services()->toStructure();
 if ($services->isEmpty()) return;
 
 $bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
+$background = $block->background()->or('default');
 
 ?>
-<section class="block-worship-times">
+<section class="block-worship-times section-band section-band--<?= $background ?>">
   <div class="container">
     <?php if ($block->heading()->isNotEmpty()): ?>
     <header class="block-worship-times__header">

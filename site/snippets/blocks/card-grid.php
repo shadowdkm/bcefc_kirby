@@ -12,9 +12,10 @@ if ($items->isEmpty()) return;
 $columns = $block->columns()->or('3');
 $cardStyle = $block->card_style()->or('default');
 $imageRatio = $block->image_ratio()->or('3/2');
+$background = $block->background()->or('default');
 
 ?>
-<section class="block-card-grid block-card-grid--<?= $cardStyle ?>">
+<section class="block-card-grid block-card-grid--<?= $cardStyle ?> section-band section-band--<?= $background ?>">
   <div class="container">
     <div class="block-card-grid__grid" style="--columns: <?= $columns ?>; --image-ratio: <?= $imageRatio ?>;">
       <?php foreach ($items as $item):

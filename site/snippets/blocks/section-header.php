@@ -8,8 +8,10 @@
 
 if ($block->title()->isEmpty()) return;
 
+$background = $block->background()->or('default');
+
 ?>
-<header class="block-section-header">
+<header class="block-section-header section-band section-band--<?= $background ?>">
   <div class="container">
     <div class="block-section-header__inner">
       <div class="block-section-header__text">
