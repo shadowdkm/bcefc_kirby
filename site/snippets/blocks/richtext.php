@@ -12,7 +12,10 @@ $text = $block->text();
 
 // Check if we have direct text content
 if ($text->isNotEmpty()) {
-    $output = $text;
+    // Resolve /@/page/<uuid> permalinks (from the Panel link picker) into real
+    // URLs. In multilingual mode this yields the current language's URL, so a
+    // link keeps working when the page is moved or renamed.
+    $output = $text->permalinksToUrls();
 } else {
     return; // Nothing to display
 }
