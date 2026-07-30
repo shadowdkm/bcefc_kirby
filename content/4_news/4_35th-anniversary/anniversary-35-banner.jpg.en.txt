@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Handmade 35th anniversary banner reading "35 Years Together in His Love / 我們一起在主愛裡", decorated with paper fireworks and hearts
+
+----
+
+Uuid: anniv35banner
+
+----
+
+Template: image
