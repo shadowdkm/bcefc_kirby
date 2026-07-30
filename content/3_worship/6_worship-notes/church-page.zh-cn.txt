@@ -1,10 +1,10 @@
-Title: 给崇拜会众的温馨提示
+Title: 崇拜聚会指引
 
 ----
 
 Builder:
 
-[{"content":{"title":"给崇拜会众的温馨提示","subtitle":"崇拜聚会指引"},"id":"worshipnotes-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>为帮助会众能在安静、敬虔及有秩序的环境中同心敬拜神，敬请弟兄姊妹留意以下事项：</p>"},"id":"worshipnotes-intro-001","isHidden":false,"type":"richtext"},{"content":{"text":"<ol><li>如会众有感冒征状如咳嗽、发烧，建议留在家中休息；如感冒已痊愈，只剩咳嗽，建议佩戴口罩。</li><li>请准时出席崇拜，并于聚会开始前安静心灵，预备敬拜。</li><li>请将手提电话及电子装置调至静音或震动模式。</li><li>崇拜开始后，请会众使用礼堂两旁之通道步入会众席，以减少对正在崇拜中的会众之骚扰。</li><li>在进堂、默祷、宣召或祈祷时，迟来者请在礼堂外稍候，完毕后方可入座。</li><li>请以敬虔的态度参与诗歌、祷告、读经及聆听信息。</li><li>家长请照顾同行儿童；如幼儿哭闹影响聚会，请暂时带离礼堂安抚。</li><li>未经教会同意，请勿于聚会中拍摄、录音或录影，以尊重讲员及会众私隐。</li><li>崇拜结束后，欢迎彼此问安交通，并请保持场地整洁。</li></ol><p>愿我们同心以敬畏、感恩和诚实的心敬拜上帝。</p>"},"id":"worshipnotes-guidelines-001","isHidden":false,"type":"richtext"},{"content":{"quote":"「神是个灵，所以拜他的，必须用心灵和诚实拜他。」","author_name":"约翰福音 4:24","author_role":"","style":"featured"},"id":"worshipnotes-verse-001","isHidden":false,"type":"testimonial"}]
+[{"content":{"title":"崇拜聚会指引","subtitle":"给崇拜会众的温馨提示"},"id":"worshipnotes-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>为帮助会众能在安静、敬虔及有秩序的环境中同心敬拜神，敬请弟兄姊妹留意以下事项：</p>"},"id":"worshipnotes-intro-001","isHidden":false,"type":"richtext"},{"content":{"text":"<ol><li>如会众有感冒征状如咳嗽、发烧，建议留在家中休息；如感冒已痊愈，只剩咳嗽，建议佩戴口罩。</li><li>请准时出席崇拜，并于聚会开始前安静心灵，预备敬拜。</li><li>请将手提电话及电子装置调至静音或震动模式。</li><li>崇拜开始后，请会众使用礼堂两旁之通道步入会众席，以减少对正在崇拜中的会众之骚扰。</li><li>在进堂、默祷、宣召或祈祷时，迟来者请在礼堂外稍候，完毕后方可入座。</li><li>请以敬虔的态度参与诗歌、祷告、读经及聆听信息。</li><li>家长请照顾同行儿童；如幼儿哭闹影响聚会，请暂时带离礼堂安抚。</li><li>未经教会同意，请勿于聚会中拍摄、录音或录影，以尊重讲员及会众私隐。</li><li>崇拜结束后，欢迎彼此问安交通，并请保持场地整洁。</li></ol><p>愿我们同心以敬畏、感恩和诚实的心敬拜上帝。</p>"},"id":"worshipnotes-guidelines-001","isHidden":false,"type":"richtext"},{"content":{"quote":"「神是个灵，所以拜他的，必须用心灵和诚实拜他。」","author_name":"约翰福音 4:24","author_role":"","style":"featured"},"id":"worshipnotes-verse-001","isHidden":false,"type":"testimonial"}]
 
 ----
 

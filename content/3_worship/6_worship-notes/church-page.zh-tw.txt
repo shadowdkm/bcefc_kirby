@@ -1,10 +1,10 @@
-Title: 給崇拜會眾的溫馨提示
+Title: 崇拜聚會指引
 
 ----
 
 Builder:
 
-[{"content":{"title":"給崇拜會眾的溫馨提示","subtitle":"崇拜聚會指引"},"id":"worshipnotes-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>為幫助會眾能在安靜、敬虔及有秩序的環境中同心敬拜神，敬請弟兄姊妹留意以下事項：</p>"},"id":"worshipnotes-intro-001","isHidden":false,"type":"richtext"},{"content":{"text":"<ol><li>如會眾有感冒徵狀如咳嗽、發燒，建議留在家中休息；如感冒已痊癒，只剩咳嗽，建議佩戴口罩。</li><li>請準時出席崇拜，並於聚會開始前安靜心靈，預備敬拜。</li><li>請將手提電話及電子裝置調至靜音或震動模式。</li><li>崇拜開始後，請會眾使用禮堂兩旁之通道步入會眾席，以減少對正在崇拜中的會眾之騷擾。</li><li>在進堂、默禱、宣召或祈禱時，遲來者請在禮堂外稍候，完畢後方可入座。</li><li>請以敬虔的態度參與詩歌、禱告、讀經及聆聽信息。</li><li>家長請照顧同行兒童；如幼兒哭鬧影響聚會，請暫時帶離禮堂安撫。</li><li>未經教會同意，請勿於聚會中拍攝、錄音或錄影，以尊重講員及會眾私隱。</li><li>崇拜結束後，歡迎彼此問安交通，並請保持場地整潔。</li></ol><p>願我們同心以敬畏、感恩和誠實的心敬拜上帝。</p>"},"id":"worshipnotes-guidelines-001","isHidden":false,"type":"richtext"},{"content":{"quote":"「神是個靈，所以拜他的，必須用心靈和誠實拜他。」","author_name":"約翰福音 4:24","author_role":"","style":"featured"},"id":"worshipnotes-verse-001","isHidden":false,"type":"testimonial"}]
+[{"content":{"title":"崇拜聚會指引","subtitle":"給崇拜會眾的溫馨提示"},"id":"worshipnotes-header-001","isHidden":false,"type":"section-header"},{"content":{"text":"<p>為幫助會眾能在安靜、敬虔及有秩序的環境中同心敬拜神，敬請弟兄姊妹留意以下事項：</p>"},"id":"worshipnotes-intro-001","isHidden":false,"type":"richtext"},{"content":{"text":"<ol><li>如會眾有感冒徵狀如咳嗽、發燒，建議留在家中休息；如感冒已痊癒，只剩咳嗽，建議佩戴口罩。</li><li>請準時出席崇拜，並於聚會開始前安靜心靈，預備敬拜。</li><li>請將手提電話及電子裝置調至靜音或震動模式。</li><li>崇拜開始後，請會眾使用禮堂兩旁之通道步入會眾席，以減少對正在崇拜中的會眾之騷擾。</li><li>在進堂、默禱、宣召或祈禱時，遲來者請在禮堂外稍候，完畢後方可入座。</li><li>請以敬虔的態度參與詩歌、禱告、讀經及聆聽信息。</li><li>家長請照顧同行兒童；如幼兒哭鬧影響聚會，請暫時帶離禮堂安撫。</li><li>未經教會同意，請勿於聚會中拍攝、錄音或錄影，以尊重講員及會眾私隱。</li><li>崇拜結束後，歡迎彼此問安交通，並請保持場地整潔。</li></ol><p>願我們同心以敬畏、感恩和誠實的心敬拜上帝。</p>"},"id":"worshipnotes-guidelines-001","isHidden":false,"type":"richtext"},{"content":{"quote":"「神是個靈，所以拜他的，必須用心靈和誠實拜他。」","author_name":"約翰福音 4:24","author_role":"","style":"featured"},"id":"worshipnotes-verse-001","isHidden":false,"type":"testimonial"}]
 
 ----
 
