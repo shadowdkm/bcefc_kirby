@@ -1199,10 +1199,21 @@ a:hover .arrow {
   line-height: 1.6;
   color: var(--color-gray-800);
   margin: 0 0 var(--space-8);
+  /* Split into even lines rather than letting one or two characters orphan
+     onto a line of their own — CJK breaks at any character, so a quote that
+     overruns by a few pixels otherwise strands something like 「年！」. */
+  text-wrap: balance;
 }
 
 .block-testimonial--featured .testimonial__text {
   font-size: var(--font-size-3xl, 2rem);
+}
+
+/* A featured quote is set large enough that a one-line sentence can overrun
+   the 800px block by a hair. Give it room so short quotes stay on one line
+   instead of wrapping for the sake of a few pixels. */
+.block-testimonial--featured .testimonial {
+  max-width: 60rem;
 }
 
 .block-testimonial--card .testimonial {
