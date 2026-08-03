@@ -25,7 +25,10 @@
       "Bash(taskkill //F //IM php.exe)",
       "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v1.png http://localhost:8123/zh-tw/worship)",
       "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v2.png http://localhost:8123/zh-tw/worship)",
-      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v3.png http://localhost:8123/zh-tw/worship)"
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --no-sandbox --window-size=1400,1200 --force-device-scale-factor=1 --screenshot=/tmp/nav-test/worship_v3.png http://localhost:8123/zh-tw/worship)",
+      "PowerShell(Start-Process -FilePath \"php\" -ArgumentList \"-S\",\"localhost:8123\",\"kirby/router.php\" -WindowStyle Hidden -PassThru | Select-Object Id; Start-Sleep -Seconds 4)",
+      "PowerShell($html = \\(Invoke-WebRequest -Uri \"http://localhost:8123/zh-tw\" -UseBasicParsing\\).Content; \\($html -split \"`n\" | Select-String -Pattern 'nav-dropdown|/worship/|崇拜|行事曆' | Select-Object -First 20\\) | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Get-Process *)"
     ]
   }
 }

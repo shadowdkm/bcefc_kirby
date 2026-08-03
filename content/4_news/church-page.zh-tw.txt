@@ -4,7 +4,7 @@ Title: 消息
 
 Builder:
 
-[{"content":{"title":"最新消息","subtitle":"緊貼本立比華人播道會動態"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>緊貼教會家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"2025年春季培靈會","text":"回顧我們邀請陳大衛牧師主領的特別培靈會。","url":"/news/spring-revival","image":"","badge":"活動已結束"},{"title":"2025年家庭營","text":"回顧我們在Camp Qwanoes舉行的年度家庭營。","url":"/news/family-camp","image":"","badge":"活動已結束"},{"title":"2025-2026學年中文學校報名","text":"2025-2026學年的報名已經結束。","url":"/news/chinese-school-registration","image":"","badge":"已結束"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"最新消息","subtitle":"緊貼本立比華人播道會動態"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>緊貼教會家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

@@ -58,6 +58,20 @@ return [
             'pattern' => 'zh-tw/events/35th-anniversary',
             'action'  => fn() => go('/zh-tw/news/35th-anniversary', 301),
         ],
+
+        // Calendar moved from Resources (常用資料) to Worship (崇拜與聚會).
+        [
+            'pattern' => 'resources/calendar',
+            'action'  => fn() => go('/worship/calendar', 301),
+        ],
+        [
+            'pattern' => 'zh-cn/resources/calendar',
+            'action'  => fn() => go('/zh-cn/worship/calendar', 301),
+        ],
+        [
+            'pattern' => 'zh-tw/resources/calendar',
+            'action'  => fn() => go('/zh-tw/worship/calendar', 301),
+        ],
     ],
 
 ];

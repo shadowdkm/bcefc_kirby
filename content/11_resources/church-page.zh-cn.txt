@@ -4,7 +4,7 @@ Title: 常用资料
 
 Builder:
 
-[{"content":{"title":"常用资料","subtitle":"实用信息与下载"},"id":"resources-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在这里您可以找到教会行事历、可下载的表格以及联络信息。我们希望让您能轻松地保持联络和了解教会最新动态。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教会行事历","text":"查看即将举行的活动、崇拜及重要日期。","url":"/resources/calendar","image":"","badge":""},{"title":"奉献","text":"了解我们的奉献理念及奉献方式。","url":"/giving","image":"","badge":""},{"title":"联络我们","text":"与我们联络 — 地址、电话、电邮及办公时间。","url":"/resources/contact","image":"","badge":""}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"常用资料","subtitle":"实用信息与下载"},"id":"resources-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>在这里您可以找到教会行事历、可下载的表格以及联络信息。我们希望让您能轻松地保持联络和了解教会最新动态。</p>"},"id":"resources-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"教会行事历","text":"查看即将举行的活动、崇拜及重要日期。","url":"/worship/calendar","image":"","badge":""},{"title":"奉献","text":"了解我们的奉献理念及奉献方式。","url":"/giving","image":"","badge":""},{"title":"联络我们","text":"与我们联络 — 地址、电话、电邮及办公时间。","url":"/resources/contact","image":"","badge":""}]},"id":"resources-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 
