@@ -4,7 +4,7 @@ Title: Mid-Autumn Evening
 
 Builder:
 
-[{"content":{"title":"Mid-Autumn Evening","subtitle":"MOON FESTIVAL CELEBRATION"},"id":"midautumn-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Join us with family and friends for our Mid-Autumn Evening — food, games, and worship as we celebrate this festival of togetherness. Full details will be announced soon.</p>"},"id":"midautumn-intro","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"Mid-Autumn Evening","subtitle":"MOON FESTIVAL CELEBRATION"},"id":"midautumn-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>Date:</strong> Saturday, September 12, 2026</p><p>Join us with family and friends for our Mid-Autumn Evening — food, games, and worship as we celebrate this festival of togetherness. Full details will be announced soon.</p>"},"id":"midautumn-intro","isHidden":false,"type":"richtext"},{"content":{"images":["file://midautumnpost01"],"caption":"","ratio":"auto","crop":"false"},"id":"midautumn-poster","isHidden":false,"type":"gallery"}]
 
 ----
 

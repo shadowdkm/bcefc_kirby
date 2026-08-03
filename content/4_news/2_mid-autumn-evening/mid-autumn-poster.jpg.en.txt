@@ -1,0 +1,25 @@
+Caption:
+
+----
+
+Alt: Mid-Autumn Evening event poster
+
+----
+
+Photographer:
+
+----
+
+License:
+
+----
+
+Link:
+
+----
+
+Uuid: midautumnpost01
+
+----
+
+Template: image

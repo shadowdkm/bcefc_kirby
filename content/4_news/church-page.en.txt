@@ -4,7 +4,7 @@ Title: News
 
 Builder:
 
-[{"content":{"title":"News & Announcements","subtitle":"Stay Updated with BCEFC"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Keep up with the latest news, announcements, and stories from our church family.</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"News & Announcements","subtitle":"Stay Updated with BCEFC"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Keep up with the latest news, announcements, and stories from our church family.</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"35th Anniversary Celebration","text":"\"Together in His Love\" — a season of thanksgiving activities.","url":"/news/35th-anniversary","image":["file://anniv35banner"],"badge":"Celebration"},{"title":"Mid-Autumn Evening","text":"Saturday, September 12, 2026 — food, games, and worship.","url":"/news/mid-autumn-evening","image":["file://midautumnpost01"],"badge":"Upcoming"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

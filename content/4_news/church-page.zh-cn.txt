@@ -4,7 +4,7 @@ Title: 消息
 
 Builder:
 
-[{"content":{"title":"最新消息","subtitle":"紧贴本立比华人播道会动态"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴教会家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
+[{"content":{"title":"最新消息","subtitle":"紧贴本立比华人播道会动态"},"id":"news-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>紧贴教会家庭的最新消息、公告和故事。</p>"},"id":"news-intro","isHidden":false,"type":"richtext"},{"content":{"columns":"3","card_style":"default","image_ratio":"3/2","items":[{"title":"三十五周年堂庆","text":"「Together in His Love — 我们一起在主爱里」感恩庆典系列活动。","url":"/news/35th-anniversary","image":["file://anniv35banner"],"badge":"感恩庆典"},{"title":"中秋晚会","text":"2026年9月12日 · 阖家团圆，共颂主恩。","url":"/news/mid-autumn-evening","image":["file://midautumnpost01"],"badge":"即将举行"}]},"id":"news-grid","isHidden":false,"type":"card-grid"}]
 
 ----
 

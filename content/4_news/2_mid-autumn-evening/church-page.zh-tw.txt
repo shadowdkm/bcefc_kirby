@@ -4,7 +4,7 @@ Title: 中秋晚會
 
 Builder:
 
-[{"content":{"title":"中秋晚會","subtitle":"闔家團圓 · 共頌主恩"},"id":"midautumn-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p>誠邀弟兄姊妹和家人朋友一同參與教會中秋晚會，共享美食、遊戲及詩歌敬拜，慶祝這個團圓佳節。詳情將於稍後公佈。</p>"},"id":"midautumn-intro","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"中秋晚會","subtitle":"闔家團圓 · 共頌主恩"},"id":"midautumn-hero","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>日期：</strong>2026年9月12日（星期六）</p><p>誠邀弟兄姊妹和家人朋友一同參與教會中秋晚會，共享美食、遊戲及詩歌敬拜，慶祝這個團圓佳節。詳情將於稍後公佈。</p>"},"id":"midautumn-intro","isHidden":false,"type":"richtext"},{"content":{"images":["file://midautumnpost01"],"caption":"","ratio":"auto","crop":"false"},"id":"midautumn-poster","isHidden":false,"type":"gallery"}]
 
 ----
 
