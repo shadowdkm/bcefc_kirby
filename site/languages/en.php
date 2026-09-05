@@ -7,11 +7,11 @@
 
 return [
     'code'      => 'en',
-    'default'   => true,
+    'default'   => false,
     'direction' => 'ltr',
     'locale'    => 'en_US.utf8',
     'name'      => 'English',
-    'url'       => '/',
+    'url'       => '/en',
     
     // UI translations for templates
     'translations' => [

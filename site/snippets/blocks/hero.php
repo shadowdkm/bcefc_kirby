@@ -103,7 +103,7 @@ $canResize = extension_loaded('gd') || extension_loaded('imagick');
     <?php endif ?>
     
     <?php if ($block->subtitle()->isNotEmpty()): ?>
-    <p class="block-hero__subtitle"><?= $block->subtitle()->esc() ?></p>
+    <p class="block-hero__subtitle"><?= str_replace('||', '<br class="hero-nbr">', $block->subtitle()->esc()) ?></p>
     <?php endif ?>
     
     <?php if ($block->cta_primary_text()->isNotEmpty() || $block->cta_secondary_text()->isNotEmpty()): ?>

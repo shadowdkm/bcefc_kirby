@@ -557,6 +557,10 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; line-height: 1.12; }
   white-space: pre-line;
 }
 .block-hero--left .block-hero__subtitle { margin-left: 0; }
+.block-hero__subtitle .hero-nbr { display: none; }
+@media (max-width: 640px) {
+  .block-hero__subtitle .hero-nbr { display: initial; }
+}
 .block-hero__actions {
   display: flex;
   flex-wrap: wrap;

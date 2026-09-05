@@ -7,11 +7,11 @@
 
 return [
     'code'      => 'zh-tw',
-    'default'   => false,
+    'default'   => true,
     'direction' => 'ltr',
     'locale'    => 'zh_TW.utf8',
     'name'      => '繁體中文',
-    'url'       => '/zh-tw',
+    'url'       => '/',
     
     // UI translations for templates
     'translations' => [

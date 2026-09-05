@@ -26,23 +26,23 @@ return [
     'routes' => [
         [
             'pattern' => 'english/about-us',
-            'action'  => fn() => go('/about', 301),
+            'action'  => fn() => go('/en/about', 301),
         ],
         [
             'pattern' => 'english/about-us/worship-with-us',
-            'action'  => fn() => go('/worship', 301),
+            'action'  => fn() => go('/en/worship', 301),
         ],
         [
             'pattern' => 'english/people',
-            'action'  => fn() => go('/about/pastoral-staff', 301),
+            'action'  => fn() => go('/en/about/pastoral-staff', 301),
         ],
         [
             'pattern' => 'english/events',
-            'action'  => fn() => go('/events', 301),
+            'action'  => fn() => go('/en/events', 301),
         ],
         [
             'pattern' => 'english/sermons',
-            'action'  => fn() => go('/worship/sermons', 301),
+            'action'  => fn() => go('/en/worship/sermons', 301),
         ],
 
         // 35th anniversary moved from Events (活動回顧) to News (最新消息).
@@ -54,10 +54,6 @@ return [
             'pattern' => 'zh-cn/events/35th-anniversary',
             'action'  => fn() => go('/zh-cn/news/35th-anniversary', 301),
         ],
-        [
-            'pattern' => 'zh-tw/events/35th-anniversary',
-            'action'  => fn() => go('/zh-tw/news/35th-anniversary', 301),
-        ],
 
         // Calendar moved from Resources (常用資料) to Worship (崇拜與聚會).
         [
@@ -68,9 +64,15 @@ return [
             'pattern' => 'zh-cn/resources/calendar',
             'action'  => fn() => go('/zh-cn/worship/calendar', 301),
         ],
+
+        // Traditional Chinese moved from /zh-tw to root; keep old bookmarks alive.
         [
-            'pattern' => 'zh-tw/resources/calendar',
-            'action'  => fn() => go('/zh-tw/worship/calendar', 301),
+            'pattern' => 'zh-tw',
+            'action'  => fn() => go('/', 301),
+        ],
+        [
+            'pattern' => 'zh-tw/(:all)',
+            'action'  => fn($path) => go('/' . $path, 301),
         ],
     ],
 
