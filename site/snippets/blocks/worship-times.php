@@ -10,6 +10,7 @@ $services = $block->services()->toStructure();
 if ($services->isEmpty()) return;
 
 $bulletinPdf = $block->bulletin_pdf()->toFiles()->first();
+$bulletinPdfMandarin = $block->bulletin_pdf_mandarin()->toFiles()->first();
 $background = $block->background()->or('default');
 
 ?>
@@ -69,6 +70,11 @@ $background = $block->background()->or('default');
         
         <?php if ($service->show_bulletin()->toBool() && $bulletinPdf): ?>
         <a href="<?= $bulletinPdf->url() ?>" class="worship-card__cta btn btn--accent" download>
+          <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
+          <?= t('worship.bulletin', '本週週報') ?>
+        </a>
+        <?php elseif ($service->show_bulletin_mandarin()->toBool() && $bulletinPdfMandarin): ?>
+        <a href="<?= $bulletinPdfMandarin->url() ?>" class="worship-card__cta btn btn--accent" download>
           <svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
           <?= t('worship.bulletin', '本週週報') ?>
         </a>
