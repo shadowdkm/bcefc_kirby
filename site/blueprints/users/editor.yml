@@ -1,0 +1,56 @@
+title: 編輯 Editor
+description: 可編輯頁面內容和上傳檔案，但不能新增、刪除或移動頁面。Can update page content and upload files, but cannot create, delete, or reorganise pages.
+
+permissions:
+  access:
+    panel: true
+    site: true
+    settings: false
+    system: false
+    users: false
+    languages: false
+
+  pages:
+    read: true
+    preview: true
+    update: true
+    changeTitle: true
+    create: false
+    delete: false
+    duplicate: false
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    move: false
+    sort: false
+
+  files:
+    read: true
+    create: true
+    update: true
+    replace: true
+    delete: true
+    changeName: false
+    changeTemplate: false
+    sort: false
+
+  site:
+    update: false
+
+  users:
+    create: false
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false
+
+  user:
+    changeEmail: true
+    changeLanguage: true
+    changeName: true
+    changePassword: true
+    update: true
+    delete: false
