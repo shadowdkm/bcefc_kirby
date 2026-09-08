@@ -30,7 +30,7 @@ permissions:
     update: true
     replace: true
     delete: true
-    changeName: false
+    changeName: true
     changeTemplate: false
     sort: false
 
