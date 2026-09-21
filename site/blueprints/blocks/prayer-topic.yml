@@ -1,0 +1,26 @@
+name: 代禱事項 Prayer Topic
+icon: heart
+preview: fields
+fields:
+  heading:
+    label: 標題 / Heading
+    type: text
+    placeholder: 每週代禱事項
+
+  last_updated:
+    label: 上次更新 / Last Updated
+    type: date
+    display: YYYY-MM-DD
+
+  content:
+    label: 內容 / Content
+    type: writer
+    nodes:
+      - heading
+      - paragraph
+      - bulletList
+      - orderedList
+    marks:
+      - bold
+      - italic
+      - link

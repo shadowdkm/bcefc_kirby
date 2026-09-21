@@ -1007,6 +1007,35 @@ a.card-grid-item:hover .card-grid-item__image img {
   margin: 0 auto;
 }
 
+/* ===================================
+   PRAYER TOPIC
+   =================================== */
+
+.block-prayer-topic {
+  padding: var(--section-padding-y) 0;
+}
+.reveal:has(> .block-prayer-topic) + .reveal > .block-prayer-topic {
+  padding-top: 0;
+}
+.block-prayer-topic__heading {
+  max-width: 720px;
+  margin: 0 auto var(--space-4);
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  line-height: 1.3;
+}
+.block-prayer-topic__content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.block-prayer-topic__updated {
+  max-width: 720px;
+  margin: var(--space-4) auto 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-muted, #6b6862);
+  font-style: italic;
+}
+
 .prose h1,
 .prose h2,
 .prose h3,

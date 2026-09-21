@@ -36,6 +36,7 @@ columns:
               - worship-times
               - ministry-card
               - fellowship-gallery
+              - prayer-topic
               
               # News & Events
               - announcements
