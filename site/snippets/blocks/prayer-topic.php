@@ -7,9 +7,10 @@
  * @var \Kirby\Cms\Block $block
  */
 
-$heading  = $block->heading();
-$content  = $block->content()->get('content');
-$updated  = $block->last_updated()->toDate();
+$heading = $block->heading();
+$content = $block->content()->get('content');
+$updated = $block->last_updated()->toDate();
+$open    = $block->default_open()->toBool();
 
 if ($heading->isEmpty() && $content->isEmpty()) return;
 
@@ -20,18 +21,21 @@ $updatedFormat = $isChinese ? 'Y年n月j日' : 'F j, Y';
 ?>
 <article class="block-prayer-topic">
   <div class="container">
-    <?php if ($heading->isNotEmpty()): ?>
-    <h3 class="block-prayer-topic__heading"><?= $heading->esc() ?></h3>
-    <?php endif ?>
+    <details class="block-prayer-topic__details"<?php e($open, ' open') ?>>
+      <summary class="block-prayer-topic__summary">
+        <?php if ($heading->isNotEmpty()): ?>
+        <span class="block-prayer-topic__heading"><?= $heading->esc() ?></span>
+        <?php endif ?>
+        <?php if ($updated): ?>
+        <span class="block-prayer-topic__updated"><?= $updatedLabel ?>：<?= date($updatedFormat, $updated) ?></span>
+        <?php endif ?>
+      </summary>
 
-    <?php if ($content->isNotEmpty()): ?>
-    <div class="block-prayer-topic__content prose">
-      <?= $content->permalinksToUrls() ?>
-    </div>
-    <?php endif ?>
-
-    <?php if ($updated): ?>
-    <p class="block-prayer-topic__updated"><?= $updatedLabel ?>：<?= date($updatedFormat, $updated) ?></p>
-    <?php endif ?>
+      <?php if ($content->isNotEmpty()): ?>
+      <div class="block-prayer-topic__content prose">
+        <?= $content->permalinksToUrls() ?>
+      </div>
+      <?php endif ?>
+    </details>
   </div>
 </article>

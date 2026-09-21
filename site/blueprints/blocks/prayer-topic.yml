@@ -12,6 +12,15 @@ fields:
     type: date
     display: YYYY-MM-DD
 
+  default_open:
+    label: 預設展開 / Open by Default
+    type: toggle
+    default: false
+    text:
+      - 收起 Collapsed
+      - 展開 Open
+    help: 短的代禱事項可以預設展開；長的可以預設收起，讓訪客自己點開。
+
   content:
     label: 內容 / Content
     type: writer
