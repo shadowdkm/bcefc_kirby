@@ -3,3 +3,7 @@ Caption: 敬拜小組帶領會眾敬拜
 ----
 
 Alt: Worship team leading the congregation in praise
+
+----
+
+Uuid: m23w8hq56alwfa2d

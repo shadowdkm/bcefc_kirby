@@ -3,3 +3,7 @@ Caption: 專題講座 —「教會生態三要」
 ----
 
 Alt: Topical seminar — "The Ecology of Church Life"
+
+----
+
+Uuid: yb83hby4iioc9nb7

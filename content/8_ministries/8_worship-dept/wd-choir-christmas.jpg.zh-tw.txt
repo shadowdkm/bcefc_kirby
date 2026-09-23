@@ -3,3 +3,7 @@ Caption: 詩班獻詩敬拜
 ----
 
 Alt: Choir leading worship in song
+
+----
+
+Uuid: ghn07nqpuyhoqds4
