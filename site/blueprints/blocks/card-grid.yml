@@ -55,7 +55,17 @@ fields:
         query: site.index.files.template("image")
         uploads:
           template: image
-      
+
+      image_fit:
+        label: Image Fit
+        type: select
+        default: cover
+        width: 1/2
+        options:
+          cover: Fill (crop to fit)
+          contain: Show whole image
+        help: Use "Show whole image" for small banners or logos so they don't get zoomed and cropped.
+
       title:
         label: Title
         type: text

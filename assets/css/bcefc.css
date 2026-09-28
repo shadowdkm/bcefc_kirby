@@ -800,6 +800,9 @@ a.card-grid-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-m
 .card-grid-item__image { position: relative; aspect-ratio: 3/2; overflow: hidden; background: var(--surface-2); }
 .card-grid-item__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s var(--ease); }
 a.card-grid-item:hover .card-grid-item__image img { transform: scale(1.04); }
+.card-grid-item--fit-contain .card-grid-item__image { background: var(--surface); padding: 20px; }
+.card-grid-item--fit-contain .card-grid-item__image img { object-fit: contain; }
+a.card-grid-item--fit-contain:hover .card-grid-item__image img { transform: scale(1.02); }
 .card-grid-item__badge {
   position: absolute; top: 12px; left: 12px;
   font-size: 11px; font-weight: 700;

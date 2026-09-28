@@ -23,9 +23,10 @@ $background = $block->background()->or('default');
         $hasLink = $item->url()->isNotEmpty();
         $tag = $hasLink ? 'a' : 'div';
         $resolvedUrl = $hasLink ? pageUrl((string)$item->url()) : '#';
+        $imageFit = $item->image_fit()->or('cover');
       ?>
       <<?= $tag ?>
-        class="card-grid-item"
+        class="card-grid-item card-grid-item--fit-<?= $imageFit ?>"
         <?php if ($hasLink): ?>href="<?= $resolvedUrl ?>"<?php endif ?>
       >
         <?php if ($image): ?>
