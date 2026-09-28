@@ -1,0 +1,11 @@
+Title: Alpha Course
+
+----
+
+Builder:
+
+[{"content":{"title":"Alpha Course","subtitle":"AN INVITATION TO EXPLORE FAITH"},"id":"alpha-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Our church is running an Alpha Course — an introductory course that welcomes anyone interested in exploring the Christian faith. It's especially suitable for those new to faith, those searching for answers, and brothers and sisters wanting to revisit the basics together.</p><p>We warmly invite you and your family and friends to join us. Please download the invitation card for details.</p><p><a href=\"/@/file/alphainvite01\">Download Alpha Course Invitation Card (PDF)</a></p>"},"id":"alpha-content","isHidden":false,"type":"richtext"},{"content":{"title":"Questions?","text":"<p>Please contact the church office if you have any questions.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"alpha-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: alphapage01
