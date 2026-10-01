@@ -4,7 +4,7 @@ Title: 启发课程
 
 Builder:
 
-[{"content":{"title":"启发课程","subtitle":"ALPHA COURSE"},"id":"alpha-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>教会即将举办启发课程，这是一个欢迎所有人的探索基督信仰的入门课程，适合初次认识信仰的朋友、正在寻求答案的人，以及愿意重新思考信仰的弟兄姊妹。</p><p>诚邀您与家人朋友一同参加。详情请下载邀请卡。</p><p><a href=\"/@/file/alphainvite01\">下载启发课程邀请卡 (PDF)</a></p>"},"id":"alpha-content","isHidden":false,"type":"richtext"},{"content":{"title":"欢迎查询","text":"<p>如有任何问题，欢迎联络教会办公室。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"alpha-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"启发课程","subtitle":"ALPHA COURSE"},"id":"alpha-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>教会即将举办启发课程，这是一个欢迎所有人的探索基督信仰的入门课程，适合初次认识信仰的朋友、正在寻求答案的人，以及愿意重新思考信仰的弟兄姊妹。</p><p>诚邀您与家人朋友一同参加。详情请下载邀请卡。</p><p><a href=\"/@/file/alphainvite01\">下载启发课程邀请卡 (PDF)</a></p>"},"id":"alpha-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://alphainvitecard01"],"caption":"","ratio":"auto","crop":"false"},"id":"alpha-card-image","isHidden":false,"type":"gallery"},{"content":{"title":"欢迎查询","text":"<p>如有任何问题，欢迎联络教会办公室。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"alpha-cta","isHidden":false,"type":"cta"}]
 
 ----
 

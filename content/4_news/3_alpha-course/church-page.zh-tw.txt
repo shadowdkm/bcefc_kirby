@@ -4,7 +4,7 @@ Title: 啟發課程
 
 Builder:
 
-[{"content":{"title":"啟發課程","subtitle":"ALPHA COURSE"},"id":"alpha-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>教會即將舉辦啟發課程，這是一個歡迎所有人的探索基督信仰的入門課程，適合初次認識信仰的朋友、正在尋求答案的人，以及願意重新思考信仰的弟兄姊妹。</p><p>誠邀您與家人朋友一同參加。詳情請下載邀請卡。</p><p><a href=\"/@/file/alphainvite01\">下載啟發課程邀請卡 (PDF)</a></p>"},"id":"alpha-content","isHidden":false,"type":"richtext"},{"content":{"title":"歡迎查詢","text":"<p>如有任何問題，歡迎聯絡教會辦公室。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"alpha-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"啟發課程","subtitle":"ALPHA COURSE"},"id":"alpha-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>教會即將舉辦啟發課程，這是一個歡迎所有人的探索基督信仰的入門課程，適合初次認識信仰的朋友、正在尋求答案的人，以及願意重新思考信仰的弟兄姊妹。</p><p>誠邀您與家人朋友一同參加。詳情請下載邀請卡。</p><p><a href=\"/@/file/alphainvite01\">下載啟發課程邀請卡 (PDF)</a></p>"},"id":"alpha-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://alphainvitecard01"],"caption":"","ratio":"auto","crop":"false"},"id":"alpha-card-image","isHidden":false,"type":"gallery"},{"content":{"title":"歡迎查詢","text":"<p>如有任何問題，歡迎聯絡教會辦公室。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"alpha-cta","isHidden":false,"type":"cta"}]
 
 ----
 

@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: 啟發課程邀請卡
+
+----
+
+Uuid: alphainvitecard01
+
+----
+
+Template: image

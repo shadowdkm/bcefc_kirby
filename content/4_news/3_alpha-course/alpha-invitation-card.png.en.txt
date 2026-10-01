@@ -1,0 +1,13 @@
+Caption:
+
+----
+
+Alt: Alpha Course invitation card
+
+----
+
+Uuid: alphainvitecard01
+
+----
+
+Template: image
