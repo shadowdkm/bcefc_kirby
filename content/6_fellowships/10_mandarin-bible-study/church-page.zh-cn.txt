@@ -4,7 +4,7 @@ Title: 国语网上查经
 
 Builder:
 
-[{"content":{"title":"国语网上查经","subtitle":"MANDARIN ONLINE BIBLE STUDY"},"id":"mbs-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>关于我们</h3><p>国语网上查经是以诺团契的每周线上查经聚会，欢迎所有说华语的弟兄姊妹与新朋友，在自己方便的地方一同透过网络研读神的话语，在真理中彼此扶持、共同成长。</p><h3>聚会资讯</h3><ul><li><strong>聚会时间：</strong>每周四晚上 7:00–9:00</li><li><strong>聚会形式：</strong>网上聚会</li><li><strong>聚会对象：</strong>欢迎所有说华语的弟兄姊妹及新朋友参加</li></ul><h3>联系我们</h3><ul><li><strong>教会办公室：</strong>604-431-6969</li><li><strong>刘振荣传道：</strong>778-522-9378</li></ul>"},"id":"mbs-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我们","text":"<p>诚挚邀请您加入国语网上查经，与我们一同在神的话语中成长。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"mbs-cta","isHidden":false,"type":"cta"}]
+[{"content":{"title":"国语网上查经","subtitle":"MANDARIN ONLINE BIBLE STUDY"},"id":"mbs-header","isHidden":false,"type":"section-header"},{"content":{"text":"<h3>关于我们</h3><p>国语网上查经是以诺团契的每周线上查经聚会，欢迎所有说华语的弟兄姊妹与新朋友，在自己方便的地方一同透过网络研读神的话语，在真理中彼此扶持、共同成长。</p><h3>聚会资讯</h3><ul><li><strong>聚会时间：</strong>每周四晚上 7:30–9:30</li><li><strong>聚会形式：</strong>网上聚会</li><li><strong>聚会对象：</strong>欢迎所有说华语的弟兄姊妹及新朋友参加</li></ul><h3>联系我们</h3><ul><li><strong>教会办公室：</strong>604-431-6969</li><li><strong>刘振荣传道：</strong>778-522-9378</li></ul>"},"id":"mbs-content","isHidden":false,"type":"richtext"},{"content":{"title":"加入我们","text":"<p>诚挚邀请您加入国语网上查经，与我们一同在神的话语中成长。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"mbs-cta","isHidden":false,"type":"cta"}]
 
 ----
 
