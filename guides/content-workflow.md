@@ -64,6 +64,39 @@ nano site/config/server.php
      `"successfully pulled"`, and the live site shows the change.
    - The Panel menu now has **Git Content** (status, log, manual pull/push).
 
+## Staging site (test edits that never reach git)
+
+Do the setup above only on the **live** server. On staging:
+
+- **Simplest:** don't create `site/config/server.php`. The plugin stays off, so Panel
+  edits are saved on staging but never committed or pushed. Update staging with
+  `git pull` over SSH. A read-only token (Contents: Read) is enough there.
+- **Optional auto-update:** create a staging-only `server.php` that only pulls:
+
+  ```php
+  <?php
+  return [
+      'thathoff.git-content.disable'          => false,
+      'thathoff.git-content.commit'           => false, // Panel saves stay local
+      'thathoff.git-content.push'             => false,
+      'thathoff.git-content.pull'             => false, // no pull on save
+      'thathoff.git-content.cronHooksEnabled' => true,
+      'thathoff.git-content.cronHooksSecret'  => '<different secret from live>',
+  ];
+  ```
+
+  Then add a second GitHub webhook to `https://<staging-site>/git-content/pull?secret=…`.
+
+Test edits on staging are uncommitted changes there. If a pull refuses with
+"your local changes would be overwritten", throw the test edits away and pull again:
+
+```bash
+git status                 # see what was edited on staging
+git checkout -- content    # discard staging content edits
+git clean -fd content      # remove files/pages created on staging
+git pull
+```
+
 ## When something goes wrong
 
 - **Panel save shows "Unable to update git: …"** — the file *was* saved; only the
