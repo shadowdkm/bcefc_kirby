@@ -4,17 +4,22 @@ GitHub (`shadowdkm/bcefc_kirby`, branch `master`) is the single source of truth.
 Both ways of editing sync through it:
 
 ```
- Panel on live site ──save──▶ auto commit ──▶ pull + push ──▶ GitHub
- Local (Claude/Codex/you) ──commit + push──▶ GitHub ──webhook──▶ live site git pull
+ Panel on live site ──save──▶ auto commit ──▶ fetch + merge + push ──▶ GitHub master
+                                              └─ on conflict ──────▶ GitHub panel-pending
+ Local (Claude/Codex/you) ──commit + push──▶ GitHub ──webhook──▶ live site merges master
 ```
 
 - **Panel edits**: just save. The [Git Content plugin](https://github.com/thathoff/kirby-git-content)
-  (`site/plugins/git-content`) commits the changed page/file as the Panel user,
-  pulls from GitHub, then pushes. Commits look like `panel update(page): about/history`.
+  (`site/plugins/git-content`) commits the changed page/file as the Panel user.
+  Commits look like `panel update(page): about/history`.
 - **Local edits**: `git pull` → edit → commit → `git push`. A GitHub webhook calls
-  `/git-content/pull` on the live site, which pulls immediately (code and content).
+  `/git-content/pull` on the live site, which merges `master` immediately (code and content).
+- **Syncing** (after each Panel save and on the webhook) is done by `site/plugins/git-sync`:
+  fetch `origin/master`, merge, push. If the merge **conflicts**, it is aborted — the live
+  site never serves half-merged files — and the server's commits go to the
+  **`panel-pending`** branch instead. See *Resolving a conflict* below.
 
-The plugin is **off locally** and turned on only by `site/config/server.php`,
+Both plugins are **off locally** and turned on only by `site/config/server.php`,
 which exists only on the server (git-ignored, because the repo is public).
 
 ## Everyday rules
@@ -64,8 +69,28 @@ nano site/config/server.php
 6. **Test**
    - Save any page in the Panel → a `panel update(page): …` commit appears on GitHub.
    - Push a local commit → webhook's *Recent Deliveries* shows `200` with
-     `"successfully pulled"`, and the live site shows the change.
-   - The Panel menu now has **Git Content** (status, log, manual pull/push).
+     `"synced with origin/master"`, and the live site shows the change.
+   - The Panel menu now has **Git Content** (status, log, manual push). Its *pull*
+     button is turned off; a plain pull could leave conflict markers in live files.
+
+## Resolving a conflict (`panel-pending`)
+
+A conflict happens when the same file was changed in the Panel and in a pushed
+commit. The live site keeps showing the Panel version, its commits are pushed to
+`panel-pending`, and new pushes to `master` **don't go live** until you merge it.
+Signs: GitHub shows a "panel-pending had recent pushes" banner, and the webhook's
+*Recent Deliveries* returns `"status": "conflict"`.
+
+```bash
+git checkout master && git pull
+git merge origin/panel-pending   # git fetch first if the branch is missing
+# fix the conflicted files (keep the right text from both sides)
+git add -A && git commit
+git push                         # webhook → live site merges cleanly
+```
+
+The live site then syncs and deletes `panel-pending` automatically. Further Panel
+saves made before you merge are added to `panel-pending` too, so nothing is lost.
 
 ## Staging site (test edits that never reach git)
 
@@ -79,12 +104,10 @@ Do the setup above only on the **live** server. On staging:
   ```php
   <?php
   return [
-      'thathoff.git-content.disable'          => false,
-      'thathoff.git-content.commit'           => false, // Panel saves stay local
-      'thathoff.git-content.push'             => false,
-      'thathoff.git-content.pull'             => false, // no pull on save
-      'thathoff.git-content.cronHooksEnabled' => true,
-      'thathoff.git-content.cronHooksSecret'  => '<different secret from live>',
+      'thathoff.git-content.disable'         => false,
+      'thathoff.git-content.commit'          => false, // Panel saves stay local
+      'bcefc.git-sync.readonly'              => true,  // webhook pulls, never pushes
+      'thathoff.git-content.cronHooksSecret' => '<different secret from live>',
   ];
   ```
 
@@ -103,10 +126,11 @@ git pull
 ## When something goes wrong
 
 - **Panel save shows "Unable to update git: …"** — the file *was* saved; only the
-  git step failed (GitHub unreachable, or a conflict). Open **Git Content** in the
-  Panel, or SSH in and run `git status`.
-- **Conflict** (same file changed in Panel and locally): SSH in, `git status`,
-  resolve the file, `git commit`, `git push`. Then `git pull` locally.
+  commit failed. Open **Git Content** in the Panel, or SSH in and run `git status`.
+- **Sync problems** (fetch/push failed) don't show in the Panel; they are logged
+  to the PHP error log with a `[git-sync]` prefix and retried on the next save.
+  Calling the webhook URL in a browser shows the current result.
+- **Conflict**: see *Resolving a conflict* above.
 - **Saves suddenly start failing on push** — the fine-grained token probably
   expired. Create a new one (Contents: Read and write) and update the stored
   credential on the server (`~/.private/git-credentials`).
@@ -115,4 +139,5 @@ git pull
 - **Stuck `index.lock`**: use *Remove index lock* in the Git Content Panel view.
 
 Settings live in `site/config/config.php` (`thathoff.git-content.*`, all defaults)
-and `site/config/server.php` (server-only overrides).
+and `site/config/server.php` (server-only overrides). `config.php` always forces
+git-content's own pull/push/webhooks off, because git-sync handles them.

@@ -14,19 +14,19 @@ $server = is_file(__DIR__ . '/server.php') ? require __DIR__ . '/server.php' : [
 return array_replace([
     'debug' => true,
 
-    // Git Content plugin: on the live server every Panel save is committed,
-    // pulled-then-pushed to GitHub, and /git-content/pull lets a GitHub
-    // webhook deploy local pushes. Off by default (local dev commits by
-    // hand); site/config/server.php on the live server turns it on.
+    // Git Content plugin: on the live server every Panel save is committed.
+    // Pulling/pushing (and the /git-content/pull webhook) is done by
+    // site/plugins/git-sync, which falls back to the `panel-pending` branch
+    // on merge conflicts. Off by default (local dev commits by hand);
+    // site/config/server.php on the live server turns it on.
     'thathoff.git-content.disable'                 => true,
     'thathoff.git-content.path'                    => dirname(__DIR__, 2),
     'thathoff.git-content.commit'                  => true,
-    'thathoff.git-content.pull'                    => true,
-    'thathoff.git-content.push'                    => true,
-    'thathoff.git-content.cronHooksEnabled'        => false,
     'thathoff.git-content.displayErrors'           => true,
     'thathoff.git-content.disableBranchManagement' => true,
     'thathoff.git-content.commitMessage'           => 'panel :action:(:item:): :url:',
+    // A plain `git pull` would leave conflict markers in live files.
+    'thathoff.git-content.buttons'                 => ['pull' => false],
     'yaml.handler' => 'symfony',
     
     // Set homepage
@@ -94,4 +94,10 @@ return array_replace([
         ],
     ],
 
-], $server);
+], $server, [
+    // git-sync owns pull/push and the webhook route, even if server.php
+    // still has the older settings.
+    'thathoff.git-content.pull'             => false,
+    'thathoff.git-content.push'             => false,
+    'thathoff.git-content.cronHooksEnabled' => false,
+]);
