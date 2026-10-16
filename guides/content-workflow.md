@@ -27,7 +27,7 @@ which exists only on the server (git-ignored, because the repo is public).
 
 ## One-time server setup (IONOS, over SSH)
 
-Run inside the site folder (`~/htdocs/kirby/bcefc_kirby`).
+Run inside the site folder (`~/kirby/bcefc_kirby` — on IONOS `~` is `htdocs` itself).
 
 ```bash
 # 1. Get this commit onto the server and make sure the tree is clean
@@ -41,10 +41,13 @@ git config user.email "panel@bcefc.ca"
 # 3. Write access to GitHub — the server uses an HTTPS fine-grained token.
 #    The token needs Repository access: shadowdkm/bcefc_kirby,
 #    Permissions → Contents: Read and write (pull alone only needs Read).
-git config --show-origin --get-all credential.helper   # where the token is stored
-# If it's the "store" helper, pin the file path: PHP may run git without $HOME,
-# and then it can't find ~/.git-credentials.
-git config credential.helper "store --file=$HOME/.git-credentials"
+# Save the token once at a fixed path: PHP may run git without $HOME,
+# and then it cannot find ~/.git-credentials. Home is htdocs (web-served), so keep
+# the token in a folder that denies web access:
+mkdir -p ~/.private && echo "Require all denied" > ~/.private/.htaccess && chmod 700 ~/.private
+git config credential.helper "store --file=$HOME/.private/git-credentials"
+git fetch                          # enter GitHub username + token once; it is saved
+chmod 600 ~/.private/git-credentials
 git fetch && git push --dry-run    # both must succeed without prompting
 
 # 4. Turn the plugin on with a webhook secret
@@ -106,7 +109,7 @@ git pull
   resolve the file, `git commit`, `git push`. Then `git pull` locally.
 - **Saves suddenly start failing on push** — the fine-grained token probably
   expired. Create a new one (Contents: Read and write) and update the stored
-  credential on the server (`~/.git-credentials`).
+  credential on the server (`~/.private/git-credentials`).
 - **"dubious ownership"**: the repo must be owned by the user PHP runs as
   (normally your SSH user on IONOS).
 - **Stuck `index.lock`**: use *Remove index lock* in the Git Content Panel view.
