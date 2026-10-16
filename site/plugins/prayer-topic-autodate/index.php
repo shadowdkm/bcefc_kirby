@@ -7,23 +7,28 @@
  * `last_updated` to today automatically — unless the editor also
  * changed the date themselves (in which case their pick wins). This
  * gives editors one less thing to remember on the weekly update.
+ *
+ * Runs as an `:after` hook: in Kirby 5 the return value of a `:before`
+ * hook replaces the page object, so it can't be used to rewrite $values.
+ * Instead we compare old/new content and apply a follow-up update.
  */
 
 Kirby::plugin('bcefc/prayer-topic-autodate', [
     'hooks' => [
-        'page.update:before' => function ($page, $values) {
+        'page.update:after' => function ($newPage, $oldPage) {
             $decode = function ($raw) {
                 if (is_array($raw)) return $raw;
                 if (empty($raw)) return [];
                 return json_decode((string)$raw, true) ?: [];
             };
 
-            foreach ($page->blueprint()->fields() as $key => $fieldDef) {
-                if (($fieldDef['type'] ?? null) !== 'blocks') continue;
-                if (!array_key_exists($key, $values)) continue;
+            $changes = [];
 
-                $oldBlocks = $decode($page->content()->get($key)->value());
-                $newBlocks = $decode($values[$key]);
+            foreach ($newPage->blueprint()->fields() as $key => $fieldDef) {
+                if (($fieldDef['type'] ?? null) !== 'blocks') continue;
+
+                $oldBlocks = $decode($oldPage->content()->get($key)->value());
+                $newBlocks = $decode($newPage->content()->get($key)->value());
                 if (empty($newBlocks)) continue;
 
                 $modified = false;
@@ -44,19 +49,22 @@ Kirby::plugin('bcefc/prayer-topic-autodate', [
                     $newDate = (string)($newContent['last_updated'] ?? '');
                     if ($oldDate !== $newDate) continue;
 
-                    $newBlock['content']['last_updated'] = date('Y-m-d');
+                    $today = date('Y-m-d');
+                    if ($newDate === $today) continue;
+
+                    $newBlock['content']['last_updated'] = $today;
                     $modified = true;
                 }
                 unset($newBlock);
 
                 if ($modified) {
-                    $values[$key] = is_string($values[$key])
-                        ? json_encode($newBlocks, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)
-                        : $newBlocks;
+                    $changes[$key] = json_encode($newBlocks, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
                 }
             }
 
-            return $values;
+            // The follow-up update re-triggers this hook, but the text is
+            // then unchanged, so it stops after one extra pass.
+            return empty($changes) ? $newPage : $newPage->update($changes);
         }
     ]
 ]);
