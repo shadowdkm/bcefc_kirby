@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'thathoff/kirby-git-content',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '81acf2fbdaa403259ce1717c7af0014f95b3c09a',
+        'type' => 'kirby-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'czproject/git-php' => array(
+            'pretty_version' => 'v4.5.0',
+            'version' => '4.5.0.0',
+            'reference' => '3ea910e188849d5e239d65167010c05196310915',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../czproject/git-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'getkirby/composer-installer' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => 'c98ece30bfba45be7ce457e1102d1b169d922f3d',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../getkirby/composer-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'thathoff/kirby-git-content' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '81acf2fbdaa403259ce1717c7af0014f95b3c09a',
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

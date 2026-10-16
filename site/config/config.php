@@ -7,8 +7,26 @@
  * This setting must be set to false in production.
  * All config options: https://getkirby.com/docs/reference/system/options
  */
-return [
+// Server-only overrides (git-ignored), e.g. the git-content webhook secret.
+// See guides/content-workflow.md.
+$server = is_file(__DIR__ . '/server.php') ? require __DIR__ . '/server.php' : [];
+
+return array_replace([
     'debug' => true,
+
+    // Git Content plugin: on the live server every Panel save is committed,
+    // pulled-then-pushed to GitHub, and /git-content/pull lets a GitHub
+    // webhook deploy local pushes. Off by default (local dev commits by
+    // hand); site/config/server.php on the live server turns it on.
+    'thathoff.git-content.disable'                 => true,
+    'thathoff.git-content.path'                    => dirname(__DIR__, 2),
+    'thathoff.git-content.commit'                  => true,
+    'thathoff.git-content.pull'                    => true,
+    'thathoff.git-content.push'                    => true,
+    'thathoff.git-content.cronHooksEnabled'        => false,
+    'thathoff.git-content.displayErrors'           => true,
+    'thathoff.git-content.disableBranchManagement' => true,
+    'thathoff.git-content.commitMessage'           => 'panel :action:(:item:): :url:',
     'yaml.handler' => 'symfony',
     
     // Set homepage
@@ -76,4 +94,4 @@ return [
         ],
     ],
 
-];
+], $server);

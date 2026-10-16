@@ -56,3 +56,9 @@ keys/ssh-key-2026-03-09.key
 keys/ssh-key-2026-03-09.key.pub
 /OneDrive_2026-05-26
 guides/IMG-20260901-WA0003.jpg
+
+# Server-only config (git-content webhook secret etc.)
+/site/config/server.php
+
+# Kirby 5 unsaved Panel changes
+_changes
