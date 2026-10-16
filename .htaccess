@@ -7,6 +7,7 @@
 # enable awesome urls. i.e.:
 # http://yourdomain.com/about-us/team
 RewriteEngine on
+RewriteBase /
 
 # make sure to set the RewriteBase correctly
 # if you are running the site in a subfolder;
