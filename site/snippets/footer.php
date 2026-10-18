@@ -32,6 +32,7 @@
     <?php
       $footNewHerePage  = $site->find('new-here');
       $worshipPage      = $site->find('worship');
+      $calendarPage     = $site->find('worship/calendar');
       $newsPage         = $site->find('news');
       $chineseSchoolPage = $site->find('chinese-school');
       $footGivingPage   = $site->find('giving');
@@ -42,6 +43,7 @@
       <ul>
         <li><a href="<?= $footNewHerePage ? $footNewHerePage->url() : '#' ?>"><?= t('nav.new_here', '新朋友') ?></a></li>
         <li><a href="<?= $worshipPage ? $worshipPage->url() : '#' ?>"><?= t('nav.worship', '主日崇拜時間') ?></a></li>
+        <li><a href="<?= $calendarPage ? $calendarPage->url() : '#' ?>"><?= t('nav.calendar', '教會行事曆') ?></a></li>
         <li><a href="<?= $newsPage ? $newsPage->url() : '#' ?>"><?= t('nav.news', '最新消息與活動') ?></a></li>
         <li><a href="<?= $chineseSchoolPage ? $chineseSchoolPage->url() : '#' ?>"><?= t('nav.school', '中文學校') ?></a></li>
         <li><a href="<?= $footGivingPage ? $footGivingPage->url() : '#' ?>"><?= t('nav.giving', '奉獻支持 Giving') ?></a></li>

@@ -32,6 +32,7 @@ return [
         'nav.new_here'       => '新朋友',
         'nav.giving'         => '奉獻',
         'nav.resources'      => '常用資料',
+        'nav.calendar'       => '教會行事曆',
         'nav.more'           => '更多',
         
         // Header

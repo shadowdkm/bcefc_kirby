@@ -1,0 +1,11 @@
+Title: 招聘
+
+----
+
+Builder:
+
+[{"content":{"overlay_strength":"45","eyebrow":"與我們一同服事","title":"加入本立比華人播道會團隊","subtitle":"我們正在尋找有熱忱、有恩賜、蒙神呼召在教會全職或兼職服事的弟兄姊妹，與牧者、執事及同工一起同工。","cta_primary_text":"查看職位","cta_primary_url":"#openings","cta_secondary_text":"聯絡我們","cta_secondary_url":"/about/contact","align":"center","valign":"center","height":"medium"},"id":"careers-hero","isHidden":false,"type":"hero"},{"content":{"text":"<h2>為何在本立比華人播道會服事？</h2><ul><li><strong>以基督為中心的群體</strong> — 加入一個在信仰和使命上同心合意的團隊，跨越三個語言會眾一起服事基督。</li><li><strong>有意義的事工</strong> — 在本立比地區的家庭、青年和新移民的生命中帶來持久的影響。</li><li><strong>成長與發展</strong> — 我們透過持續的培訓、導師指導和專業及靈命成長的機會，投資於我們的同工。</li><li><strong>協作的環境</strong> — 在一個支持和鼓勵的氛圍中，與忠心的牧者、執事和同工一同服事。</li></ul>"},"id":"careers-why","isHidden":false,"type":"richtext"},{"content":{"title":"目前招聘職位","subtitle":"我們目前正在招聘以下職位的候選人"},"id":"careers-openings-header","isHidden":false,"type":"section-header"},{"content":{"columns":"2","card_style":"bordered","image_ratio":"3/2","background":"default","items":[{"title":"英語少年及初中事工牧者","text":"兼職，每週3天。神學院畢業生，牧養及帶領5至9年級的學生，與他們建立有意義的關係，並在信仰旅程中給予引導。","url":"mailto:info@bcefc.ca?subject=%E7%94%B3%E8%AB%8B%20-%20%E8%8B%B1%E8%AA%9E%E5%B0%91%E5%B9%B4%E5%8F%8A%E5%88%9D%E4%B8%AD%E7%89%A7%E8%80%85","badge":"兼職","badge_color":"primary"}]},"id":"careers-openings","isHidden":false,"type":"card-grid"},{"content":{"title":"如何申請","text":"<p>如果您對以上任何職位有興趣，請將您的履歷和簡短的信仰告白發送至 <strong>info@bcefc.ca</strong>。我們期待收到您的回覆。</p>","button_text":"寄信至 info@bcefc.ca","button_url":"mailto:info@bcefc.ca"},"id":"careers-apply","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-careers-001

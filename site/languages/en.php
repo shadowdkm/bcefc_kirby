@@ -32,6 +32,7 @@ return [
         'nav.new_here'       => 'New Here',
         'nav.giving'         => 'Giving',
         'nav.resources'      => 'Resources',
+        'nav.calendar'       => 'Church Calendar',
         'nav.more'           => 'More',
         
         // Header

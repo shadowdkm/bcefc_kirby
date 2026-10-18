@@ -1,0 +1,11 @@
+Title: Careers
+
+----
+
+Builder:
+
+[{"content":{"overlay_strength":"45","eyebrow":"JOIN OUR TEAM","title":"Serve With Us at BCEFC","subtitle":"We are looking for passionate, gifted individuals called to serve in full-time or part-time ministry alongside our pastors, deacons, and staff.","cta_primary_text":"See Openings","cta_primary_url":"#openings","cta_secondary_text":"Contact Us","cta_secondary_url":"/about/contact","align":"center","valign":"center","height":"medium"},"id":"careers-hero","isHidden":false,"type":"hero"},{"content":{"text":"<h2>Why Serve at BCEFC?</h2><ul><li><strong>A Christ-centred community</strong> — Join a team united in faith and purpose, serving across three language congregations.</li><li><strong>Meaningful ministry</strong> — Make a lasting impact in the lives of families, youth, and newcomers in the Burnaby area.</li><li><strong>Growth and development</strong> — We invest in our staff through ongoing training, mentorship, and opportunities for professional and spiritual growth.</li><li><strong>Collaborative environment</strong> — Work alongside dedicated pastors, deacons, and fellow servants in a supportive atmosphere.</li></ul>"},"id":"careers-why","isHidden":false,"type":"richtext"},{"content":{"title":"Current Openings","subtitle":"We are currently seeking candidates for the following positions"},"id":"careers-openings-header","isHidden":false,"type":"section-header"},{"content":{"columns":"2","card_style":"bordered","image_ratio":"3/2","background":"default","items":[{"title":"English Preteen & Junior High Ministry Pastor","text":"Part-Time, 3 days/week. Seminary graduate to shepherd and disciple students in grades 5–9, building meaningful relationships and guiding them in their faith journey.","url":"mailto:info@bcefc.ca?subject=Application%20-%20English%20Preteen%20%26%20Junior%20High%20Pastor","badge":"Part-Time","badge_color":"primary"}]},"id":"careers-openings","isHidden":false,"type":"card-grid"},{"content":{"title":"How to Apply","text":"<p>If you are interested in any of the above positions, please send your resume and a brief statement of faith to <strong>info@bcefc.ca</strong>. We look forward to hearing from you.</p>","button_text":"Email info@bcefc.ca","button_url":"mailto:info@bcefc.ca"},"id":"careers-apply","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: about-careers-001
