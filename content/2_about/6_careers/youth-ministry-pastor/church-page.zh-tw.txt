@@ -1,0 +1,11 @@
+Title: Youth Ministry Pastor
+
+----
+
+Builder:
+
+[{"content":{"title":"Youth Ministry Pastor","subtitle":"招聘職位"},"id":"job-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p>Burnaby Chinese Evangelical Free Church, a 35-year-old church with a growing congregation of about 240, has Cantonese, Mandarin, English, youth, and children’s ministries. We are seeking a Youth Ministry Pastor who has a heart for young people and a passion for helping them grow as disciples of Jesus Christ.</p><p>The Youth Ministry Pastor will provide pastoral care and spiritual leadership to our youth, work closely with youth leaders and families, and help develop a Christ-centred youth ministry that encourages young people to grow in faith, serve the church, and reach out to their friends and community.</p><h3>Qualifications</h3><p>Applicants should have the following qualifications:</p><ul><li>A committed follower of Jesus Christ with a clear calling to pastoral and youth ministry.</li><li>Graduate of an evangelical seminary with an M.Div. degree or equivalent theological training.</li><li>A heart for youth and a desire to nurture their spiritual growth and discipleship.</li><li>Able to teach the Bible faithfully and communicate effectively with young people.</li><li>Able to develop, equip, and work collaboratively with youth leaders and volunteers.</li><li>Able to build positive relationships with youth, parents, church leaders, and the wider congregation.</li><li>Fluent in English; ability to communicate in Cantonese or Mandarin would be an asset but is not required.</li></ul>"},"id":"job-body","isHidden":false,"type":"richtext"},{"content":{"title":"如何申請","text":"<p>請將您的履歷寄交<strong>聘牧委員會</strong>，電郵：<strong>info@bcefc.ca</strong>，或郵寄至：</p><p>Pastoral Search Committee<br>Burnaby Chinese Evangelical Free Church<br>6112 Rumble Street<br>Burnaby, BC, Canada V5J 2C7</p>","button_text":"寄信至 info@bcefc.ca","button_url":"mailto:info@bcefc.ca?subject=Application%20-%20Youth%20Ministry%20Pastor"},"id":"job-apply","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: careers-youth-pastor-001
