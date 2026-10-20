@@ -4,7 +4,7 @@ Title: 牧者招募
 
 Builder:
 
-[{"content":{"title":"現正招募","subtitle":"我們現正招募以下牧者職位"},"id":"careers-openings-header","isHidden":false,"type":"section-header"},{"content":{"text":"<ul><li><a href=\"/@/page/careers-em-pastor-001\"><strong>English Ministry Pastor</strong></a> — Help establish and develop a new English Ministry — beginning with our high school students and growing with them into young adulthood and beyond.</li><li><a href=\"/@/page/careers-youth-pastor-001\"><strong>Youth Ministry Pastor</strong></a> — Provide pastoral care and spiritual leadership to our youth, working with youth leaders and families to build a Christ-centred youth ministry.</li></ul>"},"id":"careers-openings","isHidden":false,"type":"richtext"}]
+[{"content":{"title":"現正招募","subtitle":"我們現正招募以下牧者職位。有關職位要求及申請方式，請點擊職位名稱。"},"id":"careers-openings-header","isHidden":false,"type":"section-header"},{"content":{"text":"<ul><li><a href=\"/@/page/careers-em-pastor-001\"><strong>English Ministry Pastor</strong></a> — establish and develop a new English Ministry — beginning with our high school students and growing with them into young adulthood and beyond.</li><li><a href=\"/@/page/careers-youth-pastor-001\"><strong>Youth Ministry Pastor</strong></a> — Provide pastoral care and spiritual leadership to our youth, working with youth leaders and families to build a Christ-centred youth ministry.</li></ul>"},"id":"careers-openings","isHidden":false,"type":"richtext"}]
 
 ----
 
