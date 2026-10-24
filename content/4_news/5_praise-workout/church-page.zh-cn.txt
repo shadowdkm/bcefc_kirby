@@ -1,0 +1,11 @@
+Title: 齐来跳赞美操
+
+----
+
+Builder:
+
+[{"content":{"title":"齐来跳赞美操","subtitle":"第二期赞美操 · 诚邀弟兄姊妹参加"},"id":"praise-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>日期：</strong>2026 年 10 月 7 日至 12 月 31 日</p><p><strong>时间：</strong>每周三上午 10:00 – 11:30</p><p><strong>地点：</strong>教会地库</p><p>诚邀弟兄姊妹带上亲朋好友一起来参加，一起运动、一起赞美、一起敬拜神！让我们在运动中强健身体，在赞美中喜乐，在敬拜中亲近神。</p>"},"id":"praise-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://praiseworkoutposter01"],"caption":"","ratio":"auto","crop":"false"},"id":"praise-poster","isHidden":false,"type":"gallery"},{"content":{"title":"欢迎查询","text":"<p>如有任何问题，欢迎联络教会办公室。</p>","button_text":"联络我们","button_url":"/about/contact"},"id":"praise-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: praiseworkoutpage01

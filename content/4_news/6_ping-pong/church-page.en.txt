@@ -1,0 +1,11 @@
+Title: Ping Pong Fellowship
+
+----
+
+Builder:
+
+[{"content":{"title":"Ping Pong Fellowship","subtitle":"Easy exercise · Make new friends"},"id":"pingpong-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>Dates:</strong> October 15 – December 31, 2026 (every Thursday)</p><p><strong>Time:</strong> 10:30 AM – 12:30 PM</p><p><strong>Location:</strong> Church basement</p><p><strong>Activities:</strong> Table tennis, easy exercise, making new friends</p><p><strong>Open to:</strong> Everyone in the community is welcome</p><p><strong>Notes:</strong></p><ul><li>You may bring your own paddle; basic paddles are also provided on-site</li><li>Drinking water is provided</li><li>Participants need to complete a registration form and a liability/health declaration</li></ul><p>Invite friends and family who don't yet know Jesus to come play table tennis with us — exercise together, meet new friends, and enjoy a healthier, happier life!</p>"},"id":"pingpong-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://pingpongposter01"],"caption":"","ratio":"auto","crop":"false"},"id":"pingpong-poster","isHidden":false,"type":"gallery"},{"content":{"title":"Questions?","text":"<p>If you have any questions, please contact the church office.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"pingpong-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: pingpongpage01

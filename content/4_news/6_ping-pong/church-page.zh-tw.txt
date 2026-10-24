@@ -1,0 +1,11 @@
+Title: 歡樂乒乓·以球會友
+
+----
+
+Builder:
+
+[{"content":{"title":"歡樂乒乓·以球會友","subtitle":"輕鬆運動 · 結交朋友"},"id":"pingpong-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>日期：</strong>2026 年 10 月 15 日至 12 月 31 日（逢星期四）</p><p><strong>時間：</strong>上午 10:30 – 12:30</p><p><strong>地點：</strong>教會地庫</p><p><strong>內容：</strong>乒乓交流、輕鬆運動、結交朋友</p><p><strong>對象：</strong>歡迎社區朋友參加</p><p><strong>備註：</strong></p><ul><li>可自備球拍，現場亦備有基本球拍可供使用</li><li>提供飲用水</li><li>參加者需填寫報名表及活動同意書／健康聲明</li></ul><p>歡迎弟兄姊妹邀請未信主的親友一同來打乒乓球，一起運動、認識新朋友，生活更健康更快樂！</p>"},"id":"pingpong-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://pingpongposter01"],"caption":"","ratio":"auto","crop":"false"},"id":"pingpong-poster","isHidden":false,"type":"gallery"},{"content":{"title":"歡迎查詢","text":"<p>如有任何問題，歡迎聯絡教會辦公室。</p>","button_text":"聯絡我們","button_url":"/about/contact"},"id":"pingpong-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: pingpongpage01

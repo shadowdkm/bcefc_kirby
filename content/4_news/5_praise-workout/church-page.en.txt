@@ -1,0 +1,11 @@
+Title: Praise Workout
+
+----
+
+Builder:
+
+[{"content":{"title":"Praise Workout","subtitle":"Session 2 · Everyone is welcome"},"id":"praise-header","isHidden":false,"type":"section-header"},{"content":{"text":"<p><strong>Dates:</strong> October 7 – December 31, 2026</p><p><strong>Time:</strong> Wednesdays, 10:00 – 11:30 AM</p><p><strong>Location:</strong> Church basement</p><p>Bring your family and friends and join us to exercise, praise, and worship God together. Let us strengthen our bodies through movement, rejoice through praise, and draw near to God through worship.</p>"},"id":"praise-content","isHidden":false,"type":"richtext"},{"content":{"images":["file://praiseworkoutposter01"],"caption":"","ratio":"auto","crop":"false"},"id":"praise-poster","isHidden":false,"type":"gallery"},{"content":{"title":"Questions?","text":"<p>If you have any questions, please contact the church office.</p>","button_text":"Contact Us","button_url":"/about/contact"},"id":"praise-cta","isHidden":false,"type":"cta"}]
+
+----
+
+Uuid: praiseworkoutpage01
