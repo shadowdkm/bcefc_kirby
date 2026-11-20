@@ -94,32 +94,63 @@ saves made before you merge are added to `panel-pending` too, so nothing is lost
 
 ## Staging site (test edits that never reach git)
 
-Do the setup above only on the **live** server. On staging:
+Do the setup above only on the **live** server. Staging is **read-only** and is
+**reset to `master` every night at midnight (Vancouver time)**, so anyone can try
+things in its Panel without worrying about breaking it: whatever was edited, created
+or deleted on staging is thrown away and the site is back to exactly what is on GitHub.
 
-- **Simplest:** don't create `site/config/server.php`. The plugin stays off, so Panel
-  edits are saved on staging but never committed or pushed. Update staging with
-  `git pull` over SSH. A read-only token (Contents: Read) is enough there.
-- **Optional auto-update:** create a staging-only `server.php` that only pulls:
+Staging does **not** get the live setup above: no Panel commit identity, no GitHub
+token (the repo is public, so fetching needs none) and no auto-commit — Panel saves
+on staging stay local and are never pushed. All staging needs is a clone of the repo
+on `master` (owned by the user PHP runs as) and this `site/config/server.php`:
 
-  ```php
-  <?php
-  return [
-      'thathoff.git-content.disable'         => false,
-      'thathoff.git-content.commit'          => false, // Panel saves stay local
-      'bcefc.git-sync.readonly'              => true,  // webhook pulls, never pushes
-      'thathoff.git-content.cronHooksSecret' => '<different secret from live>',
-  ];
-  ```
+```php
+<?php
+return [
+    'thathoff.git-content.disable'         => false,
+    'thathoff.git-content.commit'          => false, // Panel saves stay local
+    'bcefc.git-sync.readonly'              => true,  // pull/reset only, never push
+    'thathoff.git-content.cronHooksSecret' => '<different secret from live>',
+    // Git Content Panel view: status and log only, nothing that writes to git
+    'thathoff.git-content.buttons'         => [
+        'commit' => false, 'push' => false, 'pull' => false,
+        'createBranch' => false, 'switchBranch' => false,
+    ],
+];
+```
 
-  Then add a second GitHub webhook to `https://<staging-site>/git-content/pull?secret=…`.
+With that, staging answers two URLs (both need `?secret=…`):
 
-Test edits on staging are uncommitted changes there. If a pull refuses with
-"your local changes would be overwritten", throw the test edits away and pull again:
+- `https://<staging>/git-content/pull` merges `master` without touching test edits.
+  Add it as a second GitHub webhook if staging should update on every push.
+- `https://<staging>/git-content/reset` throws every local change away and resets to
+  `origin/master`. Only a read-only site accepts this; the live site refuses it.
+
+The nightly reset is run by GitHub Actions (`.github/workflows/staging-reset.yml`).
+One-time setup: repo → Settings → Secrets and variables → Actions → *New repository
+secret* named `STAGING_RESET_URL` with the full reset URL,
+`https://<staging>/git-content/reset?secret=<staging secret>` (if staging sits behind
+HTTP basic auth, use `https://user:password@<staging>/…`). Each run's log shows the
+result, e.g. `reset to origin/master @ d4666b2 …; discarded 3 local change(s)`.
+To reset right now: Actions → *Reset staging to master* → *Run workflow*, or open the
+reset URL in a browser. Any other scheduler works too (IONOS: *Hosting → Cron Jobs*
+with that URL; on a VPS: `0 0 * * * curl -fsS "<reset URL>"` in `crontab -e`).
+
+What the reset does and does not touch:
+
+- **Gone:** edited pages and files, pages and uploads created on staging, unsaved
+  Panel changes (`_changes`), the cache. Deleted pages come back.
+- **Kept:** Panel user accounts and logins (`site/accounts`, `site/sessions`),
+  `server.php`, `media/` thumbnails — everything git-ignored outside `content/`.
+
+Test edits on staging are uncommitted changes there, so a pull may refuse with
+"your local changes would be overwritten" until the next reset. Open the reset URL
+to clear them right away, or over SSH:
 
 ```bash
 git status                 # see what was edited on staging
 git checkout -- content    # discard staging content edits
-git clean -fd content      # remove files/pages created on staging
+git clean -fdx content     # remove files/pages created on staging and Panel drafts
 git pull
 ```
 

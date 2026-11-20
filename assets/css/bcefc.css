@@ -1474,6 +1474,12 @@ details[open] .faq-q .fq-ico { transform: rotate(180deg); background: var(--prim
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
 }
 .cal-google-embed iframe { display: block; }
+.cal-disclaimer {
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--ink-muted);
+}
 .cal-empty {
   text-align: center;
   padding: 64px 0;

@@ -88,6 +88,7 @@ return [
 
         // Calendar
         'cal.no_embed'       => 'Calendar not set up yet. Paste the Google Calendar embed URL in the Panel.',
+        'cal.disclaimer'     => 'This calendar is for reference only. Please follow the church\'s latest announcements.',
 
         // Password protection
         'protect.prompt'         => 'This page is password protected. Please enter the password to continue.',

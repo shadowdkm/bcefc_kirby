@@ -88,6 +88,7 @@ return [
 
         // 行事历
         'cal.no_embed'       => '行事历尚未设定。请在 Panel 贴上 Google Calendar 的 Embed URL。',
+        'cal.disclaimer'     => '行事历仅供参考，以教会最后公布为准。',
 
         // 密码保护
         'protect.prompt'         => '此页面需要密码才能浏览，请输入密码继续。',

@@ -17,6 +17,7 @@ $subtitle   = $page->calendar_subtitle()->value();
 <section class="cal-wrap">
   <div class="container">
     <?php if ($embedUrl): ?>
+    <p class="cal-disclaimer"><?= t('cal.disclaimer') ?></p>
     <div class="cal-google-embed">
       <iframe
         src="<?= esc($embedUrl) ?>&wkst=1&bgcolor=%23ffffff&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&showTz=0&hl=<?= $kirby->language() ? $kirby->language()->code() : 'en' ?>"

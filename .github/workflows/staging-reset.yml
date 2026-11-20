@@ -1,0 +1,48 @@
+# Resets the staging site to GitHub master every midnight (Vancouver time),
+# so anyone can test in its Panel without being able to break it.
+#
+# It simply calls https://<staging>/git-content/reset?secret=… — see
+# guides/content-workflow.md, "Staging site". One-time setup: add the
+# repository secret STAGING_RESET_URL with that full URL.
+#
+# GitHub cron runs in UTC, so there is one entry for midnight PDT and one
+# for midnight PST; the first step keeps only the one that is midnight now.
+
+name: Reset staging to master
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # 00:00 PDT (summer, UTC-7)
+    - cron: '0 8 * * *' # 00:00 PST (winter, UTC-8)
+  workflow_dispatch: # "Run workflow" button → reset right now
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Is it midnight in Vancouver?
+        id: when
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          # Vancouver's UTC offset right now: -0700 (PDT) or -0800 (PST)
+          offset=$(TZ=America/Vancouver date +%z)
+          if [ -z "$SCHEDULE" ] \
+             || { [ "$SCHEDULE" = '0 7 * * *' ] && [ "$offset" = -0700 ]; } \
+             || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = -0800 ]; }; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not midnight in Vancouver (UTC offset $offset, schedule '$SCHEDULE') - skipping."
+          fi
+
+      - name: Reset staging
+        if: steps.when.outputs.run == 'yes'
+        env:
+          URL: ${{ secrets.STAGING_RESET_URL }}
+        run: |
+          if [ -z "$URL" ]; then
+            echo "::error::Repository secret STAGING_RESET_URL is not set (see guides/content-workflow.md)."
+            exit 1
+          fi
+          curl --fail-with-body --silent --show-error --max-time 300 "$URL"
+          echo
